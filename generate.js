@@ -1,7 +1,6 @@
 const parser = require("fast-xml-parser");
 const fs = require("fs");
 const path = require("path");
-const sharp = require("sharp");
 
 const xmlOptions = {
   attributeNamePrefix: "",
@@ -89,20 +88,6 @@ let setSvgAttrs = (svgAttrs, framework) => {
   svgAttrs.class = options[framework].class;
 };
 
-let generateThumbnail = (svg, icon, dir) => {
-  sharp(svg, { density: 500 })
-    .resize(128, 128)
-    .flatten({ background: "#FFFFFF" })
-    .png()
-    .toFile(path.join(dir, icon + ".png"))
-    .then(function (info) {
-      console.log(info);
-    })
-    .catch(function (err) {
-      console.log(err);
-    });
-};
-
 let prepareDist = () => {
   fs.rmdirSync("dist-bootstrap/", { recursive: true });
   fs.rmdirSync("dist-mdi/", { recursive: true });
@@ -146,6 +131,7 @@ const getFiles = (directory) => {
 
 let createComponents = (framework) => {
   let source = path.join("icons", framework);
+  let dist = "dist-" + framework;
 
   let files = getFiles(source);
 
@@ -177,28 +163,26 @@ let createComponents = (framework) => {
     index += `export { default as ${pascalIcon}Icon } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
 
     fs.writeFileSync(
-      path.join("dist-" + framework, framework, sub, filename),
+      path.join(dist, framework, sub, filename),
       fileJs
     );
-
-    // generateThumbnail(path.join("icons", i), icon, "dist")
   });
-  fs.writeFileSync(path.join("dist-" + framework, "index.js"), index);
+  fs.writeFileSync(path.join(dist, "index.js"), index);
   fs.appendFileSync(
-    path.join("dist-" + framework, "index.js"),
+    path.join(dist, "index.js"),
     "export { default } from './vue/registerIcon'\n"
   );
   fs.copyFileSync(
-    "vue/Icon.vue",
-    path.join("dist-" + framework, "vue", "Icon.vue")
+    path.join("vue", "Icon.vue"),
+    path.join(dist, "vue", "Icon.vue")
   );
   fs.copyFileSync(
-    "vue/registerIcon.js",
-    path.join("dist-" + framework, "vue", "registerIcon.js")
+    path.join("vue", "registerIcon.js"),
+    path.join(dist, "vue", "registerIcon.js")
   );
   fs.copyFileSync(
     path.join("package", "package-" + framework + ".json"),
-    path.join("dist-" + framework, "package.json")
+    path.join(dist, "package.json")
   );
 };
 
