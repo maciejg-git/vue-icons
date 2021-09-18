@@ -98,7 +98,7 @@ both options give the same result, it's matter of preference.
 
 ### Additional notes
 
-registerIcon function allows to customize icons names. By default icons registered by this function have icon suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of conflict with other components name.
+The general pattern for naming icon is [B|Fa|Mdi][icon name][Icon]. registerIcon function allows to customize icons names. By default icons registered by this function have icon suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of name conflict with other components. 
 
 ```js
 // main.js
@@ -121,3 +121,15 @@ registerIcon(app, [
 })
 ```
 
+Using glob import also supports customizing icon names 
+
+```js
+// main.js (vite)
+
+const modules = import.meta.globEager('./[project icon directory]/*.js')
+
+Object.entries(modules).forEach(([path, definition]) => {
+  let icon = definition.default.vendor + definition.default.name + "Icon"
+  app.component(icon, definition.default)
+})
+```
