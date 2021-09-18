@@ -98,7 +98,7 @@ both options give the same result, it's matter of preference.
 
 ### Additional notes
 
-The general pattern for naming icon is [B|Fa|Mdi][icon name][Icon]. registerIcon function allows to customize icons names. By default icons registered by this function have icon suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of name conflict with other components. 
+The general pattern for naming icon is [B|Fa|Mdi] [icon name] [Icon]. registerIcon function allows to customize icons names. By default icons registered by this function have icon suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of name conflict with other components. 
 
 ```js
 // main.js
