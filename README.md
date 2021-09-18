@@ -38,11 +38,11 @@ registerIcon(app, [
 ```js
 // component.vue
 
-import { triangleFillIcon } from "vue-bootstrap-icons"
+import { TriangleFillIcon } from "vue-bootstrap-icons"
 
 ...
 
-components: { triangleFillIcon }
+components: { TriangleFillIcon }
 ```
 
 **[Option 3]** or use webpack/vite automatic import and registration of components
