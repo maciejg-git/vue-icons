@@ -95,3 +95,29 @@ and use it in template
 ```
 
 both options give the same result, it's matter of preference.
+
+### Additional notes
+
+registerIcon function allows to customize icons names. By default icons registered by this function have icon suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of conflict with other components name.
+
+```js
+// main.js
+
+import { 
+  triangleFillIcon,
+  tropicalStormIcon,
+  bookFillIcon,
+} from "vue-bootstrap-icons"
+
+let app = createApp(App);
+
+registerIcon(app, [
+  triangleFillIcon,
+  tropicalStormIcon,
+  bookFillIcon,
+], {
+  vendorPrefix: true,
+  iconSuffix: false,
+})
+```
+
