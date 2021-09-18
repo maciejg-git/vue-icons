@@ -94,7 +94,7 @@ and use it in template
 <TriangleFillIcon class="h-5 w-5" />
 ```
 
-both options give the same result, it's matter of preference.
+both options give the same result.
 
 ### Additional notes
 
