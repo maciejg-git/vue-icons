@@ -45,12 +45,12 @@ import { TriangleFillIcon } from "vue-bootstrap-icons"
 components: { TriangleFillIcon }
 ```
 
-**[Option 3]** or use webpack/vite automatic import and registration of components
+**[Option 3]** or use webpack/vite automatic import and registration of components. Copy any icons to [app icon directory]
 
 ```js
 // main.js (vite)
 
-const modules = import.meta.globEager('./[project icon directory]/*.js')
+const modules = import.meta.globEager('./[app icon directory]/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
   let icon = definition.default.name + "Icon"
@@ -58,11 +58,13 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
+and use them in all components.
+
 for webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
 * [Automatic Global Registration of Base Components (Vue 2)](https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components)
 
-Copy any icons to [project icon directory] and use them in all components.
+Vite supports automatic importing from multiple dirs and subdirs. See [fast-glob documentation](https://github.com/mrmlnc/fast-glob#pattern-syntax) for possible glob patterns.
 
 ### Using icons in templates
 

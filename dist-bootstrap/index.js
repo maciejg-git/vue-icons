@@ -1384,4 +1384,3 @@ export { default as XIcon } from "./bootstrap/x.js"
 export { default as YoutubeIcon } from "./bootstrap/youtube.js"
 export { default as ZoomInIcon } from "./bootstrap/zoom-in.js"
 export { default as ZoomOutIcon } from "./bootstrap/zoom-out.js"
-export { default } from './vue/registerIcon'

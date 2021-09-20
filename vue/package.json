@@ -1,7 +1,7 @@
 {
   "name": "vue-bootstrap-icons",
   "version": "0.1.0",
-  "description": "Font Awesome free icons converted to Vue 3 components",
+  "description": "Vue icon component and register function",
   "main": "index.js",
   "author": "",
   "license": "ISC"

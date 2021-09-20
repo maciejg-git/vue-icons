@@ -5,5 +5,4 @@ export default function registerIcon(app, icons, options) {
     icon = iconSufix ? icon + "Icon" : icon
     app.component(icon, i);
   });
-  console.log(vendorPrefix, iconSufix)
 }

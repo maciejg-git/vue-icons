@@ -13,12 +13,15 @@ const xmlOptions = {
 const options = {
   bootstrap: {
     class: "b-icon",
+    fill: "currentColor",
   },
   mdi: {
     class: "mdi-icon",
+    fill: "currentColor",
   },
   fa: {
     class: "fa-icon",
+    fill: "currentColor",
   },
 };
 
@@ -86,6 +89,7 @@ let getSvgData = (parsed) => {
 
 let setSvgAttrs = (svgAttrs, framework) => {
   svgAttrs.class = options[framework].class;
+  svgAttrs.fill = options[framework].fill;
 };
 
 let prepareDist = () => {
@@ -95,18 +99,15 @@ let prepareDist = () => {
 
   fs.mkdirSync("dist-bootstrap/");
   fs.mkdirSync("dist-bootstrap/bootstrap/");
-  fs.mkdirSync("dist-bootstrap/vue/");
 
   fs.mkdirSync("dist-mdi/");
   fs.mkdirSync("dist-mdi/mdi/");
-  fs.mkdirSync("dist-mdi/vue/");
 
   fs.mkdirSync("dist-fa/");
   fs.mkdirSync("dist-fa/fa/");
   fs.mkdirSync("dist-fa/fa/brands");
   fs.mkdirSync("dist-fa/fa/regular");
   fs.mkdirSync("dist-fa/fa/solid");
-  fs.mkdirSync("dist-fa/vue/");
 };
 
 const getFiles = (directory) => {
@@ -168,22 +169,7 @@ let createComponents = (framework) => {
     );
   });
   fs.writeFileSync(path.join(dist, "index.js"), index);
-  fs.appendFileSync(
-    path.join(dist, "index.js"),
-    "export { default } from './vue/registerIcon'\n"
-  );
-  fs.copyFileSync(
-    path.join("vue", "Icon.vue"),
-    path.join(dist, "vue", "Icon.vue")
-  );
-  fs.copyFileSync(
-    path.join("vue", "registerIcon.js"),
-    path.join(dist, "vue", "registerIcon.js")
-  );
-  fs.copyFileSync(
-    path.join("package", "package-" + framework + ".json"),
-    path.join(dist, "package.json")
-  );
+  console.log(framework, "done")
 };
 
 prepareDist();

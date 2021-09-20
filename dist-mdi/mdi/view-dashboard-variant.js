@@ -5,7 +5,7 @@ export default {
   render() {
     return h(
       "svg",
-      { "xmlns": "http://www.w3.org/2000/svg","xmlns:xlink": "http://www.w3.org/1999/xlink","version": "1.1","id": "mdi-view-dashboard-variant","width": "24","height": "24","viewBox": "0 0 24 24","class": "mdi-icon" },
+      { "xmlns": "http://www.w3.org/2000/svg","xmlns:xlink": "http://www.w3.org/1999/xlink","version": "1.1","id": "mdi-view-dashboard-variant","width": "24","height": "24","viewBox": "0 0 24 24","class": "mdi-icon","fill": "currentColor" },
       [ h("path", { "d": "M2,5V19H8V5H2M9,5V10H15V5H9M16,5V14H22V5H16M9,11V19H15V11H9M16,15V19H22V15H16Z" }) ]
     )
   }

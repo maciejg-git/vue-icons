@@ -1610,4 +1610,3 @@ export { default as WrenchIcon } from "./fa/solid/wrench.js"
 export { default as XRayIcon } from "./fa/solid/x-ray.js"
 export { default as YenSignIcon } from "./fa/solid/yen-sign.js"
 export { default as YinYangIcon } from "./fa/solid/yin-yang.js"
-export { default } from './vue/registerIcon'

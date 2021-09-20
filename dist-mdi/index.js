@@ -6470,4 +6470,3 @@ export { default as ZodiacSagittariusIcon } from "./mdi/zodiac-sagittarius.js"
 export { default as ZodiacScorpioIcon } from "./mdi/zodiac-scorpio.js"
 export { default as ZodiacTaurusIcon } from "./mdi/zodiac-taurus.js"
 export { default as ZodiacVirgoIcon } from "./mdi/zodiac-virgo.js"
-export { default } from './vue/registerIcon'
