@@ -36,11 +36,12 @@ let stringifyObject = (str) => {
 let toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
 let toPascalCase = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-let vendorName = (framework) => {
+let vendorPrefix = (framework, pascal) => {
   let vendor = framework;
   if (vendor == "bootstrap") vendor = "b";
   if (vendor == "fontawesome") vendor = "fa";
-  return toPascalCase(vendor);
+  vendor = pascal ? toPascalCase(vendor) : vendor;
+  return vendor;
 };
 
 let createRenderFunction = (svg, svgAttrs, elements) => {
@@ -68,7 +69,7 @@ let createJsFile = (icon, renderFunction, framework) => {
   return `import { h } from 'vue'
 export default {
   name: "${icon}",
-  vendor: "${vendorName(framework)}",
+  vendor: "${vendorPrefix(framework, true)}",
   ${renderFunction}
 }`;
 };
@@ -87,9 +88,10 @@ let getSvgData = (parsed) => {
   return { svg, svgAttrs, elements };
 };
 
-let setSvgAttrs = (svgAttrs, framework) => {
+let setSvgAttrs = (svgAttrs, icon, framework) => {
   svgAttrs.class = options[framework].class;
   svgAttrs.fill = options[framework].fill;
+  svgAttrs["data-name"] = `${vendorPrefix(framework, false)}-${icon}`;
 };
 
 let prepareDist = () => {
@@ -155,21 +157,20 @@ let createComponents = (framework) => {
 
     let { svg, svgAttrs, elements } = getSvgData(parsed);
 
-    setSvgAttrs(svgAttrs, framework);
+    setSvgAttrs(svgAttrs, icon, framework);
 
     let renderFunction = createRenderFunction(svg, svgAttrs, elements);
 
     let fileJs = createJsFile(pascalIcon, renderFunction, framework);
 
-    index += `export { default as ${pascalIcon}Icon } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
+    index += `export { default as ${pascalIcon}Icon } from "./${framework}${
+      sub ? "/" + sub : ""
+    }/${filename}"\n`;
 
-    fs.writeFileSync(
-      path.join(dist, framework, sub, filename),
-      fileJs
-    );
+    fs.writeFileSync(path.join(dist, framework, sub, filename), fileJs);
   });
   fs.writeFileSync(path.join(dist, "index.js"), index);
-  console.log(framework, "done")
+  console.log(framework, "done");
 };
 
 prepareDist();
