@@ -123,7 +123,7 @@ registerIcon(app, [
 })
 ```
 
-Using glob import also supports customizing icon names 
+glob import also supports customizing icon names 
 
 ```js
 // main.js (vite)
