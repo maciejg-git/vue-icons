@@ -100,7 +100,7 @@ both options give the same result.
 
 ### Naming
 
-The general pattern for naming icon is [B|Fa|Mdi] [icon name] [Icon]. registerIcon function allows to customize icons names. By default icons registered by this function have 'Icon' suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of name conflict with other components. 
+The general pattern for naming icon is [vendor prefix] [icon name] ['Icon' suffix]. By default icons registered by registerIcon function have 'Icon' suffix and does not have vendor prefix.You can change that pattern by adding options argument as in example below. This can be useful when using multiple vendors or if there is risk of name conflict with other components. 
 
 ```js
 // main.js
@@ -135,5 +135,9 @@ Object.entries(modules).forEach(([path, definition]) => {
   app.component(icon, definition.default)
 })
 ```
+
+### Styling
+
+Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to component. Use color property to set icon color and width/height to set size.
 
 ### Additional notes
