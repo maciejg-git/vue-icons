@@ -100,7 +100,7 @@ both options give the same result.
 
 ### Naming
 
-The general pattern for naming icon is [vendor prefix] [icon name] ['Icon' suffix]. By default icons registered by registerIcon function have 'Icon' suffix and does not have vendor prefix.You can change that by adding options argument as in example below. This can be useful when using multiple vendors or if there is risk of name conflict with other components. 
+The general pattern for naming icon is [vendor prefix] [icon name] ['Icon' suffix]. By default registerIcon function append 'Icon' suffix and does not prepend vendor prefix. You can change that by adding options argument as in example below. This can be useful when using multiple vendors or if there is risk of name conflict with other components. 
 
 ```js
 // main.js
