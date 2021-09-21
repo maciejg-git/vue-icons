@@ -25,7 +25,7 @@ const options = {
   },
 };
 
-let stringifyObject = (str) => {
+const stringifyObject = (str) => {
   let s = [];
   for (const [key, value] of Object.entries(str)) {
     s.push(`"${key}": "${value}"`);
@@ -33,10 +33,10 @@ let stringifyObject = (str) => {
   return s.join(",");
 };
 
-let toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
-let toPascalCase = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
+const toPascalCase = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-let vendorPrefix = (framework, pascal) => {
+const vendorPrefix = (framework, pascal) => {
   let vendor = framework;
   if (vendor == "bootstrap") vendor = "b";
   if (vendor == "fontawesome") vendor = "fa";
@@ -44,7 +44,7 @@ let vendorPrefix = (framework, pascal) => {
   return vendor;
 };
 
-let createRenderFunction = (svg, svgAttrs, elements) => {
+const createRenderFunction = (svg, svgAttrs, elements) => {
   let svgAttr = stringifyObject(svgAttrs);
 
   let child = [];
@@ -65,7 +65,7 @@ let createRenderFunction = (svg, svgAttrs, elements) => {
   }`;
 };
 
-let createJsFile = (icon, renderFunction, framework) => {
+const createJsFile = (icon, renderFunction, framework) => {
   return `import { h } from 'vue'
 export default {
   name: "${icon}",
@@ -74,7 +74,7 @@ export default {
 }`;
 };
 
-let getSvgData = (parsed) => {
+const getSvgData = (parsed) => {
   let svg = parsed.child.svg[0];
   let svgAttrs = svg.attrsMap.attr;
   let elements = {};
@@ -88,13 +88,16 @@ let getSvgData = (parsed) => {
   return { svg, svgAttrs, elements };
 };
 
-let setSvgAttrs = (svgAttrs, icon, framework) => {
+const setSvgAttrs = (svgAttrs, icon, framework) => {
   svgAttrs.class = options[framework].class;
   svgAttrs.fill = options[framework].fill;
   svgAttrs["data-name"] = `${vendorPrefix(framework, false)}-${icon}`;
+  if (svgAttrs.id) delete svgAttrs.id;
+  if (svgAttrs["xmlns:xlink"]) delete svgAttrs["xmlns:xlink"];
+  if (svgAttrs.version) delete svgAttrs.version;
 };
 
-let prepareDist = () => {
+const prepareDist = () => {
   fs.rmdirSync("dist-bootstrap/", { recursive: true });
   fs.rmdirSync("dist-mdi/", { recursive: true });
   fs.rmdirSync("dist-fa/", { recursive: true });
@@ -132,36 +135,36 @@ const getFiles = (directory) => {
   return files;
 };
 
-let createComponents = (framework) => {
-  let source = path.join("icons", framework);
-  let dist = "dist-" + framework;
+const createComponents = (framework) => {
+  const source = path.join("icons", framework);
+  const dist = "dist-" + framework;
 
-  let files = getFiles(source);
+  const files = getFiles(source);
 
   let index = "";
 
   files.forEach((i) => {
-    let file = i[i.length - 1];
-    let sub = i.length > 3 ? i[i.length - 2] : "";
+    const file = i[i.length - 1];
+    const sub = i.length > 3 ? i[i.length - 2] : "";
 
-    let icon = file.substr(0, file.lastIndexOf("."));
-    let camelIcon = toCamelCase(icon);
-    let pascalIcon = toPascalCase(camelIcon);
-    let filename = icon + ".js";
+    const icon = file.substr(0, file.lastIndexOf("."));
+    const camelIcon = toCamelCase(icon);
+    const pascalIcon = toPascalCase(camelIcon);
+    const filename = icon + ".js";
 
-    let content = fs.readFileSync(path.join(source, sub, file), {
+    const content = fs.readFileSync(path.join(source, sub, file), {
       encoding: "utf-8",
     });
 
-    let parsed = parser.getTraversalObj(content, xmlOptions);
+    const parsed = parser.getTraversalObj(content, xmlOptions);
 
-    let { svg, svgAttrs, elements } = getSvgData(parsed);
+    const { svg, svgAttrs, elements } = getSvgData(parsed);
 
     setSvgAttrs(svgAttrs, icon, framework);
 
-    let renderFunction = createRenderFunction(svg, svgAttrs, elements);
+    const renderFunction = createRenderFunction(svg, svgAttrs, elements);
 
-    let fileJs = createJsFile(pascalIcon, renderFunction, framework);
+    const fileJs = createJsFile(pascalIcon, renderFunction, framework);
 
     index += `export { default as ${pascalIcon}Icon } from "./${framework}${
       sub ? "/" + sub : ""
