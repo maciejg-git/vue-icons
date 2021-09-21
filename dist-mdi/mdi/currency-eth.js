@@ -5,7 +5,7 @@ export default {
   render() {
     return h(
       "svg",
-      { "xmlns": "http://www.w3.org/2000/svg","xmlns:xlink": "http://www.w3.org/1999/xlink","version": "1.1","id": "mdi-currency-eth","width": "24","height": "24","viewBox": "0 0 24 24","class": "mdi-icon","fill": "currentColor" },
+      { "xmlns": "http://www.w3.org/2000/svg","width": "24","height": "24","viewBox": "0 0 24 24","class": "mdi-icon","fill": "currentColor","data-name": "mdi-currency-eth" },
       [ h("path", { "d": "M6,5H18V7H6M7,11H17V13H7M5.5,17H18.5V19H5.5" }) ]
     )
   }
