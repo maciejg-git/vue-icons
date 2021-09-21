@@ -1,6 +1,6 @@
 # Vue-bootstrap-icons
 
-[Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons and Font Awesome icons converted to Vue 3 components. 
+[Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons and Font Awesome icons converted to unified, self contained Vue 3 components. 
 
 ## Usage
 
@@ -98,9 +98,7 @@ and use it in template
 
 both options give the same result.
 
-### Additional notes
-
-#### Naming
+### Naming
 
 The general pattern for naming icon is [B|Fa|Mdi] [icon name] [Icon]. registerIcon function allows to customize icons names. By default icons registered by this function have 'Icon' suffix and does not have vendor prefix. You can change that by adding options argument as in example below. It can be useful if using more than one vendor or if there is risk of name conflict with other components. 
 
@@ -137,3 +135,5 @@ Object.entries(modules).forEach(([path, definition]) => {
   app.component(icon, definition.default)
 })
 ```
+
+### Additional notes
