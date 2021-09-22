@@ -140,7 +140,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 
 Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to component. Use color property to set icon color and width/height to set size. The following base css will set the same size for all icons.
 
-```
+```css
 .b-icon {
   height: 1em;
   width: 1em;
