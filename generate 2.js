@@ -51,10 +51,10 @@ export default {
 
 let svgTagRx = /<svg ([\s\S]*?)>/m;
 let svgInnerRx = /<svg.*?>([\s\S]*?)<\/svg>/m;
-let svgComments = /<!--.*?-->/m;
+let svgCommentsRx = /<!--.*?-->/m;
 
 let removeComments = (str) => {
-  return str.replace(svgComments, "")
+  return str.replace(svgCommentsRx, "")
 }
 
 let unpackAttrs = (attrs) => {
@@ -65,29 +65,35 @@ let packAttrs = (attrs) => {
   return JSON.stringify(attrs);
 }
 
-let setAttrs = (attrs, inner, icon, framework) => {
+let getInner = (svg) => {
+  let str = svg.match(svgInnerRx)[1]
+  return str.replace(/\n/g, "").replace(/"/g, "'")
+}
+
+let normalizeAttrs = (attrs, icon, framework) => {
   attrs.class = options[framework].class;
   attrs.fill = options[framework].fill;
   attrs["data-name"] = `${vendorPrefix(framework, false)}-${icon}`;
   if (attrs.id) delete attrs.id;
   if (attrs["xmlns:xlink"]) delete attrs["xmlns:xlink"];
   if (attrs.version) delete attrs.version;
-  attrs.innerHTML = inner;
 }
 
 let parseSvg = (str, icon, framework) => {
   let str2 = removeComments(str)
-  let svgTagRes = str2.match(svgTagRx);
-  let inner = str2.match(svgInnerRx)[1];
-  inner = inner.replace(/\n/g, "").replace(/"/g, "'");
 
-  let attrsArray = svgTagRes[1].match(/(?:[^\s"]+|"[^"]*")+/g);
+  let svgTag= str2.match(svgTagRx)[1];
+
+  let inner = getInner(str2);
+
+  let attrsArray = svgTag.match(/(?:[^\s"]+|"[^"]*")+/g);
   attrsArray = attrsArray.map((attr) => {
     return attr.replace(/"/g, "").split("=");
   });
 
   attrs = unpackAttrs(attrsArray);
-  setAttrs(attrs, inner, icon, framework)
+  normalizeAttrs(attrs, inner, icon, framework)
+  attrs.innerHTML = inner;
   attrs = packAttrs(attrs)
 
   return {
@@ -155,11 +161,12 @@ const createComponents = (framework) => {
       encoding: "utf-8",
     });
 
-    let { svg, attrs, inner } = parseSvg(content, icon, framework);
+    let { attrs, inner } = parseSvg(content, icon, framework);
 
     const renderFunction = createRenderFunction(attrs, inner);
 
     const fileJs = createJsFile(pascalIcon, renderFunction, framework);
+    console.log(fileJs)
 
     index += `export { default as ${pascalIcon}Icon } from "./${framework}${
       sub ? "/" + sub : ""
@@ -171,11 +178,11 @@ const createComponents = (framework) => {
   console.log(framework, "done");
 };
 
-prepareDist();
+// prepareDist();
 
-// createComponents("test");
+createComponents("test");
 
-createComponents("bootstrap");
-createComponents("mdi");
-createComponents("fa");
+// createComponents("bootstrap");
+// createComponents("mdi");
+// createComponents("fa");
 // createComponents("phosphor");
