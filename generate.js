@@ -17,6 +17,11 @@ const options = {
     fill: "currentColor",
     prefix: "fa",
   },
+  phosphor: {
+    class: "ph-icon",
+    fill: "currentColor",
+    prefix: "ph",
+  },
   test: {
     class: "fa-icon",
     fill: "currentColor",
@@ -128,6 +133,7 @@ const prepareDist = () => {
   fs.rmdirSync("dist-bootstrap/", { recursive: true });
   fs.rmdirSync("dist-mdi/", { recursive: true });
   fs.rmdirSync("dist-fontawesome/", { recursive: true });
+  fs.rmdirSync("dist-phosphor/", { recursive: true });
 
   fs.mkdirSync("dist-bootstrap/bootstrap/", { recursive: true });
   fs.mkdirSync("dist-mdi/mdi/", { recursive: true });
@@ -135,6 +141,13 @@ const prepareDist = () => {
   fs.mkdirSync("dist-fontawesome/fontawesome/brands");
   fs.mkdirSync("dist-fontawesome/fontawesome/regular");
   fs.mkdirSync("dist-fontawesome/fontawesome/solid");
+  fs.mkdirSync("dist-phosphor/phosphor/", { recursive: true });
+  fs.mkdirSync("dist-phosphor/phosphor/Bold");
+  fs.mkdirSync("dist-phosphor/phosphor/Duotone");
+  fs.mkdirSync("dist-phosphor/phosphor/Fill");
+  fs.mkdirSync("dist-phosphor/phosphor/Light");
+  fs.mkdirSync("dist-phosphor/phosphor/Regular");
+  fs.mkdirSync("dist-phosphor/phosphor/Thin");
 };
 
 const createComponents = (framework) => {
@@ -182,5 +195,5 @@ prepareDist();
 
 // createComponents("test");
 
-let frameworks = ["bootstrap", "mdi", "fontawesome"]
+let frameworks = ["bootstrap", "mdi", "fontawesome", "phosphor"]
 frameworks.forEach((f) => createComponents(f))
