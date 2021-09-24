@@ -1,0 +1,11 @@
+import { h } from 'vue'
+export default {
+  name: "ArrowFatLineLeftLight",
+  vendor: "Ph",
+  render() {
+    return h(
+      "svg",
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"ph-icon","fill":"currentColor","data-name":"ph-arrow-fat-line-left-light","innerHTML":"  <rect width='256' height='256' fill='none'/>  <polygon points='120 32 24 128 120 224 120 176 184 176 184 80 120 80 120 32' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='12'/>  <line x1='216' y1='176' x2='216' y2='80' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='12'/>"},
+    )
+  }
+}
