@@ -18,17 +18,17 @@ Import and register chosen icons globally in main.js
 // main.js
 
 import { 
-  triangleFillIcon,
-  tropicalStormIcon,
-  bookFillIcon,
+  BTriangleFill,
+  BTropicalStorm,
+  BBookFill,
 } from "vue-bootstrap-icons"
 
 let app = createApp(App);
 
 registerIcon(app, [
-  triangleFillIcon,
-  tropicalStormIcon,
-  bookFillIcon,
+  BTriangleFill,
+  BTropicalStorm,
+  BBookFill,
 ])
 ```
 
@@ -38,11 +38,11 @@ registerIcon(app, [
 ```js
 // component.vue
 
-import { TriangleFillIcon } from "vue-bootstrap-icons"
+import { BTriangleFill } from "vue-bootstrap-icons"
 
 ...
 
-components: { TriangleFillIcon }
+components: { BTriangleFill }
 ```
 
 **[Option 3]** or use webpack/vite automatic import and registration of components
@@ -83,7 +83,7 @@ and use it in template
 ```html
 // component.vue
 
-<icon icon="triangle-fill" class="h-5 w-5" />
+<icon icon="b-triangle-fill" class="h-5 w-5" />
 ```
 
 **[Option 2]** or use icons directly as components without Icon component
@@ -91,9 +91,9 @@ and use it in template
 ```html
 // component.vue
 
-<triangle-fill-icon class="h-5 w-5" />
+<b-triangle-fill class="h-5 w-5" />
 
-<TriangleFillIcon class="h-5 w-5" />
+<BTriangleFill class="h-5 w-5" />
 ```
 
 both options give the same result.
