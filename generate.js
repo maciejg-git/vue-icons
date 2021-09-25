@@ -22,6 +22,11 @@ const options = {
     fill: "currentColor",
     prefix: "ph",
   },
+  remix: {
+    class: "rx-icon",
+    fill: "currentColor",
+    prefix: "rx",
+  },
   test: {
     class: "fa-icon",
     fill: "currentColor",
@@ -60,7 +65,7 @@ let removeComments = (str) => {
   return str.replace(svgCommentsRx, "");
 };
 
-let getInner = (svg) => {
+let getInnerSvg = (svg) => {
   let str = svg.match(svgInnerRx)[1];
   return str.replace(/\n/g, "").replace(/"/g, "'");
 };
@@ -94,9 +99,9 @@ let parseSvg = (svg, icon, framework) => {
 
   let svgTag = str.match(svgTagRx)[1];
 
-  let inner = getInner(str);
+  let inner = getInnerSvg(str);
 
-  let attrsArray = parseAttrs(svgTag)
+  let attrsArray = parseAttrs(svgTag);
 
   let attrs = unpackAttrs(attrsArray);
   normalizeAttrs(attrs, icon, framework);
@@ -130,10 +135,31 @@ const getFiles = (directory) => {
 };
 
 const prepareDist = () => {
+  let remixSub = [
+    "Buildings",
+    "Business",
+    "Communication",
+    "Design",
+    "Development",
+    "Device",
+    "Document",
+    "Editor",
+    "Finance",
+    "Health",
+    "Logos",
+    "Map",
+    "Media",
+    "Others",
+    "System",
+    "User",
+    "Weather",
+  ];
+
   fs.rmdirSync("dist-bootstrap/", { recursive: true });
   fs.rmdirSync("dist-mdi/", { recursive: true });
   fs.rmdirSync("dist-fontawesome/", { recursive: true });
   fs.rmdirSync("dist-phosphor/", { recursive: true });
+  fs.rmdirSync("dist-remix/", { recursive: true });
 
   fs.mkdirSync("dist-bootstrap/bootstrap/", { recursive: true });
   fs.mkdirSync("dist-mdi/mdi/", { recursive: true });
@@ -148,6 +174,10 @@ const prepareDist = () => {
   fs.mkdirSync("dist-phosphor/phosphor/Light");
   fs.mkdirSync("dist-phosphor/phosphor/Regular");
   fs.mkdirSync("dist-phosphor/phosphor/Thin");
+  fs.mkdirSync("dist-remix/remix/", { recursive: true });
+  remixSub.forEach((i) => {
+    fs.mkdirSync("dist-remix/remix/" + i);
+  });
 };
 
 const createComponents = (framework) => {
@@ -177,7 +207,9 @@ const createComponents = (framework) => {
 
     const fileJs = createJsFile(framework, pascalIcon, renderFunction);
 
-    index += `export { default as ${pascalIcon}Icon } from "./${framework}${
+    index += `export { default as ${toPascalCase(
+      options[framework].prefix
+    )}${pascalIcon} } from "./${framework}${
       sub ? "/" + sub : ""
     }/${filename}"\n`;
 
@@ -188,6 +220,11 @@ const createComponents = (framework) => {
 
   fs.writeFileSync(path.join(dist, "index.js"), index);
 
+  fs.copyFileSync(
+    path.join("package", "package-" + framework + ".json"),
+    path.join(dist, "package.json")
+  );
+
   console.log(`${framework} done (${count} icons)`);
 };
 
@@ -195,5 +232,5 @@ prepareDist();
 
 // createComponents("test");
 
-let frameworks = ["bootstrap", "mdi", "fontawesome", "phosphor"]
-frameworks.forEach((f) => createComponents(f))
+let frameworks = ["bootstrap", "mdi", "fontawesome", "phosphor", "remix"];
+frameworks.forEach((f) => createComponents(f));
