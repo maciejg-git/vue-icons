@@ -100,27 +100,31 @@ both options give the same result.
 
 ### Naming
 
-The general pattern for naming icon is [vendor prefix] [icon name] ['Icon' suffix]. By default registerIcon function append 'Icon' suffix and does not add vendor prefix. You can change that by adding options argument as in example below. This can be useful when using multiple vendors or if there is risk of name conflict with other components. 
+The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function as in example below.
 
 ```js
 // main.js
 
 import { 
-  triangleFillIcon,
-  tropicalStormIcon,
-  bookFillIcon,
+  BTriangleFill,
+  BTropicalStorm,
+  BBookFilln,
 } from "vue-bootstrap-icons"
 
 let app = createApp(App);
 
 registerIcon(app, [
-  triangleFillIcon,
-  tropicalStormIcon,
-  bookFillIcon,
+  BTriangleFill,
+  BTropicalStorm,
+  BBookFill,
 ], {
-  vendorPrefix: true,
-  iconSuffix: false,
+  vendorPrefix: false,
+  iconSuffix: true,
 })
+
+// <TriangleFillIcon />
+// <TripicalStormIcon />
+// <BookFillIcon />
 ```
 
 glob import also supports customizing icon names 
