@@ -2,10 +2,11 @@ import { h } from 'vue'
 export default {
   name: "WallFill",
   vendor: "Ph",
+  tags: ["wall","fill"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"ph-icon","fill":"currentColor","data-name":"ph-wall-fill","innerHTML":"  <rect width='256' height='256' fill='none'/>  <g>    <path d='M136,92h96V56a8.00008,8.00008,0,0,0-8-8H136Z'/>    <rect x='184' y='108' width='48' height='44'/>    <rect x='88' y='108' width='80' height='44'/>    <rect x='24' y='108' width='48' height='44'/>    <path d='M136,168v40h88a8.00008,8.00008,0,0,0,8-8V168Z'/>    <path d='M120,92V48H32a8.00008,8.00008,0,0,0-8,8V92Z'/>    <path d='M120,168H24v32a8.00008,8.00008,0,0,0,8,8h88Z'/>  </g>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-wall-fill","innerHTML":"  <rect width='256' height='256' fill='none'/>  <g>    <path d='M136,92h96V56a8.00008,8.00008,0,0,0-8-8H136Z'/>    <rect x='184' y='108' width='48' height='44'/>    <rect x='88' y='108' width='80' height='44'/>    <rect x='24' y='108' width='48' height='44'/>    <path d='M136,168v40h88a8.00008,8.00008,0,0,0,8-8V168Z'/>    <path d='M120,92V48H32a8.00008,8.00008,0,0,0-8,8V92Z'/>    <path d='M120,168H24v32a8.00008,8.00008,0,0,0,8,8h88Z'/>  </g>"},
     )
   }
 }

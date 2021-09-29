@@ -2,10 +2,11 @@ import { h } from 'vue'
 export default {
   name: "MegaphoneSimpleThin",
   vendor: "Ph",
+  tags: ["megaphone","simple","thin"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"ph-icon","fill":"currentColor","data-name":"ph-megaphone-simple-thin","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M31.99414,50.66667V189.33333a8,8,0,0,0,10.24,7.68l176-51.33333a8,8,0,0,0,5.76-7.68V102a8,8,0,0,0-5.76-7.68l-176-51.33333A8,8,0,0,0,31.99414,50.66667Z' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <path d='M184,155.665V192a8,8,0,0,1-8,8H144a8,8,0,0,1-8-8V70.335' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-megaphone-simple-thin","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M31.99414,50.66667V189.33333a8,8,0,0,0,10.24,7.68l176-51.33333a8,8,0,0,0,5.76-7.68V102a8,8,0,0,0-5.76-7.68l-176-51.33333A8,8,0,0,0,31.99414,50.66667Z' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <path d='M184,155.665V192a8,8,0,0,1-8,8H144a8,8,0,0,1-8-8V70.335' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>"},
     )
   }
 }

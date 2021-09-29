@@ -3,32 +3,42 @@ const path = require("path");
 
 const options = {
   bootstrap: {
-    class: "b-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "b",
   },
   mdi: {
-    class: "mdi-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "mdi",
   },
   fontawesome: {
-    class: "fa-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "fa",
+    suffix: {
+      brands: "-brand",
+      regular: "",
+      solid: "-solid",
+    },
+    suffixPascal: {
+      brands: "Brand",
+      regular: "",
+      solid: "Solid",
+    },
   },
   phosphor: {
-    class: "ph-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "ph",
   },
   remix: {
-    class: "rx-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "rx",
   },
   test: {
-    class: "fa-icon",
+    class: "vi-icon",
     fill: "currentColor",
     prefix: "test",
   },
@@ -46,11 +56,12 @@ let createRenderFunction = (attrs) => {
   }`;
 };
 
-const createJsFile = (framework, icon, renderFunction) => {
+const createJsFile = (framework, icon, renderFunction, tags) => {
   return `import { h } from 'vue'
 export default {
   name: "${icon}",
   vendor: "${toPascalCase(options[framework].prefix)}",
+  tags: ${JSON.stringify(tags)},
   ${renderFunction}
 }`;
 };
@@ -193,9 +204,18 @@ const createComponents = (framework) => {
     const file = i[i.length - 1];
     const sub = i.length > 3 ? i[i.length - 2] : "";
 
+    const suffix = options[framework].suffix
+      ? options[framework].suffix[sub]
+      : "";
+    const suffixPascal = options[framework].suffix
+      ? options[framework].suffixPascal[sub]
+      : "";
+
     const icon = file.substr(0, file.lastIndexOf("."));
     const pascalIcon = toPascalCase(icon);
-    const filename = icon + ".js";
+    const filename = icon + suffix + ".js";
+
+    const tags = icon.split("-")
 
     const content = fs.readFileSync(path.join(source, sub, file), {
       encoding: "utf-8",
@@ -205,13 +225,16 @@ const createComponents = (framework) => {
 
     const renderFunction = createRenderFunction(attrs, inner);
 
-    const fileJs = createJsFile(framework, pascalIcon, renderFunction);
+    const fileJs = createJsFile(
+      framework,
+      pascalIcon + suffixPascal,
+      renderFunction,
+      tags,
+    );
 
-    index += `export { default as ${toPascalCase(
-      options[framework].prefix
-    )}${pascalIcon} } from "./${framework}${
-      sub ? "/" + sub : ""
-    }/${filename}"\n`;
+    index += `export { default as ${toPascalCase(options[framework].prefix)}${
+      pascalIcon + suffixPascal
+    } } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
 
     fs.writeFileSync(path.join(dist, framework, sub, filename), fileJs);
 

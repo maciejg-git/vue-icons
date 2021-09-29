@@ -2,10 +2,11 @@ import { h } from 'vue'
 export default {
   name: "GenderTransgenderDuotone",
   vendor: "Ph",
+  tags: ["gender","transgender","duotone"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"ph-icon","fill":"currentColor","data-name":"ph-gender-transgender-duotone","innerHTML":"  <rect width='256' height='256' fill='none'/>  <circle cx='96' cy='160' r='64' opacity='0.2'/>  <circle cx='96' cy='160' r='64' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <line x1='141.25483' y1='114.74517' x2='216' y2='40' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <polyline points='168 40 216 40 216 88' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <line x1='144' y1='64' x2='192' y2='112' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-gender-transgender-duotone","innerHTML":"  <rect width='256' height='256' fill='none'/>  <circle cx='96' cy='160' r='64' opacity='0.2'/>  <circle cx='96' cy='160' r='64' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <line x1='141.25483' y1='114.74517' x2='216' y2='40' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <polyline points='168 40 216 40 216 88' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <line x1='144' y1='64' x2='192' y2='112' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
     )
   }
 }
