@@ -2,11 +2,12 @@ import { h } from 'vue'
 export default {
   name: "SuitcaseDuotone",
   vendor: "Ph",
+  type: "",
   tags: ["suitcase","duotone"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-suitcase-duotone","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M88,72V216l-47.99219,0a8,8,0,0,1-8-8v-128a8,8,0,0,1,8-8Z' opacity='0.2'/>  <path d='M168.00781,72V216l47.99219,0a8,8,0,0,0,8-8v-128a8,8,0,0,0-8-8Z' opacity='0.2'/>  <rect x='32' y='72' width='192' height='144' rx='8' stroke-width='16' stroke='#000' stroke-linecap='round' stroke-linejoin='round' fill='none'/>  <path d='M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"v-icon","fill":"currentColor","data-name":"ph-suitcase-duotone","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M88,72V216l-47.99219,0a8,8,0,0,1-8-8v-128a8,8,0,0,1,8-8Z' opacity='0.2'/>  <path d='M168.00781,72V216l47.99219,0a8,8,0,0,0,8-8v-128a8,8,0,0,0-8-8Z' opacity='0.2'/>  <rect x='32' y='72' width='192' height='144' rx='8' stroke-width='16' stroke='#000' stroke-linecap='round' stroke-linejoin='round' fill='none'/>  <path d='M168,216V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V216' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
     )
   }
 }

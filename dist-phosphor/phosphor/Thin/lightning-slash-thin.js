@@ -2,11 +2,12 @@ import { h } from 'vue'
 export default {
   name: "LightningSlashThin",
   vendor: "Ph",
+  type: "",
   tags: ["lightning","slash","thin"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-lightning-slash-thin","innerHTML":"  <rect width='256' height='256' fill='none'/>  <line x1='48' y1='39.99609' x2='208' y2='215.99609' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <polyline points='163.777 167.351 96 239.969 112 159.969 48 135.969 92.198 88.614' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <polyline points='114.106 65.141 160 15.969 144 95.969 208 119.969 185.685 143.878' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"v-icon","fill":"currentColor","data-name":"ph-lightning-slash-thin","innerHTML":"  <rect width='256' height='256' fill='none'/>  <line x1='48' y1='39.99609' x2='208' y2='215.99609' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <polyline points='163.777 167.351 96 239.969 112 159.969 48 135.969 92.198 88.614' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>  <polyline points='114.106 65.141 160 15.969 144 95.969 208 119.969 185.685 143.878' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='8'/>"},
     )
   }
 }

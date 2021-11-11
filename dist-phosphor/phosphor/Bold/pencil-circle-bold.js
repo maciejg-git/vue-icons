@@ -2,11 +2,12 @@ import { h } from 'vue'
 export default {
   name: "PencilCircleBold",
   vendor: "Ph",
+  type: "",
   tags: ["pencil","circle","bold"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-pencil-circle-bold","innerHTML":"  <rect width='256' height='256' fill='none'/>  <circle cx='128' cy='128' r='96' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <polyline points='176 211.161 176 176 128 72 80 176 80 211.164' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <path d='M128,200a24,24,0,0,1,48,0' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <path d='M128,224V200a24,24,0,0,0-48,0' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <line x1='98.4615' y1='136' x2='157.53847' y2='136' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"v-icon","fill":"currentColor","data-name":"ph-pencil-circle-bold","innerHTML":"  <rect width='256' height='256' fill='none'/>  <circle cx='128' cy='128' r='96' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <polyline points='176 211.161 176 176 128 72 80 176 80 211.164' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <path d='M128,200a24,24,0,0,1,48,0' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <path d='M128,224V200a24,24,0,0,0-48,0' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>  <line x1='98.4615' y1='136' x2='157.53847' y2='136' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='24'/>"},
     )
   }
 }

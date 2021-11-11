@@ -3,17 +3,17 @@ const path = require("path");
 
 const options = {
   bootstrap: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "b",
   },
   mdi: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "mdi",
   },
   fontawesome: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "fa",
     suffix: {
@@ -28,17 +28,17 @@ const options = {
     },
   },
   phosphor: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "ph",
   },
   remix: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "rx",
   },
   test: {
-    class: "vi-icon",
+    class: "v-icon",
     fill: "currentColor",
     prefix: "test",
   },
@@ -56,11 +56,12 @@ let createRenderFunction = (attrs) => {
   }`;
 };
 
-const createJsFile = (framework, icon, renderFunction, tags) => {
+const createJsFile = (framework, icon, suffix, renderFunction, tags) => {
   return `import { h } from 'vue'
 export default {
   name: "${icon}",
   vendor: "${toPascalCase(options[framework].prefix)}",
+  type: "${suffix}",
   tags: ${JSON.stringify(tags)},
   ${renderFunction}
 }`;
@@ -227,7 +228,8 @@ const createComponents = (framework) => {
 
     const fileJs = createJsFile(
       framework,
-      pascalIcon + suffixPascal,
+      pascalIcon,
+      suffixPascal,
       renderFunction,
       tags,
     );

@@ -2,11 +2,12 @@ import { h } from 'vue'
 export default {
   name: "UserFocus",
   vendor: "Ph",
+  type: "",
   tags: ["user","focus"],
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"vi-icon","fill":"currentColor","data-name":"ph-user-focus","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M180,40h28a8,8,0,0,1,8,8V75.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M180,216h28a8,8,0,0,0,8-8V179.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M76,216H48a8,8,0,0,1-8-8V179.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M76,40H48a8,8,0,0,0-8,8V75.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <circle cx='128' cy='112' r='32' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M74.92057,175.99964a60.02261,60.02261,0,0,1,106.15892.00009' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 256 256","class":"v-icon","fill":"currentColor","data-name":"ph-user-focus","innerHTML":"  <rect width='256' height='256' fill='none'/>  <path d='M180,40h28a8,8,0,0,1,8,8V75.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M180,216h28a8,8,0,0,0,8-8V179.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M76,216H48a8,8,0,0,1-8-8V179.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M76,40H48a8,8,0,0,0-8,8V75.99963' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <circle cx='128' cy='112' r='32' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>  <path d='M74.92057,175.99964a60.02261,60.02261,0,0,1,106.15892.00009' fill='none' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='16'/>"},
     )
   }
 }
