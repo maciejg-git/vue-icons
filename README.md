@@ -2,9 +2,7 @@
 
 [Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons and Font Awesome icons converted to unified, self contained Vue 3 components. 
 
-
 ## Usage
-
 
 **[Option 1]** import registerIcon
 
@@ -68,9 +66,7 @@ for webpack see examples in Vue documentation
 
 Icons can be organized into multiple dirs and subdirs. See [fast-glob documentation](https://github.com/mrmlnc/fast-glob#pattern-syntax) for possible glob patterns.
 
-
 ## Using icons in templates
-
 
 **[Option 1]** use included icon component to display icons in templates. Import it and register globally
 
@@ -102,9 +98,7 @@ and use it in template
 
 both options give the same result.
 
-
 ## Naming
-
 
 The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function as in example below.
 
@@ -146,9 +140,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-
 ## Styling
-
 
 Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to component. Use color property to set icon color and width/height to set size. To make all icons the same size use this css.
 
