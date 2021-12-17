@@ -95,8 +95,6 @@ and use it in template
 <BTriangleFill class="h-5 w-5" />
 ```
 
-both options give the same result.
-
 ## Naming
 
 The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function as in example below.
