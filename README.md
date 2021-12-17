@@ -139,7 +139,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 
 ## Styling
 
-Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to component. Use color property to set icon color and width/height to set size. To make all icons the same size use this css.
+Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to icon component. Use color property to set icon color and width/height to set size. To make icons from all vendors the same size use this css.
 
 ```css
 .b-icon {
