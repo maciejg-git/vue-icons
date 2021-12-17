@@ -59,13 +59,11 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-Copy any icons to [app icon directory] and use them in all components. Vite will update available icons if directory content changes so you can keep dropping, testing and removing during development.
+Copy any icons to [app icon directory] and use them in all components. Vite will update available icons if directory content changes.
 
 for webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
 * [Automatic Global Registration of Base Components (Vue 2)](https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components)
-
-Icons can be organized into multiple dirs and subdirs. See [fast-glob documentation](https://github.com/mrmlnc/fast-glob#pattern-syntax) for possible glob patterns.
 
 ## Using icons in templates
 
