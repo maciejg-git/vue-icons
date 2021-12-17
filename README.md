@@ -32,7 +32,7 @@ registerIcon(app, [
 ])
 ```
 
-registerIcon is just handy shortcut to app.component function. You can skip it and register icons one by one using app.component(icon). 
+**registerIcon** is just handy shortcut to app.component function. You can skip it and register icons one by one using app.component(icon). 
 
 **[Option 2]** or import and register icons locally in component
 
