@@ -61,7 +61,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 
 Copy any icons to [app icon directory] and use them in all components. Vite will update available icons if directory content changes.
 
-for webpack see examples in Vue documentation
+For webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
 * [Automatic Global Registration of Base Components (Vue 2)](https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components)
 
