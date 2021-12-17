@@ -67,7 +67,7 @@ For webpack see examples in Vue documentation
 
 ## Using icons in templates
 
-**[Option 1]** use included icon component to display icons in templates. Import it and register globally
+**[Option 1]** use **Icon** component to display icons in templates. Import it and register globally
 
 ```js
 // main.js
