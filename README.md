@@ -161,10 +161,13 @@ Each icon have one base [vendor prefix]-[icon name] class added by default. You 
 ### Licence
 
 Fontawesome
+
 Icons — CC BY 4.0 License
 
 Bootstrap Icons
+
 MIT
 
 Material Design Icons
+
 Apache License Version 2.0
