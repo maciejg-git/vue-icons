@@ -174,14 +174,11 @@ const prepareDist = () => {
   fs.rmdirSync("dist-remix/", { recursive: true });
 
   fs.mkdirSync("dist-bootstrap/bootstrap/", { recursive: true });
-  fs.mkdirSync("dist-bootstrap/vue/", { recursive: true });
   fs.mkdirSync("dist-mdi/mdi/", { recursive: true });
-  fs.mkdirSync("dist-mdi/vue/", { recursive: true });
   fs.mkdirSync("dist-fontawesome/fontawesome/", { recursive: true });
   fs.mkdirSync("dist-fontawesome/fontawesome/brands");
   fs.mkdirSync("dist-fontawesome/fontawesome/regular");
   fs.mkdirSync("dist-fontawesome/fontawesome/solid");
-  fs.mkdirSync("dist-fontawesome/vue/", { recursive: true });
   fs.mkdirSync("dist-phosphor/phosphor/", { recursive: true });
   fs.mkdirSync("dist-phosphor/phosphor/Bold");
   fs.mkdirSync("dist-phosphor/phosphor/Duotone");
@@ -189,13 +186,19 @@ const prepareDist = () => {
   fs.mkdirSync("dist-phosphor/phosphor/Light");
   fs.mkdirSync("dist-phosphor/phosphor/Regular");
   fs.mkdirSync("dist-phosphor/phosphor/Thin");
-  fs.mkdirSync("dist-phosphor/vue/", { recursive: true });
   fs.mkdirSync("dist-remix/remix/", { recursive: true });
   remixSub.forEach((i) => {
     fs.mkdirSync("dist-remix/remix/" + i);
   });
-  fs.mkdirSync("dist-remix/vue/", { recursive: true });
 };
+
+let postDist = (dist, framework, index) => {
+  fs.writeFileSync(path.join(dist, "index.js"), index);
+  fs.copyFileSync(
+    path.join("package", "package-" + framework + ".json"),
+    path.join(dist, "package.json")
+  );
+}
 
 const createComponents = (framework) => {
   const source = path.join("icons", framework);
@@ -248,27 +251,7 @@ const createComponents = (framework) => {
     count++;
   });
 
-  fs.writeFileSync(path.join(dist, "index.js"), index);
-
-  fs.copyFileSync(
-    path.join("package", "package-" + framework + ".json"),
-    path.join(dist, "package.json")
-  );
-
-  fs.copyFileSync(
-    path.join("vue", "Icon.vue"),
-    path.join(dist, "vue", "Icon.vue")
-  );
-
-  fs.copyFileSync(
-    path.join("vue", "index.js"),
-    path.join(dist, "vue", "index.js")
-  );
-
-  fs.copyFileSync(
-    path.join("vue", "registerIcon.js"),
-    path.join(dist, "vue", "registerIcon.js")
-  );
+  postDist(dist, framework, index)
 
   console.log(`${framework} done (${count} icons)`);
 };
