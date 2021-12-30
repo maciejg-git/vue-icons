@@ -83,6 +83,7 @@ and use it in template
 // component.vue
 
 <icon icon="b-triangle-fill" class="h-5 w-5" />
+<icon name="b-triangle-fill" class="h-5 w-5" />
 ```
 
 **[Option 2]** or use icons directly as components without Icon component
