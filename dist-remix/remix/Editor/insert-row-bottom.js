@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InsertRowBottom",
-  vendor: "Rx",
-  type: "",
-  tags: ["insert","row","bottom"],
+  $_icon: {
+    name: "InsertRowBottom",
+    vendor: "Rx",
+    type: "",
+    tags: ["insert","row","bottom"],
+  },
   render() {
     return h(
       "svg",

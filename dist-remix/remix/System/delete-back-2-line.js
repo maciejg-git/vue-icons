@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteBack2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["delete","back","2","line"],
+  $_icon: {
+    name: "DeleteBack2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["delete","back","2","line"],
+  },
   render() {
     return h(
       "svg",

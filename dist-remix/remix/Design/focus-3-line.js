@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Focus3Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["focus","3","line"],
+  $_icon: {
+    name: "Focus3Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["focus","3","line"],
+  },
   render() {
     return h(
       "svg",

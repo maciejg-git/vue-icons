@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PieChart2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["pie","chart","2","fill"],
+  $_icon: {
+    name: "PieChart2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["pie","chart","2","fill"],
+  },
   render() {
     return h(
       "svg",

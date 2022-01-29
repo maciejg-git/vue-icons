@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GridLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["grid","line"],
+  $_icon: {
+    name: "GridLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["grid","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteBin3Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["delete","bin","3","fill"],
+  $_icon: {
+    name: "DeleteBin3Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["delete","bin","3","fill"],
+  },
   render() {
     return h(
       "svg",

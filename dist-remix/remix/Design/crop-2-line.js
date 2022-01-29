@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Crop2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["crop","2","line"],
+  $_icon: {
+    name: "Crop2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["crop","2","line"],
+  },
   render() {
     return h(
       "svg",

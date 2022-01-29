@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SwapBoxLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["swap","box","line"],
+  $_icon: {
+    name: "SwapBoxLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["swap","box","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChargingPile2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["charging","pile","2","line"],
+  $_icon: {
+    name: "ChargingPile2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["charging","pile","2","line"],
+  },
   render() {
     return h(
       "svg",

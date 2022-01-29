@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MergeCellsHorizontal",
-  vendor: "Rx",
-  type: "",
-  tags: ["merge","cells","horizontal"],
+  $_icon: {
+    name: "MergeCellsHorizontal",
+    vendor: "Rx",
+    type: "",
+    tags: ["merge","cells","horizontal"],
+  },
   render() {
     return h(
       "svg",

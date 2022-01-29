@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InsertColumnRight",
-  vendor: "Rx",
-  type: "",
-  tags: ["insert","column","right"],
+  $_icon: {
+    name: "InsertColumnRight",
+    vendor: "Rx",
+    type: "",
+    tags: ["insert","column","right"],
+  },
   render() {
     return h(
       "svg",

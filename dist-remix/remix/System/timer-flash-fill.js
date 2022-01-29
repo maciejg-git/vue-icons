@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TimerFlashFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["timer","flash","fill"],
+  $_icon: {
+    name: "TimerFlashFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["timer","flash","fill"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowsLogoDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["windows","logo","duotone"],
+  $_icon: {
+    name: "WindowsLogoDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["windows","logo","duotone"],
+  },
   render() {
     return h(
       "svg",

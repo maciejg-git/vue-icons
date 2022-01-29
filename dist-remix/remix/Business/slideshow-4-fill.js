@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Slideshow4Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["slideshow","4","fill"],
+  $_icon: {
+    name: "Slideshow4Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["slideshow","4","fill"],
+  },
   render() {
     return h(
       "svg",

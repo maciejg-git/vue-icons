@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpotifyLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["spotify","line"],
+  $_icon: {
+    name: "SpotifyLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["spotify","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TimerFlashLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["timer","flash","line"],
+  $_icon: {
+    name: "TimerFlashLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["timer","flash","line"],
+  },
   render() {
     return h(
       "svg",

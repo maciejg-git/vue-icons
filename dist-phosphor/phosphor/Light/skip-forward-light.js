@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipForwardLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["skip","forward","light"],
+  $_icon: {
+    name: "SkipForwardLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["skip","forward","light"],
+  },
   render() {
     return h(
       "svg",

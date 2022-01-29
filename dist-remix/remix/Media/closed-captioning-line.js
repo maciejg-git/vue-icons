@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ClosedCaptioningLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["closed","captioning","line"],
+  $_icon: {
+    name: "ClosedCaptioningLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["closed","captioning","line"],
+  },
   render() {
     return h(
       "svg",

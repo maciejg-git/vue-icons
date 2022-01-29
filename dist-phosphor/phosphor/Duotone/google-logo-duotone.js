@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GoogleLogoDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["google","logo","duotone"],
+  $_icon: {
+    name: "GoogleLogoDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["google","logo","duotone"],
+  },
   render() {
     return h(
       "svg",

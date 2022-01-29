@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ReactjsFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["reactjs","fill"],
+  $_icon: {
+    name: "ReactjsFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["reactjs","fill"],
+  },
   render() {
     return h(
       "svg",

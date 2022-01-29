@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MacLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["mac","line"],
+  $_icon: {
+    name: "MacLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["mac","line"],
+  },
   render() {
     return h(
       "svg",

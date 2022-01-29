@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UninstallLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["uninstall","line"],
+  $_icon: {
+    name: "UninstallLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["uninstall","line"],
+  },
   render() {
     return h(
       "svg",

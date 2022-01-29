@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipBackMiniLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["skip","back","mini","line"],
+  $_icon: {
+    name: "SkipBackMiniLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["skip","back","mini","line"],
+  },
   render() {
     return h(
       "svg",

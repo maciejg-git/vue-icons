@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GroupLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["group","line"],
+  $_icon: {
+    name: "GroupLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["group","line"],
+  },
   render() {
     return h(
       "svg",

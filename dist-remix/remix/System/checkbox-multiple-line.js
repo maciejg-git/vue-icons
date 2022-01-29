@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckboxMultipleLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["checkbox","multiple","line"],
+  $_icon: {
+    name: "CheckboxMultipleLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["checkbox","multiple","line"],
+  },
   render() {
     return h(
       "svg",

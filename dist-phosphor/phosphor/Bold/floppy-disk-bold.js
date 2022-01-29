@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FloppyDiskBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["floppy","disk","bold"],
+  $_icon: {
+    name: "FloppyDiskBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["floppy","disk","bold"],
+  },
   render() {
     return h(
       "svg",

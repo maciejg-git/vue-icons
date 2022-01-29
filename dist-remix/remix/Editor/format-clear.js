@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FormatClear",
-  vendor: "Rx",
-  type: "",
-  tags: ["format","clear"],
+  $_icon: {
+    name: "FormatClear",
+    vendor: "Rx",
+    type: "",
+    tags: ["format","clear"],
+  },
   render() {
     return h(
       "svg",

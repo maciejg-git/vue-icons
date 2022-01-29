@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ContrastDropLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["contrast","drop","line"],
+  $_icon: {
+    name: "ContrastDropLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["contrast","drop","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CircleWavyWarningDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["circle","wavy","warning","duotone"],
+  $_icon: {
+    name: "CircleWavyWarningDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["circle","wavy","warning","duotone"],
+  },
   render() {
     return h(
       "svg",

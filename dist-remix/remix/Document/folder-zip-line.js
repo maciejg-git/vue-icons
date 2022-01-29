@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderZipLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["folder","zip","line"],
+  $_icon: {
+    name: "FolderZipLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["folder","zip","line"],
+  },
   render() {
     return h(
       "svg",

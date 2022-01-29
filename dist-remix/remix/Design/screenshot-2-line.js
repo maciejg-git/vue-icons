@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Screenshot2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["screenshot","2","line"],
+  $_icon: {
+    name: "Screenshot2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["screenshot","2","line"],
+  },
   render() {
     return h(
       "svg",

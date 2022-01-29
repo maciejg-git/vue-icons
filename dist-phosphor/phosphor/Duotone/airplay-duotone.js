@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AirplayDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["airplay","duotone"],
+  $_icon: {
+    name: "AirplayDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["airplay","duotone"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CharacterRecognitionLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["character","recognition","line"],
+  $_icon: {
+    name: "CharacterRecognitionLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["character","recognition","line"],
+  },
   render() {
     return h(
       "svg",

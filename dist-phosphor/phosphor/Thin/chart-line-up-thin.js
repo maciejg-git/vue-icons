@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartLineUpThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["chart","line","up","thin"],
+  $_icon: {
+    name: "ChartLineUpThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["chart","line","up","thin"],
+  },
   render() {
     return h(
       "svg",

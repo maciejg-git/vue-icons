@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeleteColumn",
-  vendor: "Rx",
-  type: "",
-  tags: ["delete","column"],
+  $_icon: {
+    name: "DeleteColumn",
+    vendor: "Rx",
+    type: "",
+    tags: ["delete","column"],
+  },
   render() {
     return h(
       "svg",

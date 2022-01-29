@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SimCardLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["sim","card","light"],
+  $_icon: {
+    name: "SimCardLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["sim","card","light"],
+  },
   render() {
     return h(
       "svg",

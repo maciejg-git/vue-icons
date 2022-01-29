@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlutterLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["flutter","line"],
+  $_icon: {
+    name: "FlutterLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["flutter","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LockPasswordLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["lock","password","line"],
+  $_icon: {
+    name: "LockPasswordLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["lock","password","line"],
+  },
   render() {
     return h(
       "svg",

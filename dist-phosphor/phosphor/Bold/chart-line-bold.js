@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartLineBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["chart","line","bold"],
+  $_icon: {
+    name: "ChartLineBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["chart","line","bold"],
+  },
   render() {
     return h(
       "svg",

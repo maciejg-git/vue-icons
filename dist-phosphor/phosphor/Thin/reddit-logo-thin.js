@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RedditLogoThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["reddit","logo","thin"],
+  $_icon: {
+    name: "RedditLogoThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["reddit","logo","thin"],
+  },
   render() {
     return h(
       "svg",

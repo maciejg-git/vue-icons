@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LineHeight",
-  vendor: "Rx",
-  type: "",
-  tags: ["line","height"],
+  $_icon: {
+    name: "LineHeight",
+    vendor: "Rx",
+    type: "",
+    tags: ["line","height"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PinyinInput",
-  vendor: "Rx",
-  type: "",
-  tags: ["pinyin","input"],
+  $_icon: {
+    name: "PinyinInput",
+    vendor: "Rx",
+    type: "",
+    tags: ["pinyin","input"],
+  },
   render() {
     return h(
       "svg",

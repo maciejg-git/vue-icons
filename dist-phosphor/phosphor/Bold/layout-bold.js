@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["layout","bold"],
+  $_icon: {
+    name: "LayoutBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["layout","bold"],
+  },
   render() {
     return h(
       "svg",

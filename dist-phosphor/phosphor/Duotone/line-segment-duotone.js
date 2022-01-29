@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LineSegmentDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["line","segment","duotone"],
+  $_icon: {
+    name: "LineSegmentDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["line","segment","duotone"],
+  },
   render() {
     return h(
       "svg",

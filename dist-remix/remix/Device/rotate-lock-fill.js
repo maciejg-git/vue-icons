@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RotateLockFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["rotate","lock","fill"],
+  $_icon: {
+    name: "RotateLockFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["rotate","lock","fill"],
+  },
   render() {
     return h(
       "svg",

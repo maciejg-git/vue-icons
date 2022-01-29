@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EarthLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["earth","line"],
+  $_icon: {
+    name: "EarthLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["earth","line"],
+  },
   render() {
     return h(
       "svg",

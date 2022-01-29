@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ReactjsLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["reactjs","line"],
+  $_icon: {
+    name: "ReactjsLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["reactjs","line"],
+  },
   render() {
     return h(
       "svg",

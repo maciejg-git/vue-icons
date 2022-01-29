@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlipayLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["alipay","line"],
+  $_icon: {
+    name: "AlipayLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["alipay","line"],
+  },
   render() {
     return h(
       "svg",

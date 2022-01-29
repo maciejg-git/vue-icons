@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AndroidLogoFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["android","logo","fill"],
+  $_icon: {
+    name: "AndroidLogoFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["android","logo","fill"],
+  },
   render() {
     return h(
       "svg",

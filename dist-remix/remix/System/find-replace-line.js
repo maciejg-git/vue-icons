@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FindReplaceLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["find","replace","line"],
+  $_icon: {
+    name: "FindReplaceLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["find","replace","line"],
+  },
   render() {
     return h(
       "svg",

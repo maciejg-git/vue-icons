@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ZoomInFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["zoom","in","fill"],
+  $_icon: {
+    name: "ZoomInFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["zoom","in","fill"],
+  },
   render() {
     return h(
       "svg",

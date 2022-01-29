@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MiniProgramLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["mini","program","line"],
+  $_icon: {
+    name: "MiniProgramLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["mini","program","line"],
+  },
   render() {
     return h(
       "svg",

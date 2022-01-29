@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ApertureFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["aperture","fill"],
+  $_icon: {
+    name: "ApertureFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["aperture","fill"],
+  },
   render() {
     return h(
       "svg",

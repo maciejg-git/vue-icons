@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Forbid2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["forbid","2","line"],
+  $_icon: {
+    name: "Forbid2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["forbid","2","line"],
+  },
   render() {
     return h(
       "svg",

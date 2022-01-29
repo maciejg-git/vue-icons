@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CircleHalfTiltBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["circle","half","tilt","bold"],
+  $_icon: {
+    name: "CircleHalfTiltBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["circle","half","tilt","bold"],
+  },
   render() {
     return h(
       "svg",

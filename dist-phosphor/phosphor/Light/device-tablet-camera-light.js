@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeviceTabletCameraLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["device","tablet","camera","light"],
+  $_icon: {
+    name: "DeviceTabletCameraLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["device","tablet","camera","light"],
+  },
   render() {
     return h(
       "svg",

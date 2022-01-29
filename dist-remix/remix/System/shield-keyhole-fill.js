@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShieldKeyholeFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["shield","keyhole","fill"],
+  $_icon: {
+    name: "ShieldKeyholeFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["shield","keyhole","fill"],
+  },
   render() {
     return h(
       "svg",

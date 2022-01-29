@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MailUnreadLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["mail","unread","line"],
+  $_icon: {
+    name: "MailUnreadLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["mail","unread","line"],
+  },
   render() {
     return h(
       "svg",

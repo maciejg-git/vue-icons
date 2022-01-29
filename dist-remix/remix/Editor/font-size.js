@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FontSize",
-  vendor: "Rx",
-  type: "",
-  tags: ["font","size"],
+  $_icon: {
+    name: "FontSize",
+    vendor: "Rx",
+    type: "",
+    tags: ["font","size"],
+  },
   render() {
     return h(
       "svg",

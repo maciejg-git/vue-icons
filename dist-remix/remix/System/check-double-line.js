@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckDoubleLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["check","double","line"],
+  $_icon: {
+    name: "CheckDoubleLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["check","double","line"],
+  },
   render() {
     return h(
       "svg",

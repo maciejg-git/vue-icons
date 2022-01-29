@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CentosLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["centos","line"],
+  $_icon: {
+    name: "CentosLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["centos","line"],
+  },
   render() {
     return h(
       "svg",

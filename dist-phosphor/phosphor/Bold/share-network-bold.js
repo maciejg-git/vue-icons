@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShareNetworkBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["share","network","bold"],
+  $_icon: {
+    name: "ShareNetworkBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["share","network","bold"],
+  },
   render() {
     return h(
       "svg",

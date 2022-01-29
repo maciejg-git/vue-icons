@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextUnderlineLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["text","underline","light"],
+  $_icon: {
+    name: "TextUnderlineLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["text","underline","light"],
+  },
   render() {
     return h(
       "svg",

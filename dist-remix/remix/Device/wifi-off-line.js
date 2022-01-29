@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WifiOffLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["wifi","off","line"],
+  $_icon: {
+    name: "WifiOffLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["wifi","off","line"],
+  },
   render() {
     return h(
       "svg",

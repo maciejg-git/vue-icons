@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PaintBucket",
-  vendor: "Ph",
-  type: "",
-  tags: ["paint","bucket"],
+  $_icon: {
+    name: "PaintBucket",
+    vendor: "Ph",
+    type: "",
+    tags: ["paint","bucket"],
+  },
   render() {
     return h(
       "svg",

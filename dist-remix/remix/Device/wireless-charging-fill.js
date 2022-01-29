@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WirelessChargingFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["wireless","charging","fill"],
+  $_icon: {
+    name: "WirelessChargingFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["wireless","charging","fill"],
+  },
   render() {
     return h(
       "svg",

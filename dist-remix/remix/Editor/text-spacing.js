@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextSpacing",
-  vendor: "Rx",
-  type: "",
-  tags: ["text","spacing"],
+  $_icon: {
+    name: "TextSpacing",
+    vendor: "Rx",
+    type: "",
+    tags: ["text","spacing"],
+  },
   render() {
     return h(
       "svg",

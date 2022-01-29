@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NeteaseCloudMusicLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["netease","cloud","music","line"],
+  $_icon: {
+    name: "NeteaseCloudMusicLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["netease","cloud","music","line"],
+  },
   render() {
     return h(
       "svg",

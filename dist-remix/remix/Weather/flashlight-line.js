@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FlashlightLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["flashlight","line"],
+  $_icon: {
+    name: "FlashlightLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["flashlight","line"],
+  },
   render() {
     return h(
       "svg",

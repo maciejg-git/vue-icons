@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CalendarCheckLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["calendar","check","light"],
+  $_icon: {
+    name: "CalendarCheckLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["calendar","check","light"],
+  },
   render() {
     return h(
       "svg",

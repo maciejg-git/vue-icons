@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileList2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","list","2","line"],
+  $_icon: {
+    name: "FileList2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","list","2","line"],
+  },
   render() {
     return h(
       "svg",

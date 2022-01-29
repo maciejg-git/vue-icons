@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CropFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["crop","fill"],
+  $_icon: {
+    name: "CropFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["crop","fill"],
+  },
   render() {
     return h(
       "svg",

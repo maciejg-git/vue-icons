@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutGridLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["layout","grid","line"],
+  $_icon: {
+    name: "LayoutGridLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["layout","grid","line"],
+  },
   render() {
     return h(
       "svg",

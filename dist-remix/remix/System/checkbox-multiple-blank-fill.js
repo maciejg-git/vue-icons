@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckboxMultipleBlankFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["checkbox","multiple","blank","fill"],
+  $_icon: {
+    name: "CheckboxMultipleBlankFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["checkbox","multiple","blank","fill"],
+  },
   render() {
     return h(
       "svg",

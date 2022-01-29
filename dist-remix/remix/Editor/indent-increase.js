@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "IndentIncrease",
-  vendor: "Rx",
-  type: "",
-  tags: ["indent","increase"],
+  $_icon: {
+    name: "IndentIncrease",
+    vendor: "Rx",
+    type: "",
+    tags: ["indent","increase"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FontColor",
-  vendor: "Rx",
-  type: "",
-  tags: ["font","color"],
+  $_icon: {
+    name: "FontColor",
+    vendor: "Rx",
+    type: "",
+    tags: ["font","color"],
+  },
   render() {
     return h(
       "svg",

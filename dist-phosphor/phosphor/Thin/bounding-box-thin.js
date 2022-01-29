@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BoundingBoxThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["bounding","box","thin"],
+  $_icon: {
+    name: "BoundingBoxThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["bounding","box","thin"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TableAltLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["table","alt","line"],
+  $_icon: {
+    name: "TableAltLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["table","alt","line"],
+  },
   render() {
     return h(
       "svg",

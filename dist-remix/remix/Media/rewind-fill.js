@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RewindFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["rewind","fill"],
+  $_icon: {
+    name: "RewindFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["rewind","fill"],
+  },
   render() {
     return h(
       "svg",

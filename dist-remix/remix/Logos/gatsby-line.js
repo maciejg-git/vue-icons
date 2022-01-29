@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GatsbyLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["gatsby","line"],
+  $_icon: {
+    name: "GatsbyLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["gatsby","line"],
+  },
   render() {
     return h(
       "svg",

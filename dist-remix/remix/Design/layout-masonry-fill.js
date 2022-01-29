@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutMasonryFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["layout","masonry","fill"],
+  $_icon: {
+    name: "LayoutMasonryFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["layout","masonry","fill"],
+  },
   render() {
     return h(
       "svg",

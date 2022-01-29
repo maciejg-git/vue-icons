@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ScreencastThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["screencast","thin"],
+  $_icon: {
+    name: "ScreencastThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["screencast","thin"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CurrencyBtcLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["currency","btc","light"],
+  $_icon: {
+    name: "CurrencyBtcLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["currency","btc","light"],
+  },
   render() {
     return h(
       "svg",

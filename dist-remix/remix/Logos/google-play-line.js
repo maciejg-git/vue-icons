@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePlayLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["google","play","line"],
+  $_icon: {
+    name: "GooglePlayLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["google","play","line"],
+  },
   render() {
     return h(
       "svg",

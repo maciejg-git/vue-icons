@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BarcodeBoxLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["barcode","box","line"],
+  $_icon: {
+    name: "BarcodeBoxLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["barcode","box","line"],
+  },
   render() {
     return h(
       "svg",

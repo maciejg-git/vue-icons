@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SpinnerGap",
-  vendor: "Ph",
-  type: "",
-  tags: ["spinner","gap"],
+  $_icon: {
+    name: "SpinnerGap",
+    vendor: "Ph",
+    type: "",
+    tags: ["spinner","gap"],
+  },
   render() {
     return h(
       "svg",

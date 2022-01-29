@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EqualizerLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["equalizer","line"],
+  $_icon: {
+    name: "EqualizerLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["equalizer","line"],
+  },
   render() {
     return h(
       "svg",

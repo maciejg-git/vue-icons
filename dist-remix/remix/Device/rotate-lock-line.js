@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RotateLockLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["rotate","lock","line"],
+  $_icon: {
+    name: "RotateLockLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["rotate","lock","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileShredLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","shred","line"],
+  $_icon: {
+    name: "FileShredLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","shred","line"],
+  },
   render() {
     return h(
       "svg",

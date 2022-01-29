@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NetflixLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["netflix","line"],
+  $_icon: {
+    name: "NetflixLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["netflix","line"],
+  },
   render() {
     return h(
       "svg",

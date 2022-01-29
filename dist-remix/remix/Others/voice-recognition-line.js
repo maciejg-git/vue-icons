@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VoiceRecognitionLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["voice","recognition","line"],
+  $_icon: {
+    name: "VoiceRecognitionLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["voice","recognition","line"],
+  },
   render() {
     return h(
       "svg",

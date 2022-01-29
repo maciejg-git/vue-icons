@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnetStraightBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["magnet","straight","bold"],
+  $_icon: {
+    name: "MagnetStraightBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["magnet","straight","bold"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PowerFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["power","fill"],
+  $_icon: {
+    name: "PowerFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["power","fill"],
+  },
   render() {
     return h(
       "svg",

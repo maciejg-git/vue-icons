@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["file","bold"],
+  $_icon: {
+    name: "FileBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["file","bold"],
+  },
   render() {
     return h(
       "svg",

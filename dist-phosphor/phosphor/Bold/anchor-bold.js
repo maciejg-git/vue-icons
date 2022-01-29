@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AnchorBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["anchor","bold"],
+  $_icon: {
+    name: "AnchorBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["anchor","bold"],
+  },
   render() {
     return h(
       "svg",

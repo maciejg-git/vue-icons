@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlignTopDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["align","top","duotone"],
+  $_icon: {
+    name: "AlignTopDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["align","top","duotone"],
+  },
   render() {
     return h(
       "svg",

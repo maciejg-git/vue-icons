@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VolumeMuteLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["volume","mute","line"],
+  $_icon: {
+    name: "VolumeMuteLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["volume","mute","line"],
+  },
   render() {
     return h(
       "svg",

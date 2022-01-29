@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapTrifoldDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["map","trifold","duotone"],
+  $_icon: {
+    name: "MapTrifoldDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["map","trifold","duotone"],
+  },
   render() {
     return h(
       "svg",

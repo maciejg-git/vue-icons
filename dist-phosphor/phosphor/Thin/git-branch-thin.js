@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GitBranchThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["git","branch","thin"],
+  $_icon: {
+    name: "GitBranchThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["git","branch","thin"],
+  },
   render() {
     return h(
       "svg",

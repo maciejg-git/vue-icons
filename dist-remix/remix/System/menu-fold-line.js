@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MenuFoldLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["menu","fold","line"],
+  $_icon: {
+    name: "MenuFoldLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["menu","fold","line"],
+  },
   render() {
     return h(
       "svg",

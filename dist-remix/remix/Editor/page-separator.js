@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PageSeparator",
-  vendor: "Rx",
-  type: "",
-  tags: ["page","separator"],
+  $_icon: {
+    name: "PageSeparator",
+    vendor: "Rx",
+    type: "",
+    tags: ["page","separator"],
+  },
   render() {
     return h(
       "svg",

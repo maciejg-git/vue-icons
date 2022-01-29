@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DragMove2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["drag","move","2","fill"],
+  $_icon: {
+    name: "DragMove2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["drag","move","2","fill"],
+  },
   render() {
     return h(
       "svg",

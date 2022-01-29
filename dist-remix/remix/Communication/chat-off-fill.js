@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChatOffFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["chat","off","fill"],
+  $_icon: {
+    name: "ChatOffFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["chat","off","fill"],
+  },
   render() {
     return h(
       "svg",

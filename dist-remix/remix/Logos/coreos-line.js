@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CoreosLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["coreos","line"],
+  $_icon: {
+    name: "CoreosLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["coreos","line"],
+  },
   render() {
     return h(
       "svg",

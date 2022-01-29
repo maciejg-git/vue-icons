@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SlidersHorizontalBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["sliders","horizontal","bold"],
+  $_icon: {
+    name: "SlidersHorizontalBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["sliders","horizontal","bold"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChartBarHorizontalDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["chart","bar","horizontal","duotone"],
+  $_icon: {
+    name: "ChartBarHorizontalDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["chart","bar","horizontal","duotone"],
+  },
   render() {
     return h(
       "svg",

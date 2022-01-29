@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlurOffLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["blur","off","line"],
+  $_icon: {
+    name: "BlurOffLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["blur","off","line"],
+  },
   render() {
     return h(
       "svg",

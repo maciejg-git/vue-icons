@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutGridFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["layout","grid","fill"],
+  $_icon: {
+    name: "LayoutGridFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["layout","grid","fill"],
+  },
   render() {
     return h(
       "svg",

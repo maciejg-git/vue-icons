@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GitPullRequestLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["git","pull","request","line"],
+  $_icon: {
+    name: "GitPullRequestLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["git","pull","request","line"],
+  },
   render() {
     return h(
       "svg",

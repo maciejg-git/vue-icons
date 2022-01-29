@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ShareForwardBoxLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["share","forward","box","line"],
+  $_icon: {
+    name: "ShareForwardBoxLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["share","forward","box","line"],
+  },
   render() {
     return h(
       "svg",

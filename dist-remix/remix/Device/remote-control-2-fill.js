@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RemoteControl2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["remote","control","2","fill"],
+  $_icon: {
+    name: "RemoteControl2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["remote","control","2","fill"],
+  },
   render() {
     return h(
       "svg",

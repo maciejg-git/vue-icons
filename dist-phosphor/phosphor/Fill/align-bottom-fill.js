@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AlignBottomFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["align","bottom","fill"],
+  $_icon: {
+    name: "AlignBottomFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["align","bottom","fill"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "UDiskLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["u","disk","line"],
+  $_icon: {
+    name: "UDiskLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["u","disk","line"],
+  },
   render() {
     return h(
       "svg",

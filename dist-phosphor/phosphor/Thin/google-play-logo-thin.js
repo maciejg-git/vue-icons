@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GooglePlayLogoThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["google","play","logo","thin"],
+  $_icon: {
+    name: "GooglePlayLogoThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["google","play","logo","thin"],
+  },
   render() {
     return h(
       "svg",

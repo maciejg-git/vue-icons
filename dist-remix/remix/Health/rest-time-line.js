@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RestTimeLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["rest","time","line"],
+  $_icon: {
+    name: "RestTimeLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["rest","time","line"],
+  },
   render() {
     return h(
       "svg",

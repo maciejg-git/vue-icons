@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderSettingsLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["folder","settings","line"],
+  $_icon: {
+    name: "FolderSettingsLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["folder","settings","line"],
+  },
   render() {
     return h(
       "svg",

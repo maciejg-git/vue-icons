@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipBackCircleDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["skip","back","circle","duotone"],
+  $_icon: {
+    name: "SkipBackCircleDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["skip","back","circle","duotone"],
+  },
   render() {
     return h(
       "svg",

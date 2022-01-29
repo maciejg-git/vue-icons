@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PushPinSimpleBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["push","pin","simple","bold"],
+  $_icon: {
+    name: "PushPinSimpleBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["push","pin","simple","bold"],
+  },
   render() {
     return h(
       "svg",

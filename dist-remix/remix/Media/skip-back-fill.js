@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SkipBackFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["skip","back","fill"],
+  $_icon: {
+    name: "SkipBackFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["skip","back","fill"],
+  },
   render() {
     return h(
       "svg",

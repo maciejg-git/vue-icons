@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LogoutBoxLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["logout","box","line"],
+  $_icon: {
+    name: "LogoutBoxLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["logout","box","line"],
+  },
   render() {
     return h(
       "svg",

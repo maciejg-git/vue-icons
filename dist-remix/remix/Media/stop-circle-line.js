@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "StopCircleLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["stop","circle","line"],
+  $_icon: {
+    name: "StopCircleLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["stop","circle","line"],
+  },
   render() {
     return h(
       "svg",

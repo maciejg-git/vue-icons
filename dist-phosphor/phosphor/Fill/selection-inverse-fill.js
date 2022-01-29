@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectionInverseFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["selection","inverse","fill"],
+  $_icon: {
+    name: "SelectionInverseFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["selection","inverse","fill"],
+  },
   render() {
     return h(
       "svg",

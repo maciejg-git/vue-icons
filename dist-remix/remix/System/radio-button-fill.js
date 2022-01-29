@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RadioButtonFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["radio","button","fill"],
+  $_icon: {
+    name: "RadioButtonFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["radio","button","fill"],
+  },
   render() {
     return h(
       "svg",

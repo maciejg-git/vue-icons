@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectionBackgroundBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["selection","background","bold"],
+  $_icon: {
+    name: "SelectionBackgroundBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["selection","background","bold"],
+  },
   render() {
     return h(
       "svg",

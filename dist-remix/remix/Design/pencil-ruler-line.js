@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PencilRulerLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["pencil","ruler","line"],
+  $_icon: {
+    name: "PencilRulerLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["pencil","ruler","line"],
+  },
   render() {
     return h(
       "svg",

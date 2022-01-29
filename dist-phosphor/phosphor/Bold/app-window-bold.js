@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppWindowBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["app","window","bold"],
+  $_icon: {
+    name: "AppWindowBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["app","window","bold"],
+  },
   render() {
     return h(
       "svg",

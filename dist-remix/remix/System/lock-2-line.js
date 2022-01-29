@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Lock2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["lock","2","line"],
+  $_icon: {
+    name: "Lock2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["lock","2","line"],
+  },
   render() {
     return h(
       "svg",

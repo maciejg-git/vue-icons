@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BookmarkSimpleFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["bookmark","simple","fill"],
+  $_icon: {
+    name: "BookmarkSimpleFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["bookmark","simple","fill"],
+  },
   render() {
     return h(
       "svg",

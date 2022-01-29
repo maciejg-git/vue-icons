@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LoginCircleLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["login","circle","line"],
+  $_icon: {
+    name: "LoginCircleLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["login","circle","line"],
+  },
   render() {
     return h(
       "svg",

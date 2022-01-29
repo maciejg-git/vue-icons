@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PinterestLogo",
-  vendor: "Ph",
-  type: "",
-  tags: ["pinterest","logo"],
+  $_icon: {
+    name: "PinterestLogo",
+    vendor: "Ph",
+    type: "",
+    tags: ["pinterest","logo"],
+  },
   render() {
     return h(
       "svg",

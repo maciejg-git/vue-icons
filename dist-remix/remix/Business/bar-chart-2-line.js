@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BarChart2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["bar","chart","2","line"],
+  $_icon: {
+    name: "BarChart2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["bar","chart","2","line"],
+  },
   render() {
     return h(
       "svg",

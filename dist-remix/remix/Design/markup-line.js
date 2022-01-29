@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MarkupLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["markup","line"],
+  $_icon: {
+    name: "MarkupLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["markup","line"],
+  },
   render() {
     return h(
       "svg",

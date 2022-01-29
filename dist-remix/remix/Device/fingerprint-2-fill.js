@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Fingerprint2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["fingerprint","2","fill"],
+  $_icon: {
+    name: "Fingerprint2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["fingerprint","2","fill"],
+  },
   render() {
     return h(
       "svg",

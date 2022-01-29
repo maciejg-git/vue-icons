@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Loader2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["loader","2","line"],
+  $_icon: {
+    name: "Loader2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["loader","2","line"],
+  },
   render() {
     return h(
       "svg",

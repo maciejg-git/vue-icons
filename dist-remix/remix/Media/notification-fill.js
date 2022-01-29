@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NotificationFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["notification","fill"],
+  $_icon: {
+    name: "NotificationFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["notification","fill"],
+  },
   render() {
     return h(
       "svg",

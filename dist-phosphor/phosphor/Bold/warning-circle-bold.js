@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WarningCircleBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["warning","circle","bold"],
+  $_icon: {
+    name: "WarningCircleBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["warning","circle","bold"],
+  },
   render() {
     return h(
       "svg",

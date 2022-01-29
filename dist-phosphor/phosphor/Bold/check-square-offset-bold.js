@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CheckSquareOffsetBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["check","square","offset","bold"],
+  $_icon: {
+    name: "CheckSquareOffsetBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["check","square","offset","bold"],
+  },
   render() {
     return h(
       "svg",

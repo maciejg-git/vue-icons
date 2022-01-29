@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ThermometerSimpleLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["thermometer","simple","light"],
+  $_icon: {
+    name: "ThermometerSimpleLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["thermometer","simple","light"],
+  },
   render() {
     return h(
       "svg",

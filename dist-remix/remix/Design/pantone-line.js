@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PantoneLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["pantone","line"],
+  $_icon: {
+    name: "PantoneLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["pantone","line"],
+  },
   render() {
     return h(
       "svg",

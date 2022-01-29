@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MapPinThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["map","pin","thin"],
+  $_icon: {
+    name: "MapPinThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["map","pin","thin"],
+  },
   render() {
     return h(
       "svg",

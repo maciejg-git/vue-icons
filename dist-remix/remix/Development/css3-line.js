@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Css3Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["css3","line"],
+  $_icon: {
+    name: "Css3Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["css3","line"],
+  },
   render() {
     return h(
       "svg",

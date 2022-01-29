@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RestartLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["restart","line"],
+  $_icon: {
+    name: "RestartLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["restart","line"],
+  },
   render() {
     return h(
       "svg",

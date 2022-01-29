@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FacebookLogoLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["facebook","logo","light"],
+  $_icon: {
+    name: "FacebookLogoLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["facebook","logo","light"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RewindLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["rewind","light"],
+  $_icon: {
+    name: "RewindLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["rewind","light"],
+  },
   render() {
     return h(
       "svg",

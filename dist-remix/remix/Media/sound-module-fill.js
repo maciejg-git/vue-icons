@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SoundModuleFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["sound","module","fill"],
+  $_icon: {
+    name: "SoundModuleFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["sound","module","fill"],
+  },
   render() {
     return h(
       "svg",

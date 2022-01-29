@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "VideoCameraSlashBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["video","camera","slash","bold"],
+  $_icon: {
+    name: "VideoCameraSlashBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["video","camera","slash","bold"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GlobeHemisphereEast",
-  vendor: "Ph",
-  type: "",
-  tags: ["globe","hemisphere","east"],
+  $_icon: {
+    name: "GlobeHemisphereEast",
+    vendor: "Ph",
+    type: "",
+    tags: ["globe","hemisphere","east"],
+  },
   render() {
     return h(
       "svg",

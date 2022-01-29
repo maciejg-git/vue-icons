@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Superscript2",
-  vendor: "Rx",
-  type: "",
-  tags: ["superscript","2"],
+  $_icon: {
+    name: "Superscript2",
+    vendor: "Rx",
+    type: "",
+    tags: ["superscript","2"],
+  },
   render() {
     return h(
       "svg",

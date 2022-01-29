@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CursorBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["cursor","bold"],
+  $_icon: {
+    name: "CursorBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["cursor","bold"],
+  },
   render() {
     return h(
       "svg",

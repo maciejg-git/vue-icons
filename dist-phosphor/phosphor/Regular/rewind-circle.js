@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "RewindCircle",
-  vendor: "Ph",
-  type: "",
-  tags: ["rewind","circle"],
+  $_icon: {
+    name: "RewindCircle",
+    vendor: "Ph",
+    type: "",
+    tags: ["rewind","circle"],
+  },
   render() {
     return h(
       "svg",

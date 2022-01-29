@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "IndeterminateCircleLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["indeterminate","circle","line"],
+  $_icon: {
+    name: "IndeterminateCircleLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["indeterminate","circle","line"],
+  },
   render() {
     return h(
       "svg",

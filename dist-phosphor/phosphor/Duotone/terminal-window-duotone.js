@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TerminalWindowDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["terminal","window","duotone"],
+  $_icon: {
+    name: "TerminalWindowDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["terminal","window","duotone"],
+  },
   render() {
     return h(
       "svg",

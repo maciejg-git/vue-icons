@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextDirectionL",
-  vendor: "Rx",
-  type: "",
-  tags: ["text","direction","l"],
+  $_icon: {
+    name: "TextDirectionL",
+    vendor: "Rx",
+    type: "",
+    tags: ["text","direction","l"],
+  },
   render() {
     return h(
       "svg",

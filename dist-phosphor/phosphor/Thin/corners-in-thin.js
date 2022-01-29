@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CornersInThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["corners","in","thin"],
+  $_icon: {
+    name: "CornersInThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["corners","in","thin"],
+  },
   render() {
     return h(
       "svg",

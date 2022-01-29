@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["window","line"],
+  $_icon: {
+    name: "WindowLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["window","line"],
+  },
   render() {
     return h(
       "svg",

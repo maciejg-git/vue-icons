@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BluetoothFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["bluetooth","fill"],
+  $_icon: {
+    name: "BluetoothFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["bluetooth","fill"],
+  },
   render() {
     return h(
       "svg",

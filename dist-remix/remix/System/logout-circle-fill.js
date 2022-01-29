@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LogoutCircleFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["logout","circle","fill"],
+  $_icon: {
+    name: "LogoutCircleFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["logout","circle","fill"],
+  },
   render() {
     return h(
       "svg",

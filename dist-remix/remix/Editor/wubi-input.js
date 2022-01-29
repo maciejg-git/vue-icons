@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WubiInput",
-  vendor: "Rx",
-  type: "",
-  tags: ["wubi","input"],
+  $_icon: {
+    name: "WubiInput",
+    vendor: "Rx",
+    type: "",
+    tags: ["wubi","input"],
+  },
   render() {
     return h(
       "svg",

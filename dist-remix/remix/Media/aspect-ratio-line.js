@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AspectRatioLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["aspect","ratio","line"],
+  $_icon: {
+    name: "AspectRatioLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["aspect","ratio","line"],
+  },
   render() {
     return h(
       "svg",

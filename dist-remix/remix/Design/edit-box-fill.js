@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "EditBoxFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["edit","box","fill"],
+  $_icon: {
+    name: "EditBoxFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["edit","box","fill"],
+  },
   render() {
     return h(
       "svg",

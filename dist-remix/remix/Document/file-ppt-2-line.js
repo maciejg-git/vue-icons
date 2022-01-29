@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FilePpt2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","ppt","2","line"],
+  $_icon: {
+    name: "FilePpt2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","ppt","2","line"],
+  },
   render() {
     return h(
       "svg",

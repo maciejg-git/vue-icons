@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Wechat2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["wechat","2","line"],
+  $_icon: {
+    name: "Wechat2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["wechat","2","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SnapchatLogoLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["snapchat","logo","light"],
+  $_icon: {
+    name: "SnapchatLogoLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["snapchat","logo","light"],
+  },
   render() {
     return h(
       "svg",

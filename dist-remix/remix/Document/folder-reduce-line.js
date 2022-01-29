@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderReduceLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["folder","reduce","line"],
+  $_icon: {
+    name: "FolderReduceLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["folder","reduce","line"],
+  },
   render() {
     return h(
       "svg",

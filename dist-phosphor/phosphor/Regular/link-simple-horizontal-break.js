@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LinkSimpleHorizontalBreak",
-  vendor: "Ph",
-  type: "",
-  tags: ["link","simple","horizontal","break"],
+  $_icon: {
+    name: "LinkSimpleHorizontalBreak",
+    vendor: "Ph",
+    type: "",
+    tags: ["link","simple","horizontal","break"],
+  },
   render() {
     return h(
       "svg",

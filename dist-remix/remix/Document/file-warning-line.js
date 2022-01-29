@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileWarningLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","warning","line"],
+  $_icon: {
+    name: "FileWarningLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","warning","line"],
+  },
   render() {
     return h(
       "svg",

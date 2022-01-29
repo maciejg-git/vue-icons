@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PlaceholderFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["placeholder","fill"],
+  $_icon: {
+    name: "PlaceholderFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["placeholder","fill"],
+  },
   render() {
     return h(
       "svg",

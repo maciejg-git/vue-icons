@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ProhibitInsetLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["prohibit","inset","light"],
+  $_icon: {
+    name: "ProhibitInsetLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["prohibit","inset","light"],
+  },
   render() {
     return h(
       "svg",

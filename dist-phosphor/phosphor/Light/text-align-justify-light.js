@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TextAlignJustifyLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["text","align","justify","light"],
+  $_icon: {
+    name: "TextAlignJustifyLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["text","align","justify","light"],
+  },
   render() {
     return h(
       "svg",

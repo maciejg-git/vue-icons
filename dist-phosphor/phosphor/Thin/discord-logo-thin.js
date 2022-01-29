@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DiscordLogoThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["discord","logo","thin"],
+  $_icon: {
+    name: "DiscordLogoThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["discord","logo","thin"],
+  },
   render() {
     return h(
       "svg",

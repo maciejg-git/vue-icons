@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "HexagonFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["hexagon","fill"],
+  $_icon: {
+    name: "HexagonFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["hexagon","fill"],
+  },
   render() {
     return h(
       "svg",

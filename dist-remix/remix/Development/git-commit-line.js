@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GitCommitLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["git","commit","line"],
+  $_icon: {
+    name: "GitCommitLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["git","commit","line"],
+  },
   render() {
     return h(
       "svg",

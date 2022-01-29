@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Radio2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["radio","2","fill"],
+  $_icon: {
+    name: "Radio2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["radio","2","fill"],
+  },
   render() {
     return h(
       "svg",

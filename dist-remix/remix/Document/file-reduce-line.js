@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileReduceLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","reduce","line"],
+  $_icon: {
+    name: "FileReduceLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","reduce","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WeiboLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["weibo","line"],
+  $_icon: {
+    name: "WeiboLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["weibo","line"],
+  },
   render() {
     return h(
       "svg",

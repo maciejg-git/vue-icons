@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SdCardMiniFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["sd","card","mini","fill"],
+  $_icon: {
+    name: "SdCardMiniFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["sd","card","mini","fill"],
+  },
   render() {
     return h(
       "svg",

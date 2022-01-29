@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileShredFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","shred","fill"],
+  $_icon: {
+    name: "FileShredFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","shred","fill"],
+  },
   render() {
     return h(
       "svg",

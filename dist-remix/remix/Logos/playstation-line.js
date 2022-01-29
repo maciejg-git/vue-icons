@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PlaystationLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["playstation","line"],
+  $_icon: {
+    name: "PlaystationLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["playstation","line"],
+  },
   render() {
     return h(
       "svg",

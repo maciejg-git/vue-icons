@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AngularjsLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["angularjs","line"],
+  $_icon: {
+    name: "AngularjsLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["angularjs","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CpuLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["cpu","line"],
+  $_icon: {
+    name: "CpuLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["cpu","line"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "BlurOffFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["blur","off","fill"],
+  $_icon: {
+    name: "BlurOffFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["blur","off","fill"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ContrastDrop2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["contrast","drop","2","fill"],
+  $_icon: {
+    name: "ContrastDrop2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["contrast","drop","2","fill"],
+  },
   render() {
     return h(
       "svg",

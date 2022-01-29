@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MagnifyingGlassPlusLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["magnifying","glass","plus","light"],
+  $_icon: {
+    name: "MagnifyingGlassPlusLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["magnifying","glass","plus","light"],
+  },
   render() {
     return h(
       "svg",

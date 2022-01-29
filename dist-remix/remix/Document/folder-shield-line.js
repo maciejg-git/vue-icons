@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderShieldLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["folder","shield","line"],
+  $_icon: {
+    name: "FolderShieldLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["folder","shield","line"],
+  },
   render() {
     return h(
       "svg",

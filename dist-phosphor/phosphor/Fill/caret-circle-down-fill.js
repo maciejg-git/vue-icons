@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CaretCircleDownFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["caret","circle","down","fill"],
+  $_icon: {
+    name: "CaretCircleDownFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["caret","circle","down","fill"],
+  },
   render() {
     return h(
       "svg",

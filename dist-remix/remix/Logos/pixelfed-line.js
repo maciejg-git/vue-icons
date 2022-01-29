@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PixelfedLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["pixelfed","line"],
+  $_icon: {
+    name: "PixelfedLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["pixelfed","line"],
+  },
   render() {
     return h(
       "svg",

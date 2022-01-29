@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GradienterLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["gradienter","line"],
+  $_icon: {
+    name: "GradienterLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["gradienter","line"],
+  },
   render() {
     return h(
       "svg",

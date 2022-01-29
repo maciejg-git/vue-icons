@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FullscreenExitLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["fullscreen","exit","line"],
+  $_icon: {
+    name: "FullscreenExitLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["fullscreen","exit","line"],
+  },
   render() {
     return h(
       "svg",

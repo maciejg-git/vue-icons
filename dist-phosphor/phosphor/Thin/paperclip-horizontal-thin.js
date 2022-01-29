@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PaperclipHorizontalThin",
-  vendor: "Ph",
-  type: "",
-  tags: ["paperclip","horizontal","thin"],
+  $_icon: {
+    name: "PaperclipHorizontalThin",
+    vendor: "Ph",
+    type: "",
+    tags: ["paperclip","horizontal","thin"],
+  },
   render() {
     return h(
       "svg",

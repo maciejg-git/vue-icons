@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InputMethodFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["input","method","fill"],
+  $_icon: {
+    name: "InputMethodFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["input","method","fill"],
+  },
   render() {
     return h(
       "svg",

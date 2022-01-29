@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DeviceTabletSpeakerFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["device","tablet","speaker","fill"],
+  $_icon: {
+    name: "DeviceTabletSpeakerFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["device","tablet","speaker","fill"],
+  },
   render() {
     return h(
       "svg",

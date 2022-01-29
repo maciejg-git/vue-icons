@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileEditLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","edit","line"],
+  $_icon: {
+    name: "FileEditLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","edit","line"],
+  },
   render() {
     return h(
       "svg",

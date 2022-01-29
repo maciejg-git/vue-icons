@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InboxUnarchiveLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["inbox","unarchive","line"],
+  $_icon: {
+    name: "InboxUnarchiveLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["inbox","unarchive","line"],
+  },
   render() {
     return h(
       "svg",

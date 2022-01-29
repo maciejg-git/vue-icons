@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileExcel2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","excel","2","line"],
+  $_icon: {
+    name: "FileExcel2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","excel","2","line"],
+  },
   render() {
     return h(
       "svg",

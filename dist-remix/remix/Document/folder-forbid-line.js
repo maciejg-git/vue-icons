@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FolderForbidLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["folder","forbid","line"],
+  $_icon: {
+    name: "FolderForbidLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["folder","forbid","line"],
+  },
   render() {
     return h(
       "svg",

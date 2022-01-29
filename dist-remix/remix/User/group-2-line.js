@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "Group2Line",
-  vendor: "Rx",
-  type: "",
-  tags: ["group","2","line"],
+  $_icon: {
+    name: "Group2Line",
+    vendor: "Rx",
+    type: "",
+    tags: ["group","2","line"],
+  },
   render() {
     return h(
       "svg",

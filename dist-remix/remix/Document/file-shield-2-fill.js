@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "FileShield2Fill",
-  vendor: "Rx",
-  type: "",
-  tags: ["file","shield","2","fill"],
+  $_icon: {
+    name: "FileShield2Fill",
+    vendor: "Rx",
+    type: "",
+    tags: ["file","shield","2","fill"],
+  },
   render() {
     return h(
       "svg",

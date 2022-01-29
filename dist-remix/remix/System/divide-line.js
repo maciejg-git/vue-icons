@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "DivideLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["divide","line"],
+  $_icon: {
+    name: "DivideLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["divide","line"],
+  },
   render() {
     return h(
       "svg",

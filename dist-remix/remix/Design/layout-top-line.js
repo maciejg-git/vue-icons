@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "LayoutTopLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["layout","top","line"],
+  $_icon: {
+    name: "LayoutTopLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["layout","top","line"],
+  },
   render() {
     return h(
       "svg",

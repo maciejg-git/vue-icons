@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WindowsLogoFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["windows","logo","fill"],
+  $_icon: {
+    name: "WindowsLogoFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["windows","logo","fill"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "HourglassHighFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["hourglass","high","fill"],
+  $_icon: {
+    name: "HourglassHighFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["hourglass","high","fill"],
+  },
   render() {
     return h(
       "svg",

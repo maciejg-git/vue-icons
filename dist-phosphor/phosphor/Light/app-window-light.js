@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppWindowLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["app","window","light"],
+  $_icon: {
+    name: "AppWindowLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["app","window","light"],
+  },
   render() {
     return h(
       "svg",

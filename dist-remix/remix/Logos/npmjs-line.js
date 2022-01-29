@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "NpmjsLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["npmjs","line"],
+  $_icon: {
+    name: "NpmjsLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["npmjs","line"],
+  },
   render() {
     return h(
       "svg",

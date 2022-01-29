@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "TwitchLogoBold",
-  vendor: "Ph",
-  type: "",
-  tags: ["twitch","logo","bold"],
+  $_icon: {
+    name: "TwitchLogoBold",
+    vendor: "Ph",
+    type: "",
+    tags: ["twitch","logo","bold"],
+  },
   render() {
     return h(
       "svg",

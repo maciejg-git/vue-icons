@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CellSignalHighLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["cell","signal","high","light"],
+  $_icon: {
+    name: "CellSignalHighLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["cell","signal","high","light"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "HotspotLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["hotspot","line"],
+  $_icon: {
+    name: "HotspotLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["hotspot","line"],
+  },
   render() {
     return h(
       "svg",

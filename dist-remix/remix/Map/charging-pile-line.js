@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ChargingPileLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["charging","pile","line"],
+  $_icon: {
+    name: "ChargingPileLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["charging","pile","line"],
+  },
   render() {
     return h(
       "svg",

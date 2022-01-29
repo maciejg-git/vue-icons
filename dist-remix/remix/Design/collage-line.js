@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CollageLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["collage","line"],
+  $_icon: {
+    name: "CollageLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["collage","line"],
+  },
   render() {
     return h(
       "svg",

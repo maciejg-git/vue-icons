@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "ProjectorScreenChartFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["projector","screen","chart","fill"],
+  $_icon: {
+    name: "ProjectorScreenChartFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["projector","screen","chart","fill"],
+  },
   render() {
     return h(
       "svg",

@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AngularjsFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["angularjs","fill"],
+  $_icon: {
+    name: "AngularjsFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["angularjs","fill"],
+  },
   render() {
     return h(
       "svg",

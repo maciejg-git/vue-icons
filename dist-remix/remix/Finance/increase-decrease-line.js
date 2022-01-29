@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "IncreaseDecreaseLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["increase","decrease","line"],
+  $_icon: {
+    name: "IncreaseDecreaseLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["increase","decrease","line"],
+  },
   render() {
     return h(
       "svg",

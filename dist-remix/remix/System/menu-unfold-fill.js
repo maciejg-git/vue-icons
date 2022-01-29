@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "MenuUnfoldFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["menu","unfold","fill"],
+  $_icon: {
+    name: "MenuUnfoldFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["menu","unfold","fill"],
+  },
   render() {
     return h(
       "svg",

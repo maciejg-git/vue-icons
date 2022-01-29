@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "WhatsappLogoDuotone",
-  vendor: "Ph",
-  type: "",
-  tags: ["whatsapp","logo","duotone"],
+  $_icon: {
+    name: "WhatsappLogoDuotone",
+    vendor: "Ph",
+    type: "",
+    tags: ["whatsapp","logo","duotone"],
+  },
   render() {
     return h(
       "svg",

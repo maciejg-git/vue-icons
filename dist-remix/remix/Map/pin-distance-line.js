@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "PinDistanceLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["pin","distance","line"],
+  $_icon: {
+    name: "PinDistanceLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["pin","distance","line"],
+  },
   render() {
     return h(
       "svg",

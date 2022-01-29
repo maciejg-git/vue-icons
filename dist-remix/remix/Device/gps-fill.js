@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "GpsFill",
-  vendor: "Rx",
-  type: "",
-  tags: ["gps","fill"],
+  $_icon: {
+    name: "GpsFill",
+    vendor: "Rx",
+    type: "",
+    tags: ["gps","fill"],
+  },
   render() {
     return h(
       "svg",

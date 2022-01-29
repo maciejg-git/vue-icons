@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SplitCellsVertical",
-  vendor: "Rx",
-  type: "",
-  tags: ["split","cells","vertical"],
+  $_icon: {
+    name: "SplitCellsVertical",
+    vendor: "Rx",
+    type: "",
+    tags: ["split","cells","vertical"],
+  },
   render() {
     return h(
       "svg",

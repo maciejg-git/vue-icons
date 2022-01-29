@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "InputMethodLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["input","method","line"],
+  $_icon: {
+    name: "InputMethodLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["input","method","line"],
+  },
   render() {
     return h(
       "svg",

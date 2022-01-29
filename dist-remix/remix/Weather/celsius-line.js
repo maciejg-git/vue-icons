@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "CelsiusLine",
-  vendor: "Rx",
-  type: "",
-  tags: ["celsius","line"],
+  $_icon: {
+    name: "CelsiusLine",
+    vendor: "Rx",
+    type: "",
+    tags: ["celsius","line"],
+  },
   render() {
     return h(
       "svg",

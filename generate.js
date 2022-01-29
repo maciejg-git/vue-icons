@@ -59,10 +59,12 @@ let createRenderFunction = (attrs) => {
 const createJsFile = (framework, icon, suffix, renderFunction, tags) => {
   return `import { h } from 'vue'
 export default {
-  name: "${icon}",
-  vendor: "${toPascalCase(options[framework].prefix)}",
-  type: "${suffix}",
-  tags: ${JSON.stringify(tags)},
+  $_icon: {
+    name: "${icon}",
+    vendor: "${toPascalCase(options[framework].prefix)}",
+    type: "${suffix}",
+    tags: ${JSON.stringify(tags)},
+  },
   ${renderFunction}
 }`;
 };

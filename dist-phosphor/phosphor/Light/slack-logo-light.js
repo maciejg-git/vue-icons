@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SlackLogoLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["slack","logo","light"],
+  $_icon: {
+    name: "SlackLogoLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["slack","logo","light"],
+  },
   render() {
     return h(
       "svg",

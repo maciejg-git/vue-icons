@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "SelectionBackgroundFill",
-  vendor: "Ph",
-  type: "",
-  tags: ["selection","background","fill"],
+  $_icon: {
+    name: "SelectionBackgroundFill",
+    vendor: "Ph",
+    type: "",
+    tags: ["selection","background","fill"],
+  },
   render() {
     return h(
       "svg",

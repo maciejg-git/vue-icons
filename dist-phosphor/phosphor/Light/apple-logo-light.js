@@ -1,9 +1,11 @@
 import { h } from 'vue'
 export default {
-  name: "AppleLogoLight",
-  vendor: "Ph",
-  type: "",
-  tags: ["apple","logo","light"],
+  $_icon: {
+    name: "AppleLogoLight",
+    vendor: "Ph",
+    type: "",
+    tags: ["apple","logo","light"],
+  },
   render() {
     return h(
       "svg",
