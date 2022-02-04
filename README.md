@@ -159,13 +159,16 @@ Each icon have one base [vendor prefix]-[icon name] class added by default. You 
 }
 ```
 
-### Licence
+### ICONS
 
 **Fontawesome**  
+[https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)  
 Icons — CC BY 4.0 License
 
 **Bootstrap Icons**  
+[https://github.com/twbs/icons](https://github.com/twbs/icons)  
 MIT
 
 **Material Design Icons**  
+[https://github.com/google/material-design-icons](https://github.com/google/material-design-icons)  
 Apache License Version 2.0
