@@ -161,7 +161,7 @@ Each icon have one base [vendor prefix]-[icon name] class added by default. You 
 
 ### ICONS
 
-**Fontawesome**  
+**Font Awesome**  
 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)  
 Icons — CC BY 4.0 License
 
