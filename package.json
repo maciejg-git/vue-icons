@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "commander": "^9.0.0",
     "fast-xml-parser": "^3.20.0",
     "sharp": "^0.29.1",
     "xml2js": "^0.4.23"

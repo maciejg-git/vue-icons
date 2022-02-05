@@ -1,5 +1,8 @@
 const fs = require("fs");
 const path = require("path");
+const { program } = require("commander");
+
+let frameworksAll = ["bootstrap", "mdi", "fontawesome", "phosphor", "remix"];
 
 const options = {
   bootstrap: {
@@ -43,6 +46,23 @@ const options = {
     prefix: "test",
   },
 };
+
+program
+  .name("generate")
+  .usage("[options] vendors")
+  .addHelpText(
+    "after",
+    `
+
+available vendors: bootstrap mdi fontawesome phosphor remix
+`
+  );
+
+program.parse();
+
+let frameworks = program.args[0] === "all" ? frameworksAll : program.args;
+
+frameworks = frameworks.filter((f) => frameworksAll.includes(f));
 
 const toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
 const toPascalCase = (s) => toCamelCase(s.charAt(0).toUpperCase() + s.slice(1));
@@ -149,58 +169,70 @@ const getFiles = (directory) => {
 };
 
 const prepareDist = () => {
-  let remixSub = [
-    "Buildings",
-    "Business",
-    "Communication",
-    "Design",
-    "Development",
-    "Device",
-    "Document",
-    "Editor",
-    "Finance",
-    "Health",
-    "Logos",
-    "Map",
-    "Media",
-    "Others",
-    "System",
-    "User",
-    "Weather",
-  ];
-
-  fs.rmdirSync("dist-bootstrap/", { recursive: true });
-  fs.rmdirSync("dist-mdi/", { recursive: true });
-  fs.rmdirSync("dist-fontawesome/", { recursive: true });
-  fs.rmdirSync("dist-phosphor/", { recursive: true });
-  fs.rmdirSync("dist-remix/", { recursive: true });
-
-  fs.mkdirSync("dist-bootstrap/bootstrap/", { recursive: true });
-  fs.mkdirSync("dist-mdi/mdi/", { recursive: true });
-  fs.mkdirSync("dist-fontawesome/fontawesome/", { recursive: true });
-  fs.mkdirSync("dist-fontawesome/fontawesome/brands");
-  fs.mkdirSync("dist-fontawesome/fontawesome/regular");
-  fs.mkdirSync("dist-fontawesome/fontawesome/solid");
-  fs.mkdirSync("dist-phosphor/phosphor/", { recursive: true });
-  fs.mkdirSync("dist-phosphor/phosphor/Bold");
-  fs.mkdirSync("dist-phosphor/phosphor/Duotone");
-  fs.mkdirSync("dist-phosphor/phosphor/Fill");
-  fs.mkdirSync("dist-phosphor/phosphor/Light");
-  fs.mkdirSync("dist-phosphor/phosphor/Regular");
-  fs.mkdirSync("dist-phosphor/phosphor/Thin");
-  fs.mkdirSync("dist-remix/remix/", { recursive: true });
-  remixSub.forEach((i) => {
-    fs.mkdirSync("dist-remix/remix/" + i);
+  frameworks.forEach((f) => {
+    fs.rmdirSync(`dist-${f}/`, { recursive: true });
   });
+
+  if (frameworks.includes("bootstrap")) {
+    fs.mkdirSync("dist-bootstrap/bootstrap/", { recursive: true });
+  }
+
+  if (frameworks.includes("mdi")) {
+    fs.mkdirSync("dist-mdi/mdi/", { recursive: true });
+  }
+
+  if (frameworks.includes("fontawesome")) {
+    fs.mkdirSync("dist-fontawesome/fontawesome/", { recursive: true });
+    fs.mkdirSync("dist-fontawesome/fontawesome/brands");
+    fs.mkdirSync("dist-fontawesome/fontawesome/regular");
+    fs.mkdirSync("dist-fontawesome/fontawesome/solid");
+  }
+
+  if (frameworks.includes("phosphor")) {
+    fs.mkdirSync("dist-phosphor/phosphor/", { recursive: true });
+    fs.mkdirSync("dist-phosphor/phosphor/Bold");
+    fs.mkdirSync("dist-phosphor/phosphor/Duotone");
+    fs.mkdirSync("dist-phosphor/phosphor/Fill");
+    fs.mkdirSync("dist-phosphor/phosphor/Light");
+    fs.mkdirSync("dist-phosphor/phosphor/Regular");
+    fs.mkdirSync("dist-phosphor/phosphor/Thin");
+  }
+
+  if (frameworks.includes("remix")) {
+    let remixSub = [
+      "Buildings",
+      "Business",
+      "Communication",
+      "Design",
+      "Development",
+      "Device",
+      "Document",
+      "Editor",
+      "Finance",
+      "Health",
+      "Logos",
+      "Map",
+      "Media",
+      "Others",
+      "System",
+      "User",
+      "Weather",
+    ];
+
+    fs.mkdirSync("dist-remix/remix/", { recursive: true });
+    remixSub.forEach((i) => {
+      fs.mkdirSync("dist-remix/remix/" + i);
+    });
+  }
 };
 
-let postDist = (dist, framework, index) => {
+let finalizeDist = (dist, framework, index) => {
   fs.writeFileSync(path.join(dist, "index.js"), index);
   fs.copyFileSync(
     path.join("package", "package-" + framework + ".json"),
     path.join(dist, "package.json")
   );
-}
+};
 
 const createComponents = (framework) => {
   const source = path.join("icons", framework);
@@ -226,7 +258,7 @@ const createComponents = (framework) => {
     const pascalIcon = toPascalCase(icon);
     const filename = icon + suffix + ".js";
 
-    const tags = icon.split("-")
+    const tags = icon.split("-");
 
     const content = fs.readFileSync(path.join(source, sub, file), {
       encoding: "utf-8",
@@ -241,7 +273,7 @@ const createComponents = (framework) => {
       pascalIcon,
       suffixPascal,
       renderFunction,
-      tags,
+      tags
     );
 
     index += `export { default as ${toPascalCase(options[framework].prefix)}${
@@ -253,15 +285,11 @@ const createComponents = (framework) => {
     count++;
   });
 
-  postDist(dist, framework, index)
+  finalizeDist(dist, framework, index);
 
   console.log(`${framework} done (${count} icons)`);
 };
 
 prepareDist();
 
-// createComponents("test");
-
-let frameworks = ["bootstrap", "mdi", "fontawesome", "phosphor", "remix"];
-// let frameworks = ["bootstrap"];
 frameworks.forEach((f) => createComponents(f));
