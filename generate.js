@@ -9,16 +9,19 @@ const options = {
     class: "v-icon",
     fill: "currentColor",
     prefix: "b",
+    dir: "icons",
   },
   mdi: {
     class: "v-icon",
     fill: "currentColor",
     prefix: "mdi",
+    dir: "svg",
   },
   fontawesome: {
     class: "v-icon",
     fill: "currentColor",
     prefix: "fa",
+    dir: "svgs",
     suffix: {
       brands: "-brand",
       regular: "",
@@ -226,26 +229,28 @@ const prepareDist = () => {
   }
 };
 
-let finalizeDist = (dist, framework, index) => {
+let finalizeDist = (dist, framework, index, tags) => {
   fs.writeFileSync(path.join(dist, "index.js"), index);
   fs.copyFileSync(
     path.join("package", "package-" + framework + ".json"),
     path.join(dist, "package.json")
   );
+  fs.writeFileSync(path.join(dist, "tags.json"), JSON.stringify(tags, null, 1))
 };
 
 const createComponents = (framework) => {
-  const source = path.join("icons", framework);
+  const source = path.join("icons", framework, options[framework].dir);
   const dist = "dist-" + framework;
 
   const files = getFiles(source);
 
   let index = "";
   let count = 0;
+  let tagsJSON = {};
 
   files.forEach((i) => {
     const file = i[i.length - 1];
-    const sub = i.length > 3 ? i[i.length - 2] : "";
+    const sub = i.length > 4 ? i[i.length - 2] : "";
 
     const suffix = options[framework].suffix
       ? options[framework].suffix[sub]
@@ -276,16 +281,20 @@ const createComponents = (framework) => {
       tags
     );
 
-    index += `export { default as ${toPascalCase(options[framework].prefix)}${
+    let iconName = `${toPascalCase(options[framework].prefix)}${
       pascalIcon + suffixPascal
-    } } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
+    }`
+
+    index += `export { default as ${iconName} } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
+
+    tagsJSON[iconName] = [];
 
     fs.writeFileSync(path.join(dist, framework, sub, filename), fileJs);
 
     count++;
   });
 
-  finalizeDist(dist, framework, index);
+  finalizeDist(dist, framework, index, tagsJSON);
 
   console.log(`${framework} done (${count} icons)`);
 };
