@@ -24,12 +24,12 @@ const options = {
     dir: "svgs",
     suffix: {
       brands: "-brand",
-      regular: "",
+      regular: "-regular",
       solid: "-solid",
     },
     suffixPascal: {
       brands: "Brand",
-      regular: "",
+      regular: "Regular",
       solid: "Solid",
     },
   },
