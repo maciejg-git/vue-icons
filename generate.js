@@ -96,7 +96,7 @@ let svgTagRx = /<svg ([\s\S]*?)>/m;
 let svgInnerRx = /<svg.*?>([\s\S]*?)<\/svg>/m;
 let svgCommentsRx = /<!--.*?-->/m;
 
-let attrsList = ["id", "xmlns:xlink", "version"];
+let attrsList = ["id", "class", "xmlns:xlink", "version"];
 
 let removeComments = (str) => {
   return str.replace(svgCommentsRx, "");
@@ -115,7 +115,7 @@ let parseAttrs = (svgTag) => {
 };
 
 let normalizeAttrs = (attrs, icon, framework) => {
-  attrs.class = options[framework].class;
+  // attrs.class = options[framework].class;
   attrs.fill = options[framework].fill;
   attrs["data-name"] = `${options[framework].prefix}-${icon}`;
   attrsList.forEach((attr) => {
