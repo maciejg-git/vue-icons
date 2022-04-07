@@ -6,19 +6,19 @@ let frameworksAll = ["bootstrap", "mdi", "fontawesome", "phosphor", "remix"];
 
 const options = {
   bootstrap: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "b",
     dir: "icons",
   },
   mdi: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "mdi",
     dir: "svg",
   },
   fontawesome: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "fa",
     dir: "svgs",
@@ -34,17 +34,17 @@ const options = {
     },
   },
   phosphor: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "ph",
   },
   remix: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "rx",
   },
   test: {
-    class: "v-icon",
+    class: "",
     fill: "currentColor",
     prefix: "test",
   },
@@ -173,7 +173,8 @@ const getFiles = (directory) => {
 
 const prepareDist = () => {
   frameworks.forEach((f) => {
-    fs.rmdirSync(`dist-${f}/`, { recursive: true });
+    fs.rmdirSync(`dist-${f}/${f}`, { recursive: true });
+    fs.rmSync(`dist-${f}/index.js`);
   });
 
   if (frameworks.includes("bootstrap")) {
@@ -229,13 +230,8 @@ const prepareDist = () => {
   }
 };
 
-let finalizeDist = (dist, framework, index, tags) => {
+let finalizeDist = (dist, index) => {
   fs.writeFileSync(path.join(dist, "index.js"), index);
-  fs.copyFileSync(
-    path.join("package", "package-" + framework + ".json"),
-    path.join(dist, "package.json")
-  );
-  fs.writeFileSync(path.join(dist, "tags.json"), JSON.stringify(tags, null, 1))
 };
 
 const createComponents = (framework) => {
@@ -246,7 +242,6 @@ const createComponents = (framework) => {
 
   let index = "";
   let count = 0;
-  let tagsJSON = {};
 
   files.forEach((i) => {
     const file = i[i.length - 1];
@@ -287,14 +282,12 @@ const createComponents = (framework) => {
 
     index += `export { default as ${iconName} } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
 
-    tagsJSON[iconName] = [];
-
     fs.writeFileSync(path.join(dist, framework, sub, filename), fileJs);
 
     count++;
   });
 
-  finalizeDist(dist, framework, index, tagsJSON);
+  finalizeDist(dist, framework, index);
 
   console.log(`${framework} done (${count} icons)`);
 };
