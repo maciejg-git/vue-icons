@@ -287,7 +287,7 @@ const createComponents = (framework) => {
     count++;
   });
 
-  finalizeDist(dist, framework, index);
+  finalizeDist(dist, index);
 
   console.log(`${framework} done (${count} icons)`);
 };
