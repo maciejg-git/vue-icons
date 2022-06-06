@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { program } = require("commander");
 
+// options
 let frameworksAll = ["bootstrap", "mdi", "fontawesome", "phosphor", "remix"];
 
 const options = {
@@ -50,6 +51,11 @@ const options = {
   },
 };
 
+// tools
+const toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
+const toPascalCase = (s) => toCamelCase(s.charAt(0).toUpperCase() + s.slice(1));
+
+// show help message
 program
   .name("generate")
   .usage("[options] vendors")
@@ -63,12 +69,9 @@ available vendors: bootstrap mdi fontawesome phosphor remix
 
 program.parse();
 
+// array of frameworks names for which components are generated
 let frameworks = program.args[0] === "all" ? frameworksAll : program.args;
-
 frameworks = frameworks.filter((f) => frameworksAll.includes(f));
-
-const toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
-const toPascalCase = (s) => toCamelCase(s.charAt(0).toUpperCase() + s.slice(1));
 
 let createRenderFunction = (attrs) => {
   return `render() {
