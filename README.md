@@ -4,18 +4,12 @@
 
 ## Usage
 
-**[Option 1]** import registerIcon
+**[Option 1]** import and register chosen icons globally in main.js
 
 ```js
 // main.js
 
 import { registerIcon } from "vue-bootstrap-icons"
-```
-
-Import and register chosen icons globally in main.js
-
-```js
-// main.js
 
 import { 
   BTriangleFill,
@@ -32,7 +26,7 @@ registerIcon(app, [
 ])
 ```
 
-Note: **registerIcon** is optional. It is just app.component function with some added functionality. You can register icons directly using app.component(icon). 
+**Note**: **registerIcon** is optional. It is just runs app.component for every icon with some added functionality. You can register icons directly using app.component(icon). 
 
 **[Option 2]** or import and register icons locally in component
 
@@ -46,7 +40,7 @@ import { BTriangleFill } from "vue-bootstrap-icons"
 components: { BTriangleFill }
 ```
 
-**[Option 3]** or use webpack/vite automatic import and registration of components
+**[Option 3]** or use webpack/vite import of components from file system
 
 ```js
 // main.js (vite)
@@ -54,12 +48,12 @@ components: { BTriangleFill }
 const modules = import.meta.globEager('./[app icon directory]/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
-  let icon = definition.default.name + "Icon"
+  let icon = definition.default.vendor + definition.default.name
   app.component(icon, definition.default)
 })
 ```
 
-Copy any icons to [app icon directory] and use them in all components. Vite will update available icons if directory content changes.
+You can copy to or delete icons in [app icon directory]. Vite will import and register icons globally every time directory content changes.
 
 For webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
@@ -67,7 +61,7 @@ For webpack see examples in Vue documentation
 
 ## Using icons in templates
 
-**[Option 1]** use **Icon** component to display icons in templates. Import it and register globally
+**[Option 1]** use **Icon** component to display icons in templates.
 
 ```js
 // main.js
@@ -98,7 +92,7 @@ and use it in template
 
 ## Naming
 
-The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function as in example below.
+The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function.
 
 ```js
 // main.js
@@ -123,40 +117,6 @@ registerIcon(app, [
 // <TriangleFillIcon />
 // <TripicalStormIcon />
 // <BookFillIcon />
-```
-
-glob import also supports customizing icon names 
-
-```js
-// main.js (vite)
-
-const modules = import.meta.globEager('./[project icon directory]/*.js')
-
-Object.entries(modules).forEach(([path, definition]) => {
-  let icon = definition.default.vendor + definition.default.name + "Icon"
-  app.component(icon, definition.default)
-})
-```
-
-## Styling
-
-Each icon have one base [vendor prefix]-[icon name] class added by default. You can add more by simply adding classes to icon component. Use color property to set icon color and width/height to set size. To make icons from all vendors the same size use this css.
-
-```css
-.b-icon {
-  height: 1em;
-  width: 1em;
-}
-
-.mdi-icon {
-  height: 1em;
-  width: 1em;
-}
-
-.fa-icon {
-  height: 1em;
-  width: 1em;
-}
 ```
 
 ### ICONS
