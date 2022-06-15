@@ -26,7 +26,7 @@ registerIcon(app, [
 ])
 ```
 
-**Note**: **registerIcon** is optional. It is just runs app.component for every icon with some added functionality. You can register icons directly using app.component(icon). 
+**Note**: **registerIcon** is optional. It just runs app.component for every icon with some added functionality. You can register icons directly using app.component(icon). 
 
 **[Option 2]** or import and register icons locally in component
 
