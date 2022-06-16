@@ -42,7 +42,7 @@ import { BTriangleFill } from "vue-bootstrap-icons"
 components: { BTriangleFill }
 ```
 
-**[Option 3]** or use webpack/vite import of components from file system (recommendated)
+**[Option 3]** or use webpack/vite import of components from file system (recommended)
 
 ```js
 // main.js (vite)
@@ -56,7 +56,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 ```
 
 To make icon available copy or download js file of the icon to [app icon directory]. Vite will import and register icons globally every time directory content changes.
-You can download icon components from [Vue-icon-browser](https://vue-icon-browser.netlify.app/)
+You can download icon components from [Icon browser](https://vue-icon-browser.netlify.app/)
 
 For webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
