@@ -2,6 +2,8 @@
 
 [Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons and Font Awesome icons converted to unified, self contained Vue 3 components. 
 
+Check [Icon browser using this repo](https://vue-icon-browser.netlify.app/) for examples and available icons.
+
 ## Usage
 
 **[Option 1]** import and register chosen icons globally in main.js
@@ -40,7 +42,7 @@ import { BTriangleFill } from "vue-bootstrap-icons"
 components: { BTriangleFill }
 ```
 
-**[Option 3]** or use webpack/vite import of components from file system
+**[Option 3]** or use webpack/vite import of components from file system (recommendated)
 
 ```js
 // main.js (vite)
@@ -53,7 +55,8 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-You can copy to or delete icons in [app icon directory]. Vite will import and register icons globally every time directory content changes.
+To make icon available copy or download js file of the icon to [app icon directory]. Vite will import and register icons globally every time directory content changes.
+You can download icon components from [Vue-icon-browser](https://vue-icon-browser.netlify.app/)
 
 For webpack see examples in Vue documentation
 * [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)

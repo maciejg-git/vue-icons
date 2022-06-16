@@ -77,7 +77,9 @@ let createRenderFunction = (attrs) => {
   return `render() {
     return h(
       "svg",
-      ${attrs},
+      {
+        ${attrs.slice(1, -1)}
+      }
     )
   }`;
 };
@@ -145,7 +147,7 @@ let parseSvg = (svg, icon, framework) => {
 
   let attrs = unpackAttrs(attrsArray);
   normalizeAttrs(attrs, icon, framework);
-  attrs.innerHTML = inner;
+  attrs.innerHTML = inner.trim();
   attrs = packAttrs(attrs);
 
   return {
