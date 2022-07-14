@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./generate.js",
+    "build": "node ./generate-components.js",
     "update-bootstrap": "git clone --depth 1 https://github.com/twbs/icons ./icons/bootstrap",
     "update-fontawesome": "git clone --depth 1 https://github.com/FortAwesome/Font-Awesome.git ./icons/fontawesome",
     "update-mdi": "git clone --depth 1 https://github.com/Templarian/MaterialDesign ./icons/mdi"

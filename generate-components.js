@@ -86,7 +86,7 @@ let createRenderFunction = (data) => {
       "svg",
       ${svgAttrs},
       [ 
-        ${child.join(",\n      ")} 
+        ${child.join(",\n        ")} 
       ]
     )
   }`;
