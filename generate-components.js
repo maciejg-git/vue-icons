@@ -203,6 +203,9 @@ const createComponents = (framework) => {
     const icon = file.substr(0, file.lastIndexOf("."));
     const pascalIcon = toPascalCase(icon);
     const filename = icon + suffix + ".js";
+    let iconName = `${toPascalCase(options[framework].prefix)}${
+      pascalIcon + suffixPascal
+    }`;
 
     const tags = icon.split("-");
 
@@ -228,10 +231,6 @@ const createComponents = (framework) => {
       renderFunction,
       tags
     );
-
-    let iconName = `${toPascalCase(options[framework].prefix)}${
-      pascalIcon + suffixPascal
-    }`;
 
     // update index
 
