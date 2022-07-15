@@ -1,16 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 const { program } = require("commander");
-const {XMLParser} = require('fast-xml-parser');
+const { XMLParser } = require("fast-xml-parser");
 
 const parserOptions = {
-  ignoreAttributes : false,
+  ignoreAttributes: false,
   preserveOrder: true,
-  attributeNamePrefix : "",
+  attributeNamePrefix: "",
   ignoreDeclaration: true,
 };
 
-let frameworksAll = ["bootstrap", "mdi", "fontawesome", "test"];
+let frameworksAll = ["bootstrap", "mdi", "fontawesome"];
 
 const options = {
   bootstrap: {
@@ -41,32 +41,32 @@ const options = {
       solid: "Solid",
     },
   },
-  test: {
-    class: "",
-    fill: "currentColor",
-    prefix: "test",
-    dir: "test",
-  },
 };
 
 const toCamelCase = (s) => s.replace(/-./g, (x) => x[1].toUpperCase());
 const toPascalCase = (s) => toCamelCase(s.charAt(0).toUpperCase() + s.slice(1));
 
-program
-  .name("generate")
-  .usage("[options] vendors")
-  .addHelpText(
-    "after",
-    `
+let handleCommandline = () => {
+  program
+    .name("generate")
+    .usage("[options] vendors")
+    .addHelpText(
+      "after",
+      `
 
 available vendors: ${frameworksAll.join(" ")}
-`);
+`
+    );
 
-program.parse();
+  program.parse();
+};
 
-// array of frameworks names for which components are generated
-let frameworks = program.args[0] === "all" ? frameworksAll : program.args;
-frameworks = frameworks.filter((f) => frameworksAll.includes(f));
+let getFrameworks = () => {
+  let frameworks = program.args;
+  frameworks = frameworks.filter((f) => frameworksAll.includes(f));
+
+  return frameworks;
+};
 
 let createRenderFunction = (data) => {
   let svgAttrs = JSON.stringify(data.svgAttrs);
@@ -77,8 +77,8 @@ let createRenderFunction = (data) => {
     let c = `h(
           "${el.element}",
           ${JSON.stringify(el.attrs)}
-        )`
-    child.push(c)
+        )`;
+    child.push(c);
   }
 
   return `render() {
@@ -114,19 +114,19 @@ let normalizeAttrs = (attrs, icon, framework) => {
   attrsList.forEach((attr) => {
     if (attrs[attr]) delete attrs[attr];
   });
-}
+};
 
 let getSvgData = (parsed) => {
-  let svgAttrs = parsed[':@'];
-  let elements = []
+  let svgAttrs = parsed[":@"];
+  let elements = [];
 
   for (let el of parsed.svg) {
-    let element = Object.keys(el)[0]
-    elements.push({element, attrs: el[':@']})
+    let element = Object.keys(el)[0];
+    elements.push({ element, attrs: el[":@"] });
   }
 
-  return { svgAttrs, elements }
-}
+  return { svgAttrs, elements };
+};
 
 const getFiles = (directory) => {
   let files = [];
@@ -172,12 +172,6 @@ const prepareDist = () => {
     fs.mkdirSync("dist-fontawesome/fontawesome/regular");
     fs.mkdirSync("dist-fontawesome/fontawesome/solid");
   }
-
-  // test
-  if (frameworks.includes("test")) {
-    fs.mkdirSync("dist-test/test/", { recursive: true });
-  }
-
 };
 
 let finalizeDist = (dist, index) => {
@@ -188,12 +182,12 @@ const createComponents = (framework) => {
   const source = path.join("icons", framework, options[framework].dir);
   const dist = "dist-" + framework;
 
-  const files = getFiles(source);
-
   let index = "";
   let count = 0;
 
   const parser = new XMLParser(parserOptions);
+
+  const files = getFiles(source);
 
   files.forEach((i) => {
     const file = i[i.length - 1];
@@ -221,12 +215,12 @@ const createComponents = (framework) => {
     // parse SVG
 
     let parsedSvg = parser.parse(content);
-    let data = getSvgData(parsedSvg[0])
-    normalizeAttrs(data.svgAttrs, icon, framework)
+    let data = getSvgData(parsedSvg[0]);
+    normalizeAttrs(data.svgAttrs, icon, framework);
 
     // create JS file
 
-    let renderFunction = createRenderFunction(data)
+    let renderFunction = createRenderFunction(data);
     const fileJs = createJsFile(
       framework,
       pascalIcon,
@@ -235,11 +229,15 @@ const createComponents = (framework) => {
       tags
     );
 
-    let iconName = `${toPascalCase(options[framework].prefix)}${pascalIcon + suffixPascal}`
+    let iconName = `${toPascalCase(options[framework].prefix)}${
+      pascalIcon + suffixPascal
+    }`;
 
     // update index
 
-    index += `export { default as ${iconName} } from "./${framework}${sub ? "/" + sub : ""}/${filename}"\n`;
+    index += `export { default as ${iconName} } from "./${framework}${
+      sub ? "/" + sub : ""
+    }/${filename}"\n`;
 
     // write JS file
 
@@ -252,6 +250,10 @@ const createComponents = (framework) => {
 
   console.log(`${framework} done (${count} icons)`);
 };
+
+handleCommandline();
+
+let frameworks = getFrameworks();
 
 prepareDist();
 
