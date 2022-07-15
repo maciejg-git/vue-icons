@@ -77,7 +77,7 @@ app.component('icon', Icon)
 and use it in template
 
 ```html
-<!-- component.vue -->
+// component.vue
 
 <icon icon="b-triangle-fill" class="h-5 w-5" />
 <icon name="b-triangle-fill" class="h-5 w-5" />
@@ -86,7 +86,7 @@ and use it in template
 **[Option 2]** or use icons directly as components without Icon component
 
 ```html
-<!-- component.vue -->
+// component.vue
 
 <b-triangle-fill class="h-5 w-5" />
 <BTriangleFill class="h-5 w-5" />
