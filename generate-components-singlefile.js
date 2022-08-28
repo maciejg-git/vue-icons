@@ -107,11 +107,11 @@ let createRenderFunction = (data) => {
   }`;
 };
 
-const createJsFile = (framework, icon, subs, renderFunction, tags) => {
+const createJsFile = (framework, icon, iconName, subs, renderFunction, tags) => {
   let type = subs.map((i) => toPascalCase(i))
 
-  return `import { h } from 'vue'
-export default {
+  return `
+export let ${iconName} = {
   $_icon: {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
@@ -189,6 +189,8 @@ const createComponents = (framework) => {
     `icons/${framework}/${options[framework].dir}/**/*.svg`
   );
 
+  let singleFile = ""
+
   files.forEach((i) => {
     const pathData = i.split("/");
     const file = pathData[pathData.length - 1];
@@ -220,23 +222,23 @@ const createComponents = (framework) => {
     const fileJs = createJsFile(
       framework,
       pascalIcon,
+      iconName,
       subs,
       renderFunction,
       tags
     );
-
-    // update index
-
-    index += `export { default as ${iconName} } from "./icons/${filename}"\n`;
-
-    // write JS file
-
-    fs.writeFileSync(path.join(dist, "icons", filename), fileJs);
+    
+    singleFile += fileJs
 
     count++;
   });
 
-  finalizeDist(dist, index);
+  singleFile = `import { h } from "vue"
+${singleFile}`
+
+  fs.writeFileSync(path.join(dist + "-single", "index.js"), singleFile);
+
+  // finalizeDist(dist, index);
 
   console.log(`${framework} done (${count} icons)`);
 };
