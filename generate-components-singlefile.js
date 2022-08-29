@@ -44,9 +44,15 @@ const options = {
   },
   heroicons: {
     class: "",
-    fill: "currentColor",
+    fill: (i) => {
+      if (i.includes("outline")) {
+        return "none"
+      } else {
+        return "currentColor"
+      }
+    },
     prefix: "h",
-    dir: "src",
+    dir: "optimized",
     suffix: {
       solid: "solid",
       outline: "outline",
@@ -124,8 +130,8 @@ export let ${iconName} = {
 
 let attrsList = ["id", "class", "xmlns:xlink", "version"];
 
-let normalizeAttrs = (attrs, icon, framework) => {
-  attrs.fill = options[framework].fill;
+let normalizeAttrs = (attrs, icon, subs, framework) => {
+  attrs.fill = typeof options[framework].fill === 'function' ? options[framework].fill(subs) : options[framework].fill;
   attrs["data-name"] = `${options[framework].prefix}-${icon}`;
 
   attrsList.forEach((attr) => {
@@ -214,7 +220,7 @@ const createComponents = (framework) => {
 
     let parsedSvg = parser.parse(content);
     let data = getSvgData(parsedSvg[0]);
-    normalizeAttrs(data.svgAttrs, icon, framework);
+    normalizeAttrs(data.svgAttrs, icon, subs, framework);
 
     // create JS file
 
@@ -247,6 +253,6 @@ handleCommandline();
 
 let frameworks = getFrameworks();
 
-prepareDist();
+// prepareDist();
 
 frameworks.forEach((f) => createComponents(f));

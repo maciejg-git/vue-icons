@@ -7,12 +7,14 @@
     "build": "node ./generate-components.js",
     "update-bootstrap": "git clone --depth 1 https://github.com/twbs/icons ./icons/bootstrap",
     "update-fontawesome": "git clone --depth 1 https://github.com/FortAwesome/Font-Awesome.git ./icons/fontawesome",
-    "update-mdi": "git clone --depth 1 https://github.com/Templarian/MaterialDesign ./icons/mdi"
+    "update-mdi": "git clone --depth 1 https://github.com/Templarian/MaterialDesign ./icons/mdi",
+    "update-heroicons": "git clone --depth 1 https://github.com/tailwindlabs/heroicons ./icons/heroicons"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.0.0",
+    "fast-glob": "^3.2.11",
     "fast-xml-parser": "^4.0.9"
   }
 }
