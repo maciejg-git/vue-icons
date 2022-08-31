@@ -2,7 +2,10 @@ node_modules
 .DS_Store
 dist-ssr
 *.local
-icons
+icons/bootstrap
+icons/mdi
+icons/fontawesome
+icons/heroicons
 dist-bootstrap-single
 dist-mdi-single
 dist-fontawesome-single
