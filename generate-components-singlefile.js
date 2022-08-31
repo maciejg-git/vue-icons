@@ -32,12 +32,12 @@ const options = {
     prefix: "fa",
     dir: "svgs",
     suffix: {
-      brands: "brand",
+      brands: "brands",
       regular: "regular",
       solid: "solid",
     },
     suffixPascal: {
-      brands: "Brand",
+      brands: "Brands",
       regular: "Regular",
       solid: "Solid",
     },
