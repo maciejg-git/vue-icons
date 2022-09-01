@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Ioxhost",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["ioxhost"],
   },
   render() {

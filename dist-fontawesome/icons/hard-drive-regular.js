@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HardDrive",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["hard","drive"],
   },
   render() {

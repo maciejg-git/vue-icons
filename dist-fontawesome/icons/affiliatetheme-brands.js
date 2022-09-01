@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Affiliatetheme",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["affiliatetheme"],
   },
   render() {

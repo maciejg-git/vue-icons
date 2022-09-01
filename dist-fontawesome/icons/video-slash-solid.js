@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VideoSlash",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["video","slash"],
   },
   render() {

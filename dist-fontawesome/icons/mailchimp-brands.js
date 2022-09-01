@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Mailchimp",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["mailchimp"],
   },
   render() {

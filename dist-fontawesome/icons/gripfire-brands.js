@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gripfire",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["gripfire"],
   },
   render() {

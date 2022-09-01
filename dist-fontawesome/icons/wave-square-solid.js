@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WaveSquare",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["wave","square"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Vihara",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["vihara"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Napster",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["napster"],
   },
   render() {

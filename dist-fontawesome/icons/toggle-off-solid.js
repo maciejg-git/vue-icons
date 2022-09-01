@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ToggleOff",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["toggle","off"],
   },
   render() {

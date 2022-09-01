@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PowerOff",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["power","off"],
   },
   render() {

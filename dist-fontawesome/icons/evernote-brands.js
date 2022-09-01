@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Evernote",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["evernote"],
   },
   render() {

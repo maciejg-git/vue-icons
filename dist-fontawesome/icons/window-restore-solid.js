@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WindowRestore",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["window","restore"],
   },
   render() {

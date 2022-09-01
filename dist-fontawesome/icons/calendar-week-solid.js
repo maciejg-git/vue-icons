@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CalendarWeek",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["calendar","week"],
   },
   render() {

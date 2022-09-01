@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MicrophoneLines",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["microphone","lines"],
   },
   render() {

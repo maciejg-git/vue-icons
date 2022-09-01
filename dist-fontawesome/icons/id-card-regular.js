@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "IdCard",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["id","card"],
   },
   render() {

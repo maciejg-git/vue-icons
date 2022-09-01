@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Viber",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["viber"],
   },
   render() {

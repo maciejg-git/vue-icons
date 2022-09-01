@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Bilibili",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["bilibili"],
   },
   render() {

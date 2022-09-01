@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "EllipsisVertical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["ellipsis","vertical"],
   },
   render() {

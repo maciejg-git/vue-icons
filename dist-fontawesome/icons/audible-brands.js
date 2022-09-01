@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Audible",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["audible"],
   },
   render() {

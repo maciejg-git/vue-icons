@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Deezer",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["deezer"],
   },
   render() {

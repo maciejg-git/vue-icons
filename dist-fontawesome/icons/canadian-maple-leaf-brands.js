@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CanadianMapleLeaf",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["canadian","maple","leaf"],
   },
   render() {

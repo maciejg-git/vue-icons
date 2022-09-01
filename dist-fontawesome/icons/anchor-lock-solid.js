@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AnchorLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["anchor","lock"],
   },
   render() {

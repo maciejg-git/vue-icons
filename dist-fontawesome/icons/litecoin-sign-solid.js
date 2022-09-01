@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LitecoinSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["litecoin","sign"],
   },
   render() {

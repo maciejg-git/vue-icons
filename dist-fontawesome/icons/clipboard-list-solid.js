@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ClipboardList",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["clipboard","list"],
   },
   render() {

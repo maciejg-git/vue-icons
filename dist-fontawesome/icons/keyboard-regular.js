@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Keyboard",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["keyboard"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TableCellsLarge",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["table","cells","large"],
   },
   render() {

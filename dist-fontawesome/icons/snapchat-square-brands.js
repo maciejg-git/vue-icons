@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SnapchatSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["snapchat","square"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Usps",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["usps"],
   },
   render() {

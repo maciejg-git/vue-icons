@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Eye",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["eye"],
   },
   render() {

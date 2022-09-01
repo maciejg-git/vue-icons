@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "EarthAmericas",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["earth","americas"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GripLinesVertical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["grip","lines","vertical"],
   },
   render() {

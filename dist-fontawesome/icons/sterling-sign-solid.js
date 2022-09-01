@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SterlingSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sterling","sign"],
   },
   render() {

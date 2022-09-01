@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CheckDouble",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["check","double"],
   },
   render() {

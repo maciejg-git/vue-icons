@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BowlingBall",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bowling","ball"],
   },
   render() {

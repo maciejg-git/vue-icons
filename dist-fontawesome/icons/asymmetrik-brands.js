@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Asymmetrik",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["asymmetrik"],
   },
   render() {

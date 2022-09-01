@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "XmarksLines",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["xmarks","lines"],
   },
   render() {

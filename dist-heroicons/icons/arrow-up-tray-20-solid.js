@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowUpTray",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["arrow","up","tray"],
   },
   render() {

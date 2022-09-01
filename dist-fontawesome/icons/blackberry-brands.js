@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Blackberry",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["blackberry"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FortAwesomeAlt",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["fort","awesome","alt"],
   },
   render() {

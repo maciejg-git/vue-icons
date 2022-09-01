@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TurkishLiraSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["turkish","lira","sign"],
   },
   render() {

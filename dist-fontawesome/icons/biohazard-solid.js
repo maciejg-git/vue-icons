@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Biohazard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["biohazard"],
   },
   render() {

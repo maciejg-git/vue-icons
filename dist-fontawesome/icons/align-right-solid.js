@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AlignRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["align","right"],
   },
   render() {

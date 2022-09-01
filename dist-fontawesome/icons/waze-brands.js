@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Waze",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["waze"],
   },
   render() {

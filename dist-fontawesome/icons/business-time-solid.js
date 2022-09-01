@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BusinessTime",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["business","time"],
   },
   render() {

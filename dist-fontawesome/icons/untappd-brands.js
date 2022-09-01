@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Untappd",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["untappd"],
   },
   render() {

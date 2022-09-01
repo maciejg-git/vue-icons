@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Monero",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["monero"],
   },
   render() {

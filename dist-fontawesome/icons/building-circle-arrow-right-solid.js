@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BuildingCircleArrowRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["building","circle","arrow","right"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CommentDots",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["comment","dots"],
   },
   render() {

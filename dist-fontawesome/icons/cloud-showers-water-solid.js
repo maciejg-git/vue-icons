@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CloudShowersWater",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cloud","showers","water"],
   },
   render() {

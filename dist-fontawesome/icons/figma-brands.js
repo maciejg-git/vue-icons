@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Figma",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["figma"],
   },
   render() {

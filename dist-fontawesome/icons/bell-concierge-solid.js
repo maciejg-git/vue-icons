@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BellConcierge",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bell","concierge"],
   },
   render() {

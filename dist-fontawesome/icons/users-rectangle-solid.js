@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UsersRectangle",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["users","rectangle"],
   },
   render() {

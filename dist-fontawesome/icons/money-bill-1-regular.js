@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["money","bill","1"],
   },
   render() {

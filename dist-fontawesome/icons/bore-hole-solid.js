@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BoreHole",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bore","hole"],
   },
   render() {

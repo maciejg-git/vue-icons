@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Yelp",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["yelp"],
   },
   render() {

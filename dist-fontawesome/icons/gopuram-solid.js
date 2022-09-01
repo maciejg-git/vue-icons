@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gopuram",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["gopuram"],
   },
   render() {

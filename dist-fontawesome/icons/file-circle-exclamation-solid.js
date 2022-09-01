@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileCircleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","circle","exclamation"],
   },
   render() {

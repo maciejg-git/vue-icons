@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ManatSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["manat","sign"],
   },
   render() {

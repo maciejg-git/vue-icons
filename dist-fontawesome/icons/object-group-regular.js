@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ObjectGroup",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["object","group"],
   },
   render() {

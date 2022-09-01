@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BellAlert",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["bell","alert"],
   },
   render() {

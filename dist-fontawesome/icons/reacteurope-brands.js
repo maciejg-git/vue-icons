@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Reacteurope",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["reacteurope"],
   },
   render() {

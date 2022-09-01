@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChartPie",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["chart","pie"],
   },
   render() {

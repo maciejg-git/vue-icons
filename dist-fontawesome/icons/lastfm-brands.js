@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Lastfm",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["lastfm"],
   },
   render() {

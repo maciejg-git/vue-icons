@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "StreetView",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["street","view"],
   },
   render() {

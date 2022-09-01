@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Shirtsinbulk",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["shirtsinbulk"],
   },
   render() {

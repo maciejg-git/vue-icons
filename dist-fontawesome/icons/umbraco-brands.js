@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Umbraco",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["umbraco"],
   },
   render() {

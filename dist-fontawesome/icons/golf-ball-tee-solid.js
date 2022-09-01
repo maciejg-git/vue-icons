@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GolfBallTee",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["golf","ball","tee"],
   },
   render() {

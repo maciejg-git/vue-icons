@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BezierCurve",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bezier","curve"],
   },
   render() {

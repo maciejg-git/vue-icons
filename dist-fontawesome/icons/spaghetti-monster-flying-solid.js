@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SpaghettiMonsterFlying",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["spaghetti","monster","flying"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Joint",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["joint"],
   },
   render() {

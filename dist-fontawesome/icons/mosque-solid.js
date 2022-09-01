@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Mosque",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mosque"],
   },
   render() {

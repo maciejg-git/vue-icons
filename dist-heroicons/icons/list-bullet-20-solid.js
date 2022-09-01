@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ListBullet",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["list","bullet"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Skype",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["skype"],
   },
   render() {

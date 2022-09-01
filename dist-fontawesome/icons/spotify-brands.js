@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Spotify",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["spotify"],
   },
   render() {

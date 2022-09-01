@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Ravelry",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["ravelry"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sistrix",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["sistrix"],
   },
   render() {

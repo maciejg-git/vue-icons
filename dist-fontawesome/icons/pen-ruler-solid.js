@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PenRuler",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pen","ruler"],
   },
   render() {

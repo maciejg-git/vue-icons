@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TeethOpen",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["teeth","open"],
   },
   render() {

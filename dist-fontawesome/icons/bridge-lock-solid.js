@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BridgeLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bridge","lock"],
   },
   render() {

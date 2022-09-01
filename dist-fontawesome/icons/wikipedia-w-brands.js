@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WikipediaW",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wikipedia","w"],
   },
   render() {

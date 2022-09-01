@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TengeSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["tenge","sign"],
   },
   render() {

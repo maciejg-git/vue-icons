@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "IdCardClip",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["id","card","clip"],
   },
   render() {

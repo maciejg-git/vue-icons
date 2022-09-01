@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileCsv",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","csv"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sink",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sink"],
   },
   render() {

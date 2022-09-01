@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "NairaSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["naira","sign"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Jar",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["jar"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CameraRotate",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["camera","rotate"],
   },
   render() {

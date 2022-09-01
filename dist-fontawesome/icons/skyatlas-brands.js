@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Skyatlas",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["skyatlas"],
   },
   render() {

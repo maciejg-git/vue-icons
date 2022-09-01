@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SdCard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sd","card"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sitrox",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["sitrox"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LariSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["lari","sign"],
   },
   render() {

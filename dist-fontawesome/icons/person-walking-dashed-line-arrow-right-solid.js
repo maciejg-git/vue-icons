@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonWalkingDashedLineArrowRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","walking","dashed","line","arrow","right"],
   },
   render() {

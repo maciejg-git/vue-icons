@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MapPin",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["map","pin"],
   },
   render() {

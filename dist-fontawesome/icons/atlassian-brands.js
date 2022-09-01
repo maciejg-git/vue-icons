@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Atlassian",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["atlassian"],
   },
   render() {

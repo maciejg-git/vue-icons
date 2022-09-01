@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ToiletPortable",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["toilet","portable"],
   },
   render() {

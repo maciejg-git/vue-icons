@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquareParking",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","parking"],
   },
   render() {

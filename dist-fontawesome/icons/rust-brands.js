@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Rust",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["rust"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonWalkingWithCane",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","walking","with","cane"],
   },
   render() {

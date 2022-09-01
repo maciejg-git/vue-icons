@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DropletSlash",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["droplet","slash"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cloud","arrow","up"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MartiniGlass",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["martini","glass"],
   },
   render() {

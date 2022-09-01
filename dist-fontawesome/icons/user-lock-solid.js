@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UserLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["user","lock"],
   },
   render() {

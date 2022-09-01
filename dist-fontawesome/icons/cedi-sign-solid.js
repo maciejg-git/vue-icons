@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CediSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cedi","sign"],
   },
   render() {

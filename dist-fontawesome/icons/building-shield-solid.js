@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BuildingShield",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["building","shield"],
   },
   render() {

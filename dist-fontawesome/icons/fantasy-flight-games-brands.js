@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FantasyFlightGames",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["fantasy","flight","games"],
   },
   render() {

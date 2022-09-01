@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Minimize",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["minimize"],
   },
   render() {

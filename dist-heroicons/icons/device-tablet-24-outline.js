@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DeviceTablet",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["device","tablet"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Weebly",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["weebly"],
   },
   render() {

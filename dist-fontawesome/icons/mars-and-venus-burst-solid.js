@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MarsAndVenusBurst",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mars","and","venus","burst"],
   },
   render() {

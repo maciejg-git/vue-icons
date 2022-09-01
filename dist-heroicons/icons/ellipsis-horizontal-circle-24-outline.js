@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "EllipsisHorizontalCircle",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["ellipsis","horizontal","circle"],
   },
   render() {

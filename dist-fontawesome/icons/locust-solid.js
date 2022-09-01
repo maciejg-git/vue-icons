@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Locust",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["locust"],
   },
   render() {

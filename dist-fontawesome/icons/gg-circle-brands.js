@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GgCircle",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["gg","circle"],
   },
   render() {

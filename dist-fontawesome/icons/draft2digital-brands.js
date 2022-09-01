@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Draft2digital",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["draft2digital"],
   },
   render() {

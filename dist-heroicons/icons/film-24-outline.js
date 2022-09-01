@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Film",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["film"],
   },
   render() {

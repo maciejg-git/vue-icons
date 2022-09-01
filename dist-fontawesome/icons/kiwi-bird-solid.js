@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "KiwiBird",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["kiwi","bird"],
   },
   render() {

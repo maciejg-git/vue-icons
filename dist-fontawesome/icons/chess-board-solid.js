@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChessBoard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["chess","board"],
   },
   render() {

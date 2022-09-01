@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Fax",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["fax"],
   },
   render() {

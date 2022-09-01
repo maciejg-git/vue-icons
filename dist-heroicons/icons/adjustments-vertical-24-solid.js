@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AdjustmentsVertical",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["adjustments","vertical"],
   },
   render() {

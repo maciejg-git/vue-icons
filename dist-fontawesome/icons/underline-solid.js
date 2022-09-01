@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Underline",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["underline"],
   },
   render() {

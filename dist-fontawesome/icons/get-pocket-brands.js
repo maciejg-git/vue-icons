@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GetPocket",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["get","pocket"],
   },
   render() {

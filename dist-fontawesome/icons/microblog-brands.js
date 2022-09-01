@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Microblog",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["microblog"],
   },
   render() {

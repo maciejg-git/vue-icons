@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CcMastercard",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cc","mastercard"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChartBarSquare",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["chart","bar","square"],
   },
   render() {

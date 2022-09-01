@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RaspberryPi",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["raspberry","pi"],
   },
   render() {

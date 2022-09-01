@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowTrendDown",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrow","trend","down"],
   },
   render() {

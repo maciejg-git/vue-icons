@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandThumbUp",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["hand","thumb","up"],
   },
   render() {

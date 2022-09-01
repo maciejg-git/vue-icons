@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PizzaSlice",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pizza","slice"],
   },
   render() {

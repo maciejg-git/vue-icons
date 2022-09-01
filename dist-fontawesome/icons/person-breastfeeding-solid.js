@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonBreastfeeding",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","breastfeeding"],
   },
   render() {

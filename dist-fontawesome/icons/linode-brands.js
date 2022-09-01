@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Linode",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["linode"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Symfony",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["symfony"],
   },
   render() {

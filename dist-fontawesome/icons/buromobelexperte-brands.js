@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Buromobelexperte",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["buromobelexperte"],
   },
   render() {

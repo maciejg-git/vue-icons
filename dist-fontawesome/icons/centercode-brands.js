@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Centercode",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["centercode"],
   },
   render() {

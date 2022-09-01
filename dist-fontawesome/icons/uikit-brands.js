@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Uikit",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["uikit"],
   },
   render() {

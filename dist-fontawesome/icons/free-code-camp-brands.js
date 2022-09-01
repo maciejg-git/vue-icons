@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FreeCodeCamp",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["free","code","camp"],
   },
   render() {

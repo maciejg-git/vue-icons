@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ICursor",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["i","cursor"],
   },
   render() {

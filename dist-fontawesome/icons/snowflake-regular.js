@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Snowflake",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["snowflake"],
   },
   render() {

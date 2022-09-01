@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Dailymotion",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["dailymotion"],
   },
   render() {

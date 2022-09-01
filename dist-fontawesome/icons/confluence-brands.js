@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Confluence",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["confluence"],
   },
   render() {

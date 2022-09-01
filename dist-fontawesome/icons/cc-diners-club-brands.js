@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CcDinersClub",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cc","diners","club"],
   },
   render() {

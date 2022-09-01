@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DrawPolygon",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["draw","polygon"],
   },
   render() {

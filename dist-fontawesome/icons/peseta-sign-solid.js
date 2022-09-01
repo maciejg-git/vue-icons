@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PesetaSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["peseta","sign"],
   },
   render() {

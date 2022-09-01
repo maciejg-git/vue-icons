@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FolderPlus",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["folder","plus"],
   },
   render() {

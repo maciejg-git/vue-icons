@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Vaadin",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["vaadin"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DeleteLeft",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["delete","left"],
   },
   render() {

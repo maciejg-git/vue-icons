@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Superpowers",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["superpowers"],
   },
   render() {

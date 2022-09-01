@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BackwardStep",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["backward","step"],
   },
   render() {

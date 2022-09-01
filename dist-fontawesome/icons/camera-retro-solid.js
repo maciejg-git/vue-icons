@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CameraRetro",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["camera","retro"],
   },
   render() {

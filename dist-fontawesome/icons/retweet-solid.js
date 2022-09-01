@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Retweet",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["retweet"],
   },
   render() {

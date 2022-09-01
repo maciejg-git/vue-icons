@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArchiveBoxXMark",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["archive","box","x","mark"],
   },
   render() {

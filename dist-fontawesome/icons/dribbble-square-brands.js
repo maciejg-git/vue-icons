@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DribbbleSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["dribbble","square"],
   },
   render() {

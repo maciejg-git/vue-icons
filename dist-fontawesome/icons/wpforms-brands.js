@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wpforms",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wpforms"],
   },
   render() {

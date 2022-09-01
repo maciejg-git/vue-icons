@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DownLong",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["down","long"],
   },
   render() {

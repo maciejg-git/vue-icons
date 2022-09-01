@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CodePullRequest",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["code","pull","request"],
   },
   render() {

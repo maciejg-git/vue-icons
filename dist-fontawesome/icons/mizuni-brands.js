@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Mizuni",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["mizuni"],
   },
   render() {

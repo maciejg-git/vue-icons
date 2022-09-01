@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Hospital",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["hospital"],
   },
   render() {

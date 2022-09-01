@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowLeftOnRectangle",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["arrow","left","on","rectangle"],
   },
   render() {

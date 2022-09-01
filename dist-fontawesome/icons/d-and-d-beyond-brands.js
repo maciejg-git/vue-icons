@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DAndDBeyond",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["d","and","d","beyond"],
   },
   render() {

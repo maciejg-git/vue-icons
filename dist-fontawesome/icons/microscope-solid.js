@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Microscope",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["microscope"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CarSide",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["car","side"],
   },
   render() {

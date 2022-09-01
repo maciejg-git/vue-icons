@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CircleDollarToSlot",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["circle","dollar","to","slot"],
   },
   render() {

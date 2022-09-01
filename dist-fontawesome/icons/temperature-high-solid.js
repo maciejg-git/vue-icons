@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TemperatureHigh",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["temperature","high"],
   },
   render() {

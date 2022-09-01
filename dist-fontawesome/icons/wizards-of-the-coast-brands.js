@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WizardsOfTheCoast",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wizards","of","the","coast"],
   },
   render() {

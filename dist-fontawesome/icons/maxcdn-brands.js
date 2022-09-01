@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Maxcdn",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["maxcdn"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HourglassEmpty",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hourglass","empty"],
   },
   render() {

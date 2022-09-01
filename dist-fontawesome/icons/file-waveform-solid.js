@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileWaveform",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","waveform"],
   },
   render() {

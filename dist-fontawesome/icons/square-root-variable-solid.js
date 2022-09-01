@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquareRootVariable",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","root","variable"],
   },
   render() {

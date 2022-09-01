@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LandmarkFlag",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["landmark","flag"],
   },
   render() {

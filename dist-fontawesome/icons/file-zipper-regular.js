@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileZipper",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["file","zipper"],
   },
   render() {

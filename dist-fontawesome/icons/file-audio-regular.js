@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileAudio",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["file","audio"],
   },
   render() {

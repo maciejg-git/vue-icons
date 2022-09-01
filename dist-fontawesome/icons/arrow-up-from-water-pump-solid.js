@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowUpFromWaterPump",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrow","up","from","water","pump"],
   },
   render() {

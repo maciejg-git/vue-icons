@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ViadeoSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["viadeo","square"],
   },
   render() {

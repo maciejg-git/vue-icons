@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Erlang",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["erlang"],
   },
   render() {

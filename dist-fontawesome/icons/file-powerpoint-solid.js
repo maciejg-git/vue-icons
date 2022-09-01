@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FilePowerpoint",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","powerpoint"],
   },
   render() {

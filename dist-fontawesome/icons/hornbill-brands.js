@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Hornbill",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["hornbill"],
   },
   render() {

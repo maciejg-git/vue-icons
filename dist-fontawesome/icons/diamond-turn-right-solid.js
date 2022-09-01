@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DiamondTurnRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["diamond","turn","right"],
   },
   render() {

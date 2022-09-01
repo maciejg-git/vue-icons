@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SpeakerXMark",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["speaker","x","mark"],
   },
   render() {

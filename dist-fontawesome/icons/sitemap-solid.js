@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sitemap",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sitemap"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Vimeo",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["vimeo"],
   },
   render() {

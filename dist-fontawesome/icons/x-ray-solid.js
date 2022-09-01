@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "XRay",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["x","ray"],
   },
   render() {

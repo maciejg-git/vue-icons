@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Mixcloud",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["mixcloud"],
   },
   render() {

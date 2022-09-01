@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GlobeAlt",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["globe","alt"],
   },
   render() {

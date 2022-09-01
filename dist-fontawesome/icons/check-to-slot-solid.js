@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CheckToSlot",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["check","to","slot"],
   },
   render() {

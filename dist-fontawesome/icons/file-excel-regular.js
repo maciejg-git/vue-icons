@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileExcel",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["file","excel"],
   },
   render() {

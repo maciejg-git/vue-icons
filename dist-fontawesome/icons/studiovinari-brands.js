@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Studiovinari",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["studiovinari"],
   },
   render() {

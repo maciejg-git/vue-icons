@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CriticalRole",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["critical","role"],
   },
   render() {

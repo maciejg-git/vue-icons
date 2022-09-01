@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VolumeOff",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["volume","off"],
   },
   render() {

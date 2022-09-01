@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Flipboard",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["flipboard"],
   },
   render() {

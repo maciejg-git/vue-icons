@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FolderTree",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["folder","tree"],
   },
   render() {

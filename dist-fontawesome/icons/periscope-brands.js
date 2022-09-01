@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Periscope",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["periscope"],
   },
   render() {

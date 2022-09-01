@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MobileScreenButton",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mobile","screen","button"],
   },
   render() {

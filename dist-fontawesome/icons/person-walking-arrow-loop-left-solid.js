@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonWalkingArrowLoopLeft",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","walking","arrow","loop","left"],
   },
   render() {

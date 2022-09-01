@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "JarWheat",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["jar","wheat"],
   },
   render() {

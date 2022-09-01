@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "NoteSticky",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["note","sticky"],
   },
   render() {

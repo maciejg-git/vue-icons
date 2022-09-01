@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Voicemail",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["voicemail"],
   },
   render() {

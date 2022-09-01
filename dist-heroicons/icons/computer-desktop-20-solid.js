@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ComputerDesktop",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["computer","desktop"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Ethernet",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["ethernet"],
   },
   render() {

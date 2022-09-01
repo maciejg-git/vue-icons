@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AppleWhole",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["apple","whole"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Ubuntu",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["ubuntu"],
   },
   render() {

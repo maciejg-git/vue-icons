@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsSpin",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrows","spin"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Imdb",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["imdb"],
   },
   render() {

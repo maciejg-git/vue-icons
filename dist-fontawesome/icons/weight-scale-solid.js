@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WeightScale",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["weight","scale"],
   },
   render() {

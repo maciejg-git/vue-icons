@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TrashArrowUp",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["trash","arrow","up"],
   },
   render() {

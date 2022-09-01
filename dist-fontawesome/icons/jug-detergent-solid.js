@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "JugDetergent",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["jug","detergent"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cookie",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cookie"],
   },
   render() {

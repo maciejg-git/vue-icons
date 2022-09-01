@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Rotate",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["rotate"],
   },
   render() {

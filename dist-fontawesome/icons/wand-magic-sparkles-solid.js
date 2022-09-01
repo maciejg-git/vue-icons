@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WandMagicSparkles",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["wand","magic","sparkles"],
   },
   render() {

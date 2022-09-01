@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gem",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["gem"],
   },
   render() {

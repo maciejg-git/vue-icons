@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Outdent",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["outdent"],
   },
   render() {

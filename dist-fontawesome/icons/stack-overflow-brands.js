@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "StackOverflow",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["stack","overflow"],
   },
   render() {

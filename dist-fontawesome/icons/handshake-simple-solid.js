@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandshakeSimple",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["handshake","simple"],
   },
   render() {

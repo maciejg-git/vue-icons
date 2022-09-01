@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HouseFloodWater",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["house","flood","water"],
   },
   render() {

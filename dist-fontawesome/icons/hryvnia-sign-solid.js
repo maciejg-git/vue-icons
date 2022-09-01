@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HryvniaSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hryvnia","sign"],
   },
   render() {

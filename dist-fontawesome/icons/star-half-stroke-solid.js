@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "StarHalfStroke",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["star","half","stroke"],
   },
   render() {

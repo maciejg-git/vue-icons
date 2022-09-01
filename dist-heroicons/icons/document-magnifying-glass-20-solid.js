@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DocumentMagnifyingGlass",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["document","magnifying","glass"],
   },
   render() {

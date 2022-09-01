@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Keybase",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["keybase"],
   },
   render() {

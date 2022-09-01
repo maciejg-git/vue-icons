@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandsClapping",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hands","clapping"],
   },
   render() {

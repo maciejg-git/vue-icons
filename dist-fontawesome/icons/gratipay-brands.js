@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gratipay",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["gratipay"],
   },
   render() {

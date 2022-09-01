@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquaresPlus",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["squares","plus"],
   },
   render() {

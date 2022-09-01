@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Diaspora",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["diaspora"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VideoCameraSlash",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["video","camera","slash"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandsAslInterpreting",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hands","asl","interpreting"],
   },
   render() {

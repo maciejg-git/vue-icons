@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MarsDouble",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mars","double"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wifi",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["wifi"],
   },
   render() {

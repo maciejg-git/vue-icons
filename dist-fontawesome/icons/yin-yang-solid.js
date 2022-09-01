@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "YinYang",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["yin","yang"],
   },
   render() {

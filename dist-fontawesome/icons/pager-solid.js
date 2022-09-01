@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Pager",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pager"],
   },
   render() {

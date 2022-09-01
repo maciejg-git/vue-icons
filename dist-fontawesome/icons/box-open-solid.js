@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BoxOpen",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["box","open"],
   },
   render() {

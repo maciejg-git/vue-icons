@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FloppyDisk",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["floppy","disk"],
   },
   render() {

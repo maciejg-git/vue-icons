@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Avianex",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["avianex"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WheelchairMove",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["wheelchair","move"],
   },
   render() {

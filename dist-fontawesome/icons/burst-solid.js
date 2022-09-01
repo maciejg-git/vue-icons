@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Burst",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["burst"],
   },
   render() {

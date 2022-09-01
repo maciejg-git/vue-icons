@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AtSymbol",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["at","symbol"],
   },
   render() {

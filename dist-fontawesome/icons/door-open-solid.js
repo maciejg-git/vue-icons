@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DoorOpen",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["door","open"],
   },
   render() {

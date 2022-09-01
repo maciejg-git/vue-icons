@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ScaleUnbalancedFlip",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["scale","unbalanced","flip"],
   },
   render() {

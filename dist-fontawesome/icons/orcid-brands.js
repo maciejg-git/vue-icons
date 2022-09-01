@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Orcid",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["orcid"],
   },
   render() {

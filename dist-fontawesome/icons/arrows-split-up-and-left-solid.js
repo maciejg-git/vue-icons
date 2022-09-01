@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsSplitUpAndLeft",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrows","split","up","and","left"],
   },
   render() {

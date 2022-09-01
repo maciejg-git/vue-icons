@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SheetPlastic",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sheet","plastic"],
   },
   render() {

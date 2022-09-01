@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GuaraniSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["guarani","sign"],
   },
   render() {

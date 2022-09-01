@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BorderNone",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["border","none"],
   },
   render() {

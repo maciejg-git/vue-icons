@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Copyright",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["copyright"],
   },
   render() {

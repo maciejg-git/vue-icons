@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WatchmanMonitoring",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["watchman","monitoring"],
   },
   render() {

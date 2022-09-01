@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileImport",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","import"],
   },
   render() {

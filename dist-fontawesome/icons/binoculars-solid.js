@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Binoculars",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["binoculars"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CircleXmark",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["circle","xmark"],
   },
   render() {

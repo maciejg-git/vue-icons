@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Uncharted",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["uncharted"],
   },
   render() {

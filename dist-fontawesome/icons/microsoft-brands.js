@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Microsoft",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["microsoft"],
   },
   render() {

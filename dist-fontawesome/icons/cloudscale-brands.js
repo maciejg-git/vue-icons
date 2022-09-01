@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cloudscale",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cloudscale"],
   },
   render() {

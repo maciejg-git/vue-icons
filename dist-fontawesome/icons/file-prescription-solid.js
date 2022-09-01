@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FilePrescription",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","prescription"],
   },
   render() {

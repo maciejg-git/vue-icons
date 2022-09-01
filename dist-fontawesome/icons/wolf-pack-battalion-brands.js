@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WolfPackBattalion",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wolf","pack","battalion"],
   },
   render() {

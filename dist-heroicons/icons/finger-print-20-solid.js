@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FingerPrint",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["finger","print"],
   },
   render() {

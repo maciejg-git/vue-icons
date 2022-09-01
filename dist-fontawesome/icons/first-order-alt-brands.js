@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FirstOrderAlt",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["first","order","alt"],
   },
   render() {

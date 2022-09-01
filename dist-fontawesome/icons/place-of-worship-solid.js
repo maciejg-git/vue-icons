@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlaceOfWorship",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["place","of","worship"],
   },
   render() {

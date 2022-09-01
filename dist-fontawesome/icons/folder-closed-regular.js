@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["folder","closed"],
   },
   render() {

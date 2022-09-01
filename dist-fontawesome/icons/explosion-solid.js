@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Explosion",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["explosion"],
   },
   render() {

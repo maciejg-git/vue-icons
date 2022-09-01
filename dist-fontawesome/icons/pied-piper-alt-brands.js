@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PiedPiperAlt",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["pied","piper","alt"],
   },
   render() {

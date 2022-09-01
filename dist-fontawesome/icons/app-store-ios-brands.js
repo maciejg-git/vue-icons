@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AppStoreIos",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["app","store","ios"],
   },
   render() {

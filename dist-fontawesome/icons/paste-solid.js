@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Paste",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["paste"],
   },
   render() {

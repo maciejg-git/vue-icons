@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowUpFromBracket",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrow","up","from","bracket"],
   },
   render() {

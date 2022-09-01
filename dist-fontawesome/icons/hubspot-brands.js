@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Hubspot",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["hubspot"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Codepen",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["codepen"],
   },
   render() {

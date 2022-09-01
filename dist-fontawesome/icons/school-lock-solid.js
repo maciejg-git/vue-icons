@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SchoolLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["school","lock"],
   },
   render() {

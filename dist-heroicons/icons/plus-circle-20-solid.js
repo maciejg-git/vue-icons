@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlusCircle",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["plus","circle"],
   },
   render() {

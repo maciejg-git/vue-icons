@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BookmarkSquare",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["bookmark","square"],
   },
   render() {

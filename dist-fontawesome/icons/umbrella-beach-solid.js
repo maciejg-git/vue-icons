@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UmbrellaBeach",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["umbrella","beach"],
   },
   render() {

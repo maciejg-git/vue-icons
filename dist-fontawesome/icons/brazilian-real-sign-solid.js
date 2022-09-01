@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BrazilianRealSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["brazilian","real","sign"],
   },
   render() {

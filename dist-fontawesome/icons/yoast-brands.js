@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Yoast",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["yoast"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RoadLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["road","lock"],
   },
   render() {

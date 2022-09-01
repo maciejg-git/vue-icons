@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CodeCompare",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["code","compare"],
   },
   render() {

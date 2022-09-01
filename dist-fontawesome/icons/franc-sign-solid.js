@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FrancSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["franc","sign"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HouseCircleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["house","circle","exclamation"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AccessibleIcon",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["accessible","icon"],
   },
   render() {

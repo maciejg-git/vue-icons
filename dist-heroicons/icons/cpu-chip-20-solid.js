@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CpuChip",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["cpu","chip"],
   },
   render() {

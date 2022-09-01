@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TextHeight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["text","height"],
   },
   render() {

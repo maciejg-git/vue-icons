@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GlobeEuropeAfrica",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["globe","europe","africa"],
   },
   render() {

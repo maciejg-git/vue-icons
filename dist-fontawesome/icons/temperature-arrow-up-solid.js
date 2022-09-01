@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TemperatureArrowUp",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["temperature","arrow","up"],
   },
   render() {

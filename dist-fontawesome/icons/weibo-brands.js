@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Weibo",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["weibo"],
   },
   render() {

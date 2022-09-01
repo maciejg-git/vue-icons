@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GraduationCap",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["graduation","cap"],
   },
   render() {

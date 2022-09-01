@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ClipboardUser",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["clipboard","user"],
   },
   render() {

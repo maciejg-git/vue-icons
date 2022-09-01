@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RulerVertical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["ruler","vertical"],
   },
   render() {

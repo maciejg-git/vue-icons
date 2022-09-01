@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Headphones",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["headphones"],
   },
   render() {

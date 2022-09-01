@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TrafficLight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["traffic","light"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Magento",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["magento"],
   },
   render() {

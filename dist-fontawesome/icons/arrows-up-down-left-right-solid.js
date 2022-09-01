@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsUpDownLeftRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrows","up","down","left","right"],
   },
   render() {

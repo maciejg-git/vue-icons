@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wpressr",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wpressr"],
   },
   render() {

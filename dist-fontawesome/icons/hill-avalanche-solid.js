@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HillAvalanche",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hill","avalanche"],
   },
   render() {

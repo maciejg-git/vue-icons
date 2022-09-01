@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Braille",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["braille"],
   },
   render() {

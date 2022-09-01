@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Microchip",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["microchip"],
   },
   render() {

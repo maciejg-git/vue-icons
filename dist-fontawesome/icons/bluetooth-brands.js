@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Bluetooth",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["bluetooth"],
   },
   render() {

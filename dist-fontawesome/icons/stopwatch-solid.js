@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Stopwatch",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["stopwatch"],
   },
   render() {

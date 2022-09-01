@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Folder",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["folder"],
   },
   render() {

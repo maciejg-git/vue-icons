@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Rockrms",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["rockrms"],
   },
   render() {

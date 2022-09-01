@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GreaterThanEqual",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["greater","than","equal"],
   },
   render() {

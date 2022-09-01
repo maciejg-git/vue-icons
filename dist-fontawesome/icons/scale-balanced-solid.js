@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ScaleBalanced",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["scale","balanced"],
   },
   render() {

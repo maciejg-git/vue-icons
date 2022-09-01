@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonArrowUpFromLine",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","arrow","up","from","line"],
   },
   render() {

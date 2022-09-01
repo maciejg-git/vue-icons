@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Etsy",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["etsy"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "InboxStack",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["inbox","stack"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PhoneArrowDownLeft",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["phone","arrow","down","left"],
   },
   render() {

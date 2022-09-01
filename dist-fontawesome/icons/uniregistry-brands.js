@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Uniregistry",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["uniregistry"],
   },
   render() {

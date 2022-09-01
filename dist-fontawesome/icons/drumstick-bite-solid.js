@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DrumstickBite",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["drumstick","bite"],
   },
   render() {

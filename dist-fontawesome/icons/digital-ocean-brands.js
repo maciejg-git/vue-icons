@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DigitalOcean",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["digital","ocean"],
   },
   render() {

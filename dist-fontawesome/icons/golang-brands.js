@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Golang",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["golang"],
   },
   render() {

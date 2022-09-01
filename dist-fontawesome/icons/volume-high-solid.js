@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VolumeHigh",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["volume","high"],
   },
   render() {

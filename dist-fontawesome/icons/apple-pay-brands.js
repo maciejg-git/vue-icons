@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ApplePay",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["apple","pay"],
   },
   render() {

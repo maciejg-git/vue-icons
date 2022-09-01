@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WeightHanging",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["weight","hanging"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RProject",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["r","project"],
   },
   render() {

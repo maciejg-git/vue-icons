@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "EarListen",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["ear","listen"],
   },
   render() {

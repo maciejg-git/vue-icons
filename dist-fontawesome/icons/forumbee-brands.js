@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Forumbee",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["forumbee"],
   },
   render() {

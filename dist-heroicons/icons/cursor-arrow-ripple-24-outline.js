@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CursorArrowRipple",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["cursor","arrow","ripple"],
   },
   render() {

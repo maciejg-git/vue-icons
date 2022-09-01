@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UsersViewfinder",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["users","viewfinder"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CodeFork",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["code","fork"],
   },
   render() {

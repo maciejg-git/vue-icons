@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TriangleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["triangle","exclamation"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Copy",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["copy"],
   },
   render() {

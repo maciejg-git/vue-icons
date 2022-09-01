@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PaperPlane",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["paper","plane"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Unsplash",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["unsplash"],
   },
   render() {

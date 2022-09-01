@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "KitchenSet",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["kitchen","set"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Fedora",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["fedora"],
   },
   render() {

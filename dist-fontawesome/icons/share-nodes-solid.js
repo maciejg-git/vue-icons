@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ShareNodes",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["share","nodes"],
   },
   render() {

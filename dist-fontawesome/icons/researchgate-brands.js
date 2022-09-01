@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Researchgate",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["researchgate"],
   },
   render() {

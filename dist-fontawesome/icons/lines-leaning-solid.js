@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LinesLeaning",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["lines","leaning"],
   },
   render() {

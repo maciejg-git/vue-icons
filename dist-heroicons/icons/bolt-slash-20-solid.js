@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BoltSlash",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["bolt","slash"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TheRedYeti",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["the","red","yeti"],
   },
   render() {

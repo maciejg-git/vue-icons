@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquareFontAwesomeStroke",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["square","font","awesome","stroke"],
   },
   render() {

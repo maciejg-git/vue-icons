@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sourcetree",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["sourcetree"],
   },
   render() {

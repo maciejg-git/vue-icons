@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CruzeiroSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cruzeiro","sign"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CreativeCommonsNd",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["creative","commons","nd"],
   },
   render() {

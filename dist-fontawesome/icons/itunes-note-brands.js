@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ItunesNote",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["itunes","note"],
   },
   render() {

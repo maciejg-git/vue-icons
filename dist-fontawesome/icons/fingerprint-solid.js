@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Fingerprint",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["fingerprint"],
   },
   render() {

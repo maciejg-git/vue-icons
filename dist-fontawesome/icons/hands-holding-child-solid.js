@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandsHoldingChild",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hands","holding","child"],
   },
   render() {

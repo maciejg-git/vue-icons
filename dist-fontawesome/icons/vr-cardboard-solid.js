@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VrCardboard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["vr","cardboard"],
   },
   render() {

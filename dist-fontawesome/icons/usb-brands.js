@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Usb",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["usb"],
   },
   render() {

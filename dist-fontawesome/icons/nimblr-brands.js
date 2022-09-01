@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Nimblr",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["nimblr"],
   },
   render() {

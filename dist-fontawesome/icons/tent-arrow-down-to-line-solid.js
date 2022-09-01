@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TentArrowDownToLine",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["tent","arrow","down","to","line"],
   },
   render() {

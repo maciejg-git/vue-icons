@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquarePen",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","pen"],
   },
   render() {

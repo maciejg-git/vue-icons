@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cannabis",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cannabis"],
   },
   render() {

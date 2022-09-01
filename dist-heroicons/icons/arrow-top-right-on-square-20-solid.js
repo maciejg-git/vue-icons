@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowTopRightOnSquare",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["arrow","top","right","on","square"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Viacoin",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["viacoin"],
   },
   render() {

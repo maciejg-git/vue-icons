@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Compass",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["compass"],
   },
   render() {

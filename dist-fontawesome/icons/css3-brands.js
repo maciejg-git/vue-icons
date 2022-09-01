@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Css3",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["css3"],
   },
   render() {

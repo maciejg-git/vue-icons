@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HouseFloodWaterCircleArrowRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["house","flood","water","circle","arrow","right"],
   },
   render() {

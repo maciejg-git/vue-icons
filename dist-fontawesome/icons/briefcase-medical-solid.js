@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BriefcaseMedical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["briefcase","medical"],
   },
   render() {

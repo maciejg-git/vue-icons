@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Scroll",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["scroll"],
   },
   render() {

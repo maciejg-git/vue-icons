@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VectorSquare",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["vector","square"],
   },
   render() {

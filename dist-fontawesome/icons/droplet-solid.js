@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Droplet",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["droplet"],
   },
   render() {

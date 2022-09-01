@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["font","awesome"],
   },
   render() {

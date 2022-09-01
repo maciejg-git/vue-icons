@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Dhl",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["dhl"],
   },
   render() {

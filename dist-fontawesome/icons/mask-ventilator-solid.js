@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MaskVentilator",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mask","ventilator"],
   },
   render() {

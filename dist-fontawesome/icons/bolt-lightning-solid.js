@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BoltLightning",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bolt","lightning"],
   },
   render() {

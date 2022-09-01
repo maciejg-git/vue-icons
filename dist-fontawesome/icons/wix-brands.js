@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wix",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wix"],
   },
   render() {

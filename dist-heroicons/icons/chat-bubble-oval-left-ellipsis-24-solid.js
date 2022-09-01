@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChatBubbleOvalLeftEllipsis",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["chat","bubble","oval","left","ellipsis"],
   },
   render() {

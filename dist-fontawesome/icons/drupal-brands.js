@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Drupal",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["drupal"],
   },
   render() {

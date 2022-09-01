@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CartFlatbed",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cart","flatbed"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BookJournalWhills",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["book","journal","whills"],
   },
   render() {

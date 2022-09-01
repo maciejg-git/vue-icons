@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Language",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["language"],
   },
   render() {

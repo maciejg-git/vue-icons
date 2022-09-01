@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Teamspeak",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["teamspeak"],
   },
   render() {

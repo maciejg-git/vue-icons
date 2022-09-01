@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Opencart",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["opencart"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Palfed",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["palfed"],
   },
   render() {

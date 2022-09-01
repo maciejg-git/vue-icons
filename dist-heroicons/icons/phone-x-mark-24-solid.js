@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PhoneXMark",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["phone","x","mark"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ClosedCaptioning",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["closed","captioning"],
   },
   render() {

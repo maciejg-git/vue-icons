@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PinterestSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["pinterest","square"],
   },
   render() {

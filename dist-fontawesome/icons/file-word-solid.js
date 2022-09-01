@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileWord",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","word"],
   },
   render() {

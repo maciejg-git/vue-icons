@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Panorama",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["panorama"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BridgeWater",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bridge","water"],
   },
   render() {

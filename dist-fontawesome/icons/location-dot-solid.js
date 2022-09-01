@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LocationDot",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["location","dot"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CommentsDollar",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["comments","dollar"],
   },
   render() {

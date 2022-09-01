@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Maximize",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["maximize"],
   },
   render() {

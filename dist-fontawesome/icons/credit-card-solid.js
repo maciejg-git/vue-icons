@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["credit","card"],
   },
   render() {

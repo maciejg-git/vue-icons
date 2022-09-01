@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RectangleList",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["rectangle","list"],
   },
   render() {

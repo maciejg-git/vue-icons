@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Bitbucket",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["bitbucket"],
   },
   render() {

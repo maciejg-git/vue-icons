@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PumpMedical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pump","medical"],
   },
   render() {

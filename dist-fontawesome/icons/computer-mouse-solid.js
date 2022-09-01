@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ComputerMouse",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["computer","mouse"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Redhat",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["redhat"],
   },
   render() {

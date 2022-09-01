@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Screenpal",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["screenpal"],
   },
   render() {

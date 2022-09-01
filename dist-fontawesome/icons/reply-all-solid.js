@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ReplyAll",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["reply","all"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "OdnoklassnikiSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["odnoklassniki","square"],
   },
   render() {

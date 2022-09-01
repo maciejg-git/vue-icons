@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RedditSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["reddit","square"],
   },
   render() {

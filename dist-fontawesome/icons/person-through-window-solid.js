@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PersonThroughWindow",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["person","through","window"],
   },
   render() {

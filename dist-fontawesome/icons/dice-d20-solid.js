@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DiceD20",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["dice","d20"],
   },
   render() {

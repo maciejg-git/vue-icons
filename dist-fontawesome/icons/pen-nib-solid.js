@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PenNib",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pen","nib"],
   },
   render() {

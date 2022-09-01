@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GaugeSimple",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["gauge","simple"],
   },
   render() {

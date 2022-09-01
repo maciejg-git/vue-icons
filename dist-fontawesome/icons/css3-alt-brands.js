@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Css3Alt",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["css3","alt"],
   },
   render() {

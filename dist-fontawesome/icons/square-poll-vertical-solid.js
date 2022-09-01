@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquarePollVertical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","poll","vertical"],
   },
   render() {

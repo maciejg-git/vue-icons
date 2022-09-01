@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Grip",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["grip"],
   },
   render() {

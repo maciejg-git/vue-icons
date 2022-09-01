@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Democrat",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["democrat"],
   },
   render() {

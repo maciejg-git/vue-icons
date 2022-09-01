@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MattressPillow",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mattress","pillow"],
   },
   render() {

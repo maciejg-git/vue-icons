@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SimCard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sim","card"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GroupArrowsRotate",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["group","arrows","rotate"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RecordVinyl",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["record","vinyl"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Leanpub",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["leanpub"],
   },
   render() {

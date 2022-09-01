@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CirclePause",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["circle","pause"],
   },
   render() {

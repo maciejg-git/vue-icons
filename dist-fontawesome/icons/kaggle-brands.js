@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Kaggle",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["kaggle"],
   },
   render() {

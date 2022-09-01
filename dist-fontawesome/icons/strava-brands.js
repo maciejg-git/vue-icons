@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Strava",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["strava"],
   },
   render() {

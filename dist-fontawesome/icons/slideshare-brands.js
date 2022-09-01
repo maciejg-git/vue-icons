@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Slideshare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["slideshare"],
   },
   render() {

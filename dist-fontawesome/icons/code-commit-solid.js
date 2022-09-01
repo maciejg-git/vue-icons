@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CodeCommit",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["code","commit"],
   },
   render() {

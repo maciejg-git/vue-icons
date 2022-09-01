@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FilterCircleDollar",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["filter","circle","dollar"],
   },
   render() {

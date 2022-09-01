@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WheatAwnCircleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["wheat","awn","circle","exclamation"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Speakap",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["speakap"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CursorArrowRays",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["cursor","arrow","rays"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BackwardFast",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["backward","fast"],
   },
   render() {

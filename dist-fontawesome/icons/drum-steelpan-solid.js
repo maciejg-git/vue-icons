@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DrumSteelpan",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["drum","steelpan"],
   },
   render() {

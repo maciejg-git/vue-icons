@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Guilded",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["guilded"],
   },
   render() {

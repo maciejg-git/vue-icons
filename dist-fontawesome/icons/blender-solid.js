@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Blender",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["blender"],
   },
   render() {

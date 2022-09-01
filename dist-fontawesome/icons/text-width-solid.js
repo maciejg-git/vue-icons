@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TextWidth",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["text","width"],
   },
   render() {

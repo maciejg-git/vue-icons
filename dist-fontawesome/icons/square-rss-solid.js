@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquareRss",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","rss"],
   },
   render() {

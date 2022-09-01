@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "QuoteRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["quote","right"],
   },
   render() {

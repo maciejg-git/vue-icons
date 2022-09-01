@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Qrcode",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["qrcode"],
   },
   render() {

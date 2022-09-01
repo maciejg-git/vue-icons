@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Stackpath",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["stackpath"],
   },
   render() {

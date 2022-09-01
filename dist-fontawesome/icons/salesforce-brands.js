@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Salesforce",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["salesforce"],
   },
   render() {

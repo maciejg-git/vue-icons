@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LayerGroup",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["layer","group"],
   },
   render() {

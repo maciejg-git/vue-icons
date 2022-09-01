@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CompactDisc",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["compact","disc"],
   },
   render() {

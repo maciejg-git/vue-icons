@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FlagCheckered",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["flag","checkered"],
   },
   render() {

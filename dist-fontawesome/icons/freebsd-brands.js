@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Freebsd",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["freebsd"],
   },
   render() {

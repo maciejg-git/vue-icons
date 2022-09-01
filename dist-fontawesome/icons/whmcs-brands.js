@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Whmcs",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["whmcs"],
   },
   render() {

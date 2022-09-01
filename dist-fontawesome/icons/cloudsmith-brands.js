@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cloudsmith",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cloudsmith"],
   },
   render() {

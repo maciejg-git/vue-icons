@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FileExport",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","export"],
   },
   render() {

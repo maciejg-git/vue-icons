@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Tumblr",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["tumblr"],
   },
   render() {

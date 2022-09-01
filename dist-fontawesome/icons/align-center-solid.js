@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AlignCenter",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["align","center"],
   },
   render() {

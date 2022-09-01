@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UsersBetweenLines",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["users","between","lines"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CodeBranch",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["code","branch"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Chromecast",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["chromecast"],
   },
   render() {

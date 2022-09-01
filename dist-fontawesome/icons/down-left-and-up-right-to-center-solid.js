@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DownLeftAndUpRightToCenter",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["down","left","and","up","right","to","center"],
   },
   render() {

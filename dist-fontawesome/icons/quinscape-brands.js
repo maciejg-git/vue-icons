@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Quinscape",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["quinscape"],
   },
   render() {

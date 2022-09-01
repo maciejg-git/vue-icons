@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LifeRing",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["life","ring"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Radio",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["radio"],
   },
   render() {

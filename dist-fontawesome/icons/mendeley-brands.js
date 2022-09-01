@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Mendeley",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["mendeley"],
   },
   render() {

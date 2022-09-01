@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandPointLeft",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["hand","point","left"],
   },
   render() {

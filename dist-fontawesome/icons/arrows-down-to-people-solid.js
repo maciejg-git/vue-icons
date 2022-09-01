@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsDownToPeople",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrows","down","to","people"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TachographDigital",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["tachograph","digital"],
   },
   render() {

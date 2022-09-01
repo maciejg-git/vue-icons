@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RectangleGroup",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["rectangle","group"],
   },
   render() {

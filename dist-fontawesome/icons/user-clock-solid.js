@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UserClock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["user","clock"],
   },
   render() {

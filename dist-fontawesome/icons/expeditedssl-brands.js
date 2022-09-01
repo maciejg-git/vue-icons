@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Expeditedssl",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["expeditedssl"],
   },
   render() {

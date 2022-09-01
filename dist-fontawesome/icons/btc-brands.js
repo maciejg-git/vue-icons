@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Btc",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["btc"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Memory",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["memory"],
   },
   render() {

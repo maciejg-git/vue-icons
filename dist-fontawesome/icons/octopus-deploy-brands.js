@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "OctopusDeploy",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["octopus","deploy"],
   },
   render() {

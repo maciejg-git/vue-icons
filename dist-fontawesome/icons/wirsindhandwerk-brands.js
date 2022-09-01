@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wirsindhandwerk",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wirsindhandwerk"],
   },
   render() {

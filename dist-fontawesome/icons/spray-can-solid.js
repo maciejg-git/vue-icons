@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SprayCan",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["spray","can"],
   },
   render() {

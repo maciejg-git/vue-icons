@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "EdgeLegacy",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["edge","legacy"],
   },
   render() {

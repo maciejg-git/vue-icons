@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Fulcrum",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["fulcrum"],
   },
   render() {

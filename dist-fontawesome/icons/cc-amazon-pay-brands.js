@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CcAmazonPay",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cc","amazon","pay"],
   },
   render() {

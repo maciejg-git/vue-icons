@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Intercom",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["intercom"],
   },
   render() {

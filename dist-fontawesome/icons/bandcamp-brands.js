@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Bandcamp",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["bandcamp"],
   },
   render() {

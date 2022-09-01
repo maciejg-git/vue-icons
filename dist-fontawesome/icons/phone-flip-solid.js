@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PhoneFlip",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["phone","flip"],
   },
   render() {

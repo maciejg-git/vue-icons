@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Rocketchat",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["rocketchat"],
   },
   render() {

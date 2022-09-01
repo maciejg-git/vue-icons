@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Schlix",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["schlix"],
   },
   render() {

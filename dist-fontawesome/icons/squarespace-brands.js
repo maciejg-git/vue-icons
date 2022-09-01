@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Squarespace",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["squarespace"],
   },
   render() {

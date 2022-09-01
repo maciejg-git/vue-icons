@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SchoolFlag",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["school","flag"],
   },
   render() {

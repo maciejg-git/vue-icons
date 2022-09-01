@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PesoSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["peso","sign"],
   },
   render() {

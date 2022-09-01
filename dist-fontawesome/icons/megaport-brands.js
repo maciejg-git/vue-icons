@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Megaport",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["megaport"],
   },
   render() {

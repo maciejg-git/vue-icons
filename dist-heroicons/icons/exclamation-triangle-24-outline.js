@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ExclamationTriangle",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["exclamation","triangle"],
   },
   render() {

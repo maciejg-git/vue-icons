@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CloudMeatball",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cloud","meatball"],
   },
   render() {

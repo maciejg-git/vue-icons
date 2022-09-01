@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Youtube",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["youtube"],
   },
   render() {

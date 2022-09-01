@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquarePhone",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","phone"],
   },
   render() {

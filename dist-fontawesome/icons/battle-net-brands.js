@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BattleNet",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["battle","net"],
   },
   render() {

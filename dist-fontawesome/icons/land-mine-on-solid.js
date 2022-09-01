@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LandMineOn",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["land","mine","on"],
   },
   render() {

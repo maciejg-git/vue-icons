@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Unlock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["unlock"],
   },
   render() {

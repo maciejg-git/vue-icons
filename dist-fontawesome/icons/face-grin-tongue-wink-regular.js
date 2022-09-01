@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FaceGrinTongueWink",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["face","grin","tongue","wink"],
   },
   render() {

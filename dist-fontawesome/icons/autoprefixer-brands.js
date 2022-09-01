@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Autoprefixer",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["autoprefixer"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowDownUpAcrossLine",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrow","down","up","across","line"],
   },
   render() {

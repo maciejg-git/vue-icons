@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlugCircleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["plug","circle","exclamation"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Dochub",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["dochub"],
   },
   render() {

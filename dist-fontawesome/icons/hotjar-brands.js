@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Hotjar",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["hotjar"],
   },
   render() {

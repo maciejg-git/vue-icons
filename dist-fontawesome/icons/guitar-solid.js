@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Guitar",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["guitar"],
   },
   render() {

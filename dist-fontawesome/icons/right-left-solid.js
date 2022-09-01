@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RightLeft",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["right","left"],
   },
   render() {

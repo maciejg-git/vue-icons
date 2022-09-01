@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WordpressSimple",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wordpress","simple"],
   },
   render() {

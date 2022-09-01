@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GooglePlusG",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["google","plus","g"],
   },
   render() {

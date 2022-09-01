@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AngleUp",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["angle","up"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SunPlantWilt",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sun","plant","wilt"],
   },
   render() {

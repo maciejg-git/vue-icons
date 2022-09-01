@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BridgeCircleCheck",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bridge","circle","check"],
   },
   render() {

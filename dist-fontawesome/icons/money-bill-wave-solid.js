@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MoneyBillWave",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["money","bill","wave"],
   },
   render() {

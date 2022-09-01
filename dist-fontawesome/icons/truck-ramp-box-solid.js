@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TruckRampBox",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["truck","ramp","box"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "UpLong",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["up","long"],
   },
   render() {

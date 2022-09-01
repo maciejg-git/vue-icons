@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PhoneVolume",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["phone","volume"],
   },
   render() {

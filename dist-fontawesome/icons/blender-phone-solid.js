@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BlenderPhone",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["blender","phone"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Telegram",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["telegram"],
   },
   render() {

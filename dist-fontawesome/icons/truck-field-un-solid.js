@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TruckFieldUn",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["truck","field","un"],
   },
   render() {

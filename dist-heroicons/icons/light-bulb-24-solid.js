@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LightBulb",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["light","bulb"],
   },
   render() {

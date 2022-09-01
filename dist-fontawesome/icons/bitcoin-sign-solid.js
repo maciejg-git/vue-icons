@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BitcoinSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bitcoin","sign"],
   },
   render() {

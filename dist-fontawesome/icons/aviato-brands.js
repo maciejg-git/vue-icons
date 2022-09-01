@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Aviato",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["aviato"],
   },
   render() {

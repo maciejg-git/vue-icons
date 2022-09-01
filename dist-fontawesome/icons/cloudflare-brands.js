@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cloudflare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cloudflare"],
   },
   render() {

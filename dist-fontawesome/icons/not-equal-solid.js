@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "NotEqual",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["not","equal"],
   },
   render() {

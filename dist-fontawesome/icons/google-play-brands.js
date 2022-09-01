@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GooglePlay",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["google","play"],
   },
   render() {

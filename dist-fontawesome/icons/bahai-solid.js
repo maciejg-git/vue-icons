@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Bahai",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bahai"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CurrencyDollar",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["currency","dollar"],
   },
   render() {

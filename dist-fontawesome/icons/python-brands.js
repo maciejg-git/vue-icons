@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Python",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["python"],
   },
   render() {

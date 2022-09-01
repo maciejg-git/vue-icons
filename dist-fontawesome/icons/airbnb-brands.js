@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Airbnb",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["airbnb"],
   },
   render() {

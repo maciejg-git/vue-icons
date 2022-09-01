@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FaceRollingEyes",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["face","rolling","eyes"],
   },
   render() {

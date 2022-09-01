@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Screwdriver",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["screwdriver"],
   },
   render() {

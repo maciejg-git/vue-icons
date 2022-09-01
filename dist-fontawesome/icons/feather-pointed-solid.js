@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FeatherPointed",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["feather","pointed"],
   },
   render() {

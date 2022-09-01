@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SteamSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["steam","square"],
   },
   render() {

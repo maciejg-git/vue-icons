@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BeerMugEmpty",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["beer","mug","empty"],
   },
   render() {

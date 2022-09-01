@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Strikethrough",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["strikethrough"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ListCheck",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["list","check"],
   },
   render() {

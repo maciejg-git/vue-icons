@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "RubleSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["ruble","sign"],
   },
   render() {

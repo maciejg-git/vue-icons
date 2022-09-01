@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HouseChimneyMedical",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["house","chimney","medical"],
   },
   render() {

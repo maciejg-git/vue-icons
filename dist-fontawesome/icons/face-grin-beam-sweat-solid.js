@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FaceGrinBeamSweat",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["face","grin","beam","sweat"],
   },
   render() {

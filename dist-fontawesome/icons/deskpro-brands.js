@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Deskpro",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["deskpro"],
   },
   render() {

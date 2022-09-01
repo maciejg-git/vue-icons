@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ColonSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["colon","sign"],
   },
   render() {

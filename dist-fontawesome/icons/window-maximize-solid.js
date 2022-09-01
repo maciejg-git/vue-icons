@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WindowMaximize",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["window","maximize"],
   },
   render() {

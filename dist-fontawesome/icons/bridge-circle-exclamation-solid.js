@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BridgeCircleExclamation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bridge","circle","exclamation"],
   },
   render() {

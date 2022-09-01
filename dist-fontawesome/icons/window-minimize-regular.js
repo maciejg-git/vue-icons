@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WindowMinimize",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["window","minimize"],
   },
   render() {

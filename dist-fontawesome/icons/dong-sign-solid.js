@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "DongSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["dong","sign"],
   },
   render() {

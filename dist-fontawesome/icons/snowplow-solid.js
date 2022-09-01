@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Snowplow",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["snowplow"],
   },
   render() {

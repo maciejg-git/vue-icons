@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hand","point","up"],
   },
   render() {

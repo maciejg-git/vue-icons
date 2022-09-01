@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Whatsapp",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["whatsapp"],
   },
   render() {

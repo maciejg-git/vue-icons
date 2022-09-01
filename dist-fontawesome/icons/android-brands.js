@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Android",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["android"],
   },
   render() {

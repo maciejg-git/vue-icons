@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Laravel",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["laravel"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GitAlt",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["git","alt"],
   },
   render() {

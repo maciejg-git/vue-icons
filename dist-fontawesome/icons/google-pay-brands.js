@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GooglePay",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["google","pay"],
   },
   render() {

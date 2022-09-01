@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Docker",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["docker"],
   },
   render() {

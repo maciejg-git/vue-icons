@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Themeco",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["themeco"],
   },
   render() {

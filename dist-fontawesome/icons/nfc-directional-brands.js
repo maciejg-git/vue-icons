@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "NfcDirectional",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["nfc","directional"],
   },
   render() {

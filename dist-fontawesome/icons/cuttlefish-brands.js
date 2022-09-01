@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cuttlefish",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cuttlefish"],
   },
   render() {

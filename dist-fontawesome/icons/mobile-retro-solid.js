@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MobileRetro",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mobile","retro"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ItchIo",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["itch","io"],
   },
   render() {

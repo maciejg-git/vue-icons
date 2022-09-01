@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Firefox",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["firefox"],
   },
   render() {

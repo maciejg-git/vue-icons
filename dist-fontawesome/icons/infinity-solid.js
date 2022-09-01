@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Infinity",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["infinity"],
   },
   render() {

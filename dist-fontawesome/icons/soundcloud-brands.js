@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Soundcloud",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["soundcloud"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Twitch",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["twitch"],
   },
   render() {

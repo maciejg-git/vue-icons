@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BuildingWheat",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["building","wheat"],
   },
   render() {

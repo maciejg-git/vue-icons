@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "OptinMonster",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["optin","monster"],
   },
   render() {

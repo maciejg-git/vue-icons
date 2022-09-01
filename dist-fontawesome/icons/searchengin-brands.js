@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Searchengin",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["searchengin"],
   },
   render() {

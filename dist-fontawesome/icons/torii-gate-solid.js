@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ToriiGate",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["torii","gate"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsPointingOut",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["arrows","pointing","out"],
   },
   render() {

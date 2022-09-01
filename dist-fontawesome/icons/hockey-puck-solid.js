@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HockeyPuck",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["hockey","puck"],
   },
   render() {

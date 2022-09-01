@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlusMinus",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["plus","minus"],
   },
   render() {

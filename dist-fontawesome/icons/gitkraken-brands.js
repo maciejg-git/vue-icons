@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gitkraken",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["gitkraken"],
   },
   render() {

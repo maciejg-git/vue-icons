@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GasPump",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["gas","pump"],
   },
   render() {

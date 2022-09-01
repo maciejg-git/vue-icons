@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Calendar",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["calendar"],
   },
   render() {

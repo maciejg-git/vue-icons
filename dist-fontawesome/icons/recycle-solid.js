@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Recycle",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["recycle"],
   },
   render() {

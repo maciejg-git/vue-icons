@@ -36,11 +36,6 @@ const options = {
       regular: "regular",
       solid: "solid",
     },
-    suffixPascal: {
-      brands: "Brands",
-      regular: "Regular",
-      solid: "Solid",
-    },
   },
   heroicons: {
     class: "",
@@ -50,10 +45,6 @@ const options = {
     suffix: {
       solid: "solid",
       outline: "outline",
-    },
-    suffixPascal: {
-      solid: "Solid",
-      outline: "Outline",
     },
   },
 };
@@ -108,14 +99,14 @@ let createRenderFunction = (data) => {
 };
 
 const createJsFile = (framework, icon, subs, renderFunction, tags) => {
-  let type = subs.map((i) => toPascalCase(i))
+  // let type = subs.map((i) => toPascalCase(i))
 
   return `import { h } from 'vue'
 export default {
   $_icon: {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
-    type: ${JSON.stringify(type)},
+    type: ${JSON.stringify(subs)},
     tags: ${JSON.stringify(tags)},
   },
   ${renderFunction}

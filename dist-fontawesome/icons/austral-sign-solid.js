@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AustralSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["austral","sign"],
   },
   render() {

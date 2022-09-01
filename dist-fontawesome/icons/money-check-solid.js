@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MoneyCheck",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["money","check"],
   },
   render() {

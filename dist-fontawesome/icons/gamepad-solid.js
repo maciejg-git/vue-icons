@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Gamepad",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["gamepad"],
   },
   render() {

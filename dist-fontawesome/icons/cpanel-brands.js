@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cpanel",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cpanel"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SpellCheck",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["spell","check"],
   },
   render() {

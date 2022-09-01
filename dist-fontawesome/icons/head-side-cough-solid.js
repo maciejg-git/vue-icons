@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "HeadSideCough",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["head","side","cough"],
   },
   render() {

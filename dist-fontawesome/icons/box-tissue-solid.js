@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BoxTissue",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["box","tissue"],
   },
   render() {

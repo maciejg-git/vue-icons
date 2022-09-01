@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Joomla",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["joomla"],
   },
   render() {

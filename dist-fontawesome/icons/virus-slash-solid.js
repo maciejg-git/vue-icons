@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "VirusSlash",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["virus","slash"],
   },
   render() {

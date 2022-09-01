@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FilePdf",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["file","pdf"],
   },
   render() {

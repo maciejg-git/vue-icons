@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Thermometer",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["thermometer"],
   },
   render() {

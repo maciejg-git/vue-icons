@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "StumbleuponCircle",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["stumbleupon","circle"],
   },
   render() {

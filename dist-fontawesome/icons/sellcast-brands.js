@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Sellcast",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["sellcast"],
   },
   render() {

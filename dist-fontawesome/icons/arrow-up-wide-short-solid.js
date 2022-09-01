@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ArrowUpWideShort",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["arrow","up","wide","short"],
   },
   render() {

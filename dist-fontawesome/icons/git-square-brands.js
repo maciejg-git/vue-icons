@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GitSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["git","square"],
   },
   render() {

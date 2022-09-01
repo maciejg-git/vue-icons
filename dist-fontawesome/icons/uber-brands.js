@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Uber",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["uber"],
   },
   render() {

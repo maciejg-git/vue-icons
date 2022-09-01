@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChatBubbleBottomCenterText",
     vendor: "H",
-    type: ["20","Solid"],
+    type: ["20","solid"],
     tags: ["chat","bubble","bottom","center","text"],
   },
   render() {

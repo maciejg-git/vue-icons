@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SquareUpRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["square","up","right"],
   },
   render() {

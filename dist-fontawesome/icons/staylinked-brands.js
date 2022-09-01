@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Staylinked",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["staylinked"],
   },
   render() {

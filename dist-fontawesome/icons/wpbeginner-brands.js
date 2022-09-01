@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Wpbeginner",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["wpbeginner"],
   },
   render() {

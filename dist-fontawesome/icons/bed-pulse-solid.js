@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BedPulse",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["bed","pulse"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FlorinSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["florin","sign"],
   },
   render() {

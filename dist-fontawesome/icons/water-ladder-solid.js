@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "WaterLadder",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["water","ladder"],
   },
   render() {

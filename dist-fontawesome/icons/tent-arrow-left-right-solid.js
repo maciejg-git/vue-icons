@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TentArrowLeftRight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["tent","arrow","left","right"],
   },
   render() {

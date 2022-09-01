@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MillSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["mill","sign"],
   },
   render() {

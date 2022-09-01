@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Hackerrank",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["hackerrank"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ObjectUngroup",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["object","ungroup"],
   },
   render() {

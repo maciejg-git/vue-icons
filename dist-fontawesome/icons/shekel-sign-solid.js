@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ShekelSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["shekel","sign"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "BahtSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["baht","sign"],
   },
   render() {

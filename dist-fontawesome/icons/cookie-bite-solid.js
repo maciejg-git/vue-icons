@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CookieBite",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["cookie","bite"],
   },
   render() {

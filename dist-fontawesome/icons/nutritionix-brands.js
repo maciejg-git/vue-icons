@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Nutritionix",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["nutritionix"],
   },
   render() {

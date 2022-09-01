@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "InternetExplorer",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["internet","explorer"],
   },
   render() {

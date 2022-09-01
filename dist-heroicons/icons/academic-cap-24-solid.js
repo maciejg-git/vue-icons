@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "AcademicCap",
     vendor: "H",
-    type: ["24","Solid"],
+    type: ["24","solid"],
     tags: ["academic","cap"],
   },
   render() {

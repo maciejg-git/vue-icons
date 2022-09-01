@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Perbyte",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["perbyte"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChessKnight",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["chess","knight"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Viadeo",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["viadeo"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "KipSign",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["kip","sign"],
   },
   render() {

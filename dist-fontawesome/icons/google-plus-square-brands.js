@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GooglePlusSquare",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["google","plus","square"],
   },
   render() {

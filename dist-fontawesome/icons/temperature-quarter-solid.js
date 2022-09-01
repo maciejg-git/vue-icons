@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "TemperatureQuarter",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["temperature","quarter"],
   },
   render() {

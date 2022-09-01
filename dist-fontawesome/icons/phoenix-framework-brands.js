@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PhoenixFramework",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["phoenix","framework"],
   },
   render() {

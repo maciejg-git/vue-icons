@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "LocationCrosshairs",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["location","crosshairs"],
   },
   render() {

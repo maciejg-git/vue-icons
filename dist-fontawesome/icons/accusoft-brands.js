@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Accusoft",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["accusoft"],
   },
   render() {

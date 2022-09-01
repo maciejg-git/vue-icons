@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CircleStop",
     vendor: "Fa",
-    type: ["Regular"],
+    type: ["regular"],
     tags: ["circle","stop"],
   },
   render() {

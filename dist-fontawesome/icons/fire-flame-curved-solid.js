@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FireFlameCurved",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["fire","flame","curved"],
   },
   render() {

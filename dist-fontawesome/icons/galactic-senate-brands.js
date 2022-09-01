@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "GalacticSenate",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["galactic","senate"],
   },
   render() {

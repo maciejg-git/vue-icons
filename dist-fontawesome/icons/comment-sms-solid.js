@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CommentSms",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["comment","sms"],
   },
   render() {

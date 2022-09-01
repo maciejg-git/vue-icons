@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PuzzlePiece",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["puzzle","piece"],
   },
   render() {

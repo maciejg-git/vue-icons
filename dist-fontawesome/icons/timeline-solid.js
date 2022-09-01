@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Timeline",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["timeline"],
   },
   render() {

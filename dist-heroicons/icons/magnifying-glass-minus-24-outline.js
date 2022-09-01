@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MagnifyingGlassMinus",
     vendor: "H",
-    type: ["24","Outline"],
+    type: ["24","outline"],
     tags: ["magnifying","glass","minus"],
   },
   render() {

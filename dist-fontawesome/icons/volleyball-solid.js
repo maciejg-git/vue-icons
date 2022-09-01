@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Volleyball",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["volleyball"],
   },
   render() {

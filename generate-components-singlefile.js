@@ -114,14 +114,14 @@ let createRenderFunction = (data) => {
 };
 
 const createJsFile = (framework, icon, iconName, subs, renderFunction, tags) => {
-  let type = subs.map((i) => toPascalCase(i))
+  // let type = subs.map((i) => toPascalCase(i))
 
   return `
 export let ${iconName} = {
   $_icon: {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
-    type: ${JSON.stringify(type)},
+    type: ${JSON.stringify(subs)},
     tags: ${JSON.stringify(tags)},
   },
   ${renderFunction}

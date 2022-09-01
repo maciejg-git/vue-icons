@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Weixin",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["weixin"],
   },
   render() {

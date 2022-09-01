@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlugCircleBolt",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["plug","circle","bolt"],
   },
   render() {

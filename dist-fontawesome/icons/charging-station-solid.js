@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChargingStation",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["charging","station"],
   },
   render() {

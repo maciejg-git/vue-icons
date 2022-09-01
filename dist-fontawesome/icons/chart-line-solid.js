@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "ChartLine",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["chart","line"],
   },
   render() {

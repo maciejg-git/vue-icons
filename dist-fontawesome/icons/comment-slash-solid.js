@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "CommentSlash",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["comment","slash"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Pause",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["pause"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Indent",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["indent"],
   },
   render() {

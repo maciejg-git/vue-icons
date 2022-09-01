@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "MicrophoneSlash",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["microphone","slash"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Cloudversify",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["cloudversify"],
   },
   render() {

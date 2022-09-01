@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Clapperboard",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["clapperboard"],
   },
   render() {

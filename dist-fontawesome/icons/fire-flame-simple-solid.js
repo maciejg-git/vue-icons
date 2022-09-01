@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "FireFlameSimple",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["fire","flame","simple"],
   },
   render() {

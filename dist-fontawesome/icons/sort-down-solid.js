@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "SortDown",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["sort","down"],
   },
   render() {

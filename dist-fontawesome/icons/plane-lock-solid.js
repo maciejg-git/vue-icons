@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "PlaneLock",
     vendor: "Fa",
-    type: ["Solid"],
+    type: ["solid"],
     tags: ["plane","lock"],
   },
   render() {

@@ -3,7 +3,7 @@ export default {
   $_icon: {
     name: "Connectdevelop",
     vendor: "Fa",
-    type: ["Brands"],
+    type: ["brands"],
     tags: ["connectdevelop"],
   },
   render() {
