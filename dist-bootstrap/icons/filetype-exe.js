@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeExe",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","exe"],
   },

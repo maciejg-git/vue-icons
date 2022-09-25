@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatTextRotationAngleDown",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","text","rotation","angle","down"],
   },

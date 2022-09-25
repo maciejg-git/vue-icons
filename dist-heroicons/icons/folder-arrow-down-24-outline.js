@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderArrowDown",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["folder","arrow","down"],
   },

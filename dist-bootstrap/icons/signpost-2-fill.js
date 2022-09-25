@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Signpost2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","2","fill"],
   },

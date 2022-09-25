@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayoutSidebar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","sidebar"],
   },

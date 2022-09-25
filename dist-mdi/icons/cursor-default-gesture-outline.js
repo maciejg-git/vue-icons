@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CursorDefaultGestureOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cursor","default","gesture","outline"],
   },

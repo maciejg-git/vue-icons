@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Cpu32Bit",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cpu","32","bit"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudCheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","check"],
   },

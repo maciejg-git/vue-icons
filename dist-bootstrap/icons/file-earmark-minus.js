@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileEarmarkMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","earmark","minus"],
   },

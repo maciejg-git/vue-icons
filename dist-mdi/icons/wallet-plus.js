@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WalletPlus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["wallet","plus"],
   },

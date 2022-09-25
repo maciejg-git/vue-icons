@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ClipboardClock",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["clipboard","clock"],
   },

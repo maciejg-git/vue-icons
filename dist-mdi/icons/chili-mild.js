@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChiliMild",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["chili","mild"],
   },

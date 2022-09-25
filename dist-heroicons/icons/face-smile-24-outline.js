@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FaceSmile",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["face","smile"],
   },

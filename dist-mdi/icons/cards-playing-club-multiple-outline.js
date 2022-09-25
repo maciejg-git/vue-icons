@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CardsPlayingClubMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cards","playing","club","multiple","outline"],
   },

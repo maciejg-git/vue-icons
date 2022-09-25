@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HeadsetVr",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["headset","vr"],
   },

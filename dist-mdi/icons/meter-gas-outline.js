@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MeterGasOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["meter","gas","outline"],
   },

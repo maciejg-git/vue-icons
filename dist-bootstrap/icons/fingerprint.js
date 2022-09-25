@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Fingerprint",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fingerprint"],
   },

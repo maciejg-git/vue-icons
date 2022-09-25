@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChevronTripleUp",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["chevron","triple","up"],
   },

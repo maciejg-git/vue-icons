@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SkipEndCircle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","circle"],
   },

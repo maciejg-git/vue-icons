@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountBoxOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","box","outline"],
   },

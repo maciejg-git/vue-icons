@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatTextWrappingOverflow",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","text","wrapping","overflow"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrosoftXboxControllerOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["microsoft","xbox","controller","off"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FoodForkDrink",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["food","fork","drink"],
   },

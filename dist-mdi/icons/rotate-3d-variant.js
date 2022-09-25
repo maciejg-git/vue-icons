@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Rotate3dVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["rotate","3d","variant"],
   },

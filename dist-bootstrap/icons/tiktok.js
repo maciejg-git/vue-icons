@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Tiktok",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tiktok"],
   },

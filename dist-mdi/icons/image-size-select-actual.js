@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ImageSizeSelectActual",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["image","size","select","actual"],
   },

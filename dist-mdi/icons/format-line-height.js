@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatLineHeight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","line","height"],
   },

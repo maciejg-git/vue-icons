@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ContactlessPaymentCircle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["contactless","payment","circle"],
   },

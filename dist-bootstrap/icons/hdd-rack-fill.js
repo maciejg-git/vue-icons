@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HddRackFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdd","rack","fill"],
   },

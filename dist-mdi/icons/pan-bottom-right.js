@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PanBottomRight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["pan","bottom","right"],
   },

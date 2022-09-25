@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeAac",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","aac"],
   },

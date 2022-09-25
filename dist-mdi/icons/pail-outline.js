@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PailOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["pail","outline"],
   },

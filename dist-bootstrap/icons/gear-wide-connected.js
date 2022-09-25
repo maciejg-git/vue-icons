@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GearWideConnected",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gear","wide","connected"],
   },

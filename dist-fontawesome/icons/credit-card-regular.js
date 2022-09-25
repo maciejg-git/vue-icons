@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreditCard",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["credit","card"],
   },

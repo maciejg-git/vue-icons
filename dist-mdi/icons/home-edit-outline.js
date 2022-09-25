@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HomeEditOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["home","edit","outline"],
   },

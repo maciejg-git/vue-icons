@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RollerSkateOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["roller","skate","off"],
   },

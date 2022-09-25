@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ImageFilterBlackWhite",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["image","filter","black","white"],
   },

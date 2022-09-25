@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FaceWomanShimmerOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["face","woman","shimmer","outline"],
   },

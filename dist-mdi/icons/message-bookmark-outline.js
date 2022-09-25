@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MessageBookmarkOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["message","bookmark","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SnapchatSquare",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["snapchat","square"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TerminalSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","split"],
   },

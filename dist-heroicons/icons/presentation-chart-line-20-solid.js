@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PresentationChartLine",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["presentation","chart","line"],
   },

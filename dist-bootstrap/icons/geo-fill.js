@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GeoFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["geo","fill"],
   },

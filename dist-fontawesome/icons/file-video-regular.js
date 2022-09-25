@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileVideo",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["file","video"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BusArticulatedFront",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["bus","articulated","front"],
   },

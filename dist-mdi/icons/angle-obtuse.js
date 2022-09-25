@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AngleObtuse",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["angle","obtuse"],
   },

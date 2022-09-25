@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VideoCameraSlash",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["video","camera","slash"],
   },

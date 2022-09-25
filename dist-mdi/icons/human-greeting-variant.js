@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HumanGreetingVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["human","greeting","variant"],
   },

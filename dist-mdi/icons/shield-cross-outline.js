@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ShieldCrossOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["shield","cross","outline"],
   },

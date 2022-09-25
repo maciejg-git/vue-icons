@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeSql",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","sql"],
   },

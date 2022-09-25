@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GuitarPickOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["guitar","pick","outline"],
   },

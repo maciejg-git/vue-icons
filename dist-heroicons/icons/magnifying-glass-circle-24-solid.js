@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MagnifyingGlassCircle",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["magnifying","glass","circle"],
   },

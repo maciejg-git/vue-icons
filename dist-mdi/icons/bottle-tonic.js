@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BottleTonic",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["bottle","tonic"],
   },

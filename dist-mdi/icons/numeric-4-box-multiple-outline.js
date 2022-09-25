@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Numeric4BoxMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["numeric","4","box","multiple","outline"],
   },

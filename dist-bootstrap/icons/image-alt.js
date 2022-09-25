@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ImageAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["image","alt"],
   },

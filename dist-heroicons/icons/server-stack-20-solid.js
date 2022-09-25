@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ServerStack",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["server","stack"],
   },

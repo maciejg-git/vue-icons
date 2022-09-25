@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CubeUnfolded",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cube","unfolded"],
   },

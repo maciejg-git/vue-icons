@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Mixcloud",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["mixcloud"],
   },

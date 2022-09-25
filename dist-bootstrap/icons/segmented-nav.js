@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SegmentedNav",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["segmented","nav"],
   },

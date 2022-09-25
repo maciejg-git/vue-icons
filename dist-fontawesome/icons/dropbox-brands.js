@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Dropbox",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["dropbox"],
   },

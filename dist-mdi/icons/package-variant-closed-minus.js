@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PackageVariantClosedMinus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["package","variant","closed","minus"],
   },

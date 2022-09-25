@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BrightnessAltHighFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["brightness","alt","high","fill"],
   },

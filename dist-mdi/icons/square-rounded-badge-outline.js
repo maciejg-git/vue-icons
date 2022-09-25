@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SquareRoundedBadgeOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["square","rounded","badge","outline"],
   },

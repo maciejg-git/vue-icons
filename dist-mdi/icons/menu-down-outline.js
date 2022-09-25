@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MenuDownOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["menu","down","outline"],
   },

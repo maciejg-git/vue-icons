@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VideoInputComponent",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["video","input","component"],
   },

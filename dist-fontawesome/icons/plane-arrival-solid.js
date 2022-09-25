@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PlaneArrival",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["plane","arrival"],
   },

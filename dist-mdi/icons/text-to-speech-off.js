@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextToSpeechOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["text","to","speech","off"],
   },

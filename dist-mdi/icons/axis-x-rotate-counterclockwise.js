@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AxisXRotateCounterclockwise",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["axis","x","rotate","counterclockwise"],
   },

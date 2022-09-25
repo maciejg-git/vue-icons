@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ScriptTextKeyOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["script","text","key","outline"],
   },

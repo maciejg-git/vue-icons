@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "42Group",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["42","group"],
   },

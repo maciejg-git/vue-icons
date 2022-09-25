@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LanguageCss3",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["language","css3"],
   },

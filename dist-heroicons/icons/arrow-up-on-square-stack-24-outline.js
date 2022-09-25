@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrowUpOnSquareStack",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["arrow","up","on","square","stack"],
   },

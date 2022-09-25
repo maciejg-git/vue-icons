@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Pinterest",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pinterest"],
   },

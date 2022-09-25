@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SaveFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["save","fill"],
   },

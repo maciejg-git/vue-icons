@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DistributeHorizontalLeft",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["distribute","horizontal","left"],
   },

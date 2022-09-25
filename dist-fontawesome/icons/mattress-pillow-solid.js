@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MattressPillow",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["mattress","pillow"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CursorDefault",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cursor","default"],
   },

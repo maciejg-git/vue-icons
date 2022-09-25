@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BrowserSafari",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","safari"],
   },

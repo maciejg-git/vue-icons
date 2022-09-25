@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WindowClosedVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["window","closed","variant"],
   },

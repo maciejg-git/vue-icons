@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PlugCircleCheck",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["plug","circle","check"],
   },

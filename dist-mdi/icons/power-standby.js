@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PowerStandby",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["power","standby"],
   },

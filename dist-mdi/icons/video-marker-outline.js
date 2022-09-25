@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VideoMarkerOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["video","marker","outline"],
   },

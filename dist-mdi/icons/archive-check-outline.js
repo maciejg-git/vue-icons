@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArchiveCheckOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["archive","check","outline"],
   },

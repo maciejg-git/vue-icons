@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsFullscreen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["arrows","fullscreen"],
   },

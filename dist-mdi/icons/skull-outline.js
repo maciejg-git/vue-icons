@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SkullOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["skull","outline"],
   },

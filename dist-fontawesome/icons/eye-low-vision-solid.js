@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EyeLowVision",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["eye","low","vision"],
   },

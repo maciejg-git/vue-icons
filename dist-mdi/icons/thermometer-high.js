@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ThermometerHigh",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["thermometer","high"],
   },

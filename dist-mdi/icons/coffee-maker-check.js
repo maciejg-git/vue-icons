@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CoffeeMakerCheck",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["coffee","maker","check"],
   },

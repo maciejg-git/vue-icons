@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TagMinus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["tag","minus"],
   },

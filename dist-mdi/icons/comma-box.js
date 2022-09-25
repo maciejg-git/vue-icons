@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CommaBox",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["comma","box"],
   },

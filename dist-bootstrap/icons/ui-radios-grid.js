@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UiRadiosGrid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","radios","grid"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BoxShadow",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["box","shadow"],
   },

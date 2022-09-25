@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AspectRatioFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["aspect","ratio","fill"],
   },

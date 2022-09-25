@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "QualityLow",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["quality","low"],
   },

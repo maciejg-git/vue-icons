@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TallyMark5",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["tally","mark","5"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Alexa",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alexa"],
   },

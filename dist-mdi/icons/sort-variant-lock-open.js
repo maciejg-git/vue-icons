@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SortVariantLockOpen",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sort","variant","lock","open"],
   },

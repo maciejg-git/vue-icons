@@ -19,18 +19,21 @@ const options = {
     fill: "currentColor",
     prefix: "b",
     dir: "icons",
+    license: "MIT",
   },
   mdi: {
     class: "",
     fill: "currentColor",
     prefix: "mdi",
     dir: "svg",
+    license: "Apache 2.0",
   },
   fontawesome: {
     class: "",
     fill: "currentColor",
     prefix: "fa",
     dir: "svgs",
+    license: "CC BY 4.0",
     suffix: {
       brands: "brands",
       regular: "regular",
@@ -42,6 +45,7 @@ const options = {
     fill: "currentColor",
     prefix: "h",
     dir: "src",
+    license: "MIT",
     suffix: {
       solid: "solid",
       outline: "outline",
@@ -106,6 +110,7 @@ export default {
   $_icon: {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
+    license: "${options[framework].license}",
     type: ${JSON.stringify(subs)},
     tags: ${JSON.stringify(tags)},
   },

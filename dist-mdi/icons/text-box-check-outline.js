@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextBoxCheckOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["text","box","check","outline"],
   },

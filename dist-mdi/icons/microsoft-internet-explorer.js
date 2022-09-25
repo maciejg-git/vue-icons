@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrosoftInternetExplorer",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["microsoft","internet","explorer"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ShieldLockOpenOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["shield","lock","open","outline"],
   },

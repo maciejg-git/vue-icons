@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GripVertical",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grip","vertical"],
   },

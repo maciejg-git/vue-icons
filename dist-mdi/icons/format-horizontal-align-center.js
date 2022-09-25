@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatHorizontalAlignCenter",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","horizontal","align","center"],
   },

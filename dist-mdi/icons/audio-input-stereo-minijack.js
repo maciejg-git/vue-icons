@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AudioInputStereoMinijack",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["audio","input","stereo","minijack"],
   },

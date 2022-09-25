@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ShieldHalfFull",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["shield","half","full"],
   },

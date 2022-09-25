@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatAlignMiddle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","align","middle"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LockClosed",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["lock","closed"],
   },

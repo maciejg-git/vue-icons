@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreativeCommonsPdAlt",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["creative","commons","pd","alt"],
   },

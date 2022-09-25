@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BadgeAccountAlertOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["badge","account","alert","outline"],
   },

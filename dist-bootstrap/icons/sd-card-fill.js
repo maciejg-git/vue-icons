@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SdCardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sd","card","fill"],
   },

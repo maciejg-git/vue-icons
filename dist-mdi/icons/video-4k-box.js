@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Video4kBox",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["video","4k","box"],
   },

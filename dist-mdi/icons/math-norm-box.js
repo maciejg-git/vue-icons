@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MathNormBox",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["math","norm","box"],
   },

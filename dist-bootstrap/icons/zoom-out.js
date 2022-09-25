@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ZoomOut",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["zoom","out"],
   },

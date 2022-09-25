@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PersonCircleCheck",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["person","circle","check"],
   },

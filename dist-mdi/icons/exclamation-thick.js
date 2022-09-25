@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ExclamationThick",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["exclamation","thick"],
   },

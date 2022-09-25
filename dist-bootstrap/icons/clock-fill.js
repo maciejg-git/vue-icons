@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ClockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["clock","fill"],
   },

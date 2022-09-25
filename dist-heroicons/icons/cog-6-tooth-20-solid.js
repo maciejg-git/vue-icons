@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Cog6Tooth",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["cog","6","tooth"],
   },

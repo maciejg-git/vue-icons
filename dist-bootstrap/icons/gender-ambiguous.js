@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GenderAmbiguous",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["gender","ambiguous"],
   },

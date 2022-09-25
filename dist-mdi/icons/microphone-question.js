@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrophoneQuestion",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["microphone","question"],
   },

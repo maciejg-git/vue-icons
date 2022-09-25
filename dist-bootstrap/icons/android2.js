@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Android2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["android2"],
   },

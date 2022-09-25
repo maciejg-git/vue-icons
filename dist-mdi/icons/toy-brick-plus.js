@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ToyBrickPlus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["toy","brick","plus"],
   },

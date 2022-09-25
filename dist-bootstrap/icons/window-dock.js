@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WindowDock",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","dock"],
   },

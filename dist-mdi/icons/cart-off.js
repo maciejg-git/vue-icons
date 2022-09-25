@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CartOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cart","off"],
   },

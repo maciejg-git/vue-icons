@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HandScissors",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["hand","scissors"],
   },

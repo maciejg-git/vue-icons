@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Ubuntu",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ubuntu"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreditCard2BackFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["credit","card","2","back","fill"],
   },

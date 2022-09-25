@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Trello",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["trello"],
   },

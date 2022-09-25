@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AxisZArrowLock",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["axis","z","arrow","lock"],
   },

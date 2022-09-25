@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NewspaperVariantOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["newspaper","variant","outline"],
   },

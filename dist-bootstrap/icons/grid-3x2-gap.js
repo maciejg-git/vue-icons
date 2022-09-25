@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Grid3x2Gap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","3x2","gap"],
   },

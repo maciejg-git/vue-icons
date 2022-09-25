@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HandFrontLeftOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["hand","front","left","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BatteryHeartOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","heart","outline"],
   },

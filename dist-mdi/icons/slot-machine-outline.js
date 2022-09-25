@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SlotMachineOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["slot","machine","outline"],
   },

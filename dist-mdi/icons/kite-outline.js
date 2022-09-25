@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "KiteOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["kite","outline"],
   },

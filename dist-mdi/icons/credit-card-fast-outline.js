@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreditCardFastOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["credit","card","fast","outline"],
   },

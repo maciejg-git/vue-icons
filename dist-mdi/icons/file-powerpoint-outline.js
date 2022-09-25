@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FilePowerpointOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","powerpoint","outline"],
   },

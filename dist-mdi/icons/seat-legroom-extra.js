@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SeatLegroomExtra",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["seat","legroom","extra"],
   },

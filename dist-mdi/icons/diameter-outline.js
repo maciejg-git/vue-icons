@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DiameterOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["diameter","outline"],
   },

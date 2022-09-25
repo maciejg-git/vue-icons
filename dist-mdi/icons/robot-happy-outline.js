@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RobotHappyOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["robot","happy","outline"],
   },

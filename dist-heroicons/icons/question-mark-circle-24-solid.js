@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "QuestionMarkCircle",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["question","mark","circle"],
   },

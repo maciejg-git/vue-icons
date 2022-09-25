@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CarTunnel",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["car","tunnel"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BatteryChargingWirelessAlert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","charging","wireless","alert"],
   },

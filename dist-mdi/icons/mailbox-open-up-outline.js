@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MailboxOpenUpOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["mailbox","open","up","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ResizeBottomRight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["resize","bottom","right"],
   },

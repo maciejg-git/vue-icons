@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LedOn",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["led","on"],
   },

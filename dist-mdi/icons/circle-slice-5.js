@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CircleSlice5",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["circle","slice","5"],
   },

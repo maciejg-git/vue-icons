@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FilterLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filter","left"],
   },

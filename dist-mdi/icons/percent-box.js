@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PercentBox",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["percent","box"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Draft2digital",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["draft2digital"],
   },

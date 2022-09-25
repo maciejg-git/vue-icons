@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ThumbDown",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["thumb","down"],
   },

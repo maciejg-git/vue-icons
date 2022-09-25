@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BrowserEdge",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["browser","edge"],
   },

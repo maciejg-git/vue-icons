@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MusicRestHalf",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["music","rest","half"],
   },

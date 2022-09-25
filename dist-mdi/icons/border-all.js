@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BorderAll",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["border","all"],
   },

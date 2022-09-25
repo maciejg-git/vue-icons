@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "QueueList",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["queue","list"],
   },

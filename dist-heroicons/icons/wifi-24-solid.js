@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Wifi",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["wifi"],
   },

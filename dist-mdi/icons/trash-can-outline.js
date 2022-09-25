@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TrashCanOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["trash","can","outline"],
   },

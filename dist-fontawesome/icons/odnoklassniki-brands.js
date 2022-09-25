@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Odnoklassniki",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["odnoklassniki"],
   },

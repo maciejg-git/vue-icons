@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FastForwardBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fast","forward","btn"],
   },

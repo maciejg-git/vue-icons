@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountCancel",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","cancel"],
   },

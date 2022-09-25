@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrosoftTeams",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["microsoft","teams"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SaleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sale","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatLineWeight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","line","weight"],
   },

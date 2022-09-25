@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","arrow","up"],
   },

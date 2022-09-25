@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Hdmi",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hdmi"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Microchip",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["microchip"],
   },

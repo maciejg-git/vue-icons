@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GaugeEmpty",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["gauge","empty"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SocialDistance2Meters",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["social","distance","2","meters"],
   },

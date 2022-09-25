@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PenPlus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["pen","plus"],
   },

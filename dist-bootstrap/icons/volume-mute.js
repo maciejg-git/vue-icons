@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VolumeMute",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","mute"],
   },

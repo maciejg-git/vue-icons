@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayoutTextWindowReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","window","reverse"],
   },

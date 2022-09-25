@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudMoonRain",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["cloud","moon","rain"],
   },

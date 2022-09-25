@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChatQuoteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chat","quote","fill"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GasCylinder",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["gas","cylinder"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UiChecksGrid",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["ui","checks","grid"],
   },

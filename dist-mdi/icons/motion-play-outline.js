@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MotionPlayOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["motion","play","outline"],
   },

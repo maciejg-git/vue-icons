@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BootstrapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bootstrap","fill"],
   },

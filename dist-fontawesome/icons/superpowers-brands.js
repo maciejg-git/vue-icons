@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Superpowers",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["superpowers"],
   },

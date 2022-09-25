@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BellSlash",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["bell","slash"],
   },

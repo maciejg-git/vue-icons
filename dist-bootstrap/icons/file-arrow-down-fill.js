@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileArrowDownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","arrow","down","fill"],
   },

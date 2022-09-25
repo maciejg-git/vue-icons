@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BorderOuter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","outer"],
   },

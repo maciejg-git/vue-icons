@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MenuButtonFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["menu","button","fill"],
   },

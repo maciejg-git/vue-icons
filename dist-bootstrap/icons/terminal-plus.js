@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TerminalPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["terminal","plus"],
   },

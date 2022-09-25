@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrosoftXboxControllerBatteryAlert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["microsoft","xbox","controller","battery","alert"],
   },

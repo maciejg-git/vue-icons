@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SuitcaseRolling",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["suitcase","rolling"],
   },

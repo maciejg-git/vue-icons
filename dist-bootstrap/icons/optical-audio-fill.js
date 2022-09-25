@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "OpticalAudioFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["optical","audio","fill"],
   },

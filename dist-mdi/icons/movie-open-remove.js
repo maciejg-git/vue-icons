@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MovieOpenRemove",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["movie","open","remove"],
   },

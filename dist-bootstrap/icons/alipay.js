@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Alipay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["alipay"],
   },

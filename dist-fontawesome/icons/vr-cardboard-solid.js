@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VrCardboard",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["vr","cardboard"],
   },

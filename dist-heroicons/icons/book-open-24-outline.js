@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BookOpen",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["book","open"],
   },

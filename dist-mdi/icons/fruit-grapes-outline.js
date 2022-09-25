@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FruitGrapesOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["fruit","grapes","outline"],
   },

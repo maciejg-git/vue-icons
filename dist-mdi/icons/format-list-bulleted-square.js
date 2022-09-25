@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatListBulletedSquare",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","list","bulleted","square"],
   },

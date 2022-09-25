@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "JediOrder",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["jedi","order"],
   },

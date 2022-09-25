@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneSlash",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["phone","slash"],
   },

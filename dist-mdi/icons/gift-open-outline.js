@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GiftOpenOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["gift","open","outline"],
   },

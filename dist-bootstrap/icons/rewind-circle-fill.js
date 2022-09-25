@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RewindCircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rewind","circle","fill"],
   },

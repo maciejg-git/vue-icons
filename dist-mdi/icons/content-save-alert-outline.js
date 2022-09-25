@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ContentSaveAlertOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["content","save","alert","outline"],
   },

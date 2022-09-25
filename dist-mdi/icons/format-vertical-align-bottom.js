@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatVerticalAlignBottom",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","vertical","align","bottom"],
   },

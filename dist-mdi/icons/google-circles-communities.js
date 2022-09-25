@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GoogleCirclesCommunities",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["google","circles","communities"],
   },

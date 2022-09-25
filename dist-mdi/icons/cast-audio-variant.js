@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CastAudioVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cast","audio","variant"],
   },

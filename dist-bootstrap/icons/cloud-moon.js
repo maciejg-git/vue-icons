@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudMoon",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","moon"],
   },

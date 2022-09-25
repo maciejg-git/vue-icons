@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BookOpenVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["book","open","variant"],
   },

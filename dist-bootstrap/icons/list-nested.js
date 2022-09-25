@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ListNested",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","nested"],
   },

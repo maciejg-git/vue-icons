@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UsbPlug",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","plug"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrowLeftRightBoldOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["arrow","left","right","bold","outline"],
   },

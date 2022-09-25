@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BorderStyle",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["border","style"],
   },

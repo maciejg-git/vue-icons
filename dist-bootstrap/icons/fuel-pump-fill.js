@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FuelPumpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fuel","pump","fill"],
   },

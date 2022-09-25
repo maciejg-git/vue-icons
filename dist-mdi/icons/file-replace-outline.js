@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileReplaceOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","replace","outline"],
   },

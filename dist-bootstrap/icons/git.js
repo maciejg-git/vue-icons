@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Git",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["git"],
   },

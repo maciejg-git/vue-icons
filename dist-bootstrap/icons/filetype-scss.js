@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeScss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","scss"],
   },

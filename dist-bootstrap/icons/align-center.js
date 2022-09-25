@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AlignCenter",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","center"],
   },

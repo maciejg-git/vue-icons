@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Numeric5BoxMultiple",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["numeric","5","box","multiple"],
   },

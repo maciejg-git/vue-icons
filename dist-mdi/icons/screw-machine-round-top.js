@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ScrewMachineRoundTop",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["screw","machine","round","top"],
   },

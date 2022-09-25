@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudArrowUp",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["cloud","arrow","up"],
   },

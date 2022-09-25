@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Bars3BottomLeft",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["bars","3","bottom","left"],
   },

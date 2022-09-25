@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MaterialUi",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["material","ui"],
   },

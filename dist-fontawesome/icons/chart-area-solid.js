@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChartArea",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["chart","area"],
   },

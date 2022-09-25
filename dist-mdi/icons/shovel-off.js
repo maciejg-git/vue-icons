@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ShovelOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["shovel","off"],
   },

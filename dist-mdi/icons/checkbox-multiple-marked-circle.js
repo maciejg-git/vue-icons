@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CheckboxMultipleMarkedCircle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["checkbox","multiple","marked","circle"],
   },

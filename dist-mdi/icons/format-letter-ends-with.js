@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatLetterEndsWith",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","letter","ends","with"],
   },

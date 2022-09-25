@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "8CircleFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["8","circle","fill"],
   },

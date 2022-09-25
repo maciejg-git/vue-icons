@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RabbitVariantOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["rabbit","variant","outline"],
   },

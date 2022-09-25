@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreditCardSyncOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["credit","card","sync","outline"],
   },

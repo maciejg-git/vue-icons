@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Battery30Bluetooth",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","30","bluetooth"],
   },

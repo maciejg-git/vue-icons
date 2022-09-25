@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TempleBuddhistOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["temple","buddhist","outline"],
   },

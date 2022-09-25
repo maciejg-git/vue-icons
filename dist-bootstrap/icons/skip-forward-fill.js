@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SkipForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","forward","fill"],
   },

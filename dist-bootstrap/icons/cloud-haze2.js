@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudHaze2",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","haze2"],
   },

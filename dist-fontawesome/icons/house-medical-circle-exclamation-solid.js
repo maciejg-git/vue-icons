@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HouseMedicalCircleExclamation",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["house","medical","circle","exclamation"],
   },

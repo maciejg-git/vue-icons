@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextareaResize",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["textarea","resize"],
   },

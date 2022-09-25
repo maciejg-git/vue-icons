@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PersonWalkingDashedLineArrowRight",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["person","walking","dashed","line","arrow","right"],
   },

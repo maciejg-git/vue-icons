@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PlusCircleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["plus","circle","outline"],
   },

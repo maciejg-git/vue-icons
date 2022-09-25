@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChatRemoveOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["chat","remove","outline"],
   },

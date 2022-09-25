@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PageLayoutSidebarRight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["page","layout","sidebar","right"],
   },

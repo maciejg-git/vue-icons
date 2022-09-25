@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ReceiptCutoff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["receipt","cutoff"],
   },

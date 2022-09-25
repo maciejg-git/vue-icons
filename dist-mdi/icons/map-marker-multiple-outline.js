@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MapMarkerMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["map","marker","multiple","outline"],
   },

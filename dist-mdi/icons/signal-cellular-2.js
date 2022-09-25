@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SignalCellular2",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["signal","cellular","2"],
   },

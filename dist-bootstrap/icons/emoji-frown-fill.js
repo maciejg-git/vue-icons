@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EmojiFrownFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["emoji","frown","fill"],
   },

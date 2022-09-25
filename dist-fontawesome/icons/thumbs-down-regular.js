@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ThumbsDown",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["thumbs","down"],
   },

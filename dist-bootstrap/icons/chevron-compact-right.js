@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChevronCompactRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["chevron","compact","right"],
   },

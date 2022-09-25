@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Qq",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["qq"],
   },

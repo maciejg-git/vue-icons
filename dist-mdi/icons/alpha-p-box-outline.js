@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AlphaPBoxOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["alpha","p","box","outline"],
   },

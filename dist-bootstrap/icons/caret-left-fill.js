@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CaretLeftFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["caret","left","fill"],
   },

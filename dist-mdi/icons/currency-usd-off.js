@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CurrencyUsdOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["currency","usd","off"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BasketballHoop",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["basketball","hoop"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RotateLeft",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["rotate","left"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CircleUser",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["circle","user"],
   },

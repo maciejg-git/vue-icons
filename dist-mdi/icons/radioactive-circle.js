@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RadioactiveCircle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["radioactive","circle"],
   },

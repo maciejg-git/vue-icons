@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileLockFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","lock","fill"],
   },

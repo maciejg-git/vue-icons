@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayerForward",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layer","forward"],
   },

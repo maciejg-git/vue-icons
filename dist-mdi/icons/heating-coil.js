@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HeatingCoil",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["heating","coil"],
   },

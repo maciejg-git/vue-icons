@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RayVertex",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ray","vertex"],
   },

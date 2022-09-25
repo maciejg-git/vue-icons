@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileRichtext",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","richtext"],
   },

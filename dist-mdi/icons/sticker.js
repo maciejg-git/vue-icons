@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Sticker",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sticker"],
   },

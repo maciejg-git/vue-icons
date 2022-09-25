@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneReturn",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["phone","return"],
   },

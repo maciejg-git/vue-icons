@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Stopwatch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["stopwatch"],
   },

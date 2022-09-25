@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MushroomOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["mushroom","outline"],
   },

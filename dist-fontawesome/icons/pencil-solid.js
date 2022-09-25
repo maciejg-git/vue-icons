@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Pencil",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["pencil"],
   },

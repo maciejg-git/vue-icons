@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ToiletPaperSlash",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["toilet","paper","slash"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatQuoteClose",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","quote","close"],
   },

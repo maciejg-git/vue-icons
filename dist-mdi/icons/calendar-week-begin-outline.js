@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CalendarWeekBeginOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["calendar","week","begin","outline"],
   },

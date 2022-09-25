@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CalendarWeek",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["calendar","week"],
   },

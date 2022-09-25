@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BoxSeam",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["box","seam"],
   },

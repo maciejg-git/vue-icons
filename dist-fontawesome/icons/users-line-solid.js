@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UsersLine",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["users","line"],
   },

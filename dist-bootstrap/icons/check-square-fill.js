@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CheckSquareFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["check","square","fill"],
   },

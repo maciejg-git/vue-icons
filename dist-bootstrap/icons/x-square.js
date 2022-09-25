@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "XSquare",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["x","square"],
   },

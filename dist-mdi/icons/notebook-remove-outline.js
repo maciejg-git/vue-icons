@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NotebookRemoveOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["notebook","remove","outline"],
   },

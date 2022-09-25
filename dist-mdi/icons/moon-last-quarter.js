@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MoonLastQuarter",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["moon","last","quarter"],
   },

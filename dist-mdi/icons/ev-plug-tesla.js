@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EvPlugTesla",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ev","plug","tesla"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TimelineTextOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["timeline","text","outline"],
   },

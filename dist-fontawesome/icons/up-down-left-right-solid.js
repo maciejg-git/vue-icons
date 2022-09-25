@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UpDownLeftRight",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["up","down","left","right"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BookmarkStarFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bookmark","star","fill"],
   },

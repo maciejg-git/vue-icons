@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EnvelopeOpenText",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["envelope","open","text"],
   },

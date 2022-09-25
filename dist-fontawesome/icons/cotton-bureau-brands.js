@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CottonBureau",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["cotton","bureau"],
   },

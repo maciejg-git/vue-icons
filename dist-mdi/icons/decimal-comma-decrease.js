@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DecimalCommaDecrease",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["decimal","comma","decrease"],
   },

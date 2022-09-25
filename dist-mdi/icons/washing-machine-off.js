@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WashingMachineOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["washing","machine","off"],
   },

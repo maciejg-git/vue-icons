@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "StickerMule",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["sticker","mule"],
   },

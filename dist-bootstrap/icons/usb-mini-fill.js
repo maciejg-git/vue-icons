@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UsbMiniFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","mini","fill"],
   },

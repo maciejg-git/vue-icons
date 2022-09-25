@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountBoxMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","box","multiple","outline"],
   },

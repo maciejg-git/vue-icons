@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "OrderNumericDescending",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["order","numeric","descending"],
   },

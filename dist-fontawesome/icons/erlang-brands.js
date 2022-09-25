@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Erlang",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["erlang"],
   },

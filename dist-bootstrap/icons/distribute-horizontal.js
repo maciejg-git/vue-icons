@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DistributeHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["distribute","horizontal"],
   },

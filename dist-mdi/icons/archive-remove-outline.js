@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArchiveRemoveOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["archive","remove","outline"],
   },

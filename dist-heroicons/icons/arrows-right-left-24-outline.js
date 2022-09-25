@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrowsRightLeft",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["arrows","right","left"],
   },

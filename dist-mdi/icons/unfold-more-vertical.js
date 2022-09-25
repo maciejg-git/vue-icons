@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UnfoldMoreVertical",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["unfold","more","vertical"],
   },

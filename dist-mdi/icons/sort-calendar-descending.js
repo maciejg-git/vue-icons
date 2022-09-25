@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SortCalendarDescending",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sort","calendar","descending"],
   },

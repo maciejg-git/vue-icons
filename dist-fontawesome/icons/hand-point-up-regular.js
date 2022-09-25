@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HandPointUp",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["hand","point","up"],
   },

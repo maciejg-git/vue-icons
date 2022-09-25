@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChartBellCurveCumulative",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["chart","bell","curve","cumulative"],
   },

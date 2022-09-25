@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TransmissionTowerOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["transmission","tower","off"],
   },

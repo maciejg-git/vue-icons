@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SourceCommitEnd",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["source","commit","end"],
   },

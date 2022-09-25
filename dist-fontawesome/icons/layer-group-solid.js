@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayerGroup",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["layer","group"],
   },

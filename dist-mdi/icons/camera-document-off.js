@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CameraDocumentOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["camera","document","off"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WrenchAdjustable",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["wrench","adjustable"],
   },

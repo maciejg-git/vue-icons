@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Rewind15",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["rewind","15"],
   },

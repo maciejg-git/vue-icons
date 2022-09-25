@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeWav",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","wav"],
   },

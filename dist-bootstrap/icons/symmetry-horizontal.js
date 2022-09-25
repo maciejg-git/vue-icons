@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SymmetryHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["symmetry","horizontal"],
   },

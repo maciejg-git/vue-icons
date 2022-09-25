@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "StepForward2",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["step","forward","2"],
   },

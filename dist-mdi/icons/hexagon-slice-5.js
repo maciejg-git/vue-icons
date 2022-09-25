@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HexagonSlice5",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["hexagon","slice","5"],
   },

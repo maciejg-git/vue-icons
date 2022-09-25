@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeSvg",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","svg"],
   },

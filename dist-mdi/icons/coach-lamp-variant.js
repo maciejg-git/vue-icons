@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CoachLampVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["coach","lamp","variant"],
   },

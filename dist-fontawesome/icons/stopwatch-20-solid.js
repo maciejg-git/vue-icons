@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Stopwatch20",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["stopwatch","20"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "UsbCFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["usb","c","fill"],
   },

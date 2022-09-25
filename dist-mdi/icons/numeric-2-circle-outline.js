@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Numeric2CircleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["numeric","2","circle","outline"],
   },

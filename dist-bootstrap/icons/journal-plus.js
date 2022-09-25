@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "JournalPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["journal","plus"],
   },

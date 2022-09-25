@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Disease",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["disease"],
   },

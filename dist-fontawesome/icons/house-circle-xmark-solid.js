@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HouseCircleXmark",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["house","circle","xmark"],
   },

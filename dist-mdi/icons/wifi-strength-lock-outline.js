@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WifiStrengthLockOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["wifi","strength","lock","outline"],
   },

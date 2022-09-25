@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Paypal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["paypal"],
   },

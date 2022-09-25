@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CreditCardRefresh",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["credit","card","refresh"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DiceD6Outline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["dice","d6","outline"],
   },

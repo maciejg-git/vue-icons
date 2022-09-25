@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MortarPestle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["mortar","pestle"],
   },

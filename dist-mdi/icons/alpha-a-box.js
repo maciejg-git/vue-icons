@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AlphaABox",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["alpha","a","box"],
   },

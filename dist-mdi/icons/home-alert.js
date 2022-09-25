@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HomeAlert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["home","alert"],
   },

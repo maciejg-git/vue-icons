@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileBreak",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","break"],
   },

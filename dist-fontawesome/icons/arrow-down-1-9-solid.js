@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrowDown19",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["arrow","down","1","9"],
   },

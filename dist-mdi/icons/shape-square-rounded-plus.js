@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ShapeSquareRoundedPlus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["shape","square","rounded","plus"],
   },

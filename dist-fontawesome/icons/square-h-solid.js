@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SquareH",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["square","h"],
   },

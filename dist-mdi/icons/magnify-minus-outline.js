@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MagnifyMinusOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["magnify","minus","outline"],
   },

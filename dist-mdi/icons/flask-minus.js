@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FlaskMinus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["flask","minus"],
   },

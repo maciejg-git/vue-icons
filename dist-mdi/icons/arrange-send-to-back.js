@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArrangeSendToBack",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["arrange","send","to","back"],
   },

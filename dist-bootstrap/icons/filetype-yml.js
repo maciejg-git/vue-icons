@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeYml",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","yml"],
   },

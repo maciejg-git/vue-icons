@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EmoticonExcited",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["emoticon","excited"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BlackTie",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["black","tie"],
   },

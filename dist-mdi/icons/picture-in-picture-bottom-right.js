@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PictureInPictureBottomRight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["picture","in","picture","bottom","right"],
   },

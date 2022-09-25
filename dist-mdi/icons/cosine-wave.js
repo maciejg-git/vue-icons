@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CosineWave",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cosine","wave"],
   },

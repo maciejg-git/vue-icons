@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CommentAccountOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["comment","account","outline"],
   },

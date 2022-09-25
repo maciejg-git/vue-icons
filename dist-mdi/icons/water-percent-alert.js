@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WaterPercentAlert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["water","percent","alert"],
   },

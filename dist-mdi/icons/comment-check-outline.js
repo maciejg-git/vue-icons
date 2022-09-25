@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CommentCheckOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["comment","check","outline"],
   },

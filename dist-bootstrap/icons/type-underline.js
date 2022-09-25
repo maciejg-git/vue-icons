@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TypeUnderline",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","underline"],
   },

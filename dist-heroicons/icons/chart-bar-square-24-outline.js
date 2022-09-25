@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChartBarSquare",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["chart","bar","square"],
   },

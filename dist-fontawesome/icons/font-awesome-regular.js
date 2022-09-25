@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FontAwesome",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["font","awesome"],
   },

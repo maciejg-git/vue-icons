@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","fill"],
   },

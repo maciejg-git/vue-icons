@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PcDisplayHorizontal",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pc","display","horizontal"],
   },

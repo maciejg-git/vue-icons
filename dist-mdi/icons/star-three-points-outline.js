@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "StarThreePointsOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["star","three","points","outline"],
   },

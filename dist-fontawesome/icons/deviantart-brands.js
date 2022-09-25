@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Deviantart",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["deviantart"],
   },

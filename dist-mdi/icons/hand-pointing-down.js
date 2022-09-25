@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HandPointingDown",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["hand","pointing","down"],
   },

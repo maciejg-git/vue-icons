@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SquareCaretRight",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["square","caret","right"],
   },

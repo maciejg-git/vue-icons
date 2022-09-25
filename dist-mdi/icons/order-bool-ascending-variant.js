@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "OrderBoolAscendingVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["order","bool","ascending","variant"],
   },

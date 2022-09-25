@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderMultiplePlusOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["folder","multiple","plus","outline"],
   },

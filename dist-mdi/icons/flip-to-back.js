@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FlipToBack",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["flip","to","back"],
   },

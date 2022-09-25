@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileUndoOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","undo","outline"],
   },

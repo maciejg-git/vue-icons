@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CradleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["cradle","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneArrowUpRight",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["phone","arrow","up","right"],
   },

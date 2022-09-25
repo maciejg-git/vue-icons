@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudShowersHeavy",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["cloud","showers","heavy"],
   },

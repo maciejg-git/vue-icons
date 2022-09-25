@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HeptagonHalf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["heptagon","half"],
   },

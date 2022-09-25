@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArchiveBoxArrowDown",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["archive","box","arrow","down"],
   },

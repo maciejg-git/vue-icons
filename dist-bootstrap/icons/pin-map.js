@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PinMap",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pin","map"],
   },

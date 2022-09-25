@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Numeric10Circle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["numeric","10","circle"],
   },

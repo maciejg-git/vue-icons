@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ImageMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["image","multiple","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WindowDesktop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","desktop"],
   },

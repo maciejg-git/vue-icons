@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SitemapOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sitemap","outline"],
   },

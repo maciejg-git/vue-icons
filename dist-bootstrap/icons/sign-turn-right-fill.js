@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SignTurnRightFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sign","turn","right","fill"],
   },

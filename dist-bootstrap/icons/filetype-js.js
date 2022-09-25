@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeJs",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","js"],
   },

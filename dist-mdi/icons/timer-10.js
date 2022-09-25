@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Timer10",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["timer","10"],
   },

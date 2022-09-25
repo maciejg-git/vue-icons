@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BackspaceReverseOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["backspace","reverse","outline"],
   },

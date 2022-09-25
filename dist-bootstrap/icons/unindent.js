@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Unindent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["unindent"],
   },

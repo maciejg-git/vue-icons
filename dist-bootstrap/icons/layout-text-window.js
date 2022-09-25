@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayoutTextWindow",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","text","window"],
   },

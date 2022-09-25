@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DockLeft",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["dock","left"],
   },

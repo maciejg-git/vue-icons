@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CheckUnderline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["check","underline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TicketAccount",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ticket","account"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicrosoftDynamics365",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["microsoft","dynamics","365"],
   },

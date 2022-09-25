@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MinecartLoaded",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["minecart","loaded"],
   },

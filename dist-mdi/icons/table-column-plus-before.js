@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TableColumnPlusBefore",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["table","column","plus","before"],
   },

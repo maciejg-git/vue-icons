@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ToggleOff",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["toggle","off"],
   },

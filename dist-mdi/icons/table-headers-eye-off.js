@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TableHeadersEyeOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["table","headers","eye","off"],
   },

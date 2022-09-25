@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VolumeUpFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["volume","up","fill"],
   },

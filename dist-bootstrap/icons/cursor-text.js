@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CursorText",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cursor","text"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FloppyVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["floppy","variant"],
   },

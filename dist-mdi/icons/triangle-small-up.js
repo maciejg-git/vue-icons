@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TriangleSmallUp",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["triangle","small","up"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EyeSlash",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["eye","slash"],
   },

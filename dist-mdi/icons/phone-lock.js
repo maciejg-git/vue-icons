@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneLock",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["phone","lock"],
   },

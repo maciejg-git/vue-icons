@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FlaskEmptyOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["flask","empty","off","outline"],
   },

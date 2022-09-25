@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PageLayoutFooter",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["page","layout","footer"],
   },

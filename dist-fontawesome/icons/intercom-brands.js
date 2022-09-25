@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Intercom",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["intercom"],
   },

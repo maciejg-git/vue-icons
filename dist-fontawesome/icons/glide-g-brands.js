@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GlideG",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["glide","g"],
   },

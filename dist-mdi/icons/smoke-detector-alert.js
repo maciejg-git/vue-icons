@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SmokeDetectorAlert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["smoke","detector","alert"],
   },

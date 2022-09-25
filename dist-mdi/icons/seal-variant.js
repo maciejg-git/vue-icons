@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SealVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["seal","variant"],
   },

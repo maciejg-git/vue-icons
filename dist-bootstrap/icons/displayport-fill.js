@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DisplayportFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["displayport","fill"],
   },

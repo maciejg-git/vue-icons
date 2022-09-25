@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LightbulbAutoOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["lightbulb","auto","outline"],
   },

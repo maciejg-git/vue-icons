@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FiletypeTtf",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["filetype","ttf"],
   },

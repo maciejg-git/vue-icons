@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Voicemail",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["voicemail"],
   },

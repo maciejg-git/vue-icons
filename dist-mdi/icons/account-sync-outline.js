@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountSyncOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","sync","outline"],
   },

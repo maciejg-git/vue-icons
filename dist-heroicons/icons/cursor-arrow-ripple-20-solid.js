@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CursorArrowRipple",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["cursor","arrow","ripple"],
   },

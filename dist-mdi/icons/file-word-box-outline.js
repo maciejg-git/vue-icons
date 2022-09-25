@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileWordBoxOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","word","box","outline"],
   },

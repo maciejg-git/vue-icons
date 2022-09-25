@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BalloonHeartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["balloon","heart","fill"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AlignBottom",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["align","bottom"],
   },

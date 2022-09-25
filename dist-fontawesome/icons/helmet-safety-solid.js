@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HelmetSafety",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["helmet","safety"],
   },

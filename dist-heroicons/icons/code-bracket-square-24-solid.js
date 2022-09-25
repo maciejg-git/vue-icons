@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CodeBracketSquare",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["code","bracket","square"],
   },

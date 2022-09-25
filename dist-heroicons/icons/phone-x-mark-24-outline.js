@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneXMark",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["phone","x","mark"],
   },

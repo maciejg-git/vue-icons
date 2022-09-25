@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ClockTimeTwoOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["clock","time","two","outline"],
   },

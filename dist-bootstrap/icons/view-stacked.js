@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ViewStacked",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["view","stacked"],
   },

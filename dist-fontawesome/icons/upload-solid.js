@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Upload",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["upload"],
   },

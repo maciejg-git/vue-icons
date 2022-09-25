@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FullscreenExit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["fullscreen","exit"],
   },

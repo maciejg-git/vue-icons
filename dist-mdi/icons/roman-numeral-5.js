@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RomanNumeral5",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["roman","numeral","5"],
   },

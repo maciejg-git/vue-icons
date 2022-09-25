@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LanguageRubyOnRails",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["language","ruby","on","rails"],
   },

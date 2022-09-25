@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SkipEndBtn",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["skip","end","btn"],
   },

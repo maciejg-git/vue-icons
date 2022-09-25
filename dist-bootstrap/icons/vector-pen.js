@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "VectorPen",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["vector","pen"],
   },

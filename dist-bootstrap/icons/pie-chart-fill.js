@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PieChartFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["pie","chart","fill"],
   },

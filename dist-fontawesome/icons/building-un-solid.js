@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BuildingUn",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["building","un"],
   },

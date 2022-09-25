@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NetworkStrength3Alert",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["network","strength","3","alert"],
   },

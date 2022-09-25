@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TruckFastOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["truck","fast","outline"],
   },

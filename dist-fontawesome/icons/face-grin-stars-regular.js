@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FaceGrinStars",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["face","grin","stars"],
   },

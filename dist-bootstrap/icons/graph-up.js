@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GraphUp",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["graph","up"],
   },

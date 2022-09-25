@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BatteryChargingWireless60",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","charging","wireless","60"],
   },

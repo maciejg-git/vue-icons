@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "KeyboardF7",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["keyboard","f7"],
   },

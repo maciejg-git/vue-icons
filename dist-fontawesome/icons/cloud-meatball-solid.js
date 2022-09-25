@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudMeatball",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["cloud","meatball"],
   },

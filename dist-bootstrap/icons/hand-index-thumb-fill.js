@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HandIndexThumbFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hand","index","thumb","fill"],
   },

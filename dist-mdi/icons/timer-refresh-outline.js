@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TimerRefreshOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["timer","refresh","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LinkBoxVariantOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["link","box","variant","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Ring",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ring"],
   },

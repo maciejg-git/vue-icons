@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ListColumnsReverse",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["list","columns","reverse"],
   },

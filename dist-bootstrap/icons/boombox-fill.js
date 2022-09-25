@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BoomboxFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["boombox","fill"],
   },

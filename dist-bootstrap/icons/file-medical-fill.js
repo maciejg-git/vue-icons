@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileMedicalFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","medical","fill"],
   },

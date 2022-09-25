@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HydraulicOilLevel",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["hydraulic","oil","level"],
   },

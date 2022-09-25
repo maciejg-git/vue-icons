@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FridgeOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["fridge","off","outline"],
   },

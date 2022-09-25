@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RelationOnlyOneToMany",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["relation","only","one","to","many"],
   },

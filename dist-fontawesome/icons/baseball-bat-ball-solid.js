@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BaseballBatBall",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["baseball","bat","ball"],
   },

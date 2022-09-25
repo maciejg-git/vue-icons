@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HourglassTop",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["hourglass","top"],
   },

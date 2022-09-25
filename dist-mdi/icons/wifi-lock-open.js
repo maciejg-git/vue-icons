@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WifiLockOpen",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["wifi","lock","open"],
   },

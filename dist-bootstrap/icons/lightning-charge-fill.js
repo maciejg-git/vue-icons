@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LightningChargeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["lightning","charge","fill"],
   },

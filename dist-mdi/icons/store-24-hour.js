@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Store24Hour",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["store","24","hour"],
   },

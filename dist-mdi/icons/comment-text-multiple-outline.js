@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CommentTextMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["comment","text","multiple","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextIndentLeft",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","indent","left"],
   },

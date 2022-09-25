@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextParagraph",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["text","paragraph"],
   },

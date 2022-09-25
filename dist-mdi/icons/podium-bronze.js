@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PodiumBronze",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["podium","bronze"],
   },

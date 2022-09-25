@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountCowboyHatOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","cowboy","hat","outline"],
   },

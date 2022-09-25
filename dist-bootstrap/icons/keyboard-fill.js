@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "KeyboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["keyboard","fill"],
   },

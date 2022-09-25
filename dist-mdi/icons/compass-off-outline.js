@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CompassOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["compass","off","outline"],
   },

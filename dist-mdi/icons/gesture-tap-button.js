@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GestureTapButton",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["gesture","tap","button"],
   },

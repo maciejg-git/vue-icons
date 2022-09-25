@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccessPointNetworkOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["access","point","network","off"],
   },

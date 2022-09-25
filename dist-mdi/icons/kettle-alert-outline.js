@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "KettleAlertOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["kettle","alert","outline"],
   },

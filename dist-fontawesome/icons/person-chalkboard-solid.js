@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PersonChalkboard",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["person","chalkboard"],
   },

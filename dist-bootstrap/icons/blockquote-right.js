@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BlockquoteRight",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["blockquote","right"],
   },

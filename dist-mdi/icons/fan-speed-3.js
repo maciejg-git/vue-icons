@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FanSpeed3",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["fan","speed","3"],
   },

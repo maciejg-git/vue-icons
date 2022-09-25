@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TimerMusicOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["timer","music","outline"],
   },

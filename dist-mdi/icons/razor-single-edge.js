@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RazorSingleEdge",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["razor","single","edge"],
   },

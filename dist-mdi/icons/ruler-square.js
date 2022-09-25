@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RulerSquare",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ruler","square"],
   },

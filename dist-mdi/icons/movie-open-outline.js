@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MovieOpenOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["movie","open","outline"],
   },

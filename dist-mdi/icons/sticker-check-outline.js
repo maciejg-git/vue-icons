@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "StickerCheckOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sticker","check","outline"],
   },

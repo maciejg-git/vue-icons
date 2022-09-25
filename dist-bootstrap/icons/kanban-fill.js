@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "KanbanFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["kanban","fill"],
   },

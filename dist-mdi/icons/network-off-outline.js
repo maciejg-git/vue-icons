@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NetworkOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["network","off","outline"],
   },

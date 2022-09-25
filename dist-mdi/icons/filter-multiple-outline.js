@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FilterMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["filter","multiple","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ArchiveBoxXMark",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["archive","box","x","mark"],
   },

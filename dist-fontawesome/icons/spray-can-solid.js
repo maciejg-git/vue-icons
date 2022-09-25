@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SprayCan",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["spray","can"],
   },

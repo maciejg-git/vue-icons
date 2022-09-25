@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DataMatrixEdit",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["data","matrix","edit"],
   },

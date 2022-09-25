@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MapFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["map","fill"],
   },

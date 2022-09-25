@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BuyNLarge",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["buy","n","large"],
   },

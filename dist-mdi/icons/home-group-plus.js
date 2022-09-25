@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HomeGroupPlus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["home","group","plus"],
   },

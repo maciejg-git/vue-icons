@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Gif",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["gif"],
   },

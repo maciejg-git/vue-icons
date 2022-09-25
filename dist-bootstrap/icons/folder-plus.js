@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderPlus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["folder","plus"],
   },

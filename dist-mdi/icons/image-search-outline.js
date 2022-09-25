@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ImageSearchOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["image","search","outline"],
   },

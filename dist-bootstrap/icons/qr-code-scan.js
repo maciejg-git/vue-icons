@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "QrCodeScan",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["qr","code","scan"],
   },

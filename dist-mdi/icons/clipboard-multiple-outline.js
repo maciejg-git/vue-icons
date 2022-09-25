@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ClipboardMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["clipboard","multiple","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SelectionRemove",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["selection","remove"],
   },

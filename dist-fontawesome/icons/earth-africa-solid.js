@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EarthAfrica",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["earth","africa"],
   },

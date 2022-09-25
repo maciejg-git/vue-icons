@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SilverwareForkKnife",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["silverware","fork","knife"],
   },

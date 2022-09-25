@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DebugStepOver",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["debug","step","over"],
   },

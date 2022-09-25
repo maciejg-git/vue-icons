@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AnchorCircleXmark",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["anchor","circle","xmark"],
   },

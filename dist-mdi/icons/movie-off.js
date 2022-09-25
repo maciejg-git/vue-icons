@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MovieOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["movie","off"],
   },

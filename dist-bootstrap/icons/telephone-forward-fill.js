@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TelephoneForwardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["telephone","forward","fill"],
   },

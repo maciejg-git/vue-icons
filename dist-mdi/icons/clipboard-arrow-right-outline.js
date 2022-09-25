@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ClipboardArrowRightOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["clipboard","arrow","right","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatListChecks",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","list","checks"],
   },

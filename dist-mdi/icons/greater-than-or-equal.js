@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GreaterThanOrEqual",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["greater","than","or","equal"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CoffeeToGoOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["coffee","to","go","outline"],
   },

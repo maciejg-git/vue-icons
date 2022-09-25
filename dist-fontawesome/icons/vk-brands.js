@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Vk",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["vk"],
   },

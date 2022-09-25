@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AirHumidifierOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["air","humidifier","off"],
   },

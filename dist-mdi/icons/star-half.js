@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "StarHalf",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["star","half"],
   },

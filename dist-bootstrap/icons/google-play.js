@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GooglePlay",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["google","play"],
   },

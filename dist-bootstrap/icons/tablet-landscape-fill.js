@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TabletLandscapeFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["tablet","landscape","fill"],
   },

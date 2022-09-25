@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HeartPulse",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["heart","pulse"],
   },

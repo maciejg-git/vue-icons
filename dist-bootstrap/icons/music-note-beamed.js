@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MusicNoteBeamed",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["music","note","beamed"],
   },

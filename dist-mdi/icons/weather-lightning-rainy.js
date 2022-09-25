@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WeatherLightningRainy",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["weather","lightning","rainy"],
   },

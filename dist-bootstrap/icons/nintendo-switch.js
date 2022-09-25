@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NintendoSwitch",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["nintendo","switch"],
   },

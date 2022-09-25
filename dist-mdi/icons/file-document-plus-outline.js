@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileDocumentPlusOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","document","plus","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileSpreadsheetFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","spreadsheet","fill"],
   },

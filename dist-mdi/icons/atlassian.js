@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Atlassian",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["atlassian"],
   },

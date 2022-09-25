@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BedSingleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["bed","single","outline"],
   },

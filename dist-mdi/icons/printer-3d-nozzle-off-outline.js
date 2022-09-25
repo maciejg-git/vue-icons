@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Printer3dNozzleOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["printer","3d","nozzle","off","outline"],
   },

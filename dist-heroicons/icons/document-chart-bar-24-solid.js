@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DocumentChartBar",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["document","chart","bar"],
   },

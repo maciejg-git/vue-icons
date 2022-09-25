@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EyeArrowLeft",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["eye","arrow","left"],
   },

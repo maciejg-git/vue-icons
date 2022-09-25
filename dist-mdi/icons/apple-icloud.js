@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AppleIcloud",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["apple","icloud"],
   },

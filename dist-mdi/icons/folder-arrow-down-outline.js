@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderArrowDownOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["folder","arrow","down","outline"],
   },

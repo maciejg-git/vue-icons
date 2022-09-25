@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "YoutubeSubscription",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["youtube","subscription"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WifiArrowUpDown",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["wifi","arrow","up","down"],
   },

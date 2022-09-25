@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PlusSlashMinus",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["plus","slash","minus"],
   },

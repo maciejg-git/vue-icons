@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SendSlashFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["send","slash","fill"],
   },

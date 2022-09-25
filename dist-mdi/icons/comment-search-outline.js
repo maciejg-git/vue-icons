@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CommentSearchOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["comment","search","outline"],
   },

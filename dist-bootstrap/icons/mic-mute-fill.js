@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MicMuteFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["mic","mute","fill"],
   },

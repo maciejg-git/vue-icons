@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileCirclePlus",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["file","circle","plus"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormatAnnotationMinus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["format","annotation","minus"],
   },

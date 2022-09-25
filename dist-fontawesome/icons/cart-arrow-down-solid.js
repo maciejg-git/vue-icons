@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CartArrowDown",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["cart","arrow","down"],
   },

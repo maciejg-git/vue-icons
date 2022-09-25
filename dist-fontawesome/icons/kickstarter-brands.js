@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Kickstarter",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["kickstarter"],
   },

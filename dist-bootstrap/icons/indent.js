@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Indent",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["indent"],
   },

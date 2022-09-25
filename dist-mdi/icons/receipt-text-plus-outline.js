@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ReceiptTextPlusOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["receipt","text","plus","outline"],
   },

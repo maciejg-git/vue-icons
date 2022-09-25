@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LabelPercentOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["label","percent","outline"],
   },

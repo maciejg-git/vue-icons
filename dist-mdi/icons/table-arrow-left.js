@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TableArrowLeft",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["table","arrow","left"],
   },

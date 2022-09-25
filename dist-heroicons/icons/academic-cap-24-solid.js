@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AcademicCap",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["academic","cap"],
   },

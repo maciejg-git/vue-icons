@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WaterWellOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["water","well","outline"],
   },

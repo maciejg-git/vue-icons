@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SortAlphaUpAlt",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","alpha","up","alt"],
   },

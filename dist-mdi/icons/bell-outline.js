@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BellOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["bell","outline"],
   },

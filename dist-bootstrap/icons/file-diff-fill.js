@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileDiffFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","diff","fill"],
   },

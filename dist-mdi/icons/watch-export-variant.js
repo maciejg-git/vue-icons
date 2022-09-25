@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WatchExportVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["watch","export","variant"],
   },

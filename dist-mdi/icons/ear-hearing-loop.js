@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EarHearingLoop",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["ear","hearing","loop"],
   },

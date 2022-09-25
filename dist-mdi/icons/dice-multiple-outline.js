@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DiceMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["dice","multiple","outline"],
   },

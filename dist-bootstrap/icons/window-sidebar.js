@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WindowSidebar",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["window","sidebar"],
   },

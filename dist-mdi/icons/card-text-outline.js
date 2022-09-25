@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CardTextOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["card","text","outline"],
   },

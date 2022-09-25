@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HumanFemaleDance",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["human","female","dance"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Speakap",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["speakap"],
   },

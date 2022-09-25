@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HomeFloorB",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["home","floor","b"],
   },

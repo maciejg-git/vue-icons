@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Application",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["application"],
   },

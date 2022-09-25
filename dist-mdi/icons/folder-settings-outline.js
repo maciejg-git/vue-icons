@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderSettingsOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["folder","settings","outline"],
   },

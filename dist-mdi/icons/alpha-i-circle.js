@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AlphaICircle",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["alpha","i","circle"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SortDown",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["sort","down"],
   },

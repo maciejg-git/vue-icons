@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RectangleGroup",
     vendor: "H",
+    license: "MIT",
     type: ["24","outline"],
     tags: ["rectangle","group"],
   },

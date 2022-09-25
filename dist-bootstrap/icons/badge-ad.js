@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BadgeAd",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["badge","ad"],
   },

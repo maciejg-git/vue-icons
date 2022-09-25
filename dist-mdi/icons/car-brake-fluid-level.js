@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CarBrakeFluidLevel",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["car","brake","fluid","level"],
   },

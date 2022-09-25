@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AccountFilter",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["account","filter"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "AppStore",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["app","store"],
   },

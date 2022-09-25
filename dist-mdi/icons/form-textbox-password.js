@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FormTextboxPassword",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["form","textbox","password"],
   },

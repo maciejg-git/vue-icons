@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ServerMinus",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["server","minus"],
   },

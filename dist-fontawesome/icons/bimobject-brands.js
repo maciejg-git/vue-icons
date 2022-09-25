@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Bimobject",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["bimobject"],
   },

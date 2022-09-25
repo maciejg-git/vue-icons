@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileChartCheck",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","chart","check"],
   },

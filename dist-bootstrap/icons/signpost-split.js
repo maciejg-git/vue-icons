@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SignpostSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["signpost","split"],
   },

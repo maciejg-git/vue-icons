@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TreeCity",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["tree","city"],
   },

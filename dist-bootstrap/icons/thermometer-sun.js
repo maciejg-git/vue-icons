@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ThermometerSun",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["thermometer","sun"],
   },

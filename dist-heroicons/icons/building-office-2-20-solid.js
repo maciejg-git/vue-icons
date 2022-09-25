@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BuildingOffice2",
     vendor: "H",
+    license: "MIT",
     type: ["20","solid"],
     tags: ["building","office","2"],
   },

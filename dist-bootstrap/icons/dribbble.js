@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Dribbble",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["dribbble"],
   },

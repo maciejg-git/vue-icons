@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Hvac",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["hvac"],
   },

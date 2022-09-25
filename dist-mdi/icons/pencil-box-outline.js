@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PencilBoxOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["pencil","box","outline"],
   },

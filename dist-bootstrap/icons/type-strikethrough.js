@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TypeStrikethrough",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["type","strikethrough"],
   },

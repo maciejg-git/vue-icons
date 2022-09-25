@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Rocketchat",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["rocketchat"],
   },

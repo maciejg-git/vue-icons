@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ChevronDownBoxOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["chevron","down","box","outline"],
   },

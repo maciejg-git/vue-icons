@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FacebookGaming",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["facebook","gaming"],
   },

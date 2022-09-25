@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CloudFog2Fill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["cloud","fog2","fill"],
   },

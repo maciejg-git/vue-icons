@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneOutgoingOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["phone","outgoing","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "TextBoxMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["text","box","multiple","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PiedPiperPp",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["brands"],
     tags: ["pied","piper","pp"],
   },

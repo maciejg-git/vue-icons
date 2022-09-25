@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LeftLong",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["left","long"],
   },

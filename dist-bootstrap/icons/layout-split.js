@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayoutSplit",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","split"],
   },

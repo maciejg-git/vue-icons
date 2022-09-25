@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileRotateLeftOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","rotate","left","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BatteryArrowUpOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","arrow","up","outline"],
   },

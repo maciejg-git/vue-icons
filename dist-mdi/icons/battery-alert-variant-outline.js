@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BatteryAlertVariantOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["battery","alert","variant","outline"],
   },

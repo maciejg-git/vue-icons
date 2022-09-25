@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "NumericPositive1",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["numeric","positive","1"],
   },

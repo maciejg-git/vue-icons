@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MoneyBill1",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["money","bill","1"],
   },

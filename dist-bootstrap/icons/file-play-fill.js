@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FilePlayFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["file","play","fill"],
   },

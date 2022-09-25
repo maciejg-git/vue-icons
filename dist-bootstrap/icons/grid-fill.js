@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "GridFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["grid","fill"],
   },

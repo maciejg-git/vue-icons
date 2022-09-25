@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CurrencyYen",
     vendor: "H",
+    license: "MIT",
     type: ["24","solid"],
     tags: ["currency","yen"],
   },

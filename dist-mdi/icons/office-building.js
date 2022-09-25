@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "OfficeBuilding",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["office","building"],
   },

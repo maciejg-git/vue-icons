@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BasketOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["basket","off","outline"],
   },

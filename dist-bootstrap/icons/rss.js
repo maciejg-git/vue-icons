@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Rss",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["rss"],
   },

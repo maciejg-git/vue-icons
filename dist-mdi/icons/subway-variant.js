@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SubwayVariant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["subway","variant"],
   },

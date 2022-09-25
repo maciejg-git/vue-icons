@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MinusCircleMultipleOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["minus","circle","multiple","outline"],
   },

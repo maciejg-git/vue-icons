@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EmoticonKissOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["emoticon","kiss","outline"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "EmailMinusOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["email","minus","outline"],
   },

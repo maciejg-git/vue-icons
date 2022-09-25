@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "HumanPregnant",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["human","pregnant"],
   },

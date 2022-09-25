@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BookArrowRightOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["book","arrow","right","outline"],
   },

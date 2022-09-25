@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FastForward60",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["fast","forward","60"],
   },

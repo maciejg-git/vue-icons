@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Equal",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["equal"],
   },

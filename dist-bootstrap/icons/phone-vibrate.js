@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "PhoneVibrate",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["phone","vibrate"],
   },

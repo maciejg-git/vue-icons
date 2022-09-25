@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FlowerTulip",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["flower","tulip"],
   },

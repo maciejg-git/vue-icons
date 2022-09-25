@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "Spellcheck",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["spellcheck"],
   },

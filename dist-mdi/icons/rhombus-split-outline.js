@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "RhombusSplitOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["rhombus","split","outline"],
   },

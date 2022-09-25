@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FolderClosed",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["regular"],
     tags: ["folder","closed"],
   },

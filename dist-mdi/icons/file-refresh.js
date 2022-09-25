@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "FileRefresh",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["file","refresh"],
   },

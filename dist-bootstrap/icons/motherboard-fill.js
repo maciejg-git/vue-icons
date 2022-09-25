@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MotherboardFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["motherboard","fill"],
   },

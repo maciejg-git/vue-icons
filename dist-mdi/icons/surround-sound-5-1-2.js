@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SurroundSound512",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["surround","sound","5","1","2"],
   },

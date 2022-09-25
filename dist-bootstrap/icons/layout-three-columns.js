@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LayoutThreeColumns",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["layout","three","columns"],
   },

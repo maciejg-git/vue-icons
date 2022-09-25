@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SortClockAscendingOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["sort","clock","ascending","outline"],
   },

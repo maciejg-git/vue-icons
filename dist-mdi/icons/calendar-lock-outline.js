@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "CalendarLockOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["calendar","lock","outline"],
   },

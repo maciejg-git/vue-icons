@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "DatabaseExportOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["database","export","outline"],
   },

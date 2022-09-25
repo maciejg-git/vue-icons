@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ToggleSwitchVariantOff",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["toggle","switch","variant","off"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BoundingBox",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["bounding","box"],
   },

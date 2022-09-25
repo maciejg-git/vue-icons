@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "LandMineOn",
     vendor: "Fa",
+    license: "CC BY 4.0",
     type: ["solid"],
     tags: ["land","mine","on"],
   },

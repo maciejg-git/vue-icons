@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "SubdirectoryArrowRight",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["subdirectory","arrow","right"],
   },

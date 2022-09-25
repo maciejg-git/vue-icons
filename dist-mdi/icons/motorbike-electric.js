@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "MotorbikeElectric",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["motorbike","electric"],
   },

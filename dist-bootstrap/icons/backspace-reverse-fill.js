@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "BackspaceReverseFill",
     vendor: "B",
+    license: "MIT",
     type: [],
     tags: ["backspace","reverse","fill"],
   },

@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "WallSconceRoundOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["wall","sconce","round","outline"],
   },

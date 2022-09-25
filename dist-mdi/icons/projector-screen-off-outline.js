@@ -3,6 +3,7 @@ export default {
   $_icon: {
     name: "ProjectorScreenOffOutline",
     vendor: "Mdi",
+    license: "Apache 2.0",
     type: [],
     tags: ["projector","screen","off","outline"],
   },
