@@ -10,7 +10,7 @@ export default {
   render() {
     return h(
       "svg",
-      {"width":"24","height":"24","viewBox":"0 0 24 24","fill":"currentColor","xmlns":"http://www.w3.org/2000/svg","data-name":"h-bell-snooze"},
+      {"width":"24","height":"24","viewBox":"0 0 24 24","fill":"currentColor","xmlns":"http://www.w3.org/2000/svg"},
       [ 
         h(
           "path",

@@ -22,15 +22,15 @@
     "style": "",
     "price": null,
     "version": {
-        "major": 6,
-        "minor": 9,
-        "patch": 90
+        "major": 7,
+        "minor": 1,
+        "patch": 96
     },
     "date": {
         "year": 2022,
-        "month": 4,
-        "day": 26,
-        "hour": 3,
-        "minute": 51
+        "month": 10,
+        "day": 21,
+        "hour": 4,
+        "minute": 21
     }
 }

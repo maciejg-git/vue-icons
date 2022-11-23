@@ -10,7 +10,7 @@ export default {
   render() {
     return h(
       "svg",
-      {"viewBox":"0 0 640 512","xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","data-name":"fa-42-group"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 640 512","fill":"currentColor"},
       [ 
         h(
           "path",

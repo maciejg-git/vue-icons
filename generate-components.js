@@ -122,7 +122,7 @@ let attrsList = ["id", "class", "xmlns:xlink", "version"];
 
 let normalizeAttrs = (attrs, icon, framework) => {
   attrs.fill = options[framework].fill;
-  attrs["data-name"] = `${options[framework].prefix}-${icon}`;
+  // attrs["data-name"] = `${options[framework].prefix}-${icon}`;
 
   attrsList.forEach((attr) => {
     if (attrs[attr]) delete attrs[attr];
