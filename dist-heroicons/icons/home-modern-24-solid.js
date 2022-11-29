@@ -4,7 +4,7 @@ export default {
     name: "HomeModern",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["home","modern"],
   },
   render() {

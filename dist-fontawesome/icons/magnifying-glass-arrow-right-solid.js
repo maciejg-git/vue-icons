@@ -4,7 +4,7 @@ export default {
     name: "MagnifyingGlassArrowRight",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["magnifying","glass","arrow","right"],
   },
   render() {

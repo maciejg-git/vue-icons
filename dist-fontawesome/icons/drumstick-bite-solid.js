@@ -4,7 +4,7 @@ export default {
     name: "DrumstickBite",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["drumstick","bite"],
   },
   render() {

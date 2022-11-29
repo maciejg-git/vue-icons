@@ -4,7 +4,7 @@ export default {
     name: "FaceSadTear",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["face","sad","tear"],
   },
   render() {

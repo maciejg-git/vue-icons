@@ -4,7 +4,7 @@ export default {
     name: "Etsy",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["etsy"],
   },
   render() {

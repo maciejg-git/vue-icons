@@ -4,7 +4,7 @@ export default {
     name: "HouseCircleCheck",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["house","circle","check"],
   },
   render() {

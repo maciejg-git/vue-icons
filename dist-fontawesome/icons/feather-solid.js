@@ -4,7 +4,7 @@ export default {
     name: "Feather",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["feather"],
   },
   render() {

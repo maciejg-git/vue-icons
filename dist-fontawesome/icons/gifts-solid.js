@@ -4,7 +4,7 @@ export default {
     name: "Gifts",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["gifts"],
   },
   render() {

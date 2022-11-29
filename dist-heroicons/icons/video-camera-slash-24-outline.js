@@ -4,7 +4,7 @@ export default {
     name: "VideoCameraSlash",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["video","camera","slash"],
   },
   render() {

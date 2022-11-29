@@ -4,7 +4,7 @@ export default {
     name: "PhoneArrowDownLeft",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["phone","arrow","down","left"],
   },
   render() {

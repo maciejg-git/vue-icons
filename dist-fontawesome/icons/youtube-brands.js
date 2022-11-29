@@ -4,7 +4,7 @@ export default {
     name: "Youtube",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["youtube"],
   },
   render() {

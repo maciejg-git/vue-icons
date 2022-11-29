@@ -4,7 +4,7 @@ export default {
     name: "RectangleList",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["rectangle","list"],
   },
   render() {

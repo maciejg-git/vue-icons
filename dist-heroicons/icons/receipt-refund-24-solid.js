@@ -4,7 +4,7 @@ export default {
     name: "ReceiptRefund",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["receipt","refund"],
   },
   render() {

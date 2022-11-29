@@ -4,7 +4,7 @@ export default {
     name: "BookTanakh",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["book","tanakh"],
   },
   render() {

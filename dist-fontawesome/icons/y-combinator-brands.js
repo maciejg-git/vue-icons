@@ -4,7 +4,7 @@ export default {
     name: "YCombinator",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["y","combinator"],
   },
   render() {

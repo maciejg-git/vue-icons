@@ -4,7 +4,7 @@ export default {
     name: "Trash",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["trash"],
   },
   render() {

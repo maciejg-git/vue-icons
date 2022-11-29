@@ -4,7 +4,7 @@ export default {
     name: "MoneyBill1Wave",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["money","bill","1","wave"],
   },
   render() {

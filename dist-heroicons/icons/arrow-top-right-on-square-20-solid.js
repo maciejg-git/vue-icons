@@ -4,7 +4,7 @@ export default {
     name: "ArrowTopRightOnSquare",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["arrow","top","right","on","square"],
   },
   render() {

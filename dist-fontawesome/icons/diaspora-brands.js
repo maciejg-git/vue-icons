@@ -4,7 +4,7 @@ export default {
     name: "Diaspora",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["diaspora"],
   },
   render() {

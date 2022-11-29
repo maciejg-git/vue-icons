@@ -4,7 +4,7 @@ export default {
     name: "Stethoscope",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["stethoscope"],
   },
   render() {

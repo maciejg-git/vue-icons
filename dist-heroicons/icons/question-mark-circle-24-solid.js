@@ -4,7 +4,7 @@ export default {
     name: "QuestionMarkCircle",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["question","mark","circle"],
   },
   render() {

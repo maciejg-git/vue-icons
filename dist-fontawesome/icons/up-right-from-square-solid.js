@@ -4,7 +4,7 @@ export default {
     name: "UpRightFromSquare",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["up","right","from","square"],
   },
   render() {

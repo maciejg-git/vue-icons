@@ -4,7 +4,7 @@ export default {
     name: "DocumentText",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["document","text"],
   },
   render() {

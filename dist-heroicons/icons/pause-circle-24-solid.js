@@ -4,7 +4,7 @@ export default {
     name: "PauseCircle",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["pause","circle"],
   },
   render() {

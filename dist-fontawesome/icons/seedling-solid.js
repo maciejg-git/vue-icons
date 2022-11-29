@@ -4,7 +4,7 @@ export default {
     name: "Seedling",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["seedling"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "HandsHoldingCircle",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["hands","holding","circle"],
   },
   render() {

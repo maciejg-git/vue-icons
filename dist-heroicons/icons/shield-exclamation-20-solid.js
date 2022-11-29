@@ -4,7 +4,7 @@ export default {
     name: "ShieldExclamation",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["shield","exclamation"],
   },
   render() {

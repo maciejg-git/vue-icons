@@ -4,7 +4,7 @@ export default {
     name: "BuildingOffice2",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["building","office","2"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "Windows",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["windows"],
   },
   render() {

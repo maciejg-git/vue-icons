@@ -4,7 +4,7 @@ export default {
     name: "PhoneArrowUpRight",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["phone","arrow","up","right"],
   },
   render() {

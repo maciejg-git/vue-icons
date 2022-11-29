@@ -4,7 +4,7 @@ export default {
     name: "EdgeLegacy",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["edge","legacy"],
   },
   render() {

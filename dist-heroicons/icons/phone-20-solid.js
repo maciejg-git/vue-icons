@@ -4,7 +4,7 @@ export default {
     name: "Phone",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["phone"],
   },
   render() {

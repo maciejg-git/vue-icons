@@ -4,7 +4,7 @@ export default {
     name: "Aviato",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["aviato"],
   },
   render() {

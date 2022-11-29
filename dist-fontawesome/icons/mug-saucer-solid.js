@@ -4,7 +4,7 @@ export default {
     name: "MugSaucer",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["mug","saucer"],
   },
   render() {

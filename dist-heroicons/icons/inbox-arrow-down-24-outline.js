@@ -4,7 +4,7 @@ export default {
     name: "InboxArrowDown",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["inbox","arrow","down"],
   },
   render() {

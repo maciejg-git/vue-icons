@@ -4,7 +4,7 @@ export default {
     name: "EllipsisHorizontalCircle",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["ellipsis","horizontal","circle"],
   },
   render() {

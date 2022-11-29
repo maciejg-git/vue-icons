@@ -4,7 +4,7 @@ export default {
     name: "TabletScreenButton",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["tablet","screen","button"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "DiceD20",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["dice","d20"],
   },
   render() {

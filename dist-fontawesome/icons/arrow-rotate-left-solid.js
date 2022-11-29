@@ -4,7 +4,7 @@ export default {
     name: "ArrowRotateLeft",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","rotate","left"],
   },
   render() {

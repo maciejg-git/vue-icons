@@ -4,7 +4,7 @@ export default {
     name: "CarTunnel",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["car","tunnel"],
   },
   render() {

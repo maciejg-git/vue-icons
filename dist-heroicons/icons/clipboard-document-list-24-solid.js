@@ -4,7 +4,7 @@ export default {
     name: "ClipboardDocumentList",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["clipboard","document","list"],
   },
   render() {

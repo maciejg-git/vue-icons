@@ -4,7 +4,7 @@ export default {
     name: "CursorArrowRays",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["cursor","arrow","rays"],
   },
   render() {

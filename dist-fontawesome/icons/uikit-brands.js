@@ -4,7 +4,7 @@ export default {
     name: "Uikit",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["uikit"],
   },
   render() {

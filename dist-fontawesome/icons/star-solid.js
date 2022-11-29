@@ -4,7 +4,7 @@ export default {
     name: "Star",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["star"],
   },
   render() {

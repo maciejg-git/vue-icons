@@ -4,7 +4,7 @@ export default {
     name: "CodeBracketSquare",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["code","bracket","square"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "WolfPackBattalion",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["wolf","pack","battalion"],
   },
   render() {

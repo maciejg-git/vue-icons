@@ -4,7 +4,7 @@ export default {
     name: "PresentationChartLine",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["presentation","chart","line"],
   },
   render() {

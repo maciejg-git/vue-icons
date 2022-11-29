@@ -4,7 +4,7 @@ export default {
     name: "SortDown",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["sort","down"],
   },
   render() {

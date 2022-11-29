@@ -4,7 +4,7 @@ export default {
     name: "NetworkWired",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["network","wired"],
   },
   render() {

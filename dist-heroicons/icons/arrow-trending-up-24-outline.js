@@ -4,7 +4,7 @@ export default {
     name: "ArrowTrendingUp",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["arrow","trending","up"],
   },
   render() {

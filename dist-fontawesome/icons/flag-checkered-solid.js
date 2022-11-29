@@ -4,7 +4,7 @@ export default {
     name: "FlagCheckered",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["flag","checkered"],
   },
   render() {

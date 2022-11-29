@@ -4,7 +4,7 @@ export default {
     name: "CircleHalfStroke",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["circle","half","stroke"],
   },
   render() {

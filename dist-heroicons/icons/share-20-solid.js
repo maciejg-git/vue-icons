@@ -4,7 +4,7 @@ export default {
     name: "Share",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["share"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "ArrowsSplitUpAndLeft",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrows","split","up","and","left"],
   },
   render() {

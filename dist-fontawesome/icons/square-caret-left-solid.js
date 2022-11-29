@@ -4,7 +4,7 @@ export default {
     name: "SquareCaretLeft",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["square","caret","left"],
   },
   render() {

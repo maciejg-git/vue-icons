@@ -4,7 +4,7 @@ export default {
     name: "ChevronDoubleLeft",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["chevron","double","left"],
   },
   render() {

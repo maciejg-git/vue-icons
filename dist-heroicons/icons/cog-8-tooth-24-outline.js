@@ -4,7 +4,7 @@ export default {
     name: "Cog8Tooth",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["cog","8","tooth"],
   },
   render() {

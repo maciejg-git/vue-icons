@@ -4,7 +4,7 @@ export default {
     name: "DeviceTablet",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["device","tablet"],
   },
   render() {

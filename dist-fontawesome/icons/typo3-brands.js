@@ -4,7 +4,7 @@ export default {
     name: "Typo3",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["typo3"],
   },
   render() {

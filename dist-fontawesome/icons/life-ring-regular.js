@@ -4,7 +4,7 @@ export default {
     name: "LifeRing",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["regular"],
+    type: ["Regular"],
     tags: ["life","ring"],
   },
   render() {

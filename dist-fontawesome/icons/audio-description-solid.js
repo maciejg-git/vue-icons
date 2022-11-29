@@ -4,7 +4,7 @@ export default {
     name: "AudioDescription",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["audio","description"],
   },
   render() {

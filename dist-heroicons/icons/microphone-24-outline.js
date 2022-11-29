@@ -4,7 +4,7 @@ export default {
     name: "Microphone",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["microphone"],
   },
   render() {

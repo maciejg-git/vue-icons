@@ -4,7 +4,7 @@ export default {
     name: "WandMagicSparkles",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["wand","magic","sparkles"],
   },
   render() {

@@ -1,8 +1,8 @@
 # Vue-bootstrap-icons
 
-[Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons and Font Awesome icons converted to unified, self contained Vue 3 components. 
+[Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
 
-Check [Icon browser using this repo](https://vue-icon-browser.netlify.app/) for examples and available icons.
+Check [Icon browser](https://vue-icon-browser.netlify.app/) for examples, usage and available icons.
 
 ## Usage
 
@@ -10,8 +10,6 @@ Check [Icon browser using this repo](https://vue-icon-browser.netlify.app/) for 
 
 ```js
 // main.js
-
-import { registerIcon } from "vue-bootstrap-icons"
 
 import { 
   BTriangleFill,
@@ -21,14 +19,14 @@ import {
 
 let app = createApp(App);
 
-registerIcon(app, [
+[
   BTriangleFill,
   BTropicalStorm,
-  BBookFill,
-])
-```
-
-**Note**: **registerIcon** is optional. It just runs app.component for every icon with some added functionality. You can register icons directly using app.component(icon). 
+  BBookFill
+].forEach((icon) => {
+  let { vendor, name, type } = icon.$_icon;
+  app.component(`${vendor}${name}${type.join("")}`, icon);
+})
 
 **[Option 2]** or import and register icons locally in component
 
@@ -50,17 +48,15 @@ components: { BTriangleFill }
 const modules = import.meta.globEager('./[app icon directory]/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
-  let icon = definition.default.vendor + definition.default.name
-  app.component(icon, definition.default)
+  let { vendor, name, type } = definition.default.$_icon;
+  app.component(`${vendor}${name}${type.join("")}`, icon);
 })
 ```
 
 To make icon available copy or download js file of the icon to [app icon directory]. Vite will import and register icons globally every time directory content changes.
 You can download icon components from [Icon browser](https://vue-icon-browser.netlify.app/)
 
-For webpack see examples in Vue documentation
-* [Automatic Global Registration of Base Components (Vue 3)](https://v3.vuejs.org/cookbook/automatic-global-registration-of-base-components.html#base-example)
-* [Automatic Global Registration of Base Components (Vue 2)](https://vuejs.org/v2/guide/components-registration.html#Automatic-Global-Registration-of-Base-Components)
+* [Automatic Global Registration of Base Components (Vue 3)](https://vitejs.dev/guide/features.html#glob-import)
 
 ## Using icons in templates
 
@@ -94,32 +90,7 @@ and use it in template
 
 ## Naming
 
-The general pattern for naming icon is [Vendor prefix][Icon name]['Icon' suffix]. By default all imported and registered icons have vendor prefix and does not have 'Icon' suffix to avoid conflicts. You can change naming of icon components by using options argument of registerIcon function.
-
-```js
-// main.js
-
-import { 
-  BTriangleFill,
-  BTropicalStorm,
-  BBookFilln,
-} from "vue-bootstrap-icons"
-
-let app = createApp(App);
-
-registerIcon(app, [
-  BTriangleFill,
-  BTropicalStorm,
-  BBookFill,
-], {
-  vendorPrefix: false,
-  iconSuffix: true,
-})
-
-// <TriangleFillIcon />
-// <TripicalStormIcon />
-// <BookFillIcon />
-```
+The general pattern for naming icon is VendorNameType. Vendor is optional but recommended when using multiple vendors. Type is optional but recommended for Font Awesome and Heroicons.
 
 ### ICONS
 

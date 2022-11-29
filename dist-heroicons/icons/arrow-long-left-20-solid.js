@@ -4,7 +4,7 @@ export default {
     name: "ArrowLongLeft",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["arrow","long","left"],
   },
   render() {

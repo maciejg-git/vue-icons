@@ -4,7 +4,7 @@ export default {
     name: "TruckArrowRight",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["truck","arrow","right"],
   },
   render() {

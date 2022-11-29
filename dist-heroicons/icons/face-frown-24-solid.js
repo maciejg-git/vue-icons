@@ -4,7 +4,7 @@ export default {
     name: "FaceFrown",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["face","frown"],
   },
   render() {

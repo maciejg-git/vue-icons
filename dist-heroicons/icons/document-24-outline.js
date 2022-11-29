@@ -4,7 +4,7 @@ export default {
     name: "Document",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["document"],
   },
   render() {

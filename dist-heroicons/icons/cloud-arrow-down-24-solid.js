@@ -4,7 +4,7 @@ export default {
     name: "CloudArrowDown",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["cloud","arrow","down"],
   },
   render() {

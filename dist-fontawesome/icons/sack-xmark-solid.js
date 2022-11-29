@@ -4,7 +4,7 @@ export default {
     name: "SackXmark",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["sack","xmark"],
   },
   render() {

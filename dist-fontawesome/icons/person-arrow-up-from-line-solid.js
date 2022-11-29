@@ -4,7 +4,7 @@ export default {
     name: "PersonArrowUpFromLine",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["person","arrow","up","from","line"],
   },
   render() {

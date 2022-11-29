@@ -4,7 +4,7 @@ export default {
     name: "Bullhorn",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["bullhorn"],
   },
   render() {

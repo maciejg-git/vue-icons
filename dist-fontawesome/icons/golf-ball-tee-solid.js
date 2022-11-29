@@ -4,7 +4,7 @@ export default {
     name: "GolfBallTee",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["golf","ball","tee"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "ChevronDown",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["chevron","down"],
   },
   render() {

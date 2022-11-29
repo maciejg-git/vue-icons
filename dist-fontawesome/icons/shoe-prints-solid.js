@@ -4,7 +4,7 @@ export default {
     name: "ShoePrints",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["shoe","prints"],
   },
   render() {

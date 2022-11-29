@@ -4,7 +4,7 @@ export default {
     name: "ArrowUpFromGroundWater",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","up","from","ground","water"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "SquarePhoneFlip",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["square","phone","flip"],
   },
   render() {

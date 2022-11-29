@@ -4,7 +4,7 @@ export default {
     name: "Bahai",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["bahai"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "DownLeftAndUpRightToCenter",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["down","left","and","up","right","to","center"],
   },
   render() {

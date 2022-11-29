@@ -4,7 +4,7 @@ export default {
     name: "WindowMaximize",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["window","maximize"],
   },
   render() {

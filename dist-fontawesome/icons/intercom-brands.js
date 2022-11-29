@@ -4,7 +4,7 @@ export default {
     name: "Intercom",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["intercom"],
   },
   render() {

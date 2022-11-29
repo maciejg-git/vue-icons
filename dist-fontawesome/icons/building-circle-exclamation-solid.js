@@ -4,7 +4,7 @@ export default {
     name: "BuildingCircleExclamation",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["building","circle","exclamation"],
   },
   render() {

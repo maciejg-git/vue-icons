@@ -4,7 +4,7 @@ export default {
     name: "FaceFrownOpen",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["face","frown","open"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "ArrowDownRight",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["arrow","down","right"],
   },
   render() {

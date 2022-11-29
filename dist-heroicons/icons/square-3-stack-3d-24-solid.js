@@ -4,7 +4,7 @@ export default {
     name: "Square3Stack3d",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["square","3","stack","3d"],
   },
   render() {

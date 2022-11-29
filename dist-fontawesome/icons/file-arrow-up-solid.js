@@ -4,7 +4,7 @@ export default {
     name: "FileArrowUp",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["file","arrow","up"],
   },
   render() {

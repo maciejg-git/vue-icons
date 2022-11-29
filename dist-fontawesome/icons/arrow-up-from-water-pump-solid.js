@@ -4,7 +4,7 @@ export default {
     name: "ArrowUpFromWaterPump",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","up","from","water","pump"],
   },
   render() {

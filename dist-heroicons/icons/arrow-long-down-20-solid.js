@@ -4,7 +4,7 @@ export default {
     name: "ArrowLongDown",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["arrow","long","down"],
   },
   render() {

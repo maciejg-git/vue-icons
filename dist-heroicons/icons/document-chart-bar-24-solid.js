@@ -4,7 +4,7 @@ export default {
     name: "DocumentChartBar",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["document","chart","bar"],
   },
   render() {

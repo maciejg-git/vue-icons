@@ -4,7 +4,7 @@ export default {
     name: "PlayCircle",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["play","circle"],
   },
   render() {

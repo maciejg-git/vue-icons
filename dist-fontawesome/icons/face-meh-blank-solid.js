@@ -4,7 +4,7 @@ export default {
     name: "FaceMehBlank",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["face","meh","blank"],
   },
   render() {

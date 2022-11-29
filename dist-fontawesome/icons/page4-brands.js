@@ -4,7 +4,7 @@ export default {
     name: "Page4",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["page4"],
   },
   render() {

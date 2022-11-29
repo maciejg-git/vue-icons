@@ -4,7 +4,7 @@ export default {
     name: "RubleSign",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["ruble","sign"],
   },
   render() {

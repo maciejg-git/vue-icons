@@ -4,7 +4,7 @@ export default {
     name: "AustralSign",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["austral","sign"],
   },
   render() {

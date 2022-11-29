@@ -4,7 +4,7 @@ export default {
     name: "GlobeAsiaAustralia",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["globe","asia","australia"],
   },
   render() {

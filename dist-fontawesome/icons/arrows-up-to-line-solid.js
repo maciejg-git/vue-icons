@@ -4,7 +4,7 @@ export default {
     name: "ArrowsUpToLine",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrows","up","to","line"],
   },
   render() {

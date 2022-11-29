@@ -4,7 +4,7 @@ export default {
     name: "BellSlash",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["bell","slash"],
   },
   render() {

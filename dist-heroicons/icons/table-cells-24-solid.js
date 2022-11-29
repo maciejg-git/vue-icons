@@ -4,7 +4,7 @@ export default {
     name: "TableCells",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["table","cells"],
   },
   render() {

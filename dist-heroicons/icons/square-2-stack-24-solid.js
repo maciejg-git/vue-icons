@@ -4,7 +4,7 @@ export default {
     name: "Square2Stack",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["square","2","stack"],
   },
   render() {

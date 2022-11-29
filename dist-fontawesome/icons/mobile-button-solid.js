@@ -4,7 +4,7 @@ export default {
     name: "MobileButton",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["mobile","button"],
   },
   render() {

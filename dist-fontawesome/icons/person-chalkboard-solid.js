@@ -4,7 +4,7 @@ export default {
     name: "PersonChalkboard",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["person","chalkboard"],
   },
   render() {

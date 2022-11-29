@@ -4,7 +4,7 @@ export default {
     name: "Squares2x2",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["squares","2x2"],
   },
   render() {

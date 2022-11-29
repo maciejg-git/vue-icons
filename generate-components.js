@@ -78,32 +78,17 @@ let getFrameworks = () => {
   return frameworks;
 };
 
-let createRenderFunction = (data) => {
+const createJsFile = (framework, icon, subs, tags, data) => {
+  // let type = subs.map((i) => toPascalCase(i))
+  
   let svgAttrs = JSON.stringify(data.svgAttrs);
 
-  let child = [];
-
-  for (let el of data.elements) {
-    let c = `h(
+  let child = data.elements.map((el) => {
+    return `h(
           "${el.element}",
           ${JSON.stringify(el.attrs)}
-        )`;
-    child.push(c);
-  }
-
-  return `render() {
-    return h(
-      "svg",
-      ${svgAttrs},
-      [ 
-        ${child.join(",\n        ")} 
-      ]
-    )
-  }`;
-};
-
-const createJsFile = (framework, icon, subs, renderFunction, tags) => {
-  // let type = subs.map((i) => toPascalCase(i))
+        )`
+  })
 
   return `import { h } from 'vue'
 export default {
@@ -111,10 +96,18 @@ export default {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
     license: "${options[framework].license}",
-    type: ${JSON.stringify(subs)},
+    type: ${JSON.stringify(subs.map(i => i.charAt(0).toUpperCase() + i.slice(1)))},
     tags: ${JSON.stringify(tags)},
   },
-  ${renderFunction}
+  render() {
+    return h(
+      "svg",
+      ${svgAttrs},
+      [ 
+        ${child.join(",\n        ")} 
+      ]
+    )
+  }
 }`;
 };
 
@@ -212,13 +205,12 @@ const createComponents = (framework) => {
 
     // create JS file
 
-    let renderFunction = createRenderFunction(data);
     const fileJs = createJsFile(
       framework,
       pascalIcon,
       subs,
-      renderFunction,
-      tags
+      tags,
+      data,
     );
 
     // update index

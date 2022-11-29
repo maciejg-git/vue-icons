@@ -4,7 +4,7 @@ export default {
     name: "ClipboardDocumentCheck",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["clipboard","document","check"],
   },
   render() {

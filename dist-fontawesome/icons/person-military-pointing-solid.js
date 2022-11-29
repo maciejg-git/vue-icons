@@ -4,7 +4,7 @@ export default {
     name: "PersonMilitaryPointing",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["person","military","pointing"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "SpellCheck",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["spell","check"],
   },
   render() {

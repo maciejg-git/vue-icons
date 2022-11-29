@@ -4,7 +4,7 @@ export default {
     name: "BloggerB",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["blogger","b"],
   },
   render() {

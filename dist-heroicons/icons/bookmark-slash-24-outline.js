@@ -4,7 +4,7 @@ export default {
     name: "BookmarkSlash",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["bookmark","slash"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "CableCar",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["cable","car"],
   },
   render() {

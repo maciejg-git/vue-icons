@@ -4,7 +4,7 @@ export default {
     name: "WikipediaW",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["wikipedia","w"],
   },
   render() {

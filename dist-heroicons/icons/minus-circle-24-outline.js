@@ -4,7 +4,7 @@ export default {
     name: "MinusCircle",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["minus","circle"],
   },
   render() {

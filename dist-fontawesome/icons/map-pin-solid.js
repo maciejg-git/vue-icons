@@ -4,7 +4,7 @@ export default {
     name: "MapPin",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["map","pin"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "FaceSurprise",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["face","surprise"],
   },
   render() {

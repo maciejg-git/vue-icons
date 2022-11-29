@@ -4,7 +4,7 @@ export default {
     name: "BlenderPhone",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["blender","phone"],
   },
   render() {

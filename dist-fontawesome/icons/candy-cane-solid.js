@@ -4,7 +4,7 @@ export default {
     name: "CandyCane",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["candy","cane"],
   },
   render() {

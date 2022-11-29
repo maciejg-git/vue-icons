@@ -4,7 +4,7 @@ export default {
     name: "PeopleCarryBox",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["people","carry","box"],
   },
   render() {

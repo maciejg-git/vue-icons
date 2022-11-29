@@ -4,7 +4,7 @@ export default {
     name: "Battery100",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["battery","100"],
   },
   render() {

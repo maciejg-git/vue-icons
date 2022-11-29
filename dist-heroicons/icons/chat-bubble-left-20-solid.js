@@ -4,7 +4,7 @@ export default {
     name: "ChatBubbleLeft",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["chat","bubble","left"],
   },
   render() {

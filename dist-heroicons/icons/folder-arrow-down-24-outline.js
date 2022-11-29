@@ -4,7 +4,7 @@ export default {
     name: "FolderArrowDown",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["folder","arrow","down"],
   },
   render() {

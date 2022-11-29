@@ -4,7 +4,7 @@ export default {
     name: "MoneyBill1",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["regular"],
+    type: ["Regular"],
     tags: ["money","bill","1"],
   },
   render() {

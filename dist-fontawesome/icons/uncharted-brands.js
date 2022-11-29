@@ -4,7 +4,7 @@ export default {
     name: "Uncharted",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["uncharted"],
   },
   render() {

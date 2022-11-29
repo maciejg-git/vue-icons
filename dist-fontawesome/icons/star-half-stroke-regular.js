@@ -4,7 +4,7 @@ export default {
     name: "StarHalfStroke",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["regular"],
+    type: ["Regular"],
     tags: ["star","half","stroke"],
   },
   render() {

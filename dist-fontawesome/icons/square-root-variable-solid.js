@@ -4,7 +4,7 @@ export default {
     name: "SquareRootVariable",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["square","root","variable"],
   },
   render() {

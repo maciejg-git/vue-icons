@@ -4,7 +4,7 @@ export default {
     name: "ReceiptPercent",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["receipt","percent"],
   },
   render() {

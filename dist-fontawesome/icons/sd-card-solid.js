@@ -4,7 +4,7 @@ export default {
     name: "SdCard",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["sd","card"],
   },
   render() {

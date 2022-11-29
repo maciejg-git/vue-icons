@@ -4,7 +4,7 @@ export default {
     name: "MinusSmall",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["minus","small"],
   },
   render() {

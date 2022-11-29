@@ -4,7 +4,7 @@ export default {
     name: "Atom",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["atom"],
   },
   render() {

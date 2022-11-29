@@ -4,7 +4,7 @@ export default {
     name: "ArrowSmallUp",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["arrow","small","up"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "CalendarCheck",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["regular"],
+    type: ["Regular"],
     tags: ["calendar","check"],
   },
   render() {

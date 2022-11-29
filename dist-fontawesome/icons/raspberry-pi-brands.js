@@ -4,7 +4,7 @@ export default {
     name: "RaspberryPi",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["raspberry","pi"],
   },
   render() {

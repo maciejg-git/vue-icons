@@ -4,7 +4,7 @@ export default {
     name: "PersonBooth",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["person","booth"],
   },
   render() {

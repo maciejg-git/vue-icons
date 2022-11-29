@@ -4,7 +4,7 @@ export default {
     name: "Crown",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["crown"],
   },
   render() {

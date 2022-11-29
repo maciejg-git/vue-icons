@@ -4,7 +4,7 @@ export default {
     name: "FolderMinus",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["folder","minus"],
   },
   render() {

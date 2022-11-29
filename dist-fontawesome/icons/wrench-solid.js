@@ -4,7 +4,7 @@ export default {
     name: "Wrench",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["wrench"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "ViewColumns",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["view","columns"],
   },
   render() {

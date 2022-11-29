@@ -4,7 +4,7 @@ export default {
     name: "ArrowTrendDown",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","trend","down"],
   },
   render() {

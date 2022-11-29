@@ -4,7 +4,7 @@ export default {
     name: "AnchorCircleXmark",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["anchor","circle","xmark"],
   },
   render() {

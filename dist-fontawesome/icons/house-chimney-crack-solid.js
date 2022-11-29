@@ -4,7 +4,7 @@ export default {
     name: "HouseChimneyCrack",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["house","chimney","crack"],
   },
   render() {

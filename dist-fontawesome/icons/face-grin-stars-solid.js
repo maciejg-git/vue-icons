@@ -4,7 +4,7 @@ export default {
     name: "FaceGrinStars",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["face","grin","stars"],
   },
   render() {

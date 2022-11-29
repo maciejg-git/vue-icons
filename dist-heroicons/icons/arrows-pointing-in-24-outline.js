@@ -4,7 +4,7 @@ export default {
     name: "ArrowsPointingIn",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["arrows","pointing","in"],
   },
   render() {

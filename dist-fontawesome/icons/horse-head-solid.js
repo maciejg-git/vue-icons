@@ -4,7 +4,7 @@ export default {
     name: "HorseHead",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["horse","head"],
   },
   render() {

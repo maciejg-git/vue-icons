@@ -4,7 +4,7 @@ export default {
     name: "Sass",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["sass"],
   },
   render() {

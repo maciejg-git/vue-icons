@@ -4,7 +4,7 @@ export default {
     name: "CreativeCommonsSampling",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["creative","commons","sampling"],
   },
   render() {

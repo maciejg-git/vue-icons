@@ -4,7 +4,7 @@ export default {
     name: "Bars3",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["bars","3"],
   },
   render() {

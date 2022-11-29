@@ -4,7 +4,7 @@ export default {
     name: "SprayCan",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["spray","can"],
   },
   render() {

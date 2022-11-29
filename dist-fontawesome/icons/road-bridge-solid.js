@@ -4,7 +4,7 @@ export default {
     name: "RoadBridge",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["road","bridge"],
   },
   render() {

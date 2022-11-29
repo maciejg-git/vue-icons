@@ -4,7 +4,7 @@ export default {
     name: "ArrowsUpDownLeftRight",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrows","up","down","left","right"],
   },
   render() {

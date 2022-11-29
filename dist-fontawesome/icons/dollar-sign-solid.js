@@ -4,7 +4,7 @@ export default {
     name: "DollarSign",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["dollar","sign"],
   },
   render() {

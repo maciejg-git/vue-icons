@@ -4,7 +4,7 @@ export default {
     name: "Wallet",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["wallet"],
   },
   render() {

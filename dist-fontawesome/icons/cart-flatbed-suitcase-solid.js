@@ -4,7 +4,7 @@ export default {
     name: "CartFlatbedSuitcase",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["cart","flatbed","suitcase"],
   },
   render() {

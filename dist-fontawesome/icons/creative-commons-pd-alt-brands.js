@@ -4,7 +4,7 @@ export default {
     name: "CreativeCommonsPdAlt",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["brands"],
+    type: ["Brands"],
     tags: ["creative","commons","pd","alt"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "CircleRight",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["circle","right"],
   },
   render() {

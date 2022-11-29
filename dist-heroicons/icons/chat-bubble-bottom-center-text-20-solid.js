@@ -4,7 +4,7 @@ export default {
     name: "ChatBubbleBottomCenterText",
     vendor: "H",
     license: "MIT",
-    type: ["20","solid"],
+    type: ["20","Solid"],
     tags: ["chat","bubble","bottom","center","text"],
   },
   render() {

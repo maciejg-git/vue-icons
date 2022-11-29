@@ -4,7 +4,7 @@ export default {
     name: "EllipsisHorizontal",
     vendor: "H",
     license: "MIT",
-    type: ["24","outline"],
+    type: ["24","Outline"],
     tags: ["ellipsis","horizontal"],
   },
   render() {

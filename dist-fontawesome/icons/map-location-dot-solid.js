@@ -4,7 +4,7 @@ export default {
     name: "MapLocationDot",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["map","location","dot"],
   },
   render() {

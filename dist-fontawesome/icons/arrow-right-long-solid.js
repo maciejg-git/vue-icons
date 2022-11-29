@@ -4,7 +4,7 @@ export default {
     name: "ArrowRightLong",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","right","long"],
   },
   render() {

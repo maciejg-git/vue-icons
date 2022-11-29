@@ -4,7 +4,7 @@ export default {
     name: "WheatAwnCircleExclamation",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["wheat","awn","circle","exclamation"],
   },
   render() {

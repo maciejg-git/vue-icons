@@ -4,7 +4,7 @@ export default {
     name: "PersonWalkingDashedLineArrowRight",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["person","walking","dashed","line","arrow","right"],
   },
   render() {

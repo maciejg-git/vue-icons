@@ -4,7 +4,7 @@ export default {
     name: "CircleDollarToSlot",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["circle","dollar","to","slot"],
   },
   render() {

@@ -4,7 +4,7 @@ export default {
     name: "BoxOpen",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["box","open"],
   },
   render() {

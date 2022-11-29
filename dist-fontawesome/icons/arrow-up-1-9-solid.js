@@ -4,7 +4,7 @@ export default {
     name: "ArrowUp19",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["arrow","up","1","9"],
   },
   render() {

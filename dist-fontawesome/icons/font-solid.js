@@ -4,7 +4,7 @@ export default {
     name: "Font",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["font"],
   },
   render() {

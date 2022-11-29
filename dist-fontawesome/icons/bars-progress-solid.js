@@ -4,7 +4,7 @@ export default {
     name: "BarsProgress",
     vendor: "Fa",
     license: "CC BY 4.0",
-    type: ["solid"],
+    type: ["Solid"],
     tags: ["bars","progress"],
   },
   render() {

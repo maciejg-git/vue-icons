@@ -4,7 +4,7 @@ export default {
     name: "ArrowDownOnSquareStack",
     vendor: "H",
     license: "MIT",
-    type: ["24","solid"],
+    type: ["24","Solid"],
     tags: ["arrow","down","on","square","stack"],
   },
   render() {
