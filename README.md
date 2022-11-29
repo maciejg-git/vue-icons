@@ -57,7 +57,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 To make icon available copy or download js file of the icon to [app icon directory]. Vite will import and register icons globally every time directory content changes.
 You can download icon components from [Icon browser](https://vue-icon-browser.netlify.app/)
 
-* Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
+* [Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
 
 ## Using icons in templates
 
