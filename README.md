@@ -27,6 +27,7 @@ let app = createApp(App);
   let { vendor, name, type } = icon.$_icon;
   app.component(`${vendor}${name}${type.join("")}`, icon);
 })
+```
 
 **[Option 2]** or import and register icons locally in component
 
