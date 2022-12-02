@@ -1,3 +1,28 @@
+### Quick tldr setup (vite)
+
+```js
+// main.js (vite)
+
+const modules = import.meta.globEager('./icons/*.js')
+
+Object.entries(modules).forEach(([path, definition]) => {
+  let { vendor, name, type } = definition.default.$_icon;
+  app.component(`${vendor}${name}${type.join("")}`, definition.default);
+})
+```
+
+Download vue icons components to icons directory from [https://vue-icon-browser.netlify.app/](https://vue-icon-browser.netlify.app/)
+
+Use icons in templates:
+
+```html
+<component is="b-triangle-fill" class="h-5 w-5" />
+
+<b-triangle-fill class="h-5 w-5" />
+
+<BTriangleFill class="h-5 w-5" />
+```
+
 # Vue-bootstrap-icons
 
 [Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
@@ -50,7 +75,7 @@ const modules = import.meta.globEager('./[app icon directory]/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
   let { vendor, name, type } = definition.default.$_icon;
-  app.component(`${vendor}${name}${type.join("")}`, icon);
+  app.component(`${vendor}${name}${type.join("")}`, definition.default);
 })
 ```
 
