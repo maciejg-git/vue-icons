@@ -102,6 +102,7 @@ and use it in template
 // component.vue
 
 <icon icon="b-triangle-fill" class="h-5 w-5" />
+
 <icon name="b-triangle-fill" class="h-5 w-5" />
 ```
 
@@ -111,7 +112,10 @@ and use it in template
 // component.vue
 
 <b-triangle-fill class="h-5 w-5" />
+
 <BTriangleFill class="h-5 w-5" />
+
+<component is="b-triangle-fill" class="h-5 w-5" />
 ```
 
 ## Naming
