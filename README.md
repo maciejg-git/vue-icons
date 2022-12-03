@@ -33,7 +33,11 @@ Check [Icon browser](https://vue-icon-browser.netlify.app/) for examples, usage 
 
 ## Usage
 
-**[Option 1]** import and register chosen icons globally in main.js
+**[Option 1]** install, import and register chosen icons globally in main.js
+
+```bash
+npm install vue-bootstrap-icons
+```
 
 ```js
 // main.js
@@ -56,7 +60,7 @@ let app = createApp(App);
 })
 ```
 
-**[Option 2]** or import and register icons locally in component
+you can also import icons locally in components
 
 ```js
 // component.vue
@@ -68,7 +72,7 @@ import { BTriangleFill } from "vue-bootstrap-icons"
 components: { BTriangleFill }
 ```
 
-**[Option 3]** or use vite glob import (recommended)
+**[Option 2]** or use vite glob import (recommended)
 
 ```js
 // main.js (vite)
