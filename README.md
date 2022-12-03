@@ -3,7 +3,7 @@
 ```js
 // main.js (vite)
 
-const modules = import.meta.globEager('./icons/*.js')
+const modules = import.meta.globEager('./components/icons/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
   let { vendor, name, type } = definition.default.$_icon;
@@ -17,6 +17,8 @@ Use icons in templates:
 
 ```html
 <component is="b-triangle-fill" class="h-5 w-5" />
+
+<component is="BTriangleFill" class="h-5 w-5" />
 
 <b-triangle-fill class="h-5 w-5" />
 
@@ -116,6 +118,8 @@ and use it in template
 <BTriangleFill class="h-5 w-5" />
 
 <component is="b-triangle-fill" class="h-5 w-5" />
+
+<component is="BTriangleFill" class="h-5 w-5" />
 ```
 
 ## Naming
