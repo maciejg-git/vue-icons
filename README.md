@@ -33,7 +33,7 @@ Check [Icon browser](https://vue-icon-browser.netlify.app/) for examples, usage 
 
 ## Usage
 
-**[Option 1]** install, import and register chosen icons globally in main.js
+**[Option 1 - npm]** install, import and register chosen icons globally in main.js
 
 ```bash
 npm install vue-bootstrap-icons
@@ -72,7 +72,7 @@ import { BTriangleFill } from "vue-bootstrap-icons"
 components: { BTriangleFill }
 ```
 
-**[Option 2]** or use vite glob import (recommended)
+**[Option 2 - glob import]** or use vite glob import (recommended)
 
 ```js
 // main.js (vite)
