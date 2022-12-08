@@ -28,6 +28,8 @@ Use icons in templates directly:
 or set up minimal Icon component:
 
 ```vue
+// Icon.vue
+
 <template>
   <component :is="name"></component>
 </template>
