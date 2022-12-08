@@ -92,28 +92,6 @@ You can download icon components from [Icon browser](https://vue-icon-browser.ne
 
 ## Using icons in templates
 
-**[Option 1]** use **Icon** component to display icons in templates.
-
-```js
-// main.js
-
-import Icon from "Vue-bootstrap-icons/dist/vue"
-
-app.component('icon', Icon)
-```
-
-and use it in template
-
-```html
-// component.vue
-
-<icon icon="b-triangle-fill" class="h-5 w-5" />
-
-<icon name="b-triangle-fill" class="h-5 w-5" />
-```
-
-**[Option 2]** or use icons directly as components without Icon component
-
 ```html
 // component.vue
 
