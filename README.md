@@ -13,7 +13,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 
 Download vue icons components to icons directory from [https://vue-icon-browser.netlify.app/](https://vue-icon-browser.netlify.app/)
 
-Use icons in templates:
+Use icons in templates directly:
 
 ```html
 <component is="b-triangle-fill" class="h-5 w-5" />
@@ -24,6 +24,8 @@ Use icons in templates:
 
 <BTriangleFill class="h-5 w-5" />
 ```
+
+or set up minimal Icon component:
 
 ```vue
 <template>
