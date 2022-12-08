@@ -25,6 +25,18 @@ Use icons in templates:
 <BTriangleFill class="h-5 w-5" />
 ```
 
+```vue
+<template>
+  <component :is="name"></component>
+</template>
+
+<script setup>
+defineProps({
+  name: String,
+})
+</script>
+```
+
 # Vue-bootstrap-icons
 
 [Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
