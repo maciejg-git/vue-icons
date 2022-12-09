@@ -40,6 +40,9 @@ defineProps({
 })
 </script>
 ```
+```html
+<icon name="b-triangle-fill" />
+```
 
 # Vue-bootstrap-icons
 
@@ -111,8 +114,6 @@ You can download icon components from [Icon browser](https://vue-icon-browser.ne
 You can use icons directly or with vue build in dynamic component
 
 ```html
-// component.vue
-
 <b-triangle-fill class="h-5 w-5" />
 
 <BTriangleFill class="h-5 w-5" />
@@ -136,6 +137,9 @@ defineProps({
   name: String,
 })
 </script>
+```
+```html
+<icon name="b-triangle-fill" />
 ```
 
 ## Naming
