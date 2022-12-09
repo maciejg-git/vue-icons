@@ -108,6 +108,8 @@ You can download icon components from [Icon browser](https://vue-icon-browser.ne
 
 ## Using icons in templates
 
+You can use icons directly or with vue build in dynamic component
+
 ```html
 // component.vue
 
@@ -118,6 +120,22 @@ You can download icon components from [Icon browser](https://vue-icon-browser.ne
 <component is="b-triangle-fill" class="h-5 w-5" />
 
 <component is="BTriangleFill" class="h-5 w-5" />
+```
+
+or by setting up minimal Icon component
+
+```vue
+// Icon.vue
+
+<template>
+  <component :is="name"></component>
+</template>
+
+<script setup>
+defineProps({
+  name: String,
+})
+</script>
 ```
 
 ## Naming
