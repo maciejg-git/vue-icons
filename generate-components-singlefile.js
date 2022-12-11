@@ -19,47 +19,36 @@ const options = {
     fill: "currentColor",
     prefix: "b",
     dir: "icons",
+    license: "MIT",
   },
   mdi: {
     class: "",
     fill: "currentColor",
     prefix: "mdi",
     dir: "svg",
+    license: "Apache 2.0",
   },
   fontawesome: {
     class: "",
     fill: "currentColor",
     prefix: "fa",
     dir: "svgs",
+    license: "CC BY 4.0",
     suffix: {
       brands: "brands",
       regular: "regular",
       solid: "solid",
     },
-    suffixPascal: {
-      brands: "Brands",
-      regular: "Regular",
-      solid: "Solid",
-    },
   },
   heroicons: {
     class: "",
-    fill: (i) => {
-      if (i.includes("outline")) {
-        return "none"
-      } else {
-        return "currentColor"
-      }
-    },
+    fill: "currentColor",
     prefix: "h",
-    dir: "optimized",
+    dir: "src",
+    license: "MIT",
     suffix: {
       solid: "solid",
       outline: "outline",
-    },
-    suffixPascal: {
-      solid: "Solid",
-      outline: "Outline",
     },
   },
 };
@@ -89,20 +78,28 @@ let getFrameworks = () => {
   return frameworks;
 };
 
-let createRenderFunction = (data) => {
+const createJsFile = (framework, icon, iconName, subs, tags, data) => {
+  // let type = subs.map((i) => toPascalCase(i))
+  
   let svgAttrs = JSON.stringify(data.svgAttrs);
 
-  let child = [];
-
-  for (let el of data.elements) {
-    let c = `h(
+  let child = data.elements.map((el) => {
+    return `h(
           "${el.element}",
           ${JSON.stringify(el.attrs)}
-        )`;
-    child.push(c);
-  }
+        )`
+  })
 
-  return `render() {
+  return `
+export let ${iconName} = {
+  $_icon: {
+    name: "${icon}",
+    vendor: "${toPascalCase(options[framework].prefix)}",
+    license: "${options[framework].license}",
+    type: ${JSON.stringify(subs.map(i => i.charAt(0).toUpperCase() + i.slice(1)))},
+    tags: ${JSON.stringify(tags)},
+  },
+  render() {
     return h(
       "svg",
       ${svgAttrs},
@@ -110,28 +107,15 @@ let createRenderFunction = (data) => {
         ${child.join(",\n        ")} 
       ]
     )
-  }`;
-};
-
-const createJsFile = (framework, icon, iconName, subs, renderFunction, tags) => {
-  // let type = subs.map((i) => toPascalCase(i))
-
-  return `
-export let ${iconName} = {
-  $_icon: {
-    name: "${icon}",
-    vendor: "${toPascalCase(options[framework].prefix)}",
-    type: ${JSON.stringify(subs)},
-    tags: ${JSON.stringify(tags)},
-  },
-  ${renderFunction}
+  }
 }`;
 };
 
 let attrsList = ["id", "class", "xmlns:xlink", "version"];
 
-let normalizeAttrs = (attrs, icon, subs, framework) => {
-  attrs.fill = typeof options[framework].fill === 'function' ? options[framework].fill(subs) : options[framework].fill;
+let normalizeAttrs = (attrs, icon, framework) => {
+  attrs.fill = options[framework].fill;
+  // attrs["data-name"] = `${options[framework].prefix}-${icon}`;
 
   attrsList.forEach((attr) => {
     if (attrs[attr]) delete attrs[attr];
@@ -178,11 +162,8 @@ const prepareDist = () => {
   }
 };
 
-let finalizeDist = (dist, index) => {
-  fs.writeFileSync(path.join(dist, "index.js"), index);
-};
-
 const createComponents = (framework) => {
+
   const dist = "dist-" + framework;
 
   let index = "";
@@ -194,7 +175,7 @@ const createComponents = (framework) => {
     `icons/${framework}/${options[framework].dir}/**/*.svg`
   );
 
-  let singleFile = ""
+  let fileString = ""
 
   files.forEach((i) => {
     const pathData = i.split("/");
@@ -219,31 +200,28 @@ const createComponents = (framework) => {
 
     let parsedSvg = parser.parse(content);
     let data = getSvgData(parsedSvg[0]);
-    normalizeAttrs(data.svgAttrs, icon, subs, framework);
+    normalizeAttrs(data.svgAttrs, icon, framework);
 
     // create JS file
 
-    let renderFunction = createRenderFunction(data);
     const fileJs = createJsFile(
       framework,
       pascalIcon,
       iconName,
       subs,
-      renderFunction,
-      tags
+      tags,
+      data,
     );
-    
-    singleFile += fileJs
+
+    fileString += fileJs;
 
     count++;
   });
 
-  singleFile = `import { h } from "vue"
-${singleFile}`
+  fileString = `import { h } from "vue"
+${fileString}`
 
-  fs.writeFileSync(path.join(dist + "-single", "index.js"), singleFile);
-
-  // finalizeDist(dist, index);
+  fs.writeFileSync(path.join(dist + "-single", "index.js"), fileString);
 
   console.log(`${framework} done (${count} icons)`);
 };
@@ -251,7 +229,5 @@ ${singleFile}`
 handleCommandline();
 
 let frameworks = getFrameworks();
-
-// prepareDist();
 
 frameworks.forEach((f) => createComponents(f));
