@@ -10,11 +10,11 @@ export default {
   render() {
     return h(
       "svg",
-      {"width":"24","height":"24","viewBox":"0 0 24 24","fill":"currentColor","xmlns":"http://www.w3.org/2000/svg"},
+      {"xmlns":"http://www.w3.org/2000/svg","fill":"currentColor","viewBox":"0 0 24 24","stroke-width":"1.5","stroke":"currentColor","aria-hidden":"true"},
       [ 
         h(
           "path",
-          {"d":"M15.75 5.25L15.75 18.75M8.25 5.25V18.75","stroke":"#0F172A","stroke-width":"1.5","stroke-linecap":"round","stroke-linejoin":"round"}
+          {"stroke-linecap":"round","stroke-linejoin":"round","d":"M15.75 5.25v13.5m-7.5-13.5v13.5"}
         ) 
       ]
     )

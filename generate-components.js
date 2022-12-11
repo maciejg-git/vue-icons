@@ -44,7 +44,7 @@ const options = {
     class: "",
     fill: "currentColor",
     prefix: "h",
-    dir: "src",
+    dir: "optimized",
     license: "MIT",
     suffix: {
       solid: "solid",
