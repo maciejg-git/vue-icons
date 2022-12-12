@@ -42,7 +42,13 @@ const options = {
   },
   heroicons: {
     class: "",
-    fill: "currentColor",
+    fill: (i) => {
+      if (i.includes("outline")) {
+        return "none";
+      } else {
+        return "currentColor";
+      }
+    },
     prefix: "h",
     dir: "optimized",
     license: "MIT",
@@ -80,23 +86,24 @@ let getFrameworks = () => {
 
 const createJsFile = (framework, icon, iconName, subs, tags, data) => {
   // let type = subs.map((i) => toPascalCase(i))
-  
+
   let svgAttrs = JSON.stringify(data.svgAttrs);
 
   let child = data.elements.map((el) => {
     return `h(
           "${el.element}",
           ${JSON.stringify(el.attrs)}
-        )`
-  })
+        )`;
+  });
 
   return `
 export let ${iconName} = {
   $_icon: {
     name: "${icon}",
     vendor: "${toPascalCase(options[framework].prefix)}",
-    license: "${options[framework].license}",
-    type: ${JSON.stringify(subs.map(i => i.charAt(0).toUpperCase() + i.slice(1)))},
+    type: ${JSON.stringify(
+      subs.map((i) => i.charAt(0).toUpperCase() + i.slice(1))
+    )},
     tags: ${JSON.stringify(tags)},
   },
   render() {
@@ -113,8 +120,11 @@ export let ${iconName} = {
 
 let attrsList = ["id", "class", "xmlns:xlink", "version"];
 
-let normalizeAttrs = (attrs, icon, framework) => {
-  attrs.fill = options[framework].fill;
+let normalizeAttrs = (attrs, icon, subs, framework) => {
+  attrs.fill =
+    typeof options[framework].fill === "function"
+      ? options[framework].fill(subs)
+      : options[framework].fill;
   // attrs["data-name"] = `${options[framework].prefix}-${icon}`;
 
   attrsList.forEach((attr) => {
@@ -163,7 +173,6 @@ const prepareDist = () => {
 };
 
 const createComponents = (framework) => {
-
   const dist = "dist-" + framework;
 
   let index = "";
@@ -175,15 +184,16 @@ const createComponents = (framework) => {
     `icons/${framework}/${options[framework].dir}/**/*.svg`
   );
 
-  let fileString = ""
+  let fileString = "";
 
   files.forEach((i) => {
     const pathData = i.split("/");
     const file = pathData[pathData.length - 1];
-    let subs = pathData.length > 4 ? pathData.slice(3, pathData.length - 1) : [];
+    let subs =
+      pathData.length > 4 ? pathData.slice(3, pathData.length - 1) : [];
     subs = subs.map((i) => {
-      return options[framework].suffix?.[i] || i
-    })
+      return options[framework].suffix?.[i] || i;
+    });
 
     const icon = file.substr(0, file.lastIndexOf("."));
     const pascalIcon = toPascalCase(icon);
@@ -200,7 +210,7 @@ const createComponents = (framework) => {
 
     let parsedSvg = parser.parse(content);
     let data = getSvgData(parsedSvg[0]);
-    normalizeAttrs(data.svgAttrs, icon, framework);
+    normalizeAttrs(data.svgAttrs, icon, subs, framework);
 
     // create JS file
 
@@ -210,7 +220,7 @@ const createComponents = (framework) => {
       iconName,
       subs,
       tags,
-      data,
+      data
     );
 
     fileString += fileJs;
@@ -219,7 +229,7 @@ const createComponents = (framework) => {
   });
 
   fileString = `import { h } from "vue"
-${fileString}`
+${fileString}`;
 
   fs.writeFileSync(path.join(dist + "-single", "index.js"), fileString);
 
