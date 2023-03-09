@@ -1,8 +1,8 @@
 # Vue-bootstrap-icons
 
-[Bootstrap icons](https://https://icons.getbootstrap.com/), Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
+Bootstrap icons, Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
 
-Check [Icon browser](https://vue-icon-browser.netlify.app/) for examples, usage and available icons.
+Check [Vue Icon Browser](https://vue-icon-browser.netlify.app/) for examples and usage.
 
 ## Usage
 
@@ -58,14 +58,14 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-To make icon available copy or download js file of the icon to [app icon directory]. Vite will import and register icons globally every time directory content changes.
-You can download icon components from [Icon browser](https://vue-icon-browser.netlify.app/)
+To make icon available copy or download icon component file to [app icon directory]. Vite will import and register icons globally every time directory content changes.
+You can download icon components directly from [Vue Icon Browser](https://vue-icon-browser.netlify.app/)
 
 * [Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
 
 ## Using icons in templates
 
-You can use icons directly or with vue build in dynamic component
+Icons can be used directly or with vue build-in dynamic component
 
 ```html
 <b-triangle-fill class="h-5 w-5" />
