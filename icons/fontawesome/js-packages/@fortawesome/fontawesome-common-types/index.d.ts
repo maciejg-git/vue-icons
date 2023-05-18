@@ -1,5 +1,5 @@
 export type IconFamily = "classic" | "sharp" | "duotone";
-export type IconPrefix = "fas" | "far" | "fal" | "fat" | "fad" | "fab" | "fak" | "fass" ;
+export type IconPrefix = "fas" | "far" | "fal" | "fat" | "fad" | "fab" | "fak" | "fass" | "fasr" | "fasl" ;
 export type CssStyleClass = "fa-solid" | "fa-regular" | "fa-light" | "fa-thin" | "fa-duotone" | "fa-brands" ;
 export type IconStyle = "solid" | "regular" | "light" | "thin" | "duotone" | "brands" ;
 export type IconPathData = string | string[]
@@ -478,9 +478,11 @@ export type IconName = 'monero' |
   'dribbble' | 
   'stumbleupon-circle' | 
   'internet-explorer' | 
+  'stubber' | 
   'telegram' | 
   'telegram-plane' | 
   'old-republic' | 
+  'odysee' | 
   'square-whatsapp' | 
   'whatsapp-square' | 
   'node-js' | 

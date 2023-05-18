@@ -1,4 +1,6 @@
 ---
+aliases:
+  - /font/
 ---
 
 ## Install
@@ -30,7 +32,7 @@ composer require twbs/bootstrap-icons
   <div class="col-md-4">
 {{< md >}}
 ### CDN
-Include the icon fonts stylesheet—in your website `<head>` or via `@import` in CSS—from our CDN and get started in seconds. [See icon font docs](#icon-font) for examples.
+Include the icon fonts stylesheet—in your website `<head>` or via `@import` in CSS—from jsDelivr and get started in seconds. [See icon font docs](#icon-font) for examples.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@{{< param version >}}/font/bootstrap-icons.css">
@@ -69,7 +71,13 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
 {{< /md >}}
   </div>
   <div class="col-md-8">
-{{< example >}}
+
+<div class="bd-example" style="font-size: 32px;">
+  <i class="bi bi-heart-fill"></i>
+  <i class="bi bi-toggles"></i>
+  <i class="bi bi-shop"></i>
+</div>
+{{< highlight html >}}
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
 </svg>
@@ -79,7 +87,7 @@ Use the SVG sprite to insert any icon through the `<use>` element. Use the icon'
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#shop"/>
 </svg>
-{{< /example >}}
+{{< /highlight >}}
   </div>
 </div>
 
@@ -91,7 +99,7 @@ Copy the Bootstrap Icons SVGs to your directory of choice and reference them lik
 {{< /md >}}
   </div>
   <div class="col-md-8">
-    {{< example >}}<img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
+    {{< example >}}<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">{{< /example >}}
   </div>
 </div>
 
@@ -165,22 +173,15 @@ For purely decorative icons, add `aria-hidden="true"`. Otherwise, provide an app
   </div>
   <div class="col-md-8">
     <div class="bd-example">
-      <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32">
+      <img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">
     </div>
 {{< highlight html >}}
 <!-- alt="..." on <img> element -->
-<img src="/assets/img/bootstrap.svg" alt="Bootstrap" ...>
+<img src="/assets/icons/bootstrap.svg" alt="Bootstrap" ...>
 {{< /highlight >}}
     <div class="bd-example">
       <i class="bi-github" role="img" style="font-size: 2em" aria-label="GitHub"></i>
-    </div>
-{{< highlight html >}}
-<i class="bi-github" role="img" aria-label="GitHub"></i>
-{{< /highlight >}}
-    <div class="bd-example">
-      <svg class="bi" width="32" height="32" fill="currentColor" role="img" aria-label="Tools">
-        <use xlink:href="bootstrap-icons.svg#tools"/>
-      </svg>
+      <i class="bi-tools" role="img" style="font-size: 2em" aria-label="Tools"></i>
     </div>
 {{< highlight html >}}
 <svg class="bi" ... role="img" aria-label="Tools">
