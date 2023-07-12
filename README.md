@@ -1,6 +1,6 @@
-# Vue-bootstrap-icons
+# Vue-icons
 
-Bootstrap icons, Material Design Icons, Font Awesome and Heroicons icons converted to unified, self contained Vue 3 components. 
+Bootstrap icons, Material Design Icons, Font Awesome and Heroicons converted to unified, self contained Vue 3 components. 
 
 Check [Vue Icon Browser](https://vue-icon-browser.netlify.app/) for examples and usage.
 
@@ -9,7 +9,16 @@ Check [Vue Icon Browser](https://vue-icon-browser.netlify.app/) for examples and
 **[Option 1 - npm]** install, import and register chosen icons globally in main.js
 
 ```bash
-npm install vue-bootstrap-icons
+npm install vue-icons-bootstrap -D
+```
+```bash
+npm install vue-icons-mdi -D
+```
+```bash
+npm install vue-icons-fontawesome -D
+```
+```bash
+npm install vue-icons-heroicons -D
 ```
 
 ```js
@@ -19,7 +28,7 @@ import {
   BTriangleFill,
   BTropicalStorm,
   BBookFill,
-} from "vue-bootstrap-icons"
+} from "vue-icons-bootstrap"
 
 let app = createApp(App);
 
@@ -38,11 +47,7 @@ you can also import icons locally in components
 ```js
 // component.vue
 
-import { BTriangleFill } from "vue-bootstrap-icons"
-
-...
-
-components: { BTriangleFill }
+import { BTriangleFill } from "vue-icons-bootstrap"
 ```
 
 **[Option 2 - glob import]** or use vite glob import (recommended)
@@ -50,7 +55,7 @@ components: { BTriangleFill }
 ```js
 // main.js (vite)
 
-const modules = import.meta.globEager('./[app icon directory]/*.js')
+const modules = import.meta.globEager('./icons/*.js')
 
 Object.entries(modules).forEach(([path, definition]) => {
   let { vendor, name, type } = definition.default.$_icon;
@@ -58,8 +63,8 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-To make icon available copy or download icon component file to [app icon directory]. Vite will import and register icons globally every time directory content changes.
-You can download icon components directly from [Vue Icon Browser](https://vue-icon-browser.netlify.app/)
+To make icon available copy or download icon component file to `icons` directory. Vite will import and register icons globally every time directory content changes.
+You can preview and download icon components directly from [Vue Icon Browser](https://vue-icon-browser.netlify.app/)
 
 * [Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
 
