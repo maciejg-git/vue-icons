@@ -1,0 +1,8 @@
+{
+  "name": "vue-icons-heroicons",
+  "version": "0.0.1",
+  "description": "Heroicons Vue 3 components",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT"
+}
