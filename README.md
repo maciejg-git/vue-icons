@@ -50,7 +50,7 @@ you can also import icons locally in components
 import { BTriangleFill } from "vue-icons-bootstrap"
 ```
 
-**[Option 2 - glob import]** or use vite glob import (recommended)
+**[Option 2 - vite glob import]** or use vite glob import (recommended)
 
 ```js
 // main.js (vite)
