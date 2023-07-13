@@ -63,7 +63,7 @@ Object.entries(modules).forEach(([path, definition]) => {
 })
 ```
 
-To make icon available copy or download icon component file to `icons` directory. Vite will import and register icons globally every time directory content changes.
+Vite will automatically import and register icons in `icons` directory. Available icons will be updated every time files are added or deleted from directory.
 You can preview and download icon components directly from [Vue Icon Browser](https://vue-icon-browser.netlify.app/)
 
 * [Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
