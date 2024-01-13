@@ -68,6 +68,24 @@ You can preview and download icon components directly from [Vue Icon Browser](ht
 
 * [Vite docs: importing multiple modules from the file system](https://vitejs.dev/guide/features.html#glob-import)
 
+Another way to register icons is to use aliases for easier to remember icon names or changing icons application wide.
+
+```js
+// main.js (vite)
+
+const modules = import.meta.globEager('./icons/*.js')
+
+let iconAliases = [
+  ["MdiFile", "i-file"]
+]
+
+Object.entries(modules).forEach(([path, definition]) => {
+  let { vendor, name, type } = definition.default.$_icon;
+  let icon = iconTypes.find((i) => i[0] === vendor + name)
+  if (icon) app.component(icon[1], definition.default)
+})
+```
+
 ## Using icons in templates
 
 Icons can be used directly or with vue build-in dynamic component
