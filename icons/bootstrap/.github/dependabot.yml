@@ -4,9 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
+    labels:
+      - dependencies
+      - github_actions
     reviewers:
       - XhmikosR
-  - package-ecosystem: npm
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: monthly
@@ -15,3 +22,8 @@ updates:
     reviewers:
       - XhmikosR
     versioning-strategy: increase
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"

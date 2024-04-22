@@ -10,11 +10,11 @@ export default {
   render() {
     return h(
       "svg",
-      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true"},
+      {"xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 20 20","fill":"currentColor","aria-hidden":"true","data-slot":"icon"},
       [ 
         h(
           "g",
-          {"clip-path":"url(#clip0_9_2121)"}
+          {"clip-path":"url(#a)"}
         ),
         h(
           "defs",

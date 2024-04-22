@@ -485,6 +485,42 @@
         "author": "Google"
     },
     {
+        "id": "38F968FA-3BDD-48B3-94DF-601B570D4A2D",
+        "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+        "name": "account-box-edit-outline",
+        "codepoint": "F1CC8",
+        "aliases": [],
+        "styles": [
+            "account",
+            "edit",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "F92A28DC-B4C9-4656-A514-2569D21D871D",
+        "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+        "name": "account-box-minus-outline",
+        "codepoint": "F1CC9",
+        "aliases": [],
+        "styles": [
+            "account",
+            "minus",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "D612088F-9D2A-424A-9403-046993A3EB14",
         "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
         "name": "account-box-multiple",
@@ -548,6 +584,24 @@
             "Account \/ User"
         ],
         "author": "Google"
+    },
+    {
+        "id": "9B343856-3835-4B00-AEB5-B7CC36DFA672",
+        "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+        "name": "account-box-plus-outline",
+        "codepoint": "F1CCA",
+        "aliases": [],
+        "styles": [
+            "account",
+            "outline",
+            "plus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Jeff Anders"
     },
     {
         "id": "31CE9FF1-9698-4ED6-8E9B-392840E55DDE",
@@ -1094,6 +1148,62 @@
             "Account \/ User"
         ],
         "author": "Michael Irigoyen"
+    },
+    {
+        "id": "F0FA7981-9900-4267-B720-183597FF7B86",
+        "baseIconId": "F0FA7981-9900-4267-B720-183597FF7B86",
+        "name": "account-file",
+        "codepoint": "F1CA7",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Contributors"
+    },
+    {
+        "id": "6C725BE6-E00C-4CBA-8495-2CFC066C1DBE",
+        "baseIconId": "6C725BE6-E00C-4CBA-8495-2CFC066C1DBE",
+        "name": "account-file-outline",
+        "codepoint": "F1CA8",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Contributors"
+    },
+    {
+        "id": "D69C4A63-5031-472F-B4D1-0958FF55E703",
+        "baseIconId": "D69C4A63-5031-472F-B4D1-0958FF55E703",
+        "name": "account-file-text",
+        "codepoint": "F1CA9",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Contributors"
+    },
+    {
+        "id": "91B63E1C-736B-4892-858D-772B5D197DC8",
+        "baseIconId": "91B63E1C-736B-4892-858D-772B5D197DC8",
+        "name": "account-file-text-outline",
+        "codepoint": "F1CAA",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [
+            "Account \/ User"
+        ],
+        "author": "Contributors"
     },
     {
         "id": "839928F4-21EA-472B-94A0-C7DFBD6C263A",
@@ -9727,7 +9837,7 @@
         "codepoint": "F1C91",
         "aliases": [],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation"
@@ -9743,7 +9853,7 @@
         "styles": [
             "off"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation"
@@ -12479,7 +12589,7 @@
         "styles": [
             "plus"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Matthew Terry"
@@ -12498,7 +12608,7 @@
             "outline",
             "plus"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Matthew Terry"
@@ -17484,6 +17594,18 @@
         "author": "Google"
     },
     {
+        "id": "42991CAB-D9D2-43FF-8AB1-CA6CC358742D",
+        "baseIconId": "7EFAD89C-D84E-41F0-A8A4-F72AC8DB470C",
+        "name": "book-open-blank-variant-outline",
+        "codepoint": "F1CCB",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "BA5E15E3-923B-464B-ACEA-F2958F6782F7",
         "baseIconId": "7EFAD89C-D84E-41F0-A8A4-F72AC8DB470C",
         "name": "book-open-outline",
@@ -17541,6 +17663,21 @@
         "deprecated": false,
         "tags": [],
         "author": "Google"
+    },
+    {
+        "id": "136112D6-C008-4704-87AA-BD5AB0C23A50",
+        "baseIconId": "7EFAD89C-D84E-41F0-A8A4-F72AC8DB470C",
+        "name": "book-open-variant-outline",
+        "codepoint": "F1CCC",
+        "aliases": [],
+        "styles": [
+            "outline",
+            "variant"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
     },
     {
         "id": "D1558D49-BCE0-4539-9560-DB05153356AF",
@@ -20520,6 +20657,18 @@
         "author": "GreenTurtwig"
     },
     {
+        "id": "F78F2CE4-8F69-48F7-9BA2-C806A3723E74",
+        "baseIconId": "F6516F38-B29E-4CC9-A7E2-706817121D45",
+        "name": "bus-sign",
+        "codepoint": "F1CC1",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
         "id": "79F04208-0844-4987-9CFA-8870EBB6CD1D",
         "baseIconId": "79F04208-0844-4987-9CFA-8870EBB6CD1D",
         "name": "bus-stop",
@@ -20566,6 +20715,18 @@
             "Transportation + Road",
             "Navigation"
         ],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "B8B29CB6-A4EA-40C5-B5AC-2388653D1724",
+        "baseIconId": "F6516F38-B29E-4CC9-A7E2-706817121D45",
+        "name": "bus-wrench",
+        "codepoint": "F1CC2",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
         "author": "Michael Richins"
     },
     {
@@ -23603,7 +23764,7 @@
         "styles": [
             "lock"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Automotive",
@@ -23908,7 +24069,9 @@
         "baseIconId": "CB49A868-3317-4445-BFED-13CB6533000E",
         "name": "car-pickup",
         "codepoint": "F07AA",
-        "aliases": [],
+        "aliases": [
+            "truck-pickup"
+        ],
         "styles": [],
         "version": "2.0.46",
         "deprecated": false,
@@ -25557,6 +25720,20 @@
         "author": "Michael Irigoyen"
     },
     {
+        "id": "9E3DA25C-D9A8-4009-A08D-5D98E3B3DCC9",
+        "baseIconId": "9E3DA25C-D9A8-4009-A08D-5D98E3B3DCC9",
+        "name": "cash-edit",
+        "codepoint": "F1CAB",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "A10E9739-AA80-4671-B744-ECB9934BB7E4",
         "baseIconId": "59956D81-BF6B-4DCA-ABAD-A890412F22F1",
         "name": "cash-fast",
@@ -26662,7 +26839,7 @@
         "styles": [
             "search"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Ryan Donahue"
@@ -26814,6 +26991,49 @@
             "Math"
         ],
         "author": "Google"
+    },
+    {
+        "id": "F85DED12-7AE9-436D-81BA-DA154B8E2317",
+        "baseIconId": "381420B2-B2EE-4E9F-9DEA-EA0C1F92A226",
+        "name": "chart-box-multiple",
+        "codepoint": "F1CCD",
+        "aliases": [
+            "poll-box-multiple",
+            "graph-box-multiple",
+            "widget-box-multiple",
+            "report-box-multiple"
+        ],
+        "styles": [
+            "multiple"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Math"
+        ],
+        "author": "Konstantin Saller"
+    },
+    {
+        "id": "DA461BDE-F579-4196-A3CD-C186D0C2912A",
+        "baseIconId": "381420B2-B2EE-4E9F-9DEA-EA0C1F92A226",
+        "name": "chart-box-multiple-outline",
+        "codepoint": "F1CCE",
+        "aliases": [
+            "graph-box-multiple-outline",
+            "widget-box-multiple-outline",
+            "report-box-multiple-outline",
+            "poll-box-multiple-outline"
+        ],
+        "styles": [
+            "multiple",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Math"
+        ],
+        "author": "Konstantin Saller"
     },
     {
         "id": "4115E465-01E5-4F3F-929A-81C239289B21",
@@ -31220,7 +31440,8 @@
             "clear",
             "multiply",
             "remove",
-            "cancel"
+            "cancel",
+            "times"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -32025,7 +32246,7 @@
         "styles": [
             "key"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Cloud"
@@ -32044,7 +32265,7 @@
         "styles": [
             "key"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Cloud"
@@ -32172,7 +32393,10 @@
         "baseIconId": "CF07C502-388E-4A65-BD89-FACCFD00C245",
         "name": "cloud-off-outline",
         "codepoint": "F0164",
-        "aliases": [],
+        "aliases": [
+            "offline",
+            "local"
+        ],
         "styles": [
             "off",
             "outline"
@@ -32708,7 +32932,7 @@
             "code-block-json"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Developer \/ Languages"
@@ -32724,7 +32948,7 @@
             "code-block-square"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Developer \/ Languages"
@@ -32738,7 +32962,7 @@
         "codepoint": "F1C85",
         "aliases": [],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Developer \/ Languages"
@@ -32755,7 +32979,7 @@
             "code-block-xml"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Developer \/ Languages"
@@ -39657,6 +39881,25 @@
         "author": "Simran"
     },
     {
+        "id": "060C6C30-A2B7-430F-A90B-03483819BBD0",
+        "baseIconId": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+        "name": "diaper-outline",
+        "codepoint": "F1CCF",
+        "aliases": [
+            "nappy-outline"
+        ],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Clothing",
+            "Medical \/ Hospital"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "F8E5E9B6-9953-46F8-84DC-CFBB11DEFFB7",
         "baseIconId": "F8E5E9B6-9953-46F8-84DC-CFBB11DEFFB7",
         "name": "dice-1",
@@ -40852,7 +41095,7 @@
         "styles": [
             "cancel"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation"
@@ -41262,6 +41505,21 @@
         "deprecated": false,
         "tags": [],
         "author": "GreenTurtwig"
+    },
+    {
+        "id": "3507A83C-1638-425D-B3D8-87EC40648E7B",
+        "baseIconId": "704F7397-0E85-4213-8D76-FE156DF1795F",
+        "name": "download-multiple-outline",
+        "codepoint": "F1CD0",
+        "aliases": [],
+        "styles": [
+            "multiple",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
     },
     {
         "id": "8DD93DC3-060D-4CB3-AB41-8A1A5243BFFD",
@@ -41759,7 +42017,7 @@
         "styles": [
             "arrow"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "frankgrinaert"
@@ -41777,7 +42035,7 @@
         "styles": [
             "arrow"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "frankgrinaert"
@@ -41815,7 +42073,7 @@
         "styles": [
             "arrow"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "frankgrinaert"
@@ -43516,6 +43774,30 @@
         "author": "Michael Richins"
     },
     {
+        "id": "5B0AC9D6-D90F-4014-9EEF-A549321B0E1E",
+        "baseIconId": "5B0AC9D6-D90F-4014-9EEF-A549321B0E1E",
+        "name": "emoticon-minus",
+        "codepoint": "F1CB2",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
+    },
+    {
+        "id": "47E88450-34FB-4AC3-B497-3724490AC75C",
+        "baseIconId": "47E88450-34FB-4AC3-B497-3724490AC75C",
+        "name": "emoticon-minus-outline",
+        "codepoint": "F1CB3",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
+    },
+    {
         "id": "922B06B7-9C78-452C-AF29-79A47F0F6931",
         "baseIconId": "922B06B7-9C78-452C-AF29-79A47F0F6931",
         "name": "emoticon-neutral",
@@ -43576,6 +43858,30 @@
         "author": "Google"
     },
     {
+        "id": "977CB7BF-C5B2-41F1-A530-13C3E2944CBB",
+        "baseIconId": "977CB7BF-C5B2-41F1-A530-13C3E2944CBB",
+        "name": "emoticon-plus",
+        "codepoint": "F1CB4",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "bakotamas"
+    },
+    {
+        "id": "2DBE55DC-10B6-446B-A380-D9E0637D7430",
+        "baseIconId": "2DBE55DC-10B6-446B-A380-D9E0637D7430",
+        "name": "emoticon-plus-outline",
+        "codepoint": "F1CB5",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "bakotamas"
+    },
+    {
         "id": "968319FB-0E94-4F04-A6D8-9E71DF200E1F",
         "baseIconId": "968319FB-0E94-4F04-A6D8-9E71DF200E1F",
         "name": "emoticon-poop",
@@ -43611,6 +43917,30 @@
             "Emoji"
         ],
         "author": "Michael Irigoyen"
+    },
+    {
+        "id": "A86DA248-7217-4896-9A5C-2AD6B8A91829",
+        "baseIconId": "A86DA248-7217-4896-9A5C-2AD6B8A91829",
+        "name": "emoticon-remove",
+        "codepoint": "F1CB6",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
+    },
+    {
+        "id": "63755E6E-F437-4241-AFFE-AAD2FEF98906",
+        "baseIconId": "63755E6E-F437-4241-AFFE-AAD2FEF98906",
+        "name": "emoticon-remove-outline",
+        "codepoint": "F1CB7",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
     },
     {
         "id": "CDA3C920-C286-4000-A7FC-C530CBC62CF7",
@@ -44056,6 +44386,20 @@
         "deprecated": false,
         "tags": [],
         "author": "Simran"
+    },
+    {
+        "id": "F011BA7B-390E-4AC0-8C23-425C8E1BEA4C",
+        "baseIconId": "3AB3C243-0FD3-4903-A6EA-B0B29ABFAD6C",
+        "name": "ethernet-off",
+        "codepoint": "F1CD1",
+        "aliases": [],
+        "styles": [
+            "off"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Colton Wiscombe"
     },
     {
         "id": "7C687673-B2F0-43B6-A5E3-E25B9FFA0F8E",
@@ -44547,7 +44891,7 @@
             "visibility-hidden"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "joshua-maros"
@@ -45245,7 +45589,8 @@
         "version": "1.5.54",
         "deprecated": false,
         "tags": [
-            "Places"
+            "Places",
+            "Hardware \/ Tools"
         ],
         "author": "Austin Andrews"
     },
@@ -49186,6 +49531,18 @@
             "Home Automation"
         ],
         "author": "Michael Irigoyen"
+    },
+    {
+        "id": "95D900A4-8DDB-4235-9204-333DF520CD14",
+        "baseIconId": "95D900A4-8DDB-4235-9204-333DF520CD14",
+        "name": "fire-station",
+        "codepoint": "F1CC3",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
     },
     {
         "id": "1C8EC9A6-0545-4A59-B9F8-5E498E40529D",
@@ -54645,7 +55002,10 @@
         "aliases": [
             "message-group",
             "question-answer",
-            "chat"
+            "chat",
+            "dialogue",
+            "conversation",
+            "discussion"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -54659,6 +55019,9 @@
         "name": "forum-minus",
         "codepoint": "F1AA9",
         "aliases": [
+            "discussion-minus",
+            "conversation-minus",
+            "dialogue-minus",
             "chat-minus",
             "forum-subtract",
             "chat-subtract"
@@ -54677,9 +55040,12 @@
         "name": "forum-minus-outline",
         "codepoint": "F1AAA",
         "aliases": [
+            "dialogue-minus-outline",
             "chat-minus-outline",
             "forum-subtract-outline",
-            "chat-subtract-outline"
+            "chat-subtract-outline",
+            "conversation-minus-outline",
+            "discussion-minus-outline"
         ],
         "styles": [
             "minus",
@@ -54696,7 +55062,10 @@
         "name": "forum-outline",
         "codepoint": "F0822",
         "aliases": [
-            "chat-outline"
+            "chat-outline",
+            "dialogue-outline",
+            "discussion-outline",
+            "conversation-outline"
         ],
         "styles": [
             "outline"
@@ -54714,7 +55083,10 @@
         "aliases": [
             "chat-plus",
             "forum-add",
-            "chat-add"
+            "chat-add",
+            "dialogue-plus",
+            "conversation-plus",
+            "discussion-plus"
         ],
         "styles": [
             "plus"
@@ -54732,7 +55104,10 @@
         "aliases": [
             "chat-plus-outline",
             "chat-add-outline",
-            "forum-add-outline"
+            "forum-add-outline",
+            "dialogue-plus-outline",
+            "conversation-plus-outline",
+            "discussion-plus-outline"
         ],
         "styles": [
             "outline",
@@ -54751,7 +55126,10 @@
         "aliases": [
             "forum-delete",
             "chat-remove",
-            "chat-delete"
+            "chat-delete",
+            "dialogue-remove",
+            "conversation-remove",
+            "discussion-remove"
         ],
         "styles": [
             "remove"
@@ -54769,7 +55147,10 @@
         "aliases": [
             "forum-delete-outline",
             "chat-remove-outline",
-            "chat-delete-outline"
+            "chat-delete-outline",
+            "dialogue-remove-outline",
+            "conversation-remove-outline",
+            "discussion-remove-outline"
         ],
         "styles": [
             "outline",
@@ -56109,7 +56490,9 @@
         "aliases": [
             "stove-burner",
             "cooktop-burner",
-            "grill"
+            "grill",
+            "natural-gas",
+            "energy"
         ],
         "styles": [],
         "version": "6.6.96",
@@ -56155,6 +56538,30 @@
             "Automotive"
         ],
         "author": "Google"
+    },
+    {
+        "id": "B744E076-E4B1-43E6-9F3C-26F083D68075",
+        "baseIconId": "50E30598-BCD8-4167-BDAC-FF6971E745D7",
+        "name": "gas-station-in-use",
+        "codepoint": "F1CC4",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "29FEB55C-C480-4B50-A5CE-D2B2FA9F72B2",
+        "baseIconId": "50E30598-BCD8-4167-BDAC-FF6971E745D7",
+        "name": "gas-station-in-use-outline",
+        "codepoint": "F1CC5",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
     },
     {
         "id": "7ED35A9C-D8FD-4892-84E5-3700C907AE28",
@@ -56563,7 +56970,7 @@
             "electricity-generator"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation",
@@ -56581,7 +56988,7 @@
             "electricity-generator"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation"
@@ -56598,7 +57005,7 @@
             "electricity-generator"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Home Automation"
@@ -58485,7 +58892,9 @@
         "styles": [],
         "version": "6.2.95",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Colton Wiscombe"
     },
     {
@@ -60072,7 +60481,7 @@
         "styles": [
             "search"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Ryan Donahue"
@@ -61982,7 +62391,8 @@
         "name": "hoop-house",
         "codepoint": "F0E56",
         "aliases": [
-            "green-house"
+            "green-house",
+            "high-tunnel"
         ],
         "styles": [],
         "version": "3.6.95",
@@ -62233,7 +62643,7 @@
         "codepoint": "F1C94",
         "aliases": [],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Date \/ Time"
@@ -62261,7 +62671,7 @@
         "codepoint": "F1C95",
         "aliases": [],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Google"
@@ -62275,7 +62685,7 @@
         "styles": [
             "outline"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Google"
@@ -62512,7 +62922,7 @@
             "family"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "People \/ Family"
@@ -62814,7 +63224,7 @@
             "family"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "People \/ Family"
@@ -64644,6 +65054,930 @@
         "author": "Google"
     },
     {
+        "id": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice",
+        "codepoint": "F1CD2",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "026E4532-5FE5-4DCA-B5D5-D376E23CB81A",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-arrow-left",
+        "codepoint": "F1CD3",
+        "aliases": [],
+        "styles": [
+            "arrow"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "22F91964-3698-4604-8046-16C6535A5E95",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-arrow-left-outline",
+        "codepoint": "F1CD4",
+        "aliases": [],
+        "styles": [
+            "arrow",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "E1DC2DB9-F684-45FC-A5A8-C83561497512",
+        "baseIconId": "E1DC2DB9-F684-45FC-A5A8-C83561497512",
+        "name": "invoice-arrow-right",
+        "codepoint": "F1CD5",
+        "aliases": [],
+        "styles": [
+            "arrow"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "AC3398AB-FFFA-4339-B4D0-4C6C248FF1E6",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-arrow-right-outline",
+        "codepoint": "F1CD6",
+        "aliases": [],
+        "styles": [
+            "arrow",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "0B1FB16F-0E5A-4F53-9F9C-B9A28217C254",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-check",
+        "codepoint": "F1CD7",
+        "aliases": [],
+        "styles": [
+            "check"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "8DCF92BA-E729-4B96-99B5-1B076D672002",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-check-outline",
+        "codepoint": "F1CD8",
+        "aliases": [],
+        "styles": [
+            "check",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "C6B8DF23-3526-4052-BB03-37F479F3B5B6",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-clock",
+        "codepoint": "F1CD9",
+        "aliases": [
+            "invoice-scheduled"
+        ],
+        "styles": [
+            "clock"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "71498268-3E1E-4F4C-8510-4BA27D2F01F9",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-clock-outline",
+        "codepoint": "F1CDA",
+        "aliases": [
+            "invoice-scheduled-outline"
+        ],
+        "styles": [
+            "clock",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "6BAEBFB5-9221-4F2F-AF55-FF8FED5EB24C",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-edit",
+        "codepoint": "F1CDB",
+        "aliases": [],
+        "styles": [
+            "edit"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "1C785A7B-3E52-4C1A-A5DF-4F7CF6902041",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-edit-outline",
+        "codepoint": "F1CDC",
+        "aliases": [],
+        "styles": [
+            "edit",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "049C99EC-16C8-458C-ABE7-06B361BF05C7",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-export-outline",
+        "codepoint": "F1CDD",
+        "aliases": [
+            "invoice-outbound-outline"
+        ],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "E624E5A6-B84B-46B3-8090-0326FDDDA78B",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-fast",
+        "codepoint": "F1CDE",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "F6879131-0B38-4FD5-86FF-2BF8BB5E43B2",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-fast-outline",
+        "codepoint": "F1CDF",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "28766FCF-01FB-43EF-AAE4-B78A644880AF",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-import",
+        "codepoint": "F1CE0",
+        "aliases": [
+            "invoice-inbound"
+        ],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "9B0C48A2-870D-43B1-9F73-57688AA5B888",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-import-outline",
+        "codepoint": "F1CE1",
+        "aliases": [
+            "invoice-inbound-outline"
+        ],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "3C7A28AA-E21B-4DCC-B6DF-4EBEF2A93C01",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-list",
+        "codepoint": "F1CE2",
+        "aliases": [
+            "invoice-line-items"
+        ],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "9674415D-706E-4934-A03F-9AE29B24E3A9",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-list-outline",
+        "codepoint": "F1CE3",
+        "aliases": [
+            "invoice-line-items-outline"
+        ],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Shopping",
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "5E6401D0-9CC0-4E04-B453-DCA43D3E1D0C",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-minus",
+        "codepoint": "F1CE4",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "7937AAEB-9FCA-4F50-81D9-8A3735A5248A",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-minus-outline",
+        "codepoint": "F1CE5",
+        "aliases": [],
+        "styles": [
+            "minus",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "25C8CF6C-01BB-4E4A-A946-47A58A854957",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-multiple",
+        "codepoint": "F1CE6",
+        "aliases": [],
+        "styles": [
+            "multiple"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "16A5C1A4-ADE8-4F65-A02B-C02FFEA97241",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-multiple-outline",
+        "codepoint": "F1CE7",
+        "aliases": [],
+        "styles": [
+            "multiple",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "A7F61024-F5FD-4296-B956-A785D549814A",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-outline",
+        "codepoint": "F1CE8",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "8AEAA39A-29A9-4627-A0D0-49DD64922B55",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-plus",
+        "codepoint": "F1CE9",
+        "aliases": [
+            "invoice-new"
+        ],
+        "styles": [
+            "plus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "889F97FC-E068-4E7A-BB6E-0F3428A13A21",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-plus-outline",
+        "codepoint": "F1CEA",
+        "aliases": [
+            "invoice-new-outline"
+        ],
+        "styles": [
+            "outline",
+            "plus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "19F2BEC0-0188-49C4-9125-7FD3F0C4A95B",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-remove",
+        "codepoint": "F1CEB",
+        "aliases": [],
+        "styles": [
+            "remove"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "C829B2D9-67A7-43E3-8D02-85C980F76BC5",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-remove-outline",
+        "codepoint": "F1CEC",
+        "aliases": [],
+        "styles": [
+            "outline",
+            "remove"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "1AC4079F-A8A3-45CB-869D-97DDC3244BF8",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-send",
+        "codepoint": "F1CED",
+        "aliases": [],
+        "styles": [
+            "send"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "2A169211-E680-4D0C-B4C3-FDE388B98D06",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-send-outline",
+        "codepoint": "F1CEE",
+        "aliases": [],
+        "styles": [
+            "outline",
+            "send"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "06345293-B968-427B-BD74-719BD3F2E37B",
+        "baseIconId": "06345293-B968-427B-BD74-719BD3F2E37B",
+        "name": "invoice-text",
+        "codepoint": "F1CEF",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "FCBC1CC9-9072-43F1-9052-8EECCA0651C8",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-arrow-left",
+        "codepoint": "F1CF0",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "1E12551C-392F-43A2-8C18-BFDBC24307A5",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-arrow-left-outline",
+        "codepoint": "F1CF1",
+        "aliases": [],
+        "styles": [
+            "arrow",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "C8536EAF-FE1D-454E-97BB-EC76F0412B2A",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-arrow-right",
+        "codepoint": "F1CF2",
+        "aliases": [],
+        "styles": [
+            "arrow"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "1A05708B-7367-46CB-AD1C-5A17368799B7",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-arrow-right-outline",
+        "codepoint": "F1CF3",
+        "aliases": [],
+        "styles": [
+            "arrow",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Shopping",
+            "Banking"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "F5E98247-6372-4D39-B1F9-D8F81E2115B7",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-check",
+        "codepoint": "F1CF4",
+        "aliases": [],
+        "styles": [
+            "check"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "E8737B18-7558-44E0-82F2-A625D4932D21",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-check-outline",
+        "codepoint": "F1CF5",
+        "aliases": [],
+        "styles": [
+            "check",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "52B9052B-EA7E-4016-9BBC-14FB91CE07EE",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-clock",
+        "codepoint": "F1CF6",
+        "aliases": [
+            "invoice-text-scheduled"
+        ],
+        "styles": [
+            "clock"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "957ED765-1CC2-4C07-959B-065465917872",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-clock-outline",
+        "codepoint": "F1CF7",
+        "aliases": [
+            "invoice-text-scheduled-outline"
+        ],
+        "styles": [
+            "clock",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "DAC9F8EF-8843-46DC-AA4B-AA9D8A02F1E4",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-edit",
+        "codepoint": "F1CF8",
+        "aliases": [],
+        "styles": [
+            "edit"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "7789587C-3400-47CB-8434-EBB26AE3BD3C",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-edit-outline",
+        "codepoint": "F1CF9",
+        "aliases": [],
+        "styles": [
+            "edit",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "3835C129-9723-496D-8D1B-6C6C81430335",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-fast",
+        "codepoint": "F1CFA",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "A6C3518A-07AA-4637-A1FB-0CDEEF8981E9",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-fast-outline",
+        "codepoint": "F1CFB",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "24F0C139-A431-4A41-894F-969DA6F77A07",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-minus",
+        "codepoint": "F1CFC",
+        "aliases": [],
+        "styles": [
+            "minus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "813DEF4F-A57D-4166-B644-30740A64BCC3",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-minus-outline",
+        "codepoint": "F1CFD",
+        "aliases": [],
+        "styles": [
+            "minus",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "515AA743-71C7-4022-8E9E-E07B6D13FAFF",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-multiple",
+        "codepoint": "F1CFE",
+        "aliases": [],
+        "styles": [
+            "multiple"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "3C8CE95D-FDAC-4ECB-B13E-82CAD7E152BC",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-multiple-outline",
+        "codepoint": "F1CFF",
+        "aliases": [],
+        "styles": [
+            "multiple",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "CDF559C8-5851-4697-ACED-93B9E7BB0316",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-outline",
+        "codepoint": "F1D00",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "828C93B1-47AD-4073-8B25-D56621FB50E7",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-plus",
+        "codepoint": "F1D01",
+        "aliases": [
+            "invoice-text-new"
+        ],
+        "styles": [
+            "plus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "2A2F9351-D61A-47D7-B215-5E68E343759A",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-plus-outline",
+        "codepoint": "F1D02",
+        "aliases": [
+            "invoice-text-new-outline"
+        ],
+        "styles": [
+            "outline",
+            "plus"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "65D1CF51-8AB2-4464-8773-D0BFA7794F96",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-remove",
+        "codepoint": "F1D03",
+        "aliases": [],
+        "styles": [
+            "remove"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "532C4085-3DDA-4016-A948-0521EF1AD847",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-remove-outline",
+        "codepoint": "F1D04",
+        "aliases": [],
+        "styles": [
+            "outline",
+            "remove"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "BDE23082-797D-4914-B99F-DB5D12172C0D",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-send",
+        "codepoint": "F1D05",
+        "aliases": [],
+        "styles": [
+            "send"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "14C8E4B1-6E67-427E-B5D1-D38149C69B49",
+        "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+        "name": "invoice-text-send-outline",
+        "codepoint": "F1D06",
+        "aliases": [],
+        "styles": [
+            "outline",
+            "send"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Banking",
+            "Shopping"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "A360D72F-7DC7-4E24-B7F0-1856C918CB8A",
         "baseIconId": "A360D72F-7DC7-4E24-B7F0-1856C918CB8A",
         "name": "iobroker",
@@ -64796,6 +66130,20 @@
             "Places"
         ],
         "author": "Michael Irigoyen"
+    },
+    {
+        "id": "E449645E-ECE6-442D-AC75-D611FED70EF6",
+        "baseIconId": "A39024B8-5991-409C-8E68-DC9562D52F86",
+        "name": "island-variant",
+        "codepoint": "F1CC6",
+        "aliases": [],
+        "styles": [
+            "variant"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
     },
     {
         "id": "0921F3AE-3BFF-4913-BB68-CB48587D14E4",
@@ -65894,7 +67242,8 @@
         "codepoint": "F09FB",
         "aliases": [
             "silverware-knife",
-            "cutlery-knife"
+            "cutlery-knife",
+            "utensils-knife"
         ],
         "styles": [],
         "version": "2.5.94",
@@ -67176,7 +68525,8 @@
         "version": "3.2.89",
         "deprecated": false,
         "tags": [
-            "Nature"
+            "Nature",
+            "Agriculture"
         ],
         "author": "Michael Richins"
     },
@@ -68522,6 +69872,49 @@
         "deprecated": false,
         "tags": [],
         "author": "Michael Irigoyen"
+    },
+    {
+        "id": "066651C5-8C77-4952-94EA-260C497156BA",
+        "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+        "name": "link-circle",
+        "codepoint": "F1CAC",
+        "aliases": [],
+        "styles": [
+            "circle"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "FB44C69D-EA72-40ED-BD30-D5AA9DF491C8",
+        "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+        "name": "link-circle-outline",
+        "codepoint": "F1CAD",
+        "aliases": [],
+        "styles": [
+            "circle",
+            "outline"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "E64CEF49-951E-4842-98DE-CBB615BFAB3A",
+        "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+        "name": "link-edit",
+        "codepoint": "F1CAE",
+        "aliases": [],
+        "styles": [
+            "edit"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
     },
     {
         "id": "CDEA2CC8-FD08-49E6-AC29-A5DD70956C35",
@@ -71418,7 +72811,7 @@
         "styles": [
             "arrow"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Michael Irigoyen"
@@ -71488,7 +72881,7 @@
             "hamburger-close"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Navigation"
@@ -74643,6 +76036,32 @@
         "author": "Austin Andrews"
     },
     {
+        "id": "9C22B401-B8A9-4D50-ADC1-8718F4EEC6E5",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-left-click",
+        "codepoint": "F1D07",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "093F05E0-B1F3-4FB5-911A-150B0D650857",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-left-click-outline",
+        "codepoint": "F1D08",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "63EB8966-D3A4-40C1-BC5C-BD4B34069D17",
         "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
         "name": "mouse-move-down",
@@ -74689,6 +76108,58 @@
         "deprecated": false,
         "tags": [],
         "author": "Austin Andrews"
+    },
+    {
+        "id": "FBB4B2E3-3FF0-4CE4-92D4-264CA677C3D8",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-outline",
+        "codepoint": "F1D09",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "19E17A2B-77B3-4CD3-A608-33DDE11B9223",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-right-click",
+        "codepoint": "F1D0A",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "CCA2AA13-89C6-40A8-B250-DE5A91291F78",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-right-click-outline",
+        "codepoint": "F1D0B",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "64DC1183-E0CA-48D3-8937-D13478681BB3",
+        "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+        "name": "mouse-scroll-wheel",
+        "codepoint": "F1D0C",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
     },
     {
         "id": "2E7ADC17-384C-4763-9D52-31AFF16BC864",
@@ -81986,6 +83457,20 @@
         "author": "GreenTurtwig"
     },
     {
+        "id": "54BBE5BD-DFF9-41A9-A982-45DAF4B29DE4",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-alert",
+        "codepoint": "F1CB8",
+        "aliases": [],
+        "styles": [
+            "alert"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
         "id": "86A974C4-6E5A-48F6-A3B9-35B3DCD1DE7A",
         "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
         "name": "passport-biometric",
@@ -81998,6 +83483,76 @@
         "deprecated": false,
         "tags": [],
         "author": "GreenTurtwig"
+    },
+    {
+        "id": "F8A93094-948E-4F4F-B616-3E20AAB8CA30",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-cancel",
+        "codepoint": "F1CB9",
+        "aliases": [],
+        "styles": [
+            "cancel"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "EE9F9B1F-B218-457D-9008-F3B574C6D9B5",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-check",
+        "codepoint": "F1CBA",
+        "aliases": [],
+        "styles": [
+            "check"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "2B26DE7C-B15A-4F19-B7D8-37513184E8D8",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-minus",
+        "codepoint": "F1CBB",
+        "aliases": [],
+        "styles": [
+            "minus"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "7E0B87C0-4F09-4903-8D7E-9D8FD5E09315",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-plus",
+        "codepoint": "F1CBC",
+        "aliases": [],
+        "styles": [
+            "plus"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
+        "id": "616F54F4-F38D-4848-82F9-9D32D4F02D82",
+        "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+        "name": "passport-remove",
+        "codepoint": "F1CBD",
+        "aliases": [],
+        "styles": [
+            "remove"
+        ],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
     },
     {
         "id": "8288CA76-67E5-4EEA-82CD-DE0E0842F34D",
@@ -84003,7 +85558,9 @@
         "styles": [],
         "version": "2.2.43",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Michael Richins"
     },
     {
@@ -85344,6 +86901,18 @@
             "Math"
         ],
         "author": "Austin Andrews"
+    },
+    {
+        "id": "D4BAB490-2216-4AE7-8DBC-26F4B2F5F9AC",
+        "baseIconId": "D4BAB490-2216-4AE7-8DBC-26F4B2F5F9AC",
+        "name": "pocket",
+        "codepoint": "F1CBE",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Contributors"
     },
     {
         "id": "56B37BA8-E973-4B53-812A-7F47BCFF217A",
@@ -87434,6 +89003,18 @@
         "author": "Jeff Anders"
     },
     {
+        "id": "F4D4D0AF-A57E-475A-8596-D30A27DE8EE3",
+        "baseIconId": "F4D4D0AF-A57E-475A-8596-D30A27DE8EE3",
+        "name": "progress-tag",
+        "codepoint": "F1D0D",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "699B5A10-1C4C-448C-A3F4-36A3CACD82EA",
         "baseIconId": "699B5A10-1C4C-448C-A3F4-36A3CACD82EA",
         "name": "progress-upload",
@@ -88223,6 +89804,18 @@
         "author": "Michael Irigoyen"
     },
     {
+        "id": "7835022B-E173-4160-ADC0-20047213D506",
+        "baseIconId": "7835022B-E173-4160-ADC0-20047213D506",
+        "name": "queue-first-in-last-out",
+        "codepoint": "F1CAF",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "mschutti"
+    },
+    {
         "id": "F4C8FDC5-0F7D-4EDA-8242-B356F5E542A4",
         "baseIconId": "F4C8FDC5-0F7D-4EDA-8242-B356F5E542A4",
         "name": "quora",
@@ -88230,7 +89823,7 @@
         "aliases": [],
         "styles": [],
         "version": "3.3.92",
-        "deprecated": false,
+        "deprecated": true,
         "tags": [],
         "author": "Contributors"
     },
@@ -88891,7 +90484,9 @@
         "styles": [],
         "version": "2.1.19",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -88943,7 +90538,9 @@
         ],
         "version": "1.5.54",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -88980,13 +90577,13 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text",
         "codepoint": "F0449",
-        "aliases": [
-            "invoice"
-        ],
+        "aliases": [],
         "styles": [],
         "version": "1.5.54",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Google"
     },
     {
@@ -88994,16 +90591,15 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-arrow-left",
         "codepoint": "F1C42",
-        "aliases": [
-            "invoice-arrow-left",
-            "invoice-receive"
-        ],
+        "aliases": [],
         "styles": [
             "arrow"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89011,17 +90607,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-arrow-left-outline",
         "codepoint": "F1C43",
-        "aliases": [
-            "invoice-arrow-left-outline",
-            "invoice-receive-outline"
-        ],
+        "aliases": [],
         "styles": [
             "arrow",
             "outline"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89029,16 +90624,15 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-arrow-right",
         "codepoint": "F1C44",
-        "aliases": [
-            "invoice-arrow-right",
-            "invoice-send"
-        ],
+        "aliases": [],
         "styles": [
             "arrow"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89046,17 +90640,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-arrow-right-outline",
         "codepoint": "F1C45",
-        "aliases": [
-            "invoice-arrow-right-outline",
-            "invoice-send-outline"
-        ],
+        "aliases": [],
         "styles": [
             "arrow",
             "outline"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89064,16 +90657,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-check",
         "codepoint": "F1A63",
-        "aliases": [
-            "invoice-check"
-        ],
+        "aliases": [],
         "styles": [
             "check",
             "variant"
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Simran"
     },
     {
@@ -89081,9 +90674,7 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-check-outline",
         "codepoint": "F1A64",
-        "aliases": [
-            "invoice-check-outline"
-        ],
+        "aliases": [],
         "styles": [
             "check",
             "outline",
@@ -89091,7 +90682,9 @@
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -89099,17 +90692,15 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-clock",
         "codepoint": "F1C46",
-        "aliases": [
-            "invoice-clock",
-            "invoice-schedule",
-            "receipt-text-pending"
-        ],
+        "aliases": [],
         "styles": [
             "clock"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89117,18 +90708,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-clock-outline",
         "codepoint": "F1C47",
-        "aliases": [
-            "invoice-clock-outline",
-            "invoice-schedule-outline",
-            "receipt-text-pending"
-        ],
+        "aliases": [],
         "styles": [
             "clock",
             "outline"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89136,15 +90725,15 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-edit",
         "codepoint": "F1C48",
-        "aliases": [
-            "invoice-edit"
-        ],
+        "aliases": [],
         "styles": [
             "edit"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89152,16 +90741,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-edit-outline",
         "codepoint": "F1C49",
-        "aliases": [
-            "invoice-edit-outline"
-        ],
+        "aliases": [],
         "styles": [
             "edit",
             "outline"
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89169,16 +90758,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-minus",
         "codepoint": "F1A65",
-        "aliases": [
-            "invoice-minus"
-        ],
+        "aliases": [],
         "styles": [
             "minus",
             "variant"
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Simran"
     },
     {
@@ -89186,9 +90775,7 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-minus-outline",
         "codepoint": "F1A66",
-        "aliases": [
-            "invoice-minus-outline"
-        ],
+        "aliases": [],
         "styles": [
             "minus",
             "outline",
@@ -89196,7 +90783,9 @@
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -89213,7 +90802,9 @@
         ],
         "version": "6.6.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Google"
     },
     {
@@ -89222,8 +90813,6 @@
         "name": "receipt-text-plus",
         "codepoint": "F1A67",
         "aliases": [
-            "invoice-plus",
-            "invoice-add",
             "receipt-text-add"
         ],
         "styles": [
@@ -89232,7 +90821,9 @@
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Simran"
     },
     {
@@ -89241,8 +90832,6 @@
         "name": "receipt-text-plus-outline",
         "codepoint": "F1A68",
         "aliases": [
-            "invoice-plus",
-            "invoice-add",
             "receipt-text-add"
         ],
         "styles": [
@@ -89252,7 +90841,9 @@
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -89260,16 +90851,16 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-remove",
         "codepoint": "F1A69",
-        "aliases": [
-            "invoice-remove"
-        ],
+        "aliases": [],
         "styles": [
             "remove",
             "variant"
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Simran"
     },
     {
@@ -89277,9 +90868,7 @@
         "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
         "name": "receipt-text-remove-outline",
         "codepoint": "F1A6A",
-        "aliases": [
-            "invoice-remove-outline"
-        ],
+        "aliases": [],
         "styles": [
             "outline",
             "remove",
@@ -89287,7 +90876,9 @@
         ],
         "version": "6.7.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -89301,7 +90892,9 @@
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -89316,7 +90909,9 @@
         ],
         "version": "7.2.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Jeff Anders"
     },
     {
@@ -90255,7 +91850,9 @@
         "styles": [],
         "version": "7.1.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Edit \/ Modify"
+        ],
         "author": "Google"
     },
     {
@@ -90269,7 +91866,9 @@
         ],
         "version": "1.5.54",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Edit \/ Modify"
+        ],
         "author": "frankgrinaert"
     },
     {
@@ -90284,7 +91883,9 @@
         ],
         "version": "7.1.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Edit \/ Modify"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -90298,7 +91899,9 @@
         ],
         "version": "7.1.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Edit \/ Modify"
+        ],
         "author": "Google"
     },
     {
@@ -91127,7 +92730,9 @@
         "styles": [],
         "version": "2.8.94",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Michael Richins"
     },
     {
@@ -91139,7 +92744,9 @@
         "styles": [],
         "version": "6.6.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Austin Andrews"
     },
     {
@@ -91181,7 +92788,8 @@
         "version": "4.6.95",
         "deprecated": false,
         "tags": [
-            "Home Automation"
+            "Home Automation",
+            "Hardware \/ Tools"
         ],
         "author": "Kristian Mohl"
     },
@@ -91199,7 +92807,8 @@
         "version": "4.5.95",
         "deprecated": false,
         "tags": [
-            "Home Automation"
+            "Home Automation",
+            "Hardware \/ Tools"
         ],
         "author": "Kristian Mohl"
     },
@@ -91902,7 +93511,7 @@
         "styles": [
             "network"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Device \/ Tech"
@@ -94074,7 +95683,7 @@
             "minus",
             "outline"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Kadensvw"
@@ -94113,7 +95722,7 @@
             "network",
             "outline"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Kadensvw"
@@ -94139,7 +95748,7 @@
         "styles": [
             "outline"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Kadensvw"
@@ -94170,7 +95779,7 @@
             "outline",
             "plus"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Kadensvw"
@@ -95953,7 +97562,8 @@
         "version": "1.8.36",
         "deprecated": false,
         "tags": [
-            "Hardware \/ Tools"
+            "Hardware \/ Tools",
+            "Agriculture"
         ],
         "author": "Michael Richins"
     },
@@ -96577,7 +98187,8 @@
             "local-dining",
             "restaurant-menu",
             "local-restaurant",
-            "cutlery"
+            "cutlery",
+            "utensils"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -96594,7 +98205,8 @@
         "codepoint": "F0FDE",
         "aliases": [
             "silverware-shimmer",
-            "cutlery-clean"
+            "cutlery-clean",
+            "utensils-clean"
         ],
         "styles": [],
         "version": "4.0.96",
@@ -96610,7 +98222,8 @@
         "name": "silverware-fork",
         "codepoint": "F04A4",
         "aliases": [
-            "cutlery-fork"
+            "cutlery-fork",
+            "utensils-fork"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -96629,7 +98242,8 @@
             "restaurant",
             "fortnite",
             "cutlery-fork-knife",
-            "place-setting"
+            "place-setting",
+            "utensils-fork-knife"
         ],
         "styles": [],
         "version": "2.6.95",
@@ -96645,7 +98259,8 @@
         "name": "silverware-spoon",
         "codepoint": "F04A5",
         "aliases": [
-            "cutlery-spoon"
+            "cutlery-spoon",
+            "utensils-spoon"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -96661,7 +98276,8 @@
         "name": "silverware-variant",
         "codepoint": "F04A6",
         "aliases": [
-            "cutlery-variant"
+            "cutlery-variant",
+            "utensils-variant"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -102837,6 +104453,20 @@
         "author": "Michael Irigoyen"
     },
     {
+        "id": "48B50BA6-7F60-49CC-A181-3E07607E9F4B",
+        "baseIconId": "D1E543C5-6ECA-43AA-B04D-438319BC5562",
+        "name": "swap-horizontal-hidden",
+        "codepoint": "F1D0E",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Arrow"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "23A48C18-9950-436D-9948-29EE7EE13054",
         "baseIconId": "D1E543C5-6ECA-43AA-B04D-438319BC5562",
         "name": "swap-horizontal-variant",
@@ -104348,7 +105978,7 @@
         "styles": [
             "edit"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Michael Richins"
@@ -104363,7 +105993,7 @@
             "edit",
             "outline"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [],
         "author": "Michael Richins"
@@ -108927,6 +110557,18 @@
         "author": "Google"
     },
     {
+        "id": "6ABBD1FA-2A08-4361-94D0-9D4ECABE03D4",
+        "baseIconId": "B6E1232A-3A43-4200-BE34-1BC436B34BF1",
+        "name": "train-bus",
+        "codepoint": "F1CC7",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Michael Richins"
+    },
+    {
         "id": "20588836-2EC7-467D-9E72-15D3C4FE7C93",
         "baseIconId": "B6E1232A-3A43-4200-BE34-1BC436B34BF1",
         "name": "train-car",
@@ -109335,7 +110977,9 @@
         "styles": [],
         "version": "4.1.95",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Banking"
+        ],
         "author": "Simran"
     },
     {
@@ -110416,7 +112060,7 @@
         "codepoint": "F1C9E",
         "aliases": [],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Transportation + Other"
@@ -110432,7 +112076,7 @@
         "styles": [
             "off"
         ],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Transportation + Other"
@@ -110730,7 +112374,8 @@
         "codepoint": "F1542",
         "aliases": [
             "settings",
-            "equalizer"
+            "equalizer",
+            "slider"
         ],
         "styles": [
             "variant"
@@ -110770,7 +112415,8 @@
         "codepoint": "F1543",
         "aliases": [
             "settings-vertical",
-            "equalizer-vertical"
+            "equalizer-vertical",
+            "slider-vertical"
         ],
         "styles": [
             "variant"
@@ -111143,6 +112789,24 @@
         "author": "Simran"
     },
     {
+        "id": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+        "baseIconId": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+        "name": "underwear-outline",
+        "codepoint": "F1D0F",
+        "aliases": [
+            "briefs-outline"
+        ],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Clothing"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "C9D6F6DE-E9F7-4AC9-B9F1-41160A4C2B0E",
         "baseIconId": "C9D6F6DE-E9F7-4AC9-B9F1-41160A4C2B0E",
         "name": "undo",
@@ -111372,6 +113036,65 @@
         "author": "Google"
     },
     {
+        "id": "CB709FD4-AB36-4A2E-BBBF-1EF20284F723",
+        "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+        "name": "upload-box",
+        "codepoint": "F1D10",
+        "aliases": [],
+        "styles": [
+            "box"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "D10BDD69-ACE3-4540-B224-EF52A45B1E99",
+        "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+        "name": "upload-box-outline",
+        "codepoint": "F1D11",
+        "aliases": [],
+        "styles": [
+            "box",
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "43E0329D-4E25-4E9B-AFCD-22EC47EEC2C5",
+        "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+        "name": "upload-circle",
+        "codepoint": "F1D12",
+        "aliases": [],
+        "styles": [
+            "circle"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "C06FD974-BAA7-4B63-9805-20AF826D94CD",
+        "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+        "name": "upload-circle-outline",
+        "codepoint": "F1D13",
+        "aliases": [],
+        "styles": [
+            "outline"
+        ],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Files \/ Folders"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "961ECD2E-2849-42C0-909A-5431B0273DA0",
         "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
         "name": "upload-lock",
@@ -111419,6 +113142,18 @@
         "deprecated": false,
         "tags": [],
         "author": "Michael Richins"
+    },
+    {
+        "id": "210F5799-334B-49ED-A906-F9C9C2239C62",
+        "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+        "name": "upload-multiple-outline",
+        "codepoint": "F1D14",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [],
+        "author": "Jeff Anders"
     },
     {
         "id": "B473675B-DF1E-4450-B85E-786B483C9FA4",
@@ -111500,6 +113235,18 @@
         "deprecated": false,
         "tags": [],
         "author": "Google"
+    },
+    {
+        "id": "BD068EC8-751D-46FA-9A88-4D6B9452720C",
+        "baseIconId": "BD068EC8-751D-46FA-9A88-4D6B9452720C",
+        "name": "usb-c-port",
+        "codepoint": "F1CBF",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
     },
     {
         "id": "DB728530-EAF2-488E-8971-9567A31354DE",
@@ -112817,7 +114564,7 @@
             "video-quality-sd"
         ],
         "styles": [],
-        "version": "7.3.96",
+        "version": "7.3.67",
         "deprecated": false,
         "tags": [
             "Video \/ Movie"
@@ -114446,7 +116193,8 @@
         "aliases": [
             "laundrette",
             "local-laundry-service",
-            "laundry-room"
+            "laundry-room",
+            "washer"
         ],
         "styles": [],
         "version": "1.8.36",
@@ -114462,7 +116210,8 @@
         "name": "washing-machine-alert",
         "codepoint": "F11BC",
         "aliases": [
-            "laundry-room-alert"
+            "laundry-room-alert",
+            "washer-alert"
         ],
         "styles": [],
         "version": "4.5.95",
@@ -114479,7 +116228,8 @@
         "name": "washing-machine-off",
         "codepoint": "F11BD",
         "aliases": [
-            "laundry-room-off"
+            "laundry-room-off",
+            "washer-off"
         ],
         "styles": [],
         "version": "4.5.95",
@@ -115271,6 +117021,42 @@
         "author": "Michael Irigoyen"
     },
     {
+        "id": "64FB01DD-0D60-4985-A367-02DAB7F66C59",
+        "baseIconId": "64FB01DD-0D60-4985-A367-02DAB7F66C59",
+        "name": "wave-arrow-down",
+        "codepoint": "F1CB0",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Contributors"
+    },
+    {
+        "id": "DA42C58D-710B-45E1-BED5-B153143C6177",
+        "baseIconId": "DA42C58D-710B-45E1-BED5-B153143C6177",
+        "name": "wave-arrow-up",
+        "codepoint": "F1CB1",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Contributors"
+    },
+    {
+        "id": "03713E38-C509-4252-B797-5899A04B8A43",
+        "baseIconId": "03713E38-C509-4252-B797-5899A04B8A43",
+        "name": "wave-undercurrent",
+        "codepoint": "F1CC0",
+        "aliases": [],
+        "styles": [],
+        "version": "7.3.67",
+        "deprecated": false,
+        "tags": [],
+        "author": "Austin Andrews"
+    },
+    {
         "id": "B677F1CB-606B-4DB5-9A9D-73E4FC0AC3F0",
         "baseIconId": "B677F1CB-606B-4DB5-9A9D-73E4FC0AC3F0",
         "name": "waveform",
@@ -115606,13 +117392,58 @@
         "author": "Austin Andrews"
     },
     {
+        "id": "CDF0000C-8FE4-427A-843A-0833A9F2B099",
+        "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+        "name": "weather-moonset",
+        "codepoint": "F1D15",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Weather"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "1C42039C-3DC0-4D35-8E2B-C82F736F87CE",
+        "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+        "name": "weather-moonset-down",
+        "codepoint": "F1D16",
+        "aliases": [],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Weather"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
+        "id": "EC4BEC65-5A80-4123-BC47-A4E95524DCDD",
+        "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+        "name": "weather-moonset-up",
+        "codepoint": "F1D17",
+        "aliases": [
+            "moonrise"
+        ],
+        "styles": [],
+        "version": "7.4.47",
+        "deprecated": false,
+        "tags": [
+            "Weather"
+        ],
+        "author": "Jeff Anders"
+    },
+    {
         "id": "1C3BA3AB-E86E-481B-A3C2-867B37A6E55A",
         "baseIconId": "80E6A6FB-1524-4A7D-9551-17D3BDFBD7C5",
         "name": "weather-night",
         "codepoint": "F0594",
         "aliases": [
             "moon-and-stars",
-            "night-sky"
+            "night-sky",
+            "weather-night-outline"
         ],
         "styles": [
             "outline"
@@ -117561,7 +119392,9 @@
         ],
         "version": "7.0.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Andrej Sharapov"
     },
     {
@@ -117576,7 +119409,9 @@
         ],
         "version": "7.0.96",
         "deprecated": false,
-        "tags": [],
+        "tags": [
+            "Hardware \/ Tools"
+        ],
         "author": "Michael Irigoyen"
     },
     {
@@ -117611,7 +119446,8 @@
         "version": "7.0.96",
         "deprecated": false,
         "tags": [
-            "Date \/ Time"
+            "Date \/ Time",
+            "Hardware \/ Tools"
         ],
         "author": "Michael Irigoyen"
     },
@@ -117629,7 +119465,8 @@
         "version": "7.0.96",
         "deprecated": false,
         "tags": [
-            "Settings"
+            "Settings",
+            "Hardware \/ Tools"
         ],
         "author": "Andrej Sharapov"
     },
@@ -117648,7 +119485,8 @@
         "version": "7.0.96",
         "deprecated": false,
         "tags": [
-            "Settings"
+            "Settings",
+            "Hardware \/ Tools"
         ],
         "author": "Michael Irigoyen"
     },

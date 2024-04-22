@@ -1,7 +1,9 @@
 {
   "name": "vue-icons-heroicons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Heroicons Vue 3 components",
+  "homepage": "https://github.com/maciejg-git/vue-icons",
+  "repository": "github:maciejg-git/vue-icons",
   "main": "index.js",
   "author": "",
   "license": "MIT"
