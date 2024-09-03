@@ -42,7 +42,7 @@ let app = createApp(App);
 })
 ```
 
-you can also import icons locally in components
+you can also import icons locally in components.
 
 ```js
 // component.vue
@@ -81,10 +81,13 @@ let iconAliases = [
 
 Object.entries(modules).forEach(([path, definition]) => {
   let { vendor, name, type } = definition.default.$_icon;
-  let icon = iconTypes.find((i) => i[0] === vendor + name)
+  let icon = iconAliases.find((i) => i[0] === vendor + name)
   if (icon) app.component(icon[1], definition.default)
 })
 ```
+## $_icon property
+
+Icon components have additional property `$_icon` that contains data about icon like name, vendor, type and other. This property is useful for registration of the component as it allows to customize naming patterns.
 
 ## Using icons in templates
 
