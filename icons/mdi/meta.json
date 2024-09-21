@@ -31441,7 +31441,8 @@
             "multiply",
             "remove",
             "cancel",
-            "times"
+            "times",
+            "cross"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -31552,7 +31553,8 @@
             "remove-circle",
             "cancel-circle",
             "multiply-circle",
-            "clear-circle"
+            "clear-circle",
+            "cross-circle"
         ],
         "styles": [],
         "version": "1.5.54",
@@ -31622,7 +31624,8 @@
             "multiply-circle-outline",
             "remove-circle-outline",
             "clear-circle-outline",
-            "cancel-circle-outline"
+            "cancel-circle-outline",
+            "cross-circle-outline"
         ],
         "styles": [],
         "version": "1.5.54",
