@@ -2,7 +2,7 @@
 
 Bootstrap icons, Material Design Icons, Font Awesome and Heroicons converted to unified, self contained Vue 3 components. 
 
-Check [Vue Icon Browser](https://vue-icon-browser.netlify.app/) for examples and usage.
+All icons from this project can be viewed and downloaded from the [Vue Icon Browser](https://vue-icon-browser.netlify.app/).
 
 ## Usage
 
