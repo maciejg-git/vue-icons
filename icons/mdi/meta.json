@@ -2947,7 +2947,7 @@
         "name": "airplane-check",
         "codepoint": "F187B",
         "aliases": [
-            "airplace-success",
+            "airplane-success",
             "airplane-tick"
         ],
         "styles": [
@@ -26822,7 +26822,8 @@
         "name": "charity",
         "codepoint": "F0C4F",
         "aliases": [
-            "super-chat-for-good"
+            "super-chat-for-good",
+            "non-profit"
         ],
         "styles": [],
         "version": "3.2.89",
@@ -117446,7 +117447,8 @@
         "aliases": [
             "moon-and-stars",
             "night-sky",
-            "weather-night-outline"
+            "weather-night-outline",
+            "weather-clear-night"
         ],
         "styles": [
             "outline"
