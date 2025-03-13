@@ -1,5 +1,8 @@
 # Vue-icons
 
+![GitHub License](https://img.shields.io/github/license/maciejg-git/vue-icons)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/maciejg-git/vue-icons)
+
 Bootstrap icons, Material Design Icons, Font Awesome and Heroicons converted to unified, self contained Vue 3 components. 
 
 All icons from this project can be viewed and downloaded from the [Vue Icon Browser](https://vue-icon-browser.netlify.app/).
