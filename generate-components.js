@@ -78,6 +78,26 @@ let getFrameworks = () => {
   return frameworks;
 };
 
+const createSVGFile = (framework, icon, subs, tags, data) => {
+  let svgAttrs = Object.entries(data.svgAttrs)
+  svgAttrs = svgAttrs.map(([k, v]) => {
+    return `${k}="${v}"`
+  }).join(" ")
+
+  let elements = data.elements.map((el) => {
+    let attrs = Object.entries(el.attrs)
+    attrs = attrs.map(([k, v]) => {
+      return `${k}="${v}"`
+    }).join(" ")
+
+    return { element: el.element, attrs }
+  })
+
+  return `<svg ${svgAttrs}>
+    ${elements.map((el) => `<${el.element} ${el.attrs}>`).join("\n")}
+  </svg>`
+}
+
 const createJsFile = (framework, icon, subs, tags, data) => {
   // let type = subs.map((i) => toPascalCase(i))
   
@@ -137,28 +157,33 @@ let getSvgData = (parsed) => {
 const prepareDist = () => {
   // all
   frameworks.forEach((f) => {
-    fs.rmdirSync(`dist-${f}/icons`, { recursive: true });
+    fs.rmdirSync(`dist-vue-${f}/icons`, { recursive: true });
+    fs.rmdirSync(`dist-svg-${f}`, { recursive: true });
     // fs.rmSync(`dist-${f}/index.js`);
   });
 
   // bootstrap
   if (frameworks.includes("bootstrap")) {
-    fs.mkdirSync("dist-bootstrap/icons/", { recursive: true });
+    fs.mkdirSync("dist-vue-bootstrap/icons/", { recursive: true });
+    fs.mkdirSync("dist-svg-bootstrap", { recursive: true });
   }
 
   // mdi
   if (frameworks.includes("mdi")) {
-    fs.mkdirSync("dist-mdi/icons/", { recursive: true });
+    fs.mkdirSync("dist-vue-mdi/icons/", { recursive: true });
+    fs.mkdirSync("dist-svg-mdi", { recursive: true });
   }
 
   // heroicons
   if (frameworks.includes("heroicons")) {
-    fs.mkdirSync("dist-heroicons/icons/", { recursive: true });
+    fs.mkdirSync("dist-vue-heroicons/icons/", { recursive: true });
+    fs.mkdirSync("dist-svg-heroicons", { recursive: true });
   }
 
   // fontawesome
   if (frameworks.includes("fontawesome")) {
-    fs.mkdirSync("dist-fontawesome/icons/", { recursive: true });
+    fs.mkdirSync("dist-vue-fontawesome/icons/", { recursive: true });
+    fs.mkdirSync("dist-svg-fontawesome", { recursive: true });
   }
 };
 
@@ -167,7 +192,7 @@ let finalizeDist = (dist, index) => {
 };
 
 const createComponents = (framework) => {
-  const dist = "dist-" + framework;
+  const dist = "dist-vue-" + framework;
 
   let index = "";
   let count = 0;
@@ -212,6 +237,8 @@ const createComponents = (framework) => {
       tags,
       data,
     );
+
+    const fileSVG = createSVGFile(framework, pascalIcon, subs, tags, data)
 
     // update index
 
