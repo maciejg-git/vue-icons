@@ -94,8 +94,8 @@ const createSVGFile = (framework, icon, subs, tags, data) => {
   })
 
   return `<svg ${svgAttrs}>
-    ${elements.map((el) => `<${el.element} ${el.attrs}>`).join("\n")}
-  </svg>`
+${elements.map((el) => `  <${el.element} ${el.attrs}/>`).join("\n")}
+</svg>`
 }
 
 const createJsFile = (framework, icon, subs, tags, data) => {
@@ -193,6 +193,7 @@ let finalizeDist = (dist, index) => {
 
 const createComponents = (framework) => {
   const dist = "dist-vue-" + framework;
+  const distSVG = "dist-svg-" + framework;
 
   let index = "";
   let count = 0;
@@ -214,6 +215,7 @@ const createComponents = (framework) => {
     const icon = file.substr(0, file.lastIndexOf("."));
     const pascalIcon = toPascalCase(icon);
     const filename = icon + (subs.length ? "-" + subs.join("-") : "") + ".js";
+    const filenameSVG = icon + (subs.length ? "-" + subs.join("-") : "") + ".svg";
     let iconName = `${toPascalCase(options[framework].prefix)}${
       pascalIcon + subs.map((i) => toPascalCase(i)).join("")
     }`;
@@ -247,6 +249,7 @@ const createComponents = (framework) => {
     // write JS file
 
     fs.writeFileSync(path.join(dist, "icons", filename), fileJs);
+    fs.writeFileSync(path.join(distSVG, filenameSVG), fileSVG);
 
     count++;
   });
