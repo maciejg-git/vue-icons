@@ -1,11 +1,11 @@
 import { h } from 'vue'
 export default {
   $_icon: {
-    name: "Calendar3EventFill",
+    name: "Unlock2Fill",
     vendor: "B",
     license: "MIT",
     type: [],
-    tags: ["calendar3","event","fill"],
+    tags: ["unlock2","fill"],
   },
   render() {
     return h(
@@ -14,7 +14,7 @@ export default {
       [ 
         h(
           "path",
-          {"d":"M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3h16zm-3-9a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1-5a2 2 0 0 1 2 2H0a2 2 0 0 1 2-2z"}
+          {"fill-rule":"evenodd","d":"M8 0c1.07 0 2.041.42 2.759 1.104l.14.14.062.08a.5.5 0 0 1-.71.675l-.076-.066-.216-.205A3 3 0 0 0 5 4v2h6.5A2.5 2.5 0 0 1 14 8.5v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4"}
         ) 
       ]
     )

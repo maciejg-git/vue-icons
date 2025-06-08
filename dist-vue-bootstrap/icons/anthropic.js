@@ -1,11 +1,11 @@
 import { h } from 'vue'
 export default {
   $_icon: {
-    name: "Calendar3EventFill",
+    name: "Anthropic",
     vendor: "B",
     license: "MIT",
     type: [],
-    tags: ["calendar3","event","fill"],
+    tags: ["anthropic"],
   },
   render() {
     return h(
@@ -14,7 +14,7 @@ export default {
       [ 
         h(
           "path",
-          {"d":"M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3h16zm-3-9a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1-5a2 2 0 0 1 2 2H0a2 2 0 0 1 2-2z"}
+          {"fill-rule":"evenodd","d":"M9.218 2h2.402L16 12.987h-2.402zM4.379 2h2.512l4.38 10.987H8.82l-.895-2.308h-4.58l-.896 2.307H0L4.38 2.001zm2.755 6.64L5.635 4.777 4.137 8.64z"}
         ) 
       ]
     )

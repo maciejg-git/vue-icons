@@ -1,11 +1,11 @@
 import { h } from 'vue'
 export default {
   $_icon: {
-    name: "Calendar3EventFill",
+    name: "BatteryLow",
     vendor: "B",
     license: "MIT",
     type: [],
-    tags: ["calendar3","event","fill"],
+    tags: ["battery","low"],
   },
   render() {
     return h(
@@ -14,7 +14,11 @@ export default {
       [ 
         h(
           "path",
-          {"d":"M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3h16zm-3-9a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1-5a2 2 0 0 1 2 2H0a2 2 0 0 1 2-2z"}
+          {"d":"M2 6h2v4H2z"}
+        ),
+        h(
+          "path",
+          {"d":"M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"}
         ) 
       ]
     )
